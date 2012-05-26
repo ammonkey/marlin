@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: marlin\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2012-05-24 17:03+0200\n"
-"PO-Revision-Date: 2012-05-19 13:44+0000\n"
+"PO-Revision-Date: 2012-05-25 09:32+0000\n"
 "Last-Translator: පසිඳු කාවින්ද <info@pk-soft.tk>\n"
 "Language-Team: Sinhalese <si@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2012-05-25 04:55+0000\n"
+"X-Launchpad-Export-Date: 2012-05-26 05:22+0000\n"
 "X-Generator: Launchpad (build 15288)\n"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/PropertiesWindow.vala:60
@@ -331,11 +331,11 @@ msgstr "පවත්වාගෙන යන්න"
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-connect-server-dialog.c:750
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-connect-server-dialog.c:1140
 msgid "C_onnect"
-msgstr "සම්බන්ධ (_o)"
+msgstr "සම්බන්ධ කරන්න (_o)"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-connect-server-dialog.c:875
 msgid "Connect to Server"
-msgstr "සේවාදායකයට සම්බන්ද වන්න"
+msgstr "සර්වරයට සම්බන්ධ වන්න"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-connect-server-dialog.c:893
 msgid "Server Details"

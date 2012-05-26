@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: marlin\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-05-24 17:03+0200\n"
-"PO-Revision-Date: 2012-05-24 02:53+0000\n"
-"Last-Translator: Fitoschido <fitoschido@gmail.com>\n"
+"PO-Revision-Date: 2012-05-25 20:55+0000\n"
+"Last-Translator: Marti Bosch <Unknown>\n"
 "Language-Team: Spanish <es@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2012-05-25 04:55+0000\n"
+"X-Launchpad-Export-Date: 2012-05-26 05:22+0000\n"
 "X-Generator: Launchpad (build 15288)\n"
 "Language: es\n"
 
@@ -83,7 +83,7 @@ msgstr "Abrir con"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/PropertiesWindow.vala:471
 msgid "Device usage"
-msgstr ""
+msgstr "Uso del dispositivo"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/PropertiesWindow.vala:616
 msgid "Read"
@@ -149,19 +149,19 @@ msgstr "Crear la carpeta %s"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/Window.vala:407
 msgid "Undo"
-msgstr ""
+msgstr "Deshacer"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/Window.vala:408
 msgid "Undo the last action"
-msgstr ""
+msgstr "Deshacer la última acción"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/Window.vala:417
 msgid "Redo"
-msgstr ""
+msgstr "Rehacer"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/Window.vala:418
 msgid "Redo the last action"
-msgstr ""
+msgstr "Rehacer la última acción"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/SettingsDialog.vala:31
 msgid "Marlin Preferences"
@@ -373,7 +373,7 @@ msgstr "Nombre del _dominio:"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-connect-server-dialog.c:1095
 msgid "_User name:"
-msgstr ""
+msgstr "Nombre de _usuario:"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-connect-server-dialog.c:1110
 msgid "Pass_word:"
@@ -1521,17 +1521,17 @@ msgstr ""
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1246
 #, c-format
 msgid "Delete '%s'"
-msgstr ""
+msgstr "Eliminar '%s'"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1212
 #, c-format
 msgid "Delete %d duplicated items"
-msgstr ""
+msgstr "Eliminar %d elementos duplicados"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1223
 #, c-format
 msgid "Move %d items back to '%s'"
-msgstr ""
+msgstr "Mover %d elementos de nuevo a '%s'"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1227
 #, c-format
