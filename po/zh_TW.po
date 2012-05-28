@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: marlin\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2012-05-24 17:03+0200\n"
-"PO-Revision-Date: 2012-05-24 02:51+0000\n"
-"Last-Translator: ammonkey <am.monkeyd@gmail.com>\n"
+"PO-Revision-Date: 2012-05-28 04:28+0000\n"
+"Last-Translator: honki <honkiaa@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <zh_TW@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Launchpad-Export-Date: 2012-05-25 04:56+0000\n"
+"X-Launchpad-Export-Date: 2012-05-28 05:33+0000\n"
 "X-Generator: Launchpad (build 15288)\n"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/PropertiesWindow.vala:60
@@ -45,7 +45,7 @@ msgstr "已修改"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/PropertiesWindow.vala:362
 msgid "Last Access"
-msgstr ""
+msgstr "最後取用"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/PropertiesWindow.vala:368
 msgid "Deleted"
@@ -53,7 +53,7 @@ msgstr "已刪除"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/PropertiesWindow.vala:373
 msgid "MimeType"
-msgstr ""
+msgstr "Mime 類型"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/PropertiesWindow.vala:381
 msgid "MimeTypes"
@@ -70,15 +70,15 @@ msgstr "目標"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/PropertiesWindow.vala:393
 msgid "Origin Location"
-msgstr ""
+msgstr "原始位置"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/PropertiesWindow.vala:431
 msgid "Other application..."
-msgstr ""
+msgstr "其他應用程式…"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/PropertiesWindow.vala:455
 msgid "Open with"
-msgstr ""
+msgstr "以此開啟"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/PropertiesWindow.vala:471
 msgid "Device usage"
@@ -113,7 +113,7 @@ msgstr "所有人"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/PropertiesWindow.vala:1117
 msgid "Select an aplication to open "
-msgstr ""
+msgstr "選擇應用程式來開啟 "
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/ContextView.vala:316
 msgid "Name"
@@ -125,7 +125,7 @@ msgstr "類型"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/ContextView.vala:322
 msgid "Size"
-msgstr ""
+msgstr "大小"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/DirectoryNotFound.vala:72
 #, c-format
