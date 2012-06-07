@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: marlin\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2012-05-24 17:03+0200\n"
-"PO-Revision-Date: 2012-06-05 22:49+0000\n"
+"PO-Revision-Date: 2012-06-06 16:30+0000\n"
 "Last-Translator: Ecron <Unknown>\n"
 "Language-Team: Catalan <ca@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2012-06-06 05:07+0000\n"
+"X-Launchpad-Export-Date: 2012-06-07 04:56+0000\n"
 "X-Generator: Launchpad (build 15353)\n"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/PropertiesWindow.vala:60
@@ -1133,7 +1133,7 @@ msgstr "S'està duplicant «%B»"
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:3020
 msgid "Moving %'d file (in \"%B\") to \"%B\""
 msgid_plural "Moving %'d files (in \"%B\") to \"%B\""
-msgstr[0] "S'està movent %'d fitxer (des de «%B») a «%B»"
+msgstr[0] ""
 msgstr[1] "S'estan movent %'d fitxers (des de «%B») a «%B»"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:3023
@@ -1275,7 +1275,7 @@ msgstr "S'estan copiant els fitxers"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:4740
 msgid "Preparing to move to \"%B\""
-msgstr "S'està preparant per moure a «B»"
+msgstr "S'està preparant pre moure a «%B»"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:4752
 #, c-format
@@ -1485,7 +1485,7 @@ msgstr "Reinicia"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-conflict-dialog.c:726
 msgid "Apply this action to all files"
-msgstr "Aplica aquesta acció a tots els fitxers"
+msgstr ""
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-conflict-dialog.c:742
 msgid "Re_name"
@@ -1585,12 +1585,12 @@ msgstr ""
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1326
 #, c-format
 msgid "Restore owner of '%s' to '%s'"
-msgstr ""
+msgstr "Restaura el propietari de «%s» a «%s»"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1365
 #, c-format
 msgid "Copy %d items to '%s'"
-msgstr ""
+msgstr "Copia %d elements a «%s»"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1369
 #, c-format
@@ -1605,17 +1605,17 @@ msgstr ""
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1382
 #, c-format
 msgid "Duplicate '%s' in '%s'"
-msgstr ""
+msgstr "Duplica «%s» a «%s»"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1390
 #, c-format
 msgid "Move %d items to '%s'"
-msgstr ""
+msgstr "Mou %d elements a «%s»"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1394
 #, c-format
 msgid "Move '%s' to '%s'"
-msgstr ""
+msgstr "Mou «%s» a «%s»"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1412
 #, c-format
@@ -1625,17 +1625,17 @@ msgstr ""
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1419
 #, c-format
 msgid "Create an empty file '%s'"
-msgstr ""
+msgstr "Crea un fitxer buit «%s»"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1426
 #, c-format
 msgid "Create a new folder '%s'"
-msgstr ""
+msgstr "Crea una carpeta nova «%s»"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1434
 #, c-format
 msgid "Move %d items to trash"
-msgstr ""
+msgstr "Mou %d elements a la paperera"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1440
 #, c-format
@@ -1650,7 +1650,7 @@ msgstr ""
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1462
 #, c-format
 msgid "Create links to %d items"
-msgstr ""
+msgstr "Crea enllaços a %d elements"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1465
 #, c-format
@@ -1702,16 +1702,16 @@ msgstr[1] ""
 #, c-format
 msgid "_Undo rename of %d item"
 msgid_plural "_Undo rename of %d items"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "_Desfés el canvi de nom d' %d element"
+msgstr[1] "_Desfés el canvi de nom de %d elements"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1552
 msgid "_Undo creation of an empty file"
-msgstr ""
+msgstr "_Desfés la creació d'un nou fitxer"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1555
 msgid "_Undo creation of a file from template"
-msgstr ""
+msgstr "_Desfés la creació d'un fitxer a partir d'una plantilla"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1559
 #, c-format
