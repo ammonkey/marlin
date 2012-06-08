@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: marlin\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2012-05-24 17:03+0200\n"
-"PO-Revision-Date: 2012-06-07 11:10+0000\n"
+"PO-Revision-Date: 2012-06-07 14:11+0000\n"
 "Last-Translator: Ecron <Unknown>\n"
 "Language-Team: Catalan <ca@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -45,11 +45,11 @@ msgstr "Modificat"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/PropertiesWindow.vala:362
 msgid "Last Access"
-msgstr "Darrer accés"
+msgstr "Últim accés"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/PropertiesWindow.vala:368
 msgid "Deleted"
-msgstr "Suprimit"
+msgstr "Eliminat"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/PropertiesWindow.vala:373
 msgid "MimeType"
@@ -78,7 +78,7 @@ msgstr "Una altra aplicació..."
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/PropertiesWindow.vala:455
 msgid "Open with"
-msgstr "Obre amb"
+msgstr "Obri amb"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/PropertiesWindow.vala:471
 msgid "Device usage"
@@ -152,7 +152,7 @@ msgstr "Desfés"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/Window.vala:408
 msgid "Undo the last action"
-msgstr "Desfés la darrera acció"
+msgstr "Desfés l'última acció"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/Window.vala:417
 msgid "Redo"
@@ -160,7 +160,7 @@ msgstr "Refés"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/Window.vala:418
 msgid "Redo the last action"
-msgstr "Refés la darrera acció"
+msgstr "Refés l'última acció"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/SettingsDialog.vala:31
 msgid "Marlin Preferences"
@@ -267,8 +267,8 @@ msgid ""
 "The amount of time after which the item under the mouse cursor will be "
 "selected automatically in single click mode"
 msgstr ""
-"El temps que transcorrerà fins que l'element que estigui sota el cursor "
-"sigui seleccionat automàticament al mode d'un sol clic."
+"El temps que transcorrerà fins que l'element que estiga baix el cursor siga "
+"seleccionat automàticament al mode d'un sol clic."
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-connect-server-dialog.c:124
 msgid "SSH"
@@ -408,15 +408,15 @@ msgstr "No s'ha pogut canviar el nom de %s a %s"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-dnd.c:779
 msgid "_Move Here"
-msgstr "_Mou aquí"
+msgstr "_Mou ací"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-dnd.c:784
 msgid "_Copy Here"
-msgstr "_Copia aquí"
+msgstr "_Copia ací"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-dnd.c:789
 msgid "_Link Here"
-msgstr "_Enllaça aquí"
+msgstr "_Enllaça ací"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-dnd.c:794
 msgid "Set as _Background"
@@ -473,7 +473,7 @@ msgstr "Obriu la vostra carpeta personal"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-places-sidebar.c:372
 msgid "Open the trash"
-msgstr "Obre la paperera"
+msgstr "Obri la paperera"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-places-sidebar.c:382
 msgid "Devices"
@@ -485,13 +485,13 @@ msgstr "Dispositius y particions locals"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-places-sidebar.c:396
 msgid "Open the contents of the File System"
-msgstr "Obre el contingut del sistema de fitxers"
+msgstr "Obri el contingut del sistema de fitxers"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-places-sidebar.c:455
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-places-sidebar.c:480
 #, c-format
 msgid "Mount and open %s"
-msgstr "Munta i obre %s"
+msgstr "Munta i obri %s"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-places-sidebar.c:593
 msgid "Your network places"
@@ -511,7 +511,7 @@ msgstr "_Inicia"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-places-sidebar.c:1611
 msgid "_Stop"
-msgstr "_Atura"
+msgstr "_Detín"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-places-sidebar.c:1616
 msgid "_Power On"
@@ -535,7 +535,7 @@ msgstr "_Inicia la unitat multi disc"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-places-sidebar.c:1625
 msgid "_Stop Multi-disk Device"
-msgstr "_Atura la unitat multi disc"
+msgstr "_Detín la unitat multi disc"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-places-sidebar.c:1629
 msgid "_Unlock Drive"
@@ -566,26 +566,26 @@ msgstr "No s'ha pogut sondejar %s per canvis en el suport"
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-places-sidebar.c:2307
 #, c-format
 msgid "Unable to stop %s"
-msgstr "No s'ha pogut aturar %s"
+msgstr "No s'ha pogut detindre %s"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-places-sidebar.c:2399
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/fm-directory-view.c:1919
 msgid "_Open"
-msgstr "_Obre"
+msgstr "_Obri"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-places-sidebar.c:2407
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/fm-directory-view.c:1939
 msgid "Open in New _Tab"
-msgstr "Obre en una _pestanya nova"
+msgstr "Obri en una _pestanya nova"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-places-sidebar.c:2414
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/fm-directory-view.c:1948
 msgid "Open in New _Window"
-msgstr "Obre en una _finestra nova"
+msgstr "Obri en una _finestra nova"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-places-sidebar.c:2423
 msgid "Remove"
-msgstr "Treu"
+msgstr "Trau"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-places-sidebar.c:2432
 msgid "Rename..."
@@ -636,17 +636,17 @@ msgstr[1] "Utilitza «%s» per obrir els elements seleccionats"
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/fm-directory-view.c:1913
 #, c-format
 msgid "_Open With %s"
-msgstr "_Obre amb %s"
+msgstr "_Obri amb %s"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/fm-directory-view.c:1935
 #, c-format
 msgid "Open in %'d New _Tabs"
-msgstr "Obre en %'d nova _pestanya"
+msgstr "Obri en %'d nova _pestanya"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/fm-directory-view.c:1944
 #, c-format
 msgid "Open in %'d New _Windows"
-msgstr "Obre en %'d nova _finestra"
+msgstr "Obri en %'d nova _finestra"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/fm-directory-view.c:3379
 msgid "Set as default"
@@ -919,7 +919,7 @@ msgstr ""
 msgid ""
 "There was an error getting information about the files in the folder \"%B\"."
 msgstr ""
-"S'ha produït un error en obtenir informació sobre els fitxers de la carpeta "
+"S'ha produït un error en obtindre informació sobre els fitxers de la carpeta "
 "«%B»."
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:1604
@@ -994,13 +994,13 @@ msgid ""
 "In order to regain the free space on this volume the trash must be emptied. "
 "All trashed items on the volume will be permanently lost."
 msgstr ""
-"Per poder obtenir tot l'espai lliure d'aquest dispositiu, cal que es buidi "
+"Per poder obtenir tot l'espai lliure d'aquest dispositiu, cal que es buide "
 "la paperera. Tots els elements de la paperera del dispositiu es perdran per "
 "sempre."
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:2304
 msgid "Do _not Empty Trash"
-msgstr "_No buidis la paperera"
+msgstr "_No buides la paperera"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:2359
 msgid "Emptying the trash"
@@ -1080,7 +1080,7 @@ msgstr ""
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:2744
 msgid "There was an error getting information about \"%B\"."
-msgstr "S'ha produït un error en obtenir informació sobre «%B»."
+msgstr "S'ha produït un error en obtindre informació sobre «%B»."
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:2844
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:2886
@@ -1107,7 +1107,7 @@ msgid ""
 "space."
 msgstr ""
 "No hi ha prou espai a la destinació. Intenteu suprimir alguns fitxers per "
-"obtenir espai."
+"obtindre espai."
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:2922
 #, c-format
@@ -1373,7 +1373,7 @@ msgid ""
 "that conflict with the files being copied."
 msgstr ""
 "En combinar-la es demanarà confirmació abans de reemplaçar-hi cap fitxer que "
-"entri en conflicte amb els que s'estiguin copiant."
+"entre en conflicte amb els que s'estiguen copiant."
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-conflict-dialog.c:155
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-conflict-dialog.c:369
@@ -1463,7 +1463,7 @@ msgstr "Tipus:"
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-conflict-dialog.c:467
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-conflict-dialog.c:488
 msgid "Last modified:"
-msgstr "Darrera modificació:"
+msgstr "Última modificació:"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-conflict-dialog.c:284
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-conflict-dialog.c:481
