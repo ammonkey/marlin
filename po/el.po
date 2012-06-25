@@ -8,15 +8,15 @@ msgstr ""
 "Project-Id-Version: marlin\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2012-05-24 17:03+0200\n"
-"PO-Revision-Date: 2012-01-10 13:33+0000\n"
-"Last-Translator: topmail <Unknown>\n"
+"PO-Revision-Date: 2012-06-24 15:21+0000\n"
+"Last-Translator: dancer_69 <Unknown>\n"
 "Language-Team: Greek <el@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2012-05-25 04:54+0000\n"
-"X-Generator: Launchpad (build 15288)\n"
+"X-Launchpad-Export-Date: 2012-06-25 05:23+0000\n"
+"X-Generator: Launchpad (build 15482)\n"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/PropertiesWindow.vala:60
 msgid "Properties"
@@ -164,7 +164,7 @@ msgstr ""
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/SettingsDialog.vala:31
 msgid "Marlin Preferences"
-msgstr ""
+msgstr "Προτιμήσεις Marlin"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/SettingsDialog.vala:48
 msgid "Single click to open:"
@@ -371,7 +371,7 @@ msgstr "Ό_νομα τομέα:"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-connect-server-dialog.c:1095
 msgid "_User name:"
-msgstr ""
+msgstr "Ό_νομα χρήστη:"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-connect-server-dialog.c:1110
 msgid "Pass_word:"
@@ -387,24 +387,24 @@ msgstr "Η λειτουργία ακυρώθηκε"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/fm-compact-view.c:86
 msgid "Compact directory listing"
-msgstr ""
+msgstr "Συμπαγής λίστα καταλόγων"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/fm-compact-view.c:87
 msgid "Compact view"
-msgstr ""
+msgstr "Συμπτυγμένη προβολή"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/fm-columns-view.c:82
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/fm-abstract-icon-view.c:572
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/fm-list-view.c:616
 msgid "This folder is empty."
-msgstr ""
+msgstr "Αυτός ο φάκελος είναι κενός."
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/fm-columns-view.c:186
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/fm-abstract-icon-view.c:139
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/fm-list-view.c:199
 #, c-format
 msgid "Failed to rename %s to %s"
-msgstr ""
+msgstr "Αποτυχία μετονομασίας %s σε %s"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-dnd.c:779
 msgid "_Move Here"
@@ -630,13 +630,13 @@ msgstr "Δεν ήταν δυνατή η δημιουργία δεσμού για
 #, c-format
 msgid "Use \"%s\" to open the selected item"
 msgid_plural "Use \"%s\" to open the selected items"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Χρήση \"%s\" για το άνοιγμα του επιλεγμένου στοιχείου"
+msgstr[1] "Χρήση \"%s\" για το άνοιγμα των επιλεγμένων στοιχείων"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/fm-directory-view.c:1913
 #, c-format
 msgid "_Open With %s"
-msgstr ""
+msgstr "Άν_οιγμα με %s"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/fm-directory-view.c:1935
 #, c-format

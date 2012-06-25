@@ -8,23 +8,23 @@ msgstr ""
 "Project-Id-Version: marlin\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2012-05-24 17:03+0200\n"
-"PO-Revision-Date: 2012-05-09 19:36+0000\n"
-"Last-Translator: Ibai Oihanguren <Unknown>\n"
+"PO-Revision-Date: 2012-06-24 15:47+0000\n"
+"Last-Translator: Asier Iturralde Sarasola <Unknown>\n"
 "Language-Team: Basque <eu@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2012-05-25 04:54+0000\n"
-"X-Generator: Launchpad (build 15288)\n"
+"X-Launchpad-Export-Date: 2012-06-25 05:23+0000\n"
+"X-Generator: Launchpad (build 15482)\n"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/PropertiesWindow.vala:60
 msgid "Properties"
-msgstr ""
+msgstr "Propietateak"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/PropertiesWindow.vala:112
 msgid "Info"
-msgstr ""
+msgstr "Informazioa"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/PropertiesWindow.vala:120
 msgid "Permissions"
@@ -32,11 +32,11 @@ msgstr "Baimenak"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/PropertiesWindow.vala:132
 msgid "Preview"
-msgstr ""
+msgstr "Aurrebista"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/PropertiesWindow.vala:357
 msgid "Created"
-msgstr ""
+msgstr "Sortua"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/PropertiesWindow.vala:359
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/ContextView.vala:324
@@ -45,23 +45,23 @@ msgstr "Aldatua"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/PropertiesWindow.vala:362
 msgid "Last Access"
-msgstr ""
+msgstr "Azken atzipena"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/PropertiesWindow.vala:368
 msgid "Deleted"
-msgstr ""
+msgstr "Ezabatua"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/PropertiesWindow.vala:373
 msgid "MimeType"
-msgstr ""
+msgstr "Mime mota"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/PropertiesWindow.vala:381
 msgid "MimeTypes"
-msgstr ""
+msgstr "Mime motak"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/PropertiesWindow.vala:385
 msgid "Location"
-msgstr ""
+msgstr "Kokapena"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/PropertiesWindow.vala:387
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/ContextView.vala:320
@@ -70,7 +70,7 @@ msgstr "Helburua"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/PropertiesWindow.vala:393
 msgid "Origin Location"
-msgstr ""
+msgstr "Jatorrizko kokapena"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/PropertiesWindow.vala:431
 msgid "Other application..."
@@ -78,23 +78,23 @@ msgstr "Beste aplikazio bat..."
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/PropertiesWindow.vala:455
 msgid "Open with"
-msgstr ""
+msgstr "Ireki honekin"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/PropertiesWindow.vala:471
 msgid "Device usage"
-msgstr ""
+msgstr "Gailuaren erabilera"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/PropertiesWindow.vala:616
 msgid "Read"
-msgstr ""
+msgstr "Irakurri"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/PropertiesWindow.vala:621
 msgid "Write"
-msgstr ""
+msgstr "Idatzi"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/PropertiesWindow.vala:626
 msgid "Execute"
-msgstr ""
+msgstr "Exekutatu"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/PropertiesWindow.vala:844
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/PropertiesWindow.vala:857
@@ -105,15 +105,15 @@ msgstr "Jabea"
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/PropertiesWindow.vala:849
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/PropertiesWindow.vala:861
 msgid "Group"
-msgstr ""
+msgstr "Taldea"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/PropertiesWindow.vala:865
 msgid "Everyone"
-msgstr ""
+msgstr "Guztiak"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/PropertiesWindow.vala:1117
 msgid "Select an aplication to open "
-msgstr ""
+msgstr "Hautatu aplikazio bat hau irekitzeko: "
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/ContextView.vala:316
 msgid "Name"
@@ -144,27 +144,27 @@ msgstr "Sortu"
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/DirectoryNotFound.vala:80
 #, c-format
 msgid "Create the folder %s"
-msgstr "%s karpeta sortu"
+msgstr "Sortu %s karpeta"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/Window.vala:407
 msgid "Undo"
-msgstr ""
+msgstr "Desegin"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/Window.vala:408
 msgid "Undo the last action"
-msgstr ""
+msgstr "Desegin azken ekintza"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/Window.vala:417
 msgid "Redo"
-msgstr ""
+msgstr "Berregin"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/Window.vala:418
 msgid "Redo the last action"
-msgstr ""
+msgstr "Berregin azken ekintza"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/SettingsDialog.vala:31
 msgid "Marlin Preferences"
-msgstr ""
+msgstr "Marlin hobespenak"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/SettingsDialog.vala:48
 msgid "Single click to open:"
@@ -176,11 +176,11 @@ msgstr "Saguaren auto-hautaketa abiadura:"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/SettingsDialog.vala:75
 msgid "Properties Dialog set modal:"
-msgstr ""
+msgstr "Propietateak elkarrizketa-koadroa ezarri modala:"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/SettingsDialog.vala:86
 msgid "Default File Manager:"
-msgstr ""
+msgstr "Fitxategi-kudeatzaile lehenetsia:"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/SettingsDialog.vala:95
 msgid "Behavior"
@@ -228,7 +228,7 @@ msgstr "Erakutsi"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/SettingsDialog.vala:203
 msgid "Extensions"
-msgstr ""
+msgstr "Hedapenak"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/LocationBar.vala:98
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-places-sidebar.c:370
@@ -256,19 +256,19 @@ msgstr "Klik bakarra"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/exo-tree-view.c:168
 msgid "Whether the items in the view can be activated with single clicks"
-msgstr "Honela ikuspegiko elementuak klik bakan batez aktibatu daitezke"
+msgstr "Ikuspegiko elementuak klik bakar batez aktibatu daitezkeen ala ez"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/exo-tree-view.c:184
 msgid "Single Click Timeout"
-msgstr "Klik bakan denbora-muga"
+msgstr "Klik bakarraren denbora-muga"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/exo-tree-view.c:185
 msgid ""
 "The amount of time after which the item under the mouse cursor will be "
 "selected automatically in single click mode"
 msgstr ""
-"Klik bakaneko moduan kurtsorearen azpiko elementua automatikoki aukeratu "
-"pasa behar den denbora"
+"Klik bakarreko moduan denbora hau igarotakoan kurtsorearen azpiko elementua "
+"automatikoki hautatuko da"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-connect-server-dialog.c:124
 msgid "SSH"
@@ -318,7 +318,7 @@ msgstr "Ezin da \"%s\" ostalariko zerbitzaria aurkitu."
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-connect-server-dialog.c:330
 msgid "Try Again"
-msgstr "Saiatu Berriro"
+msgstr "Saiatu berriro"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-connect-server-dialog.c:395
 msgid "Please verify your user details."
@@ -339,7 +339,7 @@ msgstr "Konektatu zerbitzarira"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-connect-server-dialog.c:893
 msgid "Server Details"
-msgstr "Zerbitzariaren Xehetasunak"
+msgstr "Zerbitzariaren xehetasunak"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-connect-server-dialog.c:917
 msgid "_Server:"
@@ -363,7 +363,7 @@ msgstr "_Karpeta:"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-connect-server-dialog.c:1057
 msgid "User Details"
-msgstr "Erabiltzailearen Xehetasunak"
+msgstr "Erabiltzailearen xehetasunak"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-connect-server-dialog.c:1080
 msgid "_Domain name:"
@@ -371,7 +371,7 @@ msgstr "_Domeinu-izena:"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-connect-server-dialog.c:1095
 msgid "_User name:"
-msgstr ""
+msgstr "_Erabiltzaile-izena:"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-connect-server-dialog.c:1110
 msgid "Pass_word:"
@@ -387,36 +387,36 @@ msgstr "Eragiketa bertan behera utzi da"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/fm-compact-view.c:86
 msgid "Compact directory listing"
-msgstr ""
+msgstr "Direktorio zerrenda trinkoa"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/fm-compact-view.c:87
 msgid "Compact view"
-msgstr ""
+msgstr "Ikuspegi trinkoa"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/fm-columns-view.c:82
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/fm-abstract-icon-view.c:572
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/fm-list-view.c:616
 msgid "This folder is empty."
-msgstr ""
+msgstr "Karpeta hau hutsik dago."
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/fm-columns-view.c:186
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/fm-abstract-icon-view.c:139
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/fm-list-view.c:199
 #, c-format
 msgid "Failed to rename %s to %s"
-msgstr ""
+msgstr "Huts egin du %s berrizendatzean %s bezala"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-dnd.c:779
 msgid "_Move Here"
-msgstr "_Mugitu Hona"
+msgstr "_Mugitu hona"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-dnd.c:784
 msgid "_Copy Here"
-msgstr "_Kopiatu Hemen"
+msgstr "_Kopiatu hemen"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-dnd.c:789
 msgid "_Link Here"
-msgstr "_Estekatu Hemen"
+msgstr "_Estekatu hemen"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-dnd.c:794
 msgid "Set as _Background"
@@ -429,7 +429,7 @@ msgstr "Utzi"
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-dnd.c:893
 #, c-format
 msgid "Failed to execute file \"%s\""
-msgstr "Huts \"%s\" fitxategia abiaraztean"
+msgstr "Huts \"%s\" fitxategia exekutatzean"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/fm-icon-view.c:86
 msgid "Icon directory listing"
@@ -437,27 +437,27 @@ msgstr ""
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/fm-icon-view.c:87
 msgid "Icon view"
-msgstr ""
+msgstr "Ikono-ikuspegia"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-toolbar-editor.c:445
 msgid "Customize Toolbar"
-msgstr "Tresna-barra Aldatu"
+msgstr "Pertsonalizatu tresna-barra"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-toolbar-editor.c:461
 msgid ""
 "Select items to be displayed on the toolbar. Items can be reordered by drag "
 "and drop."
 msgstr ""
-"Aukeratu tresna-barran erakutsiko diren elementuak. Elementuak herrestaz eta "
-"utziz berrantolatu daitezke."
+"Hautatu tresna-barran erakutsiko diren elementuak. Elementuak arrastatu eta "
+"jareginez berrantola daitezke."
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-toolbar-editor.c:477
 msgid "Available Items"
-msgstr "Elementu Erabilgarriak"
+msgstr "Elementu erabilgarriak"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-toolbar-editor.c:498
 msgid "Displayed Items"
-msgstr "Erakusten diren Elementuak"
+msgstr "Bistaratutako elementuak"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-places-sidebar.c:310
 msgid "Personal"
@@ -585,11 +585,11 @@ msgstr "Ireki leiho _berrian"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-places-sidebar.c:2423
 msgid "Remove"
-msgstr "Ezabatu"
+msgstr "Kendu"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-places-sidebar.c:2432
 msgid "Rename..."
-msgstr "Izena aldatu..."
+msgstr "Berrizendatu..."
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-places-sidebar.c:2444
 msgid "_Mount"
@@ -607,19 +607,19 @@ msgstr "_Egotzi"
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:1418
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:2306
 msgid "Empty _Trash"
-msgstr "Hustu _Zakarrontzia"
+msgstr "Hustu _zakarrontzia"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-places-sidebar.c:3123
 msgid "Icon Size"
-msgstr ""
+msgstr "Ikonoen tamaina"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-places-sidebar.c:3124
 msgid "Icon size"
-msgstr ""
+msgstr "Ikonoen tamaina"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/fm-directory-view.c:1123
 msgid "Invalid filename provided by XDS drag site"
-msgstr "XDS herresta lekuak emandako fitxategi-izena baliogabea da"
+msgstr "XDS arrastatze lekuak emandako fitxategi-izena baliogabea da"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/fm-directory-view.c:1281
 #, c-format
@@ -630,23 +630,23 @@ msgstr "Huts  \"%s\" URL-rako lotura bat sortzerakoan"
 #, c-format
 msgid "Use \"%s\" to open the selected item"
 msgid_plural "Use \"%s\" to open the selected items"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Erabili \"%s\" hautatutako elementua irekitzeko"
+msgstr[1] "Erabili \"%s\" hautatutako elementuak irekitzeko"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/fm-directory-view.c:1913
 #, c-format
 msgid "_Open With %s"
-msgstr ""
+msgstr "_Ireki honekin: %s"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/fm-directory-view.c:1935
 #, c-format
 msgid "Open in %'d New _Tabs"
-msgstr ""
+msgstr "Ireki %'d _fitxa berritan"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/fm-directory-view.c:1944
 #, c-format
 msgid "Open in %'d New _Windows"
-msgstr ""
+msgstr "Ireki %'d _leiho berritan"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/fm-directory-view.c:3379
 msgid "Set as default"
@@ -654,7 +654,7 @@ msgstr "Ezarri lehenetsi gisa"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/fm-directory-view.c:3602
 msgid "Set Color:"
-msgstr "Kolorea Aukeratu:"
+msgstr "Ezarri kolorea:"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-clipboard-manager.c:369
 msgid "There is nothing on the clipboard to paste"
@@ -669,7 +669,7 @@ msgstr "Fitxategiaren eragiketak"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-progress-ui-handler.c:122
 msgid "Show Details"
-msgstr "Erakutsi Xehetasunak"
+msgstr "Erakutsi xehetasunak"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-progress-ui-handler.c:157
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-progress-ui-handler.c:179
@@ -681,11 +681,11 @@ msgstr[1] "Fitxategien %'d eragiketa aktibo"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-progress-ui-handler.c:279
 msgid "Show copy dialog"
-msgstr ""
+msgstr "Erakutsi kopiaketaren elkarrizketa-koadroa"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-progress-ui-handler.c:290
 msgid "Cancel all in-progress actions"
-msgstr ""
+msgstr "Ezeztatu burutzen ari diren ekintza guztiak"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-progress-ui-handler.c:527
 msgid "All file operations have been successfully completed"
@@ -693,11 +693,11 @@ msgstr "Fitxategien eragiketa guztiak ondo burutu dira"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/eel-editable-label.c:3188
 msgid "Select All"
-msgstr "Hautatu Dena"
+msgstr "Hautatu dena"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/eel-editable-label.c:3199
 msgid "Input Methods"
-msgstr "Sarrera Metodoak"
+msgstr "Sarrera metodoak"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/exo-icon-view.c:887
 msgid "Layout mode"
@@ -745,7 +745,7 @@ msgstr "_Saiatu berriro"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:204
 msgid "Delete _All"
-msgstr "Ezabatu _Denak"
+msgstr "Ezabatu _guztiak"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:205
 msgid "_Replace"
@@ -753,7 +753,7 @@ msgstr "_Ordeztu"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:206
 msgid "Replace _All"
-msgstr "Ordeztu _Guztiak"
+msgstr "Ordeztu _guztiak"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:207
 msgid "_Merge"
@@ -761,11 +761,11 @@ msgstr "_Batu"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:208
 msgid "Merge _All"
-msgstr "Batu _Guztiak"
+msgstr "Batu _guztiak"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:209
 msgid "Copy _Anyway"
-msgstr "Kopiatu _Dena den"
+msgstr "Kopiatu _dena den"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:295
 #, c-format
