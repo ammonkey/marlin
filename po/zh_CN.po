@@ -8,15 +8,15 @@ msgstr ""
 "Project-Id-Version: marlin\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-05-24 17:03+0200\n"
-"PO-Revision-Date: 2012-05-24 02:51+0000\n"
-"Last-Translator: Wylmer Wang <Unknown>\n"
+"PO-Revision-Date: 2012-06-29 08:00+0000\n"
+"Last-Translator: fourbrow <fourbrow@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <zh_CN@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Launchpad-Export-Date: 2012-05-25 04:56+0000\n"
-"X-Generator: Launchpad (build 15288)\n"
+"X-Launchpad-Export-Date: 2012-06-30 05:20+0000\n"
+"X-Generator: Launchpad (build 15520)\n"
 "Language: \n"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/PropertiesWindow.vala:60
@@ -83,7 +83,7 @@ msgstr "打开方式"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/PropertiesWindow.vala:471
 msgid "Device usage"
-msgstr ""
+msgstr "设备用法"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/PropertiesWindow.vala:616
 msgid "Read"
@@ -106,7 +106,7 @@ msgstr "所有者"
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/PropertiesWindow.vala:849
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/PropertiesWindow.vala:861
 msgid "Group"
-msgstr "组"
+msgstr "群组"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/PropertiesWindow.vala:865
 msgid "Everyone"
@@ -149,19 +149,19 @@ msgstr "创建文件夹 %s"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/Window.vala:407
 msgid "Undo"
-msgstr ""
+msgstr "撤销"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/Window.vala:408
 msgid "Undo the last action"
-msgstr ""
+msgstr "撤销上次操作"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/Window.vala:417
 msgid "Redo"
-msgstr ""
+msgstr "恢复"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/Window.vala:418
 msgid "Redo the last action"
-msgstr ""
+msgstr "重做上次操作"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/SettingsDialog.vala:31
 msgid "Marlin Preferences"
@@ -279,7 +279,7 @@ msgstr "公共 FTP"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-connect-server-dialog.c:129
 msgid "FTP (with login)"
-msgstr "FTP (需登录)"
+msgstr "FTP(要求登录)"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-connect-server-dialog.c:132
 msgid "Windows share"
@@ -370,7 +370,7 @@ msgstr "域名(_D)："
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-connect-server-dialog.c:1095
 msgid "_User name:"
-msgstr ""
+msgstr "用户名(_U)："
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-connect-server-dialog.c:1110
 msgid "Pass_word:"
@@ -378,7 +378,7 @@ msgstr "密码(_W)："
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-connect-server-dialog.c:1126
 msgid "_Remember this password"
-msgstr "记住密码"
+msgstr "记住密码(_R)"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-connect-server-dialog.c:1229
 msgid "Operation cancelled"
@@ -411,7 +411,7 @@ msgstr "移到此处(_M)"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-dnd.c:784
 msgid "_Copy Here"
-msgstr "复制到到处(_C)"
+msgstr "复制到此处(_C)"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-dnd.c:789
 msgid "_Link Here"
@@ -419,7 +419,7 @@ msgstr "在此处创建链接(_L)"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-dnd.c:794
 msgid "Set as _Background"
-msgstr "设置为背景(_B)"
+msgstr "设为背景(_B)"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-dnd.c:801
 msgid "Cancel"
@@ -512,7 +512,7 @@ msgstr "停止(_S)"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-places-sidebar.c:1616
 msgid "_Power On"
-msgstr "上电(_P)"
+msgstr "打开电源(_P)"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-places-sidebar.c:1617
 msgid "_Safely Remove Drive"
@@ -646,7 +646,7 @@ msgstr "在 %'d 新窗口中打开(_W)"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/fm-directory-view.c:3379
 msgid "Set as default"
-msgstr "设为默认"
+msgstr "设为默认值"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/fm-directory-view.c:3602
 msgid "Set Color:"
@@ -819,12 +819,12 @@ msgstr "到 %2$s 的第 %1$'d 个链接"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:618
 msgid " ("
-msgstr " ("
+msgstr " 发送一个空格字符。在翻译的位置键入一个空格。"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:626
 #, c-format
 msgid " (%'d"
-msgstr " (%'d"
+msgstr " (第%'d个"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:1377
 msgid "Are you sure you want to permanently delete \"%B\" from the trash?"
@@ -843,7 +843,7 @@ msgstr[0] "您确实想从回收站中永久删除所选的 %'d 项吗？"
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:1390
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:1458
 msgid "If you delete an item, it will be permanently lost."
-msgstr "如果您删除一项，它会永远消失。"
+msgstr "如果您选择删除，这个图片将无法恢复。"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:1411
 msgid "Empty all items from Trash?"
@@ -886,13 +886,13 @@ msgstr[0] "还剩 %T"
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:1738
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:2569
 msgid "Error while deleting."
-msgstr "删除时出错。"
+msgstr "删除时发生错误。"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:1592
 msgid ""
 "Files in the folder \"%B\" cannot be deleted because you do not have "
 "permissions to see them."
-msgstr "“%B”文件夹中的文件无法删除，因为您没有查看它们的权限。"
+msgstr "文件夹“%B”中的文件无法删除，因为您没有读取它的权限。"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:1595
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:2628
@@ -1453,374 +1453,348 @@ msgstr "显示更多细节(_D)"
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1202
 #, c-format
 msgid "Delete %d copied items"
-msgstr ""
+msgstr "删除 %d 个已复制项目"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1205
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1215
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1246
 #, c-format
 msgid "Delete '%s'"
-msgstr ""
+msgstr "删除 '%s'"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1212
 #, c-format
 msgid "Delete %d duplicated items"
-msgstr ""
+msgstr "删除 %d 个重复的项目"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1223
 #, c-format
 msgid "Move %d items back to '%s'"
-msgstr ""
+msgstr "移动 %d 项目回到 '%s'"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1227
 #, c-format
 msgid "Move '%s' back to '%s'"
-msgstr ""
+msgstr "移动 '%s' 回到 '%s'"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1236
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1403
 #, c-format
 msgid "Rename '%s' as '%s'"
-msgstr ""
+msgstr "将 '%s' 重命名为 '%s'"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1255
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1450
 #, c-format
 msgid "Restore %d items from trash"
-msgstr ""
+msgstr "从回收站还原 %d 个项目"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1263
 #, c-format
 msgid "Restore '%s' to '%s'"
-msgstr ""
+msgstr "将 '%s' 恢复到 '%s'"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1274
 #, c-format
 msgid "Move %d items back to trash"
-msgstr ""
+msgstr "移动 %d 个项目到回收站"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1277
 #, c-format
 msgid "Move '%s' back to trash"
-msgstr ""
+msgstr "将 '%s' 移动到回收站"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1286
 #, c-format
 msgid "Delete links to %d items"
-msgstr ""
+msgstr "删除 %d 个项目的链接"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1289
 #, c-format
 msgid "Delete link to '%s'"
-msgstr ""
+msgstr "删除到 '%s' 的链接"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1299
 #, c-format
 msgid "Restore original permissions of items enclosed in '%s'"
-msgstr ""
+msgstr "恢复附加于 '%s'  的权限"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1307
 #, c-format
 msgid "Restore original permissions of '%s'"
-msgstr ""
+msgstr "恢复 '%s' 的原始权限"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1316
 #, c-format
 msgid "Restore group of '%s' to '%s'"
-msgstr ""
+msgstr "将 '%s' 的组恢复为 '%s'"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1326
 #, c-format
 msgid "Restore owner of '%s' to '%s'"
-msgstr ""
+msgstr "将 '%s' 的属主恢复为 '%s'"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1365
 #, c-format
 msgid "Copy %d items to '%s'"
-msgstr ""
+msgstr "复制 %d 个项目到 '%s'"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1369
 #, c-format
 msgid "Copy '%s' to '%s'"
-msgstr ""
+msgstr "复制 '%s' 到 '%s'"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1377
 #, c-format
 msgid "Duplicate of %d items in '%s'"
-msgstr ""
+msgstr "复制 %d 个项目在 '%s'"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1382
 #, c-format
 msgid "Duplicate '%s' in '%s'"
-msgstr ""
+msgstr "复制 %s (在 ’%s‘ 中)"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1390
 #, c-format
 msgid "Move %d items to '%s'"
-msgstr ""
+msgstr "移动 %d 个项目到 '%s'"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1394
 #, c-format
 msgid "Move '%s' to '%s'"
-msgstr ""
+msgstr "移动 '%s' 到 '%s'"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1412
 #, c-format
 msgid "Create new file '%s' from template "
-msgstr ""
+msgstr "根据模板创建新文档 '%s' "
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1419
 #, c-format
 msgid "Create an empty file '%s'"
-msgstr ""
+msgstr "创建新文件 '%s'"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1426
 #, c-format
 msgid "Create a new folder '%s'"
-msgstr ""
+msgstr "创建新文件夹 '%s'"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1434
 #, c-format
 msgid "Move %d items to trash"
-msgstr ""
+msgstr "移动 %d 个项目到回收站"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1440
 #, c-format
 msgid "Move '%s' to trash"
-msgstr ""
+msgstr "移动 '%s' 到回收站"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1453
 #, c-format
 msgid "Restore '%s' from trash"
-msgstr ""
+msgstr "从回收站回复 '%s'"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1462
 #, c-format
 msgid "Create links to %d items"
-msgstr ""
+msgstr "创建链接到 %d 个项目"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1465
 #, c-format
 msgid "Create link to '%s'"
-msgstr ""
+msgstr "创建链接到 '%s'"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1474
 #, c-format
 msgid "Set permissions of items enclosed in '%s'"
-msgstr ""
+msgstr "设置附加于 '%s' 的权限"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1482
 #, c-format
 msgid "Set permissions of '%s'"
-msgstr ""
+msgstr "设定 '%s' 的权限"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1491
 #, c-format
 msgid "Set group of '%s' to '%s'"
-msgstr ""
+msgstr "将 '%s' 的组设置为 '%s'"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1501
 #, c-format
 msgid "Set owner of '%s' to '%s'"
-msgstr ""
+msgstr "设置 '%s' 的属主为 '%s'"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1533
 #, c-format
 msgid "_Undo copy of %d item"
 msgid_plural "_Undo copy of %d items"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "撤销 %d 个项目的复制( _U )"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1538
 #, c-format
 msgid "_Undo duplicate of %d item"
 msgid_plural "_Undo duplicate of %d items"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "撤销 %d 个项目的复制( _U)"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1543
 #, c-format
 msgid "_Undo move of %d item"
 msgid_plural "_Undo move of %d items"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "撤销 %d 个项目的移动( _U )"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1548
 #, c-format
 msgid "_Undo rename of %d item"
 msgid_plural "_Undo rename of %d items"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "撤销 %d 个项目的重命名( _U )"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1552
 msgid "_Undo creation of an empty file"
-msgstr ""
+msgstr "撤销空文件的创建( _U )"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1555
 msgid "_Undo creation of a file from template"
-msgstr ""
+msgstr "撤销创建文件( _U )"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1559
 #, c-format
 msgid "_Undo creation of %d folder"
 msgid_plural "_Undo creation of %d folders"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "撤销创建 %d 个文件夹( _U )"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1564
 #, c-format
 msgid "_Undo move to trash of %d item"
 msgid_plural "_Undo move to trash of %d items"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "撤销移动 %d 个文件( _U )"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1569
 #, c-format
 msgid "_Undo restore from trash of %d item"
 msgid_plural "_Undo restore from trash of %d items"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "撤销恢复 %d 个文件( _U )"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1574
 #, c-format
 msgid "_Undo create link to %d item"
 msgid_plural "_Undo create link to %d items"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "撤销创建到 %d 个文件的链接( _U )"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1579
 #, c-format
 msgid "_Undo delete of %d item"
 msgid_plural "_Undo delete of %d items"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "撤销删除 %d 个文件( _U )"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1584
 #, c-format
 msgid "Undo recursive change permissions of %d item"
 msgid_plural "Undo recursive change permissions of %d items"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "撤销改变 %d 个项目的权限( _U )"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1590
 #, c-format
 msgid "Undo change permissions of %d item"
 msgid_plural "Undo change permissions of %d items"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "撤销改变 %d 个项目的权限( _U )"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1595
 #, c-format
 msgid "Undo change group of %d item"
 msgid_plural "Undo change group of %d items"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "撤销改变 %d 个项目的群组( _U )"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1600
 #, c-format
 msgid "Undo change owner of %d item"
 msgid_plural "Undo change owner of %d items"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "撤销改变 %d 个项目的所有者( _U )"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1628
 #, c-format
 msgid "_Redo copy of %d item"
 msgid_plural "_Redo copy of %d items"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "重新复制 %d 个项目( _R )"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1633
 #, c-format
 msgid "_Redo duplicate of %d item"
 msgid_plural "_Redo duplicate of %d items"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "重新复制 %d 个项目( _R )"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1638
 #, c-format
 msgid "_Redo move of %d item"
 msgid_plural "_Redo move of %d items"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "重新移动 %d 个项目( _R )"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1643
 #, c-format
 msgid "_Redo rename of %d item"
 msgid_plural "_Redo rename of %d items"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "重新重命名 %d 个项目( _R )"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1647
 msgid "_Redo creation of an empty file"
-msgstr ""
+msgstr "重新创建新文件"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1650
 msgid "_Redo creation of a file from template"
-msgstr ""
+msgstr "重新由模板创建新文件"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1654
 #, c-format
 msgid "_Redo creation of %d folder"
 msgid_plural "_Redo creation of %d folders"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "重新创建 %d 个新文件夹( _R )"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1659
 #, c-format
 msgid "_Redo move to trash of %d item"
 msgid_plural "_Redo move to trash of %d items"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "重新移动 %d 个项目到回收站( _R )"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1664
 #, c-format
 msgid "_Redo restore from trash of %d item"
 msgid_plural "_Redo restore from trash of %d items"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "重新从回收站恢复 %d 个项目( _R )"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1669
 #, c-format
 msgid "_Redo create link to %d item"
 msgid_plural "_Redo create link to %d items"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "重新创建链接到 %d 个项目( _R )"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1674
 #, c-format
 msgid "_Redo delete of %d item"
 msgid_plural "_Redo delete of %d items"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "重新删除 %d 个项目( _R )"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1679
 #, c-format
 msgid "Redo recursive change permissions of %d item"
 msgid_plural "Redo recursive change permissions of %d items"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "重新递归改变 %d 个项目的权限"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1685
 #, c-format
 msgid "Redo change permissions of %d item"
 msgid_plural "Redo change permissions of %d items"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "重新改变 %d 个项目的权限"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1690
 #, c-format
 msgid "Redo change group of %d item"
 msgid_plural "Redo change group of %d items"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "重新改变 %d 个项目的群组"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1695
 #, c-format
 msgid "Redo change owner of %d item"
 msgid_plural "Redo change owner of %d items"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "重新改变 %d 个项目的所有者"
 
 #: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/gof-file.c:252
 #, c-format
