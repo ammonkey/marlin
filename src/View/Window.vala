@@ -801,7 +801,7 @@ namespace Marlin.View {
                                  action_show_hide_contextview,
   /* is_active */                true },
   /* name, stock id */         { "Show Hide Menubar", null,
-  /* label, accelerator */       N_("_Menubar"), "F8",
+  /* label, accelerator */       N_("_Menubar"), "<control>m",
   /* tooltip */                  N_("Change the visibility of this window's menubar"),
                                  action_show_hide_menubar,
   /* is_active */                true },
