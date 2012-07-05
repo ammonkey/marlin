@@ -71,23 +71,19 @@ namespace Marlin.View.Chrome
         public ViewSwitcher (Gtk.ActionGroup action_group)
         {
             main_actions = action_group;
-            //border_width = 6;
-            margin = 3;
 
             switcher = new ModeButton ();
-            Varka.IconFactory icon_factory = Varka.IconFactory.get_default ();
-            Gtk.StyleContext style = get_style_context ();
 
-            icon = new Image.from_pixbuf (icon_factory.load_symbolic_icon (style, "view-list-icons-symbolic", 16));
+            icon = new Image.from_icon_name ("view-list-icons-symbolic", IconSize.MENU);
             icon.set_tooltip_text (_("View as icons"));
             switcher.append(icon);
-            list = new Image.from_pixbuf (icon_factory.load_symbolic_icon (style, "view-list-details-symbolic", 16));
+            list = new Image.from_icon_name ("view-list-details-symbolic", IconSize.MENU);
             list.set_tooltip_text (_("View as list"));
             switcher.append(list);
-            compact = new Image.from_pixbuf (icon_factory.load_symbolic_icon (style, "view-list-compact-symbolic", 16));
+            compact = new Image.from_icon_name ("view-list-compact-symbolic", IconSize.MENU);
             compact.set_tooltip_text (_("View as compact list"));
             switcher.append(compact);
-            miller = new Image.from_pixbuf (icon_factory.load_symbolic_icon (style, "view-list-column-symbolic", 16));
+            miller = new Image.from_icon_name ("view-list-column-symbolic", IconSize.MENU);
             miller.set_tooltip_text(_("View as column"));
             switcher.append(miller);
             

@@ -46,6 +46,8 @@ namespace Marlin.View {
 
         public Varka.Widgets.ToolButtonWithMenu button_forward;
         public Varka.Widgets.ToolButtonWithMenu button_back;
+        public Varka.Widgets.ButtonWithMenu navi_btn_forward;
+        public Varka.Widgets.ButtonWithMenu navi_btn_back;
 
         private const int horizontal_contextplane_max_width = 910;
         private const int horizontal_contextplane_max_height = 380; // after which we will go vertical
@@ -334,6 +336,15 @@ namespace Marlin.View {
                         ((FM.Directory.View) cur_slot.view_box).sync_selection();
                     /* sync sidebar selection */
                     loading_uri (current_tab.slot.directory.file.uri, sidebar);
+                    /* sync navigation buttons menus fetchers */
+                    if (button_back != null)
+                        button_back.fetcher = current_tab.get_back_menu;
+                    if (button_forward != null)
+                        button_forward.fetcher = current_tab.get_forward_menu;
+                    if (navi_btn_back != null)
+                        navi_btn_back.fetcher = current_tab.get_back_menu;
+                    if (navi_btn_forward != null)
+                        navi_btn_forward.fetcher = current_tab.get_forward_menu;
 
                     /* focus the main view */
                     //((FM.Directory.View) current_tab.slot.view_box).grab_focus();
@@ -692,14 +703,13 @@ namespace Marlin.View {
                                { "Redo", Stock.REDO, N_("_Redo"),
                                  "<control>Y", N_("Redo the last action"),
                                  action_redo_callback },
-                               { "Up", Stock.GO_UP, N_("Open _Parent"),
+                               { "Up", "go-up-symbolic", N_("Open _Parent"),
                                  "<alt>Up", N_("Open the parent folder"),
                                  action_go_up },
-                               { "Back", Stock.GO_BACK, N_("_Back"),
+                               { "Back", "go-previous-symbolic", N_("_Back"),
                                  "<alt>Left", N_("Go to the previous visited location"),
-                                 //G_CALLBACK (action_up_callback) },
                                  action_go_back },
-                               { "Forward", Stock.GO_FORWARD, N_("_Forward"),
+                               { "Forward", "go-next-symbolic", N_("_Forward"),
                                  "<alt>Right", N_("Go to the next visited location"),
                                  action_go_forward },
                                { "Reload", Stock.REFRESH, N_("_Reload"),
