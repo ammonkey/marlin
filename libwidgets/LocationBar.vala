@@ -283,7 +283,7 @@ public abstract class Marlin.View.Chrome.BasePathBar : EventBox
         double x_render = 0;
         foreach(BreadcrumbsElement element in elements) {
             if(element.display) {
-                if(x_render <= x <= x_render + element.real_width)
+                if(x_render <= x  && x <= x_render + element.real_width)
                     return element;
                 x_render += element.real_width;
             }

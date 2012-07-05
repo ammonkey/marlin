@@ -168,8 +168,7 @@ public class Marlin.View.PropertiesWindow : Gtk.Dialog
     private void update_header_desc () {
         string header_desc_str;
 
-        //header_desc_str = Eel.format_size (total_size);
-        header_desc_str = format_size_for_display ((int64) total_size);
+        header_desc_str = format_size (total_size);
         if (ftype != null) {
             header_desc_str += ", " + goffile.formated_type;
         } 
@@ -467,7 +466,7 @@ public class Marlin.View.PropertiesWindow : Gtk.Dialog
                     double used =  1.0 - (double) fs_free / (double) fs_capacity;
                     progressbar.set_fraction (used);
                     progressbar.set_show_text (true);
-                    progressbar.set_text ("%s free of %s (%d%% used)".printf (format_size_for_display ((int64) fs_free), format_size_for_display ((int64) fs_capacity), (int) (used * 100)));
+                    progressbar.set_text ("%s free of %s (%d%% used)".printf (format_size (fs_free), format_size (fs_capacity), (int) (used * 100)));
                     information.attach (progressbar, 1, n, 1, 1);
                 }
             } catch (GLib.Error e) {
