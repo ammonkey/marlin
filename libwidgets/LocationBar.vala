@@ -40,7 +40,6 @@ public struct Marlin.View.Chrome.IconDirectory
 public abstract class Marlin.View.Chrome.BasePathBar : EventBox
 {
     public string current_right_click_root;
-    double right_click_root;
 
     /* if we must display the BreadcrumbsElement which are in  newbreads. */
     bool view_old = false;
@@ -119,9 +118,13 @@ public abstract class Marlin.View.Chrome.BasePathBar : EventBox
         Gtk.Border border = new Gtk.Border();
         button_context.get_padding(Gtk.StateFlags.NORMAL, border);
 #endif
-        var css_provider = new Gtk.CssProvider();
-        css_provider.load_from_data(".noradius-button { border-radius:0px; }", -1);
-        button_context.add_provider(css_provider, Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION);
+        try {
+            var css_provider = new Gtk.CssProvider();
+            css_provider.load_from_data(".noradius-button { border-radius:0px; }", -1);
+            button_context.add_provider(css_provider, Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION);
+        } catch (Error e) {
+            warning ("Could not add css provider. Some widgets will not look as intended. %s", e.message);
+        }
 
         left_padding = border.left;
         right_padding = border.right;
@@ -906,7 +909,7 @@ public abstract class Marlin.View.Chrome.BasePathBar : EventBox
         double x_render = margin;
 
         /* Draw toolbar background */
-        Gtk.render_background(button_context, cr, 0, margin, width, height_marged);
+        button_context.render_background(cr, 0, margin, width, height_marged);
 
         int breadcrumbs_displayed = 0;
         double max_width = get_all_breadcrumbs_width(out breadcrumbs_displayed);
@@ -980,7 +983,7 @@ public abstract class Marlin.View.Chrome.BasePathBar : EventBox
             cr.line_to(x_render, 0);
             cr.close_path();
             cr.clip();
-            Gtk.render_frame(button_context, cr, 0, margin, width, height_marged);
+            button_context.render_frame(cr, 0, margin, width, height_marged);
             cr.restore();
             cr.save();
 
@@ -993,15 +996,16 @@ public abstract class Marlin.View.Chrome.BasePathBar : EventBox
             cr.line_to(get_allocated_width(), y + height_marged);
             cr.close_path();
             cr.clip();
-            Gtk.render_background(button_context_active, cr, 0, margin, width, height_marged);
-            Gtk.render_frame(button_context_active, cr, 0, margin, width, height_marged);
+            button_context_active.render_background(cr, 0, margin, width, height_marged);
+            button_context_active.render_frame(cr, 0, margin, width, height_marged);
             cr.restore();
             x_render += height_marged/2 + 3;
         }
         else {
-            Gtk.render_frame(button_context, cr, 0, margin, width, height_marged);
+            button_context.render_frame(cr, 0, margin, width, height_marged);
         }
         entry.draw(cr, x_render + space_breads/2, height, width - x_render, this, button_context);
+
         return true;
     }
 

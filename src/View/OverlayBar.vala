@@ -72,8 +72,8 @@ namespace Marlin.View {
         public override bool draw (Cairo.Context cr)
         {
             var ctx = get_style_context ();
-            render_background (ctx, cr, 0, 0, get_allocated_width (), get_allocated_height ());
-            render_frame (ctx, cr, 0, 0, get_allocated_width (), get_allocated_height ());
+            ctx.render_background (cr, 0, 0, get_allocated_width (), get_allocated_height ());
+            ctx.render_frame (cr, 0, 0, get_allocated_width (), get_allocated_height ());
 
             return base.draw (cr);
         }

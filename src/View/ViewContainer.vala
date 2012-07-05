@@ -140,7 +140,7 @@ namespace Marlin.View {
             else if (slot_path == "/")
                 tab_name = _("File System");
             else
-                tab_name = aslot.directory.file.info.get_attribute_string(FILE_ATTRIBUTE_STANDARD_DISPLAY_NAME);
+                tab_name = aslot.directory.file.info.get_attribute_string(FileAttribute.STANDARD_DISPLAY_NAME);
            
             /* update window title */
             if(window.current_tab == this) {

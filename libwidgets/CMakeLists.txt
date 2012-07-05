@@ -30,7 +30,7 @@ link_directories(${LIB_PATHS})
 
 find_package(Vala REQUIRED)
 include(ValaVersion)
-ensure_vala_version("0.12.0" MINIMUM)
+ensure_vala_version("0.16.0" MINIMUM)
 include(ValaPrecompile)
 vala_precompile(VALA_C
 LocationBar.vala

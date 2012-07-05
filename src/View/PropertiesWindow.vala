@@ -325,10 +325,10 @@ public class Marlin.View.PropertiesWindow : Gtk.Dialog
         foreach (GOF.File gof in files)
         {
             if (loc == null && gof != null) {
-                loc = get_parent_loc (gof.info.get_attribute_byte_string (FILE_ATTRIBUTE_TRASH_ORIG_PATH));
+                loc = get_parent_loc (gof.info.get_attribute_byte_string (FileAttribute.TRASH_ORIG_PATH));
                 continue;
             }
-            if (!loc.equal (get_parent_loc (gof.info.get_attribute_byte_string (FILE_ATTRIBUTE_TRASH_ORIG_PATH))))
+            if (!loc.equal (get_parent_loc (gof.info.get_attribute_byte_string (FileAttribute.TRASH_ORIG_PATH))))
                 return null;
         }
 
@@ -345,12 +345,12 @@ public class Marlin.View.PropertiesWindow : Gtk.Dialog
 
         /* localized time depending on MARLIN_PREFERENCES_DATE_FORMAT locale, iso .. */
         if (count == 1) {
-            var time_created = file.get_formated_time (FILE_ATTRIBUTE_TIME_CREATED);
+            var time_created = file.get_formated_time (FileAttribute.TIME_CREATED);
             if (time_created != null)
                 info.add(new Pair<string, string>(_("Created") + (": "), time_created));
             if (file.formated_modified != null)
                 info.add(new Pair<string, string>(_("Modified") + (": "), file.formated_modified));
-            var time_last_access = file.get_formated_time (FILE_ATTRIBUTE_TIME_ACCESS);
+            var time_last_access = file.get_formated_time (FileAttribute.TIME_ACCESS);
             if (time_last_access != null)
                 info.add(new Pair<string, string>(_("Last Access") + (": "), time_last_access));
             /* print deletion date if trashed file */
@@ -380,10 +380,10 @@ public class Marlin.View.PropertiesWindow : Gtk.Dialog
             info.add(new Pair<string, string>(_("Target") + (": "), file.info.get_symlink_target()));
 
         /* print orig location of trashed files */
-        if (file.is_trashed() && file.info.get_attribute_byte_string (FILE_ATTRIBUTE_TRASH_ORIG_PATH) != null) {
+        if (file.is_trashed() && file.info.get_attribute_byte_string (FileAttribute.TRASH_ORIG_PATH) != null) {
             var trash_orig_loc = get_common_trash_orig();
             if (trash_orig_loc != null)
-                info.add(new Pair<string, string>(_("Origin Location") + (": "), "<a href=\"" + get_parent_loc (file.info.get_attribute_byte_string (FILE_ATTRIBUTE_TRASH_ORIG_PATH)).get_uri () + "\">" + trash_orig_loc + "</a>"));
+                info.add(new Pair<string, string>(_("Origin Location") + (": "), "<a href=\"" + get_parent_loc (file.info.get_attribute_byte_string (FileAttribute.TRASH_ORIG_PATH)).get_uri () + "\">" + trash_orig_loc + "</a>"));
         }
     }
 
@@ -455,10 +455,10 @@ public class Marlin.View.PropertiesWindow : Gtk.Dialog
         if (should_show_device_usage ()) {
             try {
                 var info = goffile.get_target_location ().query_filesystem_info ("filesystem::*");
-                if (info.has_attribute (FILE_ATTRIBUTE_FILESYSTEM_SIZE) && 
-                    info.has_attribute (FILE_ATTRIBUTE_FILESYSTEM_FREE)) {
-                    uint64 fs_capacity = info.get_attribute_uint64 (FILE_ATTRIBUTE_FILESYSTEM_SIZE);
-                    uint64 fs_free = info.get_attribute_uint64 (FILE_ATTRIBUTE_FILESYSTEM_FREE);
+                if (info.has_attribute (FileAttribute.FILESYSTEM_SIZE) && 
+                    info.has_attribute (FileAttribute.FILESYSTEM_FREE)) {
+                    uint64 fs_capacity = info.get_attribute_uint64 (FileAttribute.FILESYSTEM_SIZE);
+                    uint64 fs_free = info.get_attribute_uint64 (FileAttribute.FILESYSTEM_FREE);
 
                     n++;
                     var key_label = create_label_key (_("Device usage") + ": ", Align.CENTER);
@@ -751,7 +751,7 @@ public class Marlin.View.PropertiesWindow : Gtk.Dialog
                         if (n<1)
                             l_perm.set_text(goffile.get_permissions_as_string());
                         /* real update permissions */
-                        file_set_attributes (gof, FILE_ATTRIBUTE_UNIX_MODE, perm, cancellable);
+                        file_set_attributes (gof, FileAttribute.UNIX_MODE, perm, cancellable);
                         n++;
                     } else {
                         //TODO add a list of permissions set errors in the property dialog.
@@ -790,7 +790,7 @@ public class Marlin.View.PropertiesWindow : Gtk.Dialog
             return;
         
         foreach (GOF.File gof in files)
-            file_set_attributes (gof, FILE_ATTRIBUTE_UNIX_UID, uid);
+            file_set_attributes (gof, FileAttribute.UNIX_UID, uid);
     }
 
     private void combo_group_changed (Gtk.ComboBox combo) {
@@ -824,7 +824,7 @@ public class Marlin.View.PropertiesWindow : Gtk.Dialog
             return;
 
         foreach (GOF.File gof in files)
-            file_set_attributes (gof, FILE_ATTRIBUTE_UNIX_GID, gid);
+            file_set_attributes (gof, FileAttribute.UNIX_GID, gid);
     }
    
     private void construct_perm_panel (Box box) {
@@ -924,7 +924,7 @@ public class Marlin.View.PropertiesWindow : Gtk.Dialog
                 return null;
         }
 
-        return goffile.info.get_attribute_string(FILE_ATTRIBUTE_OWNER_USER);
+        return goffile.info.get_attribute_string(FileAttribute.OWNER_USER);
     }
 
     private bool selection_can_set_group () {
@@ -950,7 +950,7 @@ public class Marlin.View.PropertiesWindow : Gtk.Dialog
                 return null;
         }
 
-        return goffile.info.get_attribute_string(FILE_ATTRIBUTE_OWNER_GROUP);
+        return goffile.info.get_attribute_string(FileAttribute.OWNER_GROUP);
     }
 
     private Gtk.Widget create_owner_choice() {
@@ -997,7 +997,7 @@ public class Marlin.View.PropertiesWindow : Gtk.Dialog
 
             choice = (Gtk.Widget) combo;
         } else {
-            //choice = (Gtk.Widget) new Gtk.Label (goffile.info.get_attribute_string(FILE_ATTRIBUTE_OWNER_USER));
+            //choice = (Gtk.Widget) new Gtk.Label (goffile.info.get_attribute_string(FileAttribute.OWNER_USER));
             string? common_owner = get_common_owner ();
             if (common_owner == null)
                 common_owner = "--";
@@ -1054,7 +1054,7 @@ public class Marlin.View.PropertiesWindow : Gtk.Dialog
 
             choice = (Gtk.Widget) combo;
         } else {
-            //choice = (Gtk.Widget) new Gtk.Label (goffile.info.get_attribute_string(FILE_ATTRIBUTE_OWNER_GROUP));
+            //choice = (Gtk.Widget) new Gtk.Label (goffile.info.get_attribute_string(FileAttribute.OWNER_GROUP));
             string? common_group = get_common_group ();
             if (common_group == null)
                 common_group = "--";
@@ -1080,8 +1080,12 @@ public class Marlin.View.PropertiesWindow : Gtk.Dialog
                 string? preview_ = goffile.get_preview_path();
                 if(preview_ != null)
                 {
-                    var pix_ = new Gdk.Pixbuf.from_file_at_size (preview_, 256, 256);
-                    evbox.set_from_pixbuf (pix_);
+                    try {
+                        var pix_ = new Gdk.Pixbuf.from_file_at_size (preview_, 256, 256);
+                        evbox.set_from_pixbuf (pix_);
+                    } catch (Error e) {
+                        warning ("failed pixbuf from_file_at_size: %s %s", e.message, preview_);
+                    } 
                 }
                 goffile.disconnect(thumbnail_handler_id);
             });

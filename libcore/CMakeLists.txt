@@ -13,7 +13,7 @@ include_directories(${CMAKE_BINARY_DIR})
 include_directories(${CMAKE_CURRENT_SOURCE_DIR})
 find_package(Vala REQUIRED)
 include(ValaVersion)
-ensure_vala_version("0.12.0" MINIMUM)
+ensure_vala_version("0.16.0" MINIMUM)
 include(ValaPrecompile)
 vala_precompile(VALA_C
     gof-callwhenready.vala

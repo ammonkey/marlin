@@ -447,7 +447,7 @@ static TBEditorWidget *tb_editor_create_dialog(MarlinViewWindow *mvw)
                                          GTK_DIALOG_DESTROY_WITH_PARENT,
                                          GTK_STOCK_CLOSE, GTK_RESPONSE_CLOSE, NULL);
     vbox = gtk_dialog_get_content_area(GTK_DIALOG(dialog));
-    gtk_container_set_border_width (GTK_DIALOG (dialog), 5);
+    gtk_container_set_border_width (GTK_CONTAINER (dialog), 5);
     gtk_widget_set_name(dialog, "GeanyDialog");
     gtk_window_set_default_size(GTK_WINDOW(dialog), 400, 300);
     gtk_dialog_set_default_response(GTK_DIALOG(dialog), GTK_RESPONSE_CLOSE);
@@ -458,7 +458,7 @@ static TBEditorWidget *tb_editor_create_dialog(MarlinViewWindow *mvw)
                                          G_TYPE_STRING, G_TYPE_STRING, GDK_TYPE_PIXBUF);
 
     label = gtk_label_new(_("Select items to be displayed on the toolbar. Items can be reordered by drag and drop."));
-    gtk_label_set_line_wrap (label, TRUE);
+    gtk_label_set_line_wrap (GTK_LABEL (label), TRUE);
     gtk_misc_set_alignment(GTK_MISC(label), 0.0, 0.5);
 
     tree_available = gtk_tree_view_new();
