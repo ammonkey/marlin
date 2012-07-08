@@ -66,7 +66,7 @@ struct _MarlinApplicationPriv {
     MarlinClipboardManager  *clipboard;
     MarlinThumbnailer       *thumbnailer;
     gboolean                debug;
-    gboolean                open_intab;
+    GMainLoop               *no_default_win_loop;
 };
 
 static void
@@ -87,7 +87,7 @@ open_windows (MarlinApplication *application, GFile **files,
 {
     guint i;
 
-    if (files == NULL) {
+    if (files == NULL || n_files == 0) {
         /* Open a window pointing at the default location. */
         GFile *location = g_file_new_for_path (g_get_home_dir ());
         open_window (application, location, screen);
@@ -108,7 +108,6 @@ open_tabs (MarlinApplication *application, GFile **files,
     GList *list;
     guint i;
 
-    g_message ("%s", G_STRFUNC);
     /* get the first windows if any */
     list = gtk_application_get_windows (GTK_APPLICATION (application));
     if (list != NULL && list->data != NULL) {
@@ -368,6 +367,8 @@ marlin_application_finalize (GObject *object)
     //marlin_dbus_manager_stop ();
     notify_uninit ();
 
+    marlin_icon_info_clear_caches ();
+
     G_OBJECT_CLASS (marlin_application_parent_class)->finalize (object);
 }
 
@@ -379,7 +380,7 @@ marlin_application_create_window (MarlinApplication *application,
 }
 
 static void
-marlin_application_open_location (GApplication *app, GFile **files, gint n_files)
+marlin_application_open (GApplication *app, GFile **files, gint n_files, const gchar *hint)
 {
     MarlinApplication *self = MARLIN_APPLICATION (app);
 
@@ -389,37 +390,41 @@ marlin_application_open_location (GApplication *app, GFile **files, gint n_files
         varka_logger_set_DisplayLevel (VARKA_LOG_LEVEL_DEBUG);
 
     /* Create windows. */
-    if (self->priv->open_intab)
+    if (g_settings_get_boolean (settings, "open-in-new-tab"))
         open_tabs (self, files, n_files, gdk_screen_get_default ());
     else
         open_windows (self, files, n_files, gdk_screen_get_default ());
 }
 
-void
-marlin_application_quit (MarlinApplication *self)
+static void
+action_quit (GSimpleAction *action, GVariant *parameter, gpointer user_data)
 {
-    GApplication *app = G_APPLICATION (self);
+    MarlinApplication *app = MARLIN_APPLICATION (user_data);
     GList *windows;
 
     windows = gtk_application_get_windows (GTK_APPLICATION (app));
     g_list_foreach (windows, (GFunc) gtk_widget_destroy, NULL);
+            
+    if (app->priv->no_default_win_loop)
+        g_main_loop_quit (app->priv->no_default_win_loop);
 }
 
-static int
-marlin_application_cmd (GApplication *app, GApplicationCommandLine *cmd)
+static gboolean
+marlin_application_local_cmd (GApplication *app, gchar ***args, gint *exit_status)
 {
     MarlinApplication *self = MARLIN_APPLICATION (app);
     gboolean version = FALSE;
+    gboolean no_default_window = FALSE;
     //gboolean no_desktop = FALSE;
     gboolean kill_shell = FALSE;
     gchar **remaining = NULL;
     const GOptionEntry options[] = {
         { "version", '\0', 0, G_OPTION_ARG_NONE, &version,
             N_("Show the version of the program."), NULL },
+        { "no-default-window", 'n', 0, G_OPTION_ARG_NONE, &no_default_window,
+            N_("Only create windows for explicitly specified URIs."), NULL },
         /*{ "no-desktop", '\0', 0, G_OPTION_ARG_NONE, &no_desktop,
           N_("Do not manage the desktop (ignore the preference set in the preferences dialog)."), NULL },*/
-        { "tab", 't', 0, G_OPTION_ARG_NONE, &self->priv->open_intab,
-            N_("Open uri(s) in new tab"), NULL },
         { "quit", 'q', 0, G_OPTION_ARG_NONE, &kill_shell, 
             N_("Quit Marlin."), NULL },
         { "debug", 'd', 0, G_OPTION_ARG_NONE, &self->priv->debug,
@@ -431,37 +436,54 @@ marlin_application_cmd (GApplication *app, GApplicationCommandLine *cmd)
     GError *error = NULL;
     gint argc = 0;
     gchar **argv = NULL;
-    gint retval = EXIT_SUCCESS;
+    *exit_status = EXIT_SUCCESS;
 
     context = g_option_context_new (_("\n\nBrowse the file system with the file manager"));
     g_option_context_add_main_entries (context, options, NULL);
     g_option_context_add_group (context, gtk_get_option_group (TRUE));
 
-    argv = g_application_command_line_get_arguments (cmd, &argc);
+    argv = *args;
+    argc = g_strv_length (argv);
 
     if (!g_option_context_parse (context, &argc, &argv, &error)) {
         g_printerr ("Could not parse arguments: %s\n", error->message);
         g_error_free (error);
 
-        retval = EXIT_FAILURE;
+        *exit_status = EXIT_FAILURE;
         goto out;
     }
 
     if (version) {
-        g_application_command_line_print (cmd, "marlin " PACKAGE_VERSION "\n");
+        g_print ("marlin " PACKAGE_VERSION "\n");
         goto out;
     }
+
     if (kill_shell && remaining != NULL) {
-        g_application_command_line_printerr (cmd, "%s\n",
-                                             _("--quit cannot be used with URIs."));
-        retval = EXIT_FAILURE;
+        g_printerr ("%s\n", _("--quit cannot be used with URIs."));
+        *exit_status = EXIT_FAILURE;
+        goto out;
+    }
+
+    g_application_register (app, NULL, &error);
+    if (error != NULL) {
+        g_printerr ("Could not register the application: %s\n", error->message);
+        g_error_free (error);
+        *exit_status = EXIT_FAILURE;
         goto out;
     }
 
     if (kill_shell) {
-        marlin_application_quit (self);
+        g_action_group_activate_action (G_ACTION_GROUP (app), "quit", NULL);
         goto out;
     } 
+    
+    if (no_default_window) {
+        if (!g_application_get_is_remote (app)) {
+            self->priv->no_default_win_loop = g_main_loop_new (NULL, FALSE);
+            g_main_loop_run (self->priv->no_default_win_loop);
+        }
+        goto out;
+    }
 
     GFile **files;
     gint i, len;
@@ -487,7 +509,9 @@ marlin_application_cmd (GApplication *app, GApplicationCommandLine *cmd)
     }
 
     /* Open application */
-    marlin_application_open_location (app, files, len);
+    if ((files == NULL && !no_default_window) || len > 0) {
+        g_application_open (app, files, len, "");
+    }
 
     for (i = 0; i < len; i++) {
         g_object_unref (files[i]);
@@ -496,9 +520,8 @@ marlin_application_cmd (GApplication *app, GApplicationCommandLine *cmd)
 
 out:
     g_option_context_free (context);
-    g_strfreev (argv);
 
-    return retval;
+    return TRUE;
 }
 
 static void
@@ -598,6 +621,10 @@ icon_theme_changed_callback (GtkIconTheme *icon_theme,
 	marlin_icon_info_clear_caches ();
 }
 
+static GActionEntry app_entries[] = {
+    { "quit", action_quit, NULL, NULL, NULL }
+};
+
 static void
 marlin_application_startup (GApplication *app)
 {
@@ -653,19 +680,13 @@ marlin_application_startup (GApplication *app)
     /*g_signal_connect_object (application->priv->volume_monitor, "mount_added",
       G_CALLBACK (mount_added_callback), application, 0);*/
 
+    /* init app actions */
+    g_action_map_add_action_entries (G_ACTION_MAP (app), app_entries, 
+                                     G_N_ELEMENTS (app_entries), app);
+
     #ifdef HAVE_UNITY
     unity_quicklist_handler_get_singleton ();
     #endif
-}
-
-static void
-marlin_application_quit_mainloop (GApplication *app)
-{
-    g_debug ("Quitting mainloop");
-
-    marlin_icon_info_clear_caches ();
-
-    G_APPLICATION_CLASS (marlin_application_parent_class)->quit_mainloop (app);
 }
 
 static void
@@ -680,8 +701,8 @@ marlin_application_class_init (MarlinApplicationClass *class)
 
     application_class = G_APPLICATION_CLASS (class);
     application_class->startup = marlin_application_startup;
-    application_class->command_line = marlin_application_cmd;
-    application_class->quit_mainloop = marlin_application_quit_mainloop;
+    application_class->open = marlin_application_open;
+    application_class->local_command_line = marlin_application_local_cmd;
 
     g_type_class_add_private (class, sizeof (MarlinApplication));
 }
@@ -690,8 +711,8 @@ MarlinApplication *
 marlin_application_new (void)
 {
     return g_object_new (MARLIN_TYPE_APPLICATION,
-                         "application-id", "org.elementary.MarlinApplication",
-                         "flags", G_APPLICATION_HANDLES_COMMAND_LINE,
+                         "application-id", "org.gnome.MarlinApplication",
+                         "flags", G_APPLICATION_HANDLES_OPEN,
                          NULL);
 }
 

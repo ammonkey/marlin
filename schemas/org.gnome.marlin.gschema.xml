@@ -57,10 +57,10 @@
       <summary>Show the context view pane</summary>
       <description>Show the context view pane</description>
     </key>
-    <key type="b" name="rgba-colormap">
+    <key type="b" name="open-in-new-tab">
       <default>false</default>
-      <summary>enable rgba window</summary>
-      <description>If set to true, rgba will be enabled, you'll need a gtk engine supporting rgba, like murrine. Compiz can have some problems like drawings shadows ...</description>
+      <summary>Open in new tab</summary>
+      <description>Always Open new location(s) in new tab(s) and not in new window(s)</description>
     </key>
     <key name="date-format" enum="dateformatmode">
       <default>'iso'</default>

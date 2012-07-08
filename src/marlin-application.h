@@ -55,9 +55,6 @@ MarlinApplication *marlin_application_get (void);
 
 void        marlin_application_create_window (MarlinApplication *application,
                                               GFile *location, GdkScreen *screen);
-void        marlin_application_quit (MarlinApplication *self);
-
-//void        marlin_application_close_all_windows (MarlinApplication *self);
 
 gboolean    marlin_application_is_first_window (MarlinApplication *app, GtkWindow *win);
 

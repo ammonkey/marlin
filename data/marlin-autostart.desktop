@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Marlin
+Exec=marlin -n
+OnlyShowIn=Unity;
+NoDisplay=true
+X-Ubuntu-Gettext-Domain=marlin
