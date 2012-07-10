@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: marlin\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-07-05 16:10+0200\n"
-"PO-Revision-Date: 2012-07-04 12:45+0000\n"
-"Last-Translator: glezglez1 <Unknown>\n"
+"PO-Revision-Date: 2012-07-09 20:37+0000\n"
+"Last-Translator: Marti Bosch <Unknown>\n"
 "Language-Team: Spanish <es@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2012-07-06 05:09+0000\n"
+"X-Launchpad-Export-Date: 2012-07-10 05:42+0000\n"
 "X-Generator: Launchpad (build 15558)\n"
 "Language: es\n"
 
@@ -652,11 +652,11 @@ msgstr[1] "%'d operaciones activas sobre archivos"
 
 #: /home/am/dev/marlin5/marlin/po/../src/marlin-progress-ui-handler.c:285
 msgid "Show Copy Dialog"
-msgstr ""
+msgstr "Mostrar el diálogo de la operación de copia"
 
 #: /home/am/dev/marlin5/marlin/po/../src/marlin-progress-ui-handler.c:297
 msgid "Cancel All In-progress Actions"
-msgstr ""
+msgstr "Cancelar todas las acciones en progreso"
 
 #: /home/am/dev/marlin5/marlin/po/../src/marlin-progress-ui-handler.c:482
 msgid "All file operations have been successfully completed"
@@ -1854,11 +1854,11 @@ msgstr[1] "Rehacer cambio de propietario de los elementos %d"
 
 #: /home/am/dev/marlin5/marlin/po/../libcore/eel-fcts.c:81
 msgid "Today at %-I:%M %p"
-msgstr ""
+msgstr "Hoy a las %-I:%M %p"
 
 #: /home/am/dev/marlin5/marlin/po/../libcore/eel-fcts.c:85
 msgid "Yesterday at %-I:%M %p"
-msgstr ""
+msgstr "Ayer a las %-I:%M %p"
 
 #: /home/am/dev/marlin5/marlin/po/../libcore/eel-fcts.c:89
 msgid "%a %-d %b %Y at %-I:%M %p"
@@ -1901,16 +1901,16 @@ msgstr "Ir a %s"
 
 #: /home/am/dev/marlin5/marlin/po/../src/View/Chrome/ViewSwicher.vala:78
 msgid "View as icons"
-msgstr ""
+msgstr "Ver como iconos"
 
 #: /home/am/dev/marlin5/marlin/po/../src/View/Chrome/ViewSwicher.vala:81
 msgid "View as list"
-msgstr ""
+msgstr "Ver como lista"
 
 #: /home/am/dev/marlin5/marlin/po/../src/View/Chrome/ViewSwicher.vala:84
 msgid "View as compact list"
-msgstr ""
+msgstr "Ver como lista compacta"
 
 #: /home/am/dev/marlin5/marlin/po/../src/View/Chrome/ViewSwicher.vala:87
 msgid "View as column"
-msgstr ""
+msgstr "Ver como columna"
