@@ -53,6 +53,7 @@ namespace Marlin.View {
 
             //cancellable = new Cancellable ();
 
+            get_style_context ().add_class ("floating-bar");
             set_default_style ();
 
             window.selection_changed.connect (update);
@@ -82,17 +83,43 @@ namespace Marlin.View {
         {
             var provider = new Gtk.CssProvider();
             try {
-                provider.load_from_data ("""MarlinViewOverlayBar {
-                                         background-color: #cecfcd;
-                                         border-radius: 2px 2px 0px 0px;
-                                         border-style: solid;
-                                         border-width: 1px;
-                                         border-color: darker (#cecfcd);
-                                         border-bottom-color: @transparent;
-                                         
-                                         -unico-border-gradient: none;
-                                         }""", -1);
+                provider.load_from_data (""".floating-bar {
+                                            background-color: #cecfcd;
+                                            border-radius: 3px;
+                                            border-style: solid;
+                                            border-width: 1px;
+                                            border-color: darker (#cecfcd);
+                                         }
 
+                                         .floating-bar.left {
+                                            border-left-width: 0;
+                                            border-top-left-radius: 0;
+                                            border-bottom-left-radius: 0;
+                                         }
+
+                                         .floating-bar.right {
+                                            border-right-width: 0;
+                                            border-top-right-radius: 0;
+                                            border-bottom-right-radius: 0;
+                                         }
+
+                                         .floating-bar.bottom {
+                                            border-bottom-width: 0;
+                                            border-bottom-right-radius: 0;
+                                            border-bottom-left-radius: 0;
+                                         }
+
+                                         .floating-bar.top {
+                                            border-top-width: 0;
+                                            border-top-right-radius: 0;
+                                            border-top-left-radius: 0;
+                                         }
+
+                                         .floating-bar:backdrop {
+                                            background-color: transparent;
+                                            background-image: none;
+                                         }
+                                         """, -1);
                 get_style_context ().add_provider (provider, 600);
             } catch (Error e) {
                 stderr.printf("Error style context add_provider: %s\n", e.message);
