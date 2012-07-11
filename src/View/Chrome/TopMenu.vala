@@ -28,7 +28,7 @@ namespace Marlin.View.Chrome
         public ViewSwitcher? view_switcher;
         public Gtk.Menu compact_menu;
         public Gtk.Menu toolbar_menu;
-        public Varka.Widgets.AppMenu app_menu;
+        public Varka.Widgets.ToolButtonWithMenu app_menu;
         public LocationBar? location_bar;
         public Window win;
 
@@ -43,7 +43,8 @@ namespace Marlin.View.Chrome
             compact_menu = (Gtk.Menu) win.ui.get_widget("/CompactMenu");
             toolbar_menu = (Gtk.Menu) win.ui.get_widget("/ToolbarMenu");
 
-            app_menu = new Varka.Widgets.AppMenu (compact_menu);
+            app_menu = new Varka.Widgets.ToolButtonWithMenu (new Image.from_icon_name ("emblem-system-symbolic", IconSize.MENU), 
+                                                             null, _("Menu"), compact_menu);
             setup_items();
             show();
             
