@@ -8,15 +8,15 @@ msgstr ""
 "Project-Id-Version: marlin\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-07-05 16:10+0200\n"
-"PO-Revision-Date: 2012-05-31 11:43+0000\n"
-"Last-Translator: TheGhost <Unknown>\n"
+"PO-Revision-Date: 2012-07-10 13:51+0000\n"
+"Last-Translator: brainpower <brainpower@gulli.com>\n"
 "Language-Team: German <de@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2012-07-06 05:08+0000\n"
-"X-Generator: Launchpad (build 15558)\n"
+"X-Launchpad-Export-Date: 2012-07-11 05:23+0000\n"
+"X-Generator: Launchpad (build 15593)\n"
 "Language: de\n"
 
 #: /home/am/dev/marlin5/marlin/po/../src/View/PropertiesWindow.vala:60
@@ -650,11 +650,11 @@ msgstr[1] "%'d aktive Dateioperationen"
 
 #: /home/am/dev/marlin5/marlin/po/../src/marlin-progress-ui-handler.c:285
 msgid "Show Copy Dialog"
-msgstr ""
+msgstr "Kopieren-Dialog anzeigen"
 
 #: /home/am/dev/marlin5/marlin/po/../src/marlin-progress-ui-handler.c:297
 msgid "Cancel All In-progress Actions"
-msgstr ""
+msgstr "Alle laufenden Aktionen abbrechen"
 
 #: /home/am/dev/marlin5/marlin/po/../src/marlin-progress-ui-handler.c:482
 msgid "All file operations have been successfully completed"
@@ -1918,16 +1918,16 @@ msgstr "Gehe zu %s"
 
 #: /home/am/dev/marlin5/marlin/po/../src/View/Chrome/ViewSwicher.vala:78
 msgid "View as icons"
-msgstr ""
+msgstr "Als Icons anzeigen"
 
 #: /home/am/dev/marlin5/marlin/po/../src/View/Chrome/ViewSwicher.vala:81
 msgid "View as list"
-msgstr ""
+msgstr "Als Liste anzeigen"
 
 #: /home/am/dev/marlin5/marlin/po/../src/View/Chrome/ViewSwicher.vala:84
 msgid "View as compact list"
-msgstr ""
+msgstr "Als kompakte Liste anzeigen"
 
 #: /home/am/dev/marlin5/marlin/po/../src/View/Chrome/ViewSwicher.vala:87
 msgid "View as column"
-msgstr ""
+msgstr "Als Spalten anzeigen"
