@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: marlin\n"
 "Report-Msgid-Bugs-To: gogo <trebelnik2@gmail.com>\n"
 "POT-Creation-Date: 2012-07-05 16:10+0200\n"
-"PO-Revision-Date: 2012-06-14 10:45+0000\n"
+"PO-Revision-Date: 2012-07-11 06:51+0000\n"
 "Last-Translator: gogo <trebelnik2@gmail.com>\n"
 "Language-Team: Croatian <hr@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -16,8 +16,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Launchpad-Export-Date: 2012-07-06 05:09+0000\n"
-"X-Generator: Launchpad (build 15558)\n"
+"X-Launchpad-Export-Date: 2012-07-12 04:59+0000\n"
+"X-Generator: Launchpad (build 15593)\n"
 
 #: /home/am/dev/marlin5/marlin/po/../src/View/PropertiesWindow.vala:60
 msgid "Properties"
@@ -652,11 +652,11 @@ msgstr[2] "%'d radnja nad datotekama  se izvodi"
 
 #: /home/am/dev/marlin5/marlin/po/../src/marlin-progress-ui-handler.c:285
 msgid "Show Copy Dialog"
-msgstr ""
+msgstr "Prikaži dijalog kopiranja"
 
 #: /home/am/dev/marlin5/marlin/po/../src/marlin-progress-ui-handler.c:297
 msgid "Cancel All In-progress Actions"
-msgstr ""
+msgstr "Otkaži sve radnje u tijeku"
 
 #: /home/am/dev/marlin5/marlin/po/../src/marlin-progress-ui-handler.c:482
 msgid "All file operations have been successfully completed"
@@ -1883,15 +1883,15 @@ msgstr[2] "Ponovi promjenu vlasnika za %d stavki"
 
 #: /home/am/dev/marlin5/marlin/po/../libcore/eel-fcts.c:81
 msgid "Today at %-I:%M %p"
-msgstr ""
+msgstr "Danas u %-I:%M %p"
 
 #: /home/am/dev/marlin5/marlin/po/../libcore/eel-fcts.c:85
 msgid "Yesterday at %-I:%M %p"
-msgstr ""
+msgstr "Jučer u %-I:%M %p"
 
 #: /home/am/dev/marlin5/marlin/po/../libcore/eel-fcts.c:89
 msgid "%a %-d %b %Y at %-I:%M %p"
-msgstr ""
+msgstr "%a %-d %b %Y u %-I:%M %p"
 
 #: /home/am/dev/marlin5/marlin/po/../libcore/gof-file.c:252
 #, c-format

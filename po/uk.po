@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: marlin\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-07-05 16:10+0200\n"
-"PO-Revision-Date: 2012-05-24 02:51+0000\n"
-"Last-Translator: ammonkey <am.monkeyd@gmail.com>\n"
+"PO-Revision-Date: 2012-07-11 11:07+0000\n"
+"Last-Translator: Ihor Romanyshyn <iromanyshyn@facebook.com>\n"
 "Language-Team: Ukrainian <uk@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Launchpad-Export-Date: 2012-07-06 05:09+0000\n"
-"X-Generator: Launchpad (build 15558)\n"
+"X-Launchpad-Export-Date: 2012-07-12 04:59+0000\n"
+"X-Generator: Launchpad (build 15593)\n"
 "Language: uk\n"
 
 #: /home/am/dev/marlin5/marlin/po/../src/View/PropertiesWindow.vala:60
@@ -150,19 +150,19 @@ msgstr "Створити папку %s"
 
 #: /home/am/dev/marlin5/marlin/po/../src/View/Window.vala:459
 msgid "Undo"
-msgstr ""
+msgstr "Скасувати"
 
 #: /home/am/dev/marlin5/marlin/po/../src/View/Window.vala:460
 msgid "Undo the last action"
-msgstr ""
+msgstr "Скасувати останню дію"
 
 #: /home/am/dev/marlin5/marlin/po/../src/View/Window.vala:469
 msgid "Redo"
-msgstr ""
+msgstr "Повторити"
 
 #: /home/am/dev/marlin5/marlin/po/../src/View/Window.vala:470
 msgid "Redo the last action"
-msgstr ""
+msgstr "Повторити скасовану дію"
 
 #: /home/am/dev/marlin5/marlin/po/../src/View/SettingsDialog.vala:31
 msgid "Marlin Preferences"
@@ -349,7 +349,7 @@ msgstr "_Доменна назва:"
 
 #: /home/am/dev/marlin5/marlin/po/../src/marlin-connect-server-dialog.c:1095
 msgid "_User name:"
-msgstr ""
+msgstr "_Користувач:"
 
 #: /home/am/dev/marlin5/marlin/po/../src/marlin-connect-server-dialog.c:1110
 msgid "Pass_word:"
@@ -653,11 +653,11 @@ msgstr[2] "Тривають %'d дій над файлом"
 
 #: /home/am/dev/marlin5/marlin/po/../src/marlin-progress-ui-handler.c:285
 msgid "Show Copy Dialog"
-msgstr ""
+msgstr "Відобразити діалог копіювання"
 
 #: /home/am/dev/marlin5/marlin/po/../src/marlin-progress-ui-handler.c:297
 msgid "Cancel All In-progress Actions"
-msgstr ""
+msgstr "Скасувати всі активні дії"
 
 #: /home/am/dev/marlin5/marlin/po/../src/marlin-progress-ui-handler.c:482
 msgid "All file operations have been successfully completed"
@@ -1334,20 +1334,20 @@ msgstr "Помилка при створенні файлу %B."
 #: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:6217
 #, c-format
 msgid "There was an error creating the directory in %F."
-msgstr ""
+msgstr "Помилка при створенні каталогу в %F."
 
 #: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:6534
 msgid "Emptying Trash"
-msgstr ""
+msgstr "Очищення смітника"
 
 #: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-utilities.c:119
 #, c-format
 msgid "Could not determine original location of \"%s\" "
-msgstr ""
+msgstr "Не вдається визначити початкове розташування \"%s\" "
 
 #: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-utilities.c:122
 msgid "The item cannot be restored from trash"
-msgstr ""
+msgstr "Елемент неможливо відновити зі смітника."
 
 #: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:146
 #: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:361
@@ -1361,6 +1361,8 @@ msgid ""
 "Merging will ask for confirmation before replacing any files in the folder "
 "that conflict with the files being copied."
 msgstr ""
+"Об'єднання вимагає підтвердження перед заміщенням будь-яких файлів у теці, "
+"яка конфліктує з копійованими файлами."
 
 #: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:155
 #: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:369
@@ -1412,31 +1414,31 @@ msgstr "При заміні вміст буде перезаписано."
 #: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:397
 #, c-format
 msgid "An older file with the same name already exists in \"%s\"."
-msgstr ""
+msgstr "Старіший файл з такою ж назвою вже існує в «%s»."
 
 #: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:187
 #: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:401
 #, c-format
 msgid "A newer file with the same name already exists in \"%s\"."
-msgstr ""
+msgstr "Новіший файл з такою ж назвою вже існує в «%s»."
 
 #: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:191
 #: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:405
 #, c-format
 msgid "Another file with the same name already exists in \"%s\"."
-msgstr ""
+msgstr "Інший файл з такою ж назвою вже існує в «%s»."
 
 #: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:253
 #: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:460
 msgid "Original file"
-msgstr ""
+msgstr "Початковий файл"
 
 #: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:254
 #: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:285
 #: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:461
 #: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:482
 msgid "Size:"
-msgstr ""
+msgstr "Розмір:"
 
 #: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:257
 #: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:288
@@ -1464,27 +1466,27 @@ msgstr "Об’єднати"
 
 #: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:700
 msgid "_Select a new name for the destination"
-msgstr ""
+msgstr "_Введіть нову назву для призначення"
 
 #: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:714
 msgid "Reset"
-msgstr ""
+msgstr "Скинути"
 
 #: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:726
 msgid "Apply this action to all files"
-msgstr ""
+msgstr "Застосувати дію до усіх файлів"
 
 #: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:742
 msgid "Re_name"
-msgstr ""
+msgstr "Перей_менувати"
 
 #: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:748
 msgid "Replace"
-msgstr ""
+msgstr "Замінити"
 
 #: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:821
 msgid "File conflict"
-msgstr ""
+msgstr "Конфлікт файлів"
 
 #: /home/am/dev/marlin5/marlin/po/../libcore/eel-stock-dialogs.c:35
 msgid "Show more _details"
@@ -1500,12 +1502,12 @@ msgstr ""
 #: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1246
 #, c-format
 msgid "Delete '%s'"
-msgstr ""
+msgstr "Вилучити «%s»"
 
 #: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1212
 #, c-format
 msgid "Delete %d duplicated items"
-msgstr ""
+msgstr "Видалити %d продубльованих"
 
 #: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1223
 #, c-format
@@ -1515,13 +1517,13 @@ msgstr ""
 #: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1227
 #, c-format
 msgid "Move '%s' back to '%s'"
-msgstr ""
+msgstr "Перемістити «%s» назад у «%s»"
 
 #: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1236
 #: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1403
 #, c-format
 msgid "Rename '%s' as '%s'"
-msgstr ""
+msgstr "Перейменувати «%s» на «%s»"
 
 #: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1255
 #: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1450
@@ -1542,7 +1544,7 @@ msgstr ""
 #: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1277
 #, c-format
 msgid "Move '%s' back to trash"
-msgstr ""
+msgstr "Перемістити «%s» назад у смітник"
 
 #: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1286
 #, c-format
@@ -1552,27 +1554,27 @@ msgstr ""
 #: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1289
 #, c-format
 msgid "Delete link to '%s'"
-msgstr ""
+msgstr "Вилучити посилання на «%s»"
 
 #: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1299
 #, c-format
 msgid "Restore original permissions of items enclosed in '%s'"
-msgstr ""
+msgstr "Відновити початкові права на об'єкти у «%s»"
 
 #: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1307
 #, c-format
 msgid "Restore original permissions of '%s'"
-msgstr ""
+msgstr "Відновити початкові права на «%s»"
 
 #: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1316
 #, c-format
 msgid "Restore group of '%s' to '%s'"
-msgstr ""
+msgstr "Відновити групу «%s» на «%s»"
 
 #: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1326
 #, c-format
 msgid "Restore owner of '%s' to '%s'"
-msgstr ""
+msgstr "Відновити власника «%s» на «%s»"
 
 #: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1365
 #, c-format
@@ -1592,7 +1594,7 @@ msgstr ""
 #: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1382
 #, c-format
 msgid "Duplicate '%s' in '%s'"
-msgstr ""
+msgstr "Дублювати «%s» у «%s»"
 
 #: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1390
 #, c-format
@@ -1607,7 +1609,7 @@ msgstr ""
 #: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1412
 #, c-format
 msgid "Create new file '%s' from template "
-msgstr ""
+msgstr "Створити новий файл «%s» зі шаблону "
 
 #: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1419
 #, c-format
@@ -1632,7 +1634,7 @@ msgstr ""
 #: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1453
 #, c-format
 msgid "Restore '%s' from trash"
-msgstr ""
+msgstr "Відновити «%s» зі смітника"
 
 #: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1462
 #, c-format
@@ -1652,17 +1654,17 @@ msgstr ""
 #: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1482
 #, c-format
 msgid "Set permissions of '%s'"
-msgstr ""
+msgstr "Вказати права на «%s»"
 
 #: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1491
 #, c-format
 msgid "Set group of '%s' to '%s'"
-msgstr ""
+msgstr "Вказати групу «%s» на «%s»"
 
 #: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1501
 #, c-format
 msgid "Set owner of '%s' to '%s'"
-msgstr ""
+msgstr "Вказати власника «%s» на «%s»"
 
 #: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1533
 #, c-format
