@@ -8,15 +8,15 @@ msgstr ""
 "Project-Id-Version: marlin\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2012-07-05 16:10+0200\n"
-"PO-Revision-Date: 2012-07-23 09:51+0000\n"
-"Last-Translator: Irmak Bıçakçıgil <Unknown>\n"
+"PO-Revision-Date: 2012-07-26 06:15+0000\n"
+"Last-Translator: abdulkadir <Unknown>\n"
 "Language-Team: Turkish <tr@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Launchpad-Export-Date: 2012-07-24 05:05+0000\n"
-"X-Generator: Launchpad (build 15668)\n"
+"X-Launchpad-Export-Date: 2012-07-27 05:27+0000\n"
+"X-Generator: Launchpad (build 15694)\n"
 
 #: /home/am/dev/marlin5/marlin/po/../src/View/PropertiesWindow.vala:60
 msgid "Properties"
@@ -647,7 +647,7 @@ msgstr[0] "%'d dosya işlemi etkin"
 
 #: /home/am/dev/marlin5/marlin/po/../src/marlin-progress-ui-handler.c:285
 msgid "Show Copy Dialog"
-msgstr ""
+msgstr "Kopyalama Kutusunu Göster"
 
 #: /home/am/dev/marlin5/marlin/po/../src/marlin-progress-ui-handler.c:297
 msgid "Cancel All In-progress Actions"
@@ -1788,11 +1788,11 @@ msgstr[0] "%d öğe sahibinin değiştirilmesini yinele"
 
 #: /home/am/dev/marlin5/marlin/po/../libcore/eel-fcts.c:81
 msgid "Today at %-I:%M %p"
-msgstr ""
+msgstr "Bügün %-I:%M %p"
 
 #: /home/am/dev/marlin5/marlin/po/../libcore/eel-fcts.c:85
 msgid "Yesterday at %-I:%M %p"
-msgstr ""
+msgstr "Dün %-I:%M %p"
 
 #: /home/am/dev/marlin5/marlin/po/../libcore/eel-fcts.c:89
 msgid "%a %-d %b %Y at %-I:%M %p"
