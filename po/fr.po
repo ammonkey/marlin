@@ -8,15 +8,15 @@ msgstr ""
 "Project-Id-Version: marlin 0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-07-05 16:10+0200\n"
-"PO-Revision-Date: 2012-05-24 21:33+0000\n"
-"Last-Translator: Gaylord <longuetgaylord@gmail.com>\n"
+"PO-Revision-Date: 2012-07-31 03:48+0000\n"
+"Last-Translator: ammonkey <am.monkeyd@gmail.com>\n"
 "Language-Team: Fr <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Launchpad-Export-Date: 2012-07-06 05:08+0000\n"
-"X-Generator: Launchpad (build 15558)\n"
+"X-Launchpad-Export-Date: 2012-07-31 05:11+0000\n"
+"X-Generator: Launchpad (build 15702)\n"
 "Language: \n"
 "X-Poedit-SourceCharset: utf-8\n"
 
@@ -84,7 +84,7 @@ msgstr "Ouvrir avec"
 
 #: /home/am/dev/marlin5/marlin/po/../src/View/PropertiesWindow.vala:464
 msgid "Device usage"
-msgstr ""
+msgstr "Utilisation du périphérique"
 
 #: /home/am/dev/marlin5/marlin/po/../src/View/PropertiesWindow.vala:609
 msgid "Read"
@@ -351,7 +351,7 @@ msgstr "Nom de _domaine :"
 
 #: /home/am/dev/marlin5/marlin/po/../src/marlin-connect-server-dialog.c:1095
 msgid "_User name:"
-msgstr ""
+msgstr "Nom d'_utilisateur :"
 
 #: /home/am/dev/marlin5/marlin/po/../src/marlin-connect-server-dialog.c:1110
 msgid "Pass_word:"

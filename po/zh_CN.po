@@ -8,15 +8,15 @@ msgstr ""
 "Project-Id-Version: marlin\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-07-05 16:10+0200\n"
-"PO-Revision-Date: 2012-07-06 16:13+0000\n"
-"Last-Translator: fourbrow <fourbrow@gmail.com>\n"
+"PO-Revision-Date: 2012-07-30 18:34+0000\n"
+"Last-Translator: Y.Sun <Unknown>\n"
 "Language-Team: Chinese (Simplified) <zh_CN@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Launchpad-Export-Date: 2012-07-07 05:25+0000\n"
-"X-Generator: Launchpad (build 15558)\n"
+"X-Launchpad-Export-Date: 2012-07-31 05:11+0000\n"
+"X-Generator: Launchpad (build 15702)\n"
 "Language: \n"
 
 #: /home/am/dev/marlin5/marlin/po/../src/View/PropertiesWindow.vala:60
@@ -42,7 +42,7 @@ msgstr "创建时间"
 #: /home/am/dev/marlin5/marlin/po/../src/View/PropertiesWindow.vala:352
 #: /home/am/dev/marlin5/marlin/po/../src/View/ContextView.vala:344
 msgid "Modified"
-msgstr "已修改"
+msgstr "修改时间"
 
 #: /home/am/dev/marlin5/marlin/po/../src/View/PropertiesWindow.vala:355
 msgid "Last Access"
@@ -83,19 +83,19 @@ msgstr "打开方式"
 
 #: /home/am/dev/marlin5/marlin/po/../src/View/PropertiesWindow.vala:464
 msgid "Device usage"
-msgstr "设备用法"
+msgstr "硬件已使用空间"
 
 #: /home/am/dev/marlin5/marlin/po/../src/View/PropertiesWindow.vala:609
 msgid "Read"
-msgstr "读取"
+msgstr "可读"
 
 #: /home/am/dev/marlin5/marlin/po/../src/View/PropertiesWindow.vala:614
 msgid "Write"
-msgstr "写入"
+msgstr "可写"
 
 #: /home/am/dev/marlin5/marlin/po/../src/View/PropertiesWindow.vala:619
 msgid "Execute"
-msgstr "执行"
+msgstr "可执行文件"
 
 #: /home/am/dev/marlin5/marlin/po/../src/View/PropertiesWindow.vala:837
 #: /home/am/dev/marlin5/marlin/po/../src/View/PropertiesWindow.vala:850
