@@ -8,35 +8,35 @@ msgstr ""
 "Project-Id-Version: marlin\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2012-07-05 16:10+0200\n"
-"PO-Revision-Date: 2011-08-31 02:30+0000\n"
-"Last-Translator: DaashAli <ali.sarchami@gmail.com>\n"
+"PO-Revision-Date: 2012-07-31 11:14+0000\n"
+"Last-Translator: Shahverdy <shahverdy.m@gmail.com>\n"
 "Language-Team: Persian <fa@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Launchpad-Export-Date: 2012-07-06 05:09+0000\n"
-"X-Generator: Launchpad (build 15558)\n"
+"X-Launchpad-Export-Date: 2012-08-01 05:00+0000\n"
+"X-Generator: Launchpad (build 15719)\n"
 
 #: /home/am/dev/marlin5/marlin/po/../src/View/PropertiesWindow.vala:60
 msgid "Properties"
-msgstr ""
+msgstr "ویژگی‌ها"
 
 #: /home/am/dev/marlin5/marlin/po/../src/View/PropertiesWindow.vala:111
 msgid "Info"
-msgstr ""
+msgstr "اطلاعات"
 
 #: /home/am/dev/marlin5/marlin/po/../src/View/PropertiesWindow.vala:119
 msgid "Permissions"
-msgstr ""
+msgstr "اجازه‌ها"
 
 #: /home/am/dev/marlin5/marlin/po/../src/View/PropertiesWindow.vala:131
 msgid "Preview"
-msgstr ""
+msgstr "پيش‌نمايش"
 
 #: /home/am/dev/marlin5/marlin/po/../src/View/PropertiesWindow.vala:350
 msgid "Created"
-msgstr ""
+msgstr "ساخته شده"
 
 #: /home/am/dev/marlin5/marlin/po/../src/View/PropertiesWindow.vala:352
 #: /home/am/dev/marlin5/marlin/po/../src/View/ContextView.vala:344
@@ -45,11 +45,11 @@ msgstr "تغییریافته"
 
 #: /home/am/dev/marlin5/marlin/po/../src/View/PropertiesWindow.vala:355
 msgid "Last Access"
-msgstr ""
+msgstr "آخرین دسترسی"
 
 #: /home/am/dev/marlin5/marlin/po/../src/View/PropertiesWindow.vala:361
 msgid "Deleted"
-msgstr ""
+msgstr "حذف شده"
 
 #: /home/am/dev/marlin5/marlin/po/../src/View/PropertiesWindow.vala:366
 msgid "MimeType"
@@ -61,7 +61,7 @@ msgstr ""
 
 #: /home/am/dev/marlin5/marlin/po/../src/View/PropertiesWindow.vala:378
 msgid "Location"
-msgstr ""
+msgstr "مکان"
 
 #: /home/am/dev/marlin5/marlin/po/../src/View/PropertiesWindow.vala:380
 #: /home/am/dev/marlin5/marlin/po/../src/View/ContextView.vala:340
@@ -70,31 +70,31 @@ msgstr "هدف"
 
 #: /home/am/dev/marlin5/marlin/po/../src/View/PropertiesWindow.vala:386
 msgid "Origin Location"
-msgstr ""
+msgstr "مکان اصلی"
 
 #: /home/am/dev/marlin5/marlin/po/../src/View/PropertiesWindow.vala:424
 msgid "Other application..."
-msgstr ""
+msgstr "برنامه‌های دیگر..."
 
 #: /home/am/dev/marlin5/marlin/po/../src/View/PropertiesWindow.vala:448
 msgid "Open with"
-msgstr ""
+msgstr "باز کردن با"
 
 #: /home/am/dev/marlin5/marlin/po/../src/View/PropertiesWindow.vala:464
 msgid "Device usage"
-msgstr ""
+msgstr "کاربرد دستگاه"
 
 #: /home/am/dev/marlin5/marlin/po/../src/View/PropertiesWindow.vala:609
 msgid "Read"
-msgstr ""
+msgstr "خوانده شده"
 
 #: /home/am/dev/marlin5/marlin/po/../src/View/PropertiesWindow.vala:614
 msgid "Write"
-msgstr ""
+msgstr "نوشتن"
 
 #: /home/am/dev/marlin5/marlin/po/../src/View/PropertiesWindow.vala:619
 msgid "Execute"
-msgstr ""
+msgstr "اجرا کردن"
 
 #: /home/am/dev/marlin5/marlin/po/../src/View/PropertiesWindow.vala:837
 #: /home/am/dev/marlin5/marlin/po/../src/View/PropertiesWindow.vala:850
@@ -105,15 +105,15 @@ msgstr "مالک"
 #: /home/am/dev/marlin5/marlin/po/../src/View/PropertiesWindow.vala:842
 #: /home/am/dev/marlin5/marlin/po/../src/View/PropertiesWindow.vala:854
 msgid "Group"
-msgstr ""
+msgstr "دسته"
 
 #: /home/am/dev/marlin5/marlin/po/../src/View/PropertiesWindow.vala:858
 msgid "Everyone"
-msgstr ""
+msgstr "همه"
 
 #: /home/am/dev/marlin5/marlin/po/../src/View/PropertiesWindow.vala:1138
 msgid "Select an aplication to open "
-msgstr ""
+msgstr "انتخاب برنامه برای باز کردن "
 
 #: /home/am/dev/marlin5/marlin/po/../src/View/ContextView.vala:336
 msgid "Name"
@@ -148,23 +148,23 @@ msgstr "ایجاد پوشه %s"
 
 #: /home/am/dev/marlin5/marlin/po/../src/View/Window.vala:459
 msgid "Undo"
-msgstr ""
+msgstr "بازگردانی"
 
 #: /home/am/dev/marlin5/marlin/po/../src/View/Window.vala:460
 msgid "Undo the last action"
-msgstr ""
+msgstr "بازگردانی آخرین عمل"
 
 #: /home/am/dev/marlin5/marlin/po/../src/View/Window.vala:469
 msgid "Redo"
-msgstr ""
+msgstr "انجام دوباره"
 
 #: /home/am/dev/marlin5/marlin/po/../src/View/Window.vala:470
 msgid "Redo the last action"
-msgstr ""
+msgstr "انجام دوباره ی آخرین عمل"
 
 #: /home/am/dev/marlin5/marlin/po/../src/View/SettingsDialog.vala:31
 msgid "Marlin Preferences"
-msgstr ""
+msgstr "تنظیمات مارلین"
 
 #: /home/am/dev/marlin5/marlin/po/../src/View/SettingsDialog.vala:46
 msgid "Single click to open:"
@@ -176,7 +176,7 @@ msgstr "سرعت انتخات خودکار توسط موشواره:"
 
 #: /home/am/dev/marlin5/marlin/po/../src/View/SettingsDialog.vala:72
 msgid "Default File Manager:"
-msgstr ""
+msgstr "برنامه ی پیش فرض مدیریت فایل:"
 
 #: /home/am/dev/marlin5/marlin/po/../src/View/SettingsDialog.vala:81
 msgid "Behavior"
@@ -204,7 +204,7 @@ msgstr "نمایش"
 
 #: /home/am/dev/marlin5/marlin/po/../src/View/SettingsDialog.vala:157
 msgid "Extensions"
-msgstr ""
+msgstr "افزونه‌ها"
 
 #: /home/am/dev/marlin5/marlin/po/../src/View/LocationBar.vala:105
 #: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:370
@@ -232,7 +232,7 @@ msgstr "تک کلیک"
 
 #: /home/am/dev/marlin5/marlin/po/../src/exo-tree-view.c:168
 msgid "Whether the items in the view can be activated with single clicks"
-msgstr ""
+msgstr "آیا پرونده های قابل رویت با تک کلیک فعال شوند یا خیر"
 
 #: /home/am/dev/marlin5/marlin/po/../src/exo-tree-view.c:184
 msgid "Single Click Timeout"
@@ -243,22 +243,24 @@ msgid ""
 "The amount of time after which the item under the mouse cursor will be "
 "selected automatically in single click mode"
 msgstr ""
+"مدت زمانی که در حالت تک کلیک لازم است تا نشانگر ماوس بر روی یک پرونده باشد "
+"تا آن پرونده انتخاب شود"
 
 #: /home/am/dev/marlin5/marlin/po/../src/marlin-connect-server-dialog.c:124
 msgid "SSH"
-msgstr ""
+msgstr "SSH"
 
 #: /home/am/dev/marlin5/marlin/po/../src/marlin-connect-server-dialog.c:127
 msgid "Public FTP"
-msgstr ""
+msgstr "‏FTP همگانی"
 
 #: /home/am/dev/marlin5/marlin/po/../src/marlin-connect-server-dialog.c:129
 msgid "FTP (with login)"
-msgstr ""
+msgstr "‏FTP (با ورود به سیستم)"
 
 #: /home/am/dev/marlin5/marlin/po/../src/marlin-connect-server-dialog.c:132
 msgid "Windows share"
-msgstr ""
+msgstr "اشتراک ویندوزی"
 
 #: /home/am/dev/marlin5/marlin/po/../src/marlin-connect-server-dialog.c:134
 msgid "WebDAV (HTTP)"
@@ -270,113 +272,115 @@ msgstr ""
 
 #: /home/am/dev/marlin5/marlin/po/../src/marlin-connect-server-dialog.c:183
 msgid "Connecting..."
-msgstr ""
+msgstr "درحال اتصال..."
 
 #: /home/am/dev/marlin5/marlin/po/../src/marlin-connect-server-dialog.c:207
 msgid ""
 "Can't load the supported server method list.\n"
 "Please check your gvfs installation."
 msgstr ""
+"نمی‌توان فهرست روش‌های پشتیبانی‌شده کارگزار را بارگیری کرد.\n"
+"لطفا نصب gvfs را بررسی کنید."
 
 #: /home/am/dev/marlin5/marlin/po/../src/marlin-connect-server-dialog.c:285
 #, c-format
 msgid "The folder \"%s\" cannot be opened on \"%s\"."
-msgstr ""
+msgstr "پوشه «%s» نمی‌تواند در «%s» باز شود."
 
 #: /home/am/dev/marlin5/marlin/po/../src/marlin-connect-server-dialog.c:295
 #, c-format
 msgid "The server at \"%s\" cannot be found."
-msgstr ""
+msgstr "کارگزار روی «%s» پیدا نشد."
 
 #: /home/am/dev/marlin5/marlin/po/../src/marlin-connect-server-dialog.c:330
 msgid "Try Again"
-msgstr ""
+msgstr "تلاش دوباره"
 
 #: /home/am/dev/marlin5/marlin/po/../src/marlin-connect-server-dialog.c:395
 msgid "Please verify your user details."
-msgstr ""
+msgstr "لطفا جزییات کاربریتان را بررسی کنید."
 
 #: /home/am/dev/marlin5/marlin/po/../src/marlin-connect-server-dialog.c:425
 msgid "Continue"
-msgstr ""
+msgstr "ادامه"
 
 #: /home/am/dev/marlin5/marlin/po/../src/marlin-connect-server-dialog.c:750
 #: /home/am/dev/marlin5/marlin/po/../src/marlin-connect-server-dialog.c:1140
 msgid "C_onnect"
-msgstr ""
+msgstr "ا_تصال"
 
 #: /home/am/dev/marlin5/marlin/po/../src/marlin-connect-server-dialog.c:875
 msgid "Connect to Server"
-msgstr ""
+msgstr "اتصال به کارگزار"
 
 #: /home/am/dev/marlin5/marlin/po/../src/marlin-connect-server-dialog.c:893
 msgid "Server Details"
-msgstr ""
+msgstr "جزئیات کارگزار"
 
 #: /home/am/dev/marlin5/marlin/po/../src/marlin-connect-server-dialog.c:917
 msgid "_Server:"
-msgstr ""
+msgstr "_کارگزار:"
 
 #: /home/am/dev/marlin5/marlin/po/../src/marlin-connect-server-dialog.c:937
 msgid "_Port:"
-msgstr ""
+msgstr "_درگاه:"
 
 #: /home/am/dev/marlin5/marlin/po/../src/marlin-connect-server-dialog.c:955
 msgid "_Type:"
-msgstr ""
+msgstr "_نوع:"
 
 #: /home/am/dev/marlin5/marlin/po/../src/marlin-connect-server-dialog.c:1024
 msgid "Sh_are:"
-msgstr ""
+msgstr "ا_شتراک:"
 
 #: /home/am/dev/marlin5/marlin/po/../src/marlin-connect-server-dialog.c:1039
 msgid "_Folder:"
-msgstr ""
+msgstr "_پوشه:"
 
 #: /home/am/dev/marlin5/marlin/po/../src/marlin-connect-server-dialog.c:1057
 msgid "User Details"
-msgstr ""
+msgstr "جزئیات کاربر"
 
 #: /home/am/dev/marlin5/marlin/po/../src/marlin-connect-server-dialog.c:1080
 msgid "_Domain name:"
-msgstr ""
+msgstr "_نام دامنه"
 
 #: /home/am/dev/marlin5/marlin/po/../src/marlin-connect-server-dialog.c:1095
 msgid "_User name:"
-msgstr ""
+msgstr "_نام کاربر:"
 
 #: /home/am/dev/marlin5/marlin/po/../src/marlin-connect-server-dialog.c:1110
 msgid "Pass_word:"
-msgstr ""
+msgstr "گذر_واژه:"
 
 #: /home/am/dev/marlin5/marlin/po/../src/marlin-connect-server-dialog.c:1126
 msgid "_Remember this password"
-msgstr ""
+msgstr "_به خاطر سپردن این گذرواژه"
 
 #: /home/am/dev/marlin5/marlin/po/../src/marlin-connect-server-dialog.c:1229
 msgid "Operation cancelled"
-msgstr ""
+msgstr "عملیات لغو شد"
 
 #: /home/am/dev/marlin5/marlin/po/../src/fm-compact-view.c:86
 msgid "Compact directory listing"
-msgstr ""
+msgstr "نمایش فشره ی دایرکتوری"
 
 #: /home/am/dev/marlin5/marlin/po/../src/fm-compact-view.c:87
 msgid "Compact view"
-msgstr ""
+msgstr "نمایش فشرده"
 
 #: /home/am/dev/marlin5/marlin/po/../src/fm-columns-view.c:82
 #: /home/am/dev/marlin5/marlin/po/../src/fm-abstract-icon-view.c:572
 #: /home/am/dev/marlin5/marlin/po/../src/fm-list-view.c:616
 msgid "This folder is empty."
-msgstr ""
+msgstr "این پوشه خالی است."
 
 #: /home/am/dev/marlin5/marlin/po/../src/fm-columns-view.c:186
 #: /home/am/dev/marlin5/marlin/po/../src/fm-abstract-icon-view.c:139
 #: /home/am/dev/marlin5/marlin/po/../src/fm-list-view.c:199
 #, c-format
 msgid "Failed to rename %s to %s"
-msgstr ""
+msgstr "خطا در تغییر نام %s به %s"
 
 #: /home/am/dev/marlin5/marlin/po/../src/marlin-dnd.c:103
 msgid "_Move Here"
@@ -405,11 +409,11 @@ msgstr "اشکال در اجرای فایل \"%s\""
 
 #: /home/am/dev/marlin5/marlin/po/../src/fm-icon-view.c:86
 msgid "Icon directory listing"
-msgstr ""
+msgstr "نمایش آیکونی دایرکتوری"
 
 #: /home/am/dev/marlin5/marlin/po/../src/fm-icon-view.c:87
 msgid "Icon view"
-msgstr ""
+msgstr "نمای آیکونی"
 
 #: /home/am/dev/marlin5/marlin/po/../src/marlin-toolbar-editor.c:445
 msgid "Customize Toolbar"
@@ -594,13 +598,12 @@ msgstr "اشکال در ایجاد پیوند به آدرس \"%s\""
 #, c-format
 msgid "Use \"%s\" to open the selected item"
 msgid_plural "Use \"%s\" to open the selected items"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "استفاده از «%s» برای باز‌کردن مورد انتخاب‌شده"
 
 #: /home/am/dev/marlin5/marlin/po/../src/fm-directory-view.c:1937
 #, c-format
 msgid "_Open With %s"
-msgstr ""
+msgstr "_باز‌کردن با «%s»"
 
 #: /home/am/dev/marlin5/marlin/po/../src/fm-directory-view.c:1959
 #, c-format
@@ -648,7 +651,7 @@ msgstr ""
 
 #: /home/am/dev/marlin5/marlin/po/../src/marlin-progress-ui-handler.c:297
 msgid "Cancel All In-progress Actions"
-msgstr ""
+msgstr "لغو تمام اقدامات در حال کار"
 
 #: /home/am/dev/marlin5/marlin/po/../src/marlin-progress-ui-handler.c:482
 msgid "All file operations have been successfully completed"
