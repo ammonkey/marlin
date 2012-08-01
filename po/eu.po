@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: marlin\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2012-05-24 17:03+0200\n"
+"POT-Creation-Date: 2012-07-05 16:10+0200\n"
 "PO-Revision-Date: 2012-06-24 15:47+0000\n"
 "Last-Translator: Asier Iturralde Sarasola <Unknown>\n"
 "Language-Team: Basque <eu@li.org>\n"
@@ -15,254 +15,230 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2012-06-25 05:23+0000\n"
-"X-Generator: Launchpad (build 15482)\n"
+"X-Launchpad-Export-Date: 2012-07-06 05:08+0000\n"
+"X-Generator: Launchpad (build 15558)\n"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/PropertiesWindow.vala:60
+#: /home/am/dev/marlin5/marlin/po/../src/View/PropertiesWindow.vala:60
 msgid "Properties"
 msgstr "Propietateak"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/PropertiesWindow.vala:112
+#: /home/am/dev/marlin5/marlin/po/../src/View/PropertiesWindow.vala:111
 msgid "Info"
 msgstr "Informazioa"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/PropertiesWindow.vala:120
+#: /home/am/dev/marlin5/marlin/po/../src/View/PropertiesWindow.vala:119
 msgid "Permissions"
 msgstr "Baimenak"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/PropertiesWindow.vala:132
+#: /home/am/dev/marlin5/marlin/po/../src/View/PropertiesWindow.vala:131
 msgid "Preview"
 msgstr "Aurrebista"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/PropertiesWindow.vala:357
+#: /home/am/dev/marlin5/marlin/po/../src/View/PropertiesWindow.vala:350
 msgid "Created"
 msgstr "Sortua"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/PropertiesWindow.vala:359
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/ContextView.vala:324
+#: /home/am/dev/marlin5/marlin/po/../src/View/PropertiesWindow.vala:352
+#: /home/am/dev/marlin5/marlin/po/../src/View/ContextView.vala:344
 msgid "Modified"
 msgstr "Aldatua"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/PropertiesWindow.vala:362
+#: /home/am/dev/marlin5/marlin/po/../src/View/PropertiesWindow.vala:355
 msgid "Last Access"
 msgstr "Azken atzipena"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/PropertiesWindow.vala:368
+#: /home/am/dev/marlin5/marlin/po/../src/View/PropertiesWindow.vala:361
 msgid "Deleted"
 msgstr "Ezabatua"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/PropertiesWindow.vala:373
+#: /home/am/dev/marlin5/marlin/po/../src/View/PropertiesWindow.vala:366
 msgid "MimeType"
 msgstr "Mime mota"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/PropertiesWindow.vala:381
+#: /home/am/dev/marlin5/marlin/po/../src/View/PropertiesWindow.vala:374
 msgid "MimeTypes"
 msgstr "Mime motak"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/PropertiesWindow.vala:385
+#: /home/am/dev/marlin5/marlin/po/../src/View/PropertiesWindow.vala:378
 msgid "Location"
 msgstr "Kokapena"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/PropertiesWindow.vala:387
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/ContextView.vala:320
+#: /home/am/dev/marlin5/marlin/po/../src/View/PropertiesWindow.vala:380
+#: /home/am/dev/marlin5/marlin/po/../src/View/ContextView.vala:340
 msgid "Target"
 msgstr "Helburua"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/PropertiesWindow.vala:393
+#: /home/am/dev/marlin5/marlin/po/../src/View/PropertiesWindow.vala:386
 msgid "Origin Location"
 msgstr "Jatorrizko kokapena"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/PropertiesWindow.vala:431
+#: /home/am/dev/marlin5/marlin/po/../src/View/PropertiesWindow.vala:424
 msgid "Other application..."
 msgstr "Beste aplikazio bat..."
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/PropertiesWindow.vala:455
+#: /home/am/dev/marlin5/marlin/po/../src/View/PropertiesWindow.vala:448
 msgid "Open with"
 msgstr "Ireki honekin"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/PropertiesWindow.vala:471
+#: /home/am/dev/marlin5/marlin/po/../src/View/PropertiesWindow.vala:464
 msgid "Device usage"
 msgstr "Gailuaren erabilera"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/PropertiesWindow.vala:616
+#: /home/am/dev/marlin5/marlin/po/../src/View/PropertiesWindow.vala:609
 msgid "Read"
 msgstr "Irakurri"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/PropertiesWindow.vala:621
+#: /home/am/dev/marlin5/marlin/po/../src/View/PropertiesWindow.vala:614
 msgid "Write"
 msgstr "Idatzi"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/PropertiesWindow.vala:626
+#: /home/am/dev/marlin5/marlin/po/../src/View/PropertiesWindow.vala:619
 msgid "Execute"
 msgstr "Exekutatu"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/PropertiesWindow.vala:844
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/PropertiesWindow.vala:857
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/ContextView.vala:325
+#: /home/am/dev/marlin5/marlin/po/../src/View/PropertiesWindow.vala:837
+#: /home/am/dev/marlin5/marlin/po/../src/View/PropertiesWindow.vala:850
+#: /home/am/dev/marlin5/marlin/po/../src/View/ContextView.vala:345
 msgid "Owner"
 msgstr "Jabea"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/PropertiesWindow.vala:849
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/PropertiesWindow.vala:861
+#: /home/am/dev/marlin5/marlin/po/../src/View/PropertiesWindow.vala:842
+#: /home/am/dev/marlin5/marlin/po/../src/View/PropertiesWindow.vala:854
 msgid "Group"
 msgstr "Taldea"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/PropertiesWindow.vala:865
+#: /home/am/dev/marlin5/marlin/po/../src/View/PropertiesWindow.vala:858
 msgid "Everyone"
 msgstr "Guztiak"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/PropertiesWindow.vala:1117
+#: /home/am/dev/marlin5/marlin/po/../src/View/PropertiesWindow.vala:1138
 msgid "Select an aplication to open "
 msgstr "Hautatu aplikazio bat hau irekitzeko: "
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/ContextView.vala:316
+#: /home/am/dev/marlin5/marlin/po/../src/View/ContextView.vala:336
 msgid "Name"
 msgstr "Izena"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/ContextView.vala:317
+#: /home/am/dev/marlin5/marlin/po/../src/View/ContextView.vala:337
 msgid "Type"
 msgstr "Mota"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/ContextView.vala:322
+#: /home/am/dev/marlin5/marlin/po/../src/View/ContextView.vala:342
 msgid "Size"
 msgstr "Tamaina"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/DirectoryNotFound.vala:72
+#: /home/am/dev/marlin5/marlin/po/../src/View/DirectoryNotFound.vala:72
 #, c-format
 msgid "Folder does not exist"
 msgstr "Karpeta ez da existitzen"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/DirectoryNotFound.vala:75
+#: /home/am/dev/marlin5/marlin/po/../src/View/DirectoryNotFound.vala:75
 #, c-format
 msgid "Marlin can't find the folder %s"
 msgstr "Marlinek ez du %s karpeta aurkitu"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/DirectoryNotFound.vala:80
+#: /home/am/dev/marlin5/marlin/po/../src/View/DirectoryNotFound.vala:80
 msgid "Create"
 msgstr "Sortu"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/DirectoryNotFound.vala:80
+#: /home/am/dev/marlin5/marlin/po/../src/View/DirectoryNotFound.vala:80
 #, c-format
 msgid "Create the folder %s"
 msgstr "Sortu %s karpeta"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/Window.vala:407
+#: /home/am/dev/marlin5/marlin/po/../src/View/Window.vala:459
 msgid "Undo"
 msgstr "Desegin"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/Window.vala:408
+#: /home/am/dev/marlin5/marlin/po/../src/View/Window.vala:460
 msgid "Undo the last action"
 msgstr "Desegin azken ekintza"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/Window.vala:417
+#: /home/am/dev/marlin5/marlin/po/../src/View/Window.vala:469
 msgid "Redo"
 msgstr "Berregin"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/Window.vala:418
+#: /home/am/dev/marlin5/marlin/po/../src/View/Window.vala:470
 msgid "Redo the last action"
 msgstr "Berregin azken ekintza"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/SettingsDialog.vala:31
+#: /home/am/dev/marlin5/marlin/po/../src/View/SettingsDialog.vala:31
 msgid "Marlin Preferences"
 msgstr "Marlin hobespenak"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/SettingsDialog.vala:48
+#: /home/am/dev/marlin5/marlin/po/../src/View/SettingsDialog.vala:46
 msgid "Single click to open:"
 msgstr "Klik batez ireki:"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/SettingsDialog.vala:58
+#: /home/am/dev/marlin5/marlin/po/../src/View/SettingsDialog.vala:56
 msgid "Mouse auto-selection speed:"
 msgstr "Saguaren auto-hautaketa abiadura:"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/SettingsDialog.vala:75
-msgid "Properties Dialog set modal:"
-msgstr "Propietateak elkarrizketa-koadroa ezarri modala:"
-
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/SettingsDialog.vala:86
+#: /home/am/dev/marlin5/marlin/po/../src/View/SettingsDialog.vala:72
 msgid "Default File Manager:"
 msgstr "Fitxategi-kudeatzaile lehenetsia:"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/SettingsDialog.vala:95
+#: /home/am/dev/marlin5/marlin/po/../src/View/SettingsDialog.vala:81
 msgid "Behavior"
 msgstr "Portaera"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/SettingsDialog.vala:102
-msgid "small"
-msgstr "txikia"
-
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/SettingsDialog.vala:103
-msgid "medium"
-msgstr "ertaina"
-
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/SettingsDialog.vala:104
-msgid "large"
-msgstr "handia"
-
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/SettingsDialog.vala:105
-msgid "extra-large"
-msgstr "oso handia"
-
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/SettingsDialog.vala:126
-msgid "Sidebar icon size:"
-msgstr "Alboko barraren ikonoen tamaina:"
-
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/SettingsDialog.vala:137
+#: /home/am/dev/marlin5/marlin/po/../src/View/SettingsDialog.vala:87
 msgid "iso"
 msgstr "iso"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/SettingsDialog.vala:138
+#: /home/am/dev/marlin5/marlin/po/../src/View/SettingsDialog.vala:88
 msgid "locale"
 msgstr "localea"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/SettingsDialog.vala:139
+#: /home/am/dev/marlin5/marlin/po/../src/View/SettingsDialog.vala:89
 msgid "informal"
 msgstr "informala"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/SettingsDialog.vala:146
+#: /home/am/dev/marlin5/marlin/po/../src/View/SettingsDialog.vala:96
 msgid "Date format:"
 msgstr "Dataren formatua:"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/SettingsDialog.vala:154
+#: /home/am/dev/marlin5/marlin/po/../src/View/SettingsDialog.vala:104
 msgid "Display"
 msgstr "Erakutsi"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/SettingsDialog.vala:203
+#: /home/am/dev/marlin5/marlin/po/../src/View/SettingsDialog.vala:157
 msgid "Extensions"
 msgstr "Hedapenak"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/LocationBar.vala:98
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-places-sidebar.c:370
+#: /home/am/dev/marlin5/marlin/po/../src/View/LocationBar.vala:105
+#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:370
 msgid "Trash"
 msgstr "Zakarrontzia"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/LocationBar.vala:99
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-places-sidebar.c:588
+#: /home/am/dev/marlin5/marlin/po/../src/View/LocationBar.vala:106
+#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:588
 msgid "Network"
 msgstr "Sarea"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/ViewContainer.vala:141
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-places-sidebar.c:324
+#: /home/am/dev/marlin5/marlin/po/../src/View/ViewContainer.vala:139
+#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:324
 msgid "Home"
 msgstr "Karpeta nagusia"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/View/ViewContainer.vala:143
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-places-sidebar.c:394
+#: /home/am/dev/marlin5/marlin/po/../src/View/ViewContainer.vala:141
+#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:394
 msgid "File System"
 msgstr "Fitxategi-sistema"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/exo-tree-view.c:167
+#: /home/am/dev/marlin5/marlin/po/../src/exo-tree-view.c:167
 msgid "Single Click"
 msgstr "Klik bakarra"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/exo-tree-view.c:168
+#: /home/am/dev/marlin5/marlin/po/../src/exo-tree-view.c:168
 msgid "Whether the items in the view can be activated with single clicks"
 msgstr "Ikuspegiko elementuak klik bakar batez aktibatu daitezkeen ala ez"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/exo-tree-view.c:184
+#: /home/am/dev/marlin5/marlin/po/../src/exo-tree-view.c:184
 msgid "Single Click Timeout"
 msgstr "Klik bakarraren denbora-muga"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/exo-tree-view.c:185
+#: /home/am/dev/marlin5/marlin/po/../src/exo-tree-view.c:185
 msgid ""
 "The amount of time after which the item under the mouse cursor will be "
 "selected automatically in single click mode"
@@ -270,35 +246,35 @@ msgstr ""
 "Klik bakarreko moduan denbora hau igarotakoan kurtsorearen azpiko elementua "
 "automatikoki hautatuko da"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-connect-server-dialog.c:124
+#: /home/am/dev/marlin5/marlin/po/../src/marlin-connect-server-dialog.c:124
 msgid "SSH"
 msgstr "SSH"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-connect-server-dialog.c:127
+#: /home/am/dev/marlin5/marlin/po/../src/marlin-connect-server-dialog.c:127
 msgid "Public FTP"
 msgstr "FTP publikoa"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-connect-server-dialog.c:129
+#: /home/am/dev/marlin5/marlin/po/../src/marlin-connect-server-dialog.c:129
 msgid "FTP (with login)"
 msgstr "FTP (saioarekin)"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-connect-server-dialog.c:132
+#: /home/am/dev/marlin5/marlin/po/../src/marlin-connect-server-dialog.c:132
 msgid "Windows share"
 msgstr "Windows-ek partekatua"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-connect-server-dialog.c:134
+#: /home/am/dev/marlin5/marlin/po/../src/marlin-connect-server-dialog.c:134
 msgid "WebDAV (HTTP)"
 msgstr "WebDAV (HTTP)"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-connect-server-dialog.c:136
+#: /home/am/dev/marlin5/marlin/po/../src/marlin-connect-server-dialog.c:136
 msgid "Secure WebDAV (HTTPS)"
 msgstr "WebDAV segurua (HTTPS)"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-connect-server-dialog.c:183
+#: /home/am/dev/marlin5/marlin/po/../src/marlin-connect-server-dialog.c:183
 msgid "Connecting..."
 msgstr "Konektatzen..."
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-connect-server-dialog.c:207
+#: /home/am/dev/marlin5/marlin/po/../src/marlin-connect-server-dialog.c:207
 msgid ""
 "Can't load the supported server method list.\n"
 "Please check your gvfs installation."
@@ -306,144 +282,144 @@ msgstr ""
 "Ezin da zerbitzariak onartutako metodoen zerrenda kargatu.\n"
 "Egiaztatu gvfs instalazioa."
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-connect-server-dialog.c:285
+#: /home/am/dev/marlin5/marlin/po/../src/marlin-connect-server-dialog.c:285
 #, c-format
 msgid "The folder \"%s\" cannot be opened on \"%s\"."
 msgstr "Ezin da \"%s\" karpeta \"%s\"(e)n ireki."
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-connect-server-dialog.c:295
+#: /home/am/dev/marlin5/marlin/po/../src/marlin-connect-server-dialog.c:295
 #, c-format
 msgid "The server at \"%s\" cannot be found."
 msgstr "Ezin da \"%s\" ostalariko zerbitzaria aurkitu."
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-connect-server-dialog.c:330
+#: /home/am/dev/marlin5/marlin/po/../src/marlin-connect-server-dialog.c:330
 msgid "Try Again"
 msgstr "Saiatu berriro"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-connect-server-dialog.c:395
+#: /home/am/dev/marlin5/marlin/po/../src/marlin-connect-server-dialog.c:395
 msgid "Please verify your user details."
 msgstr "Egiaztatu zure erabiltzailearen xehetasunak."
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-connect-server-dialog.c:425
+#: /home/am/dev/marlin5/marlin/po/../src/marlin-connect-server-dialog.c:425
 msgid "Continue"
 msgstr "Jarraitu"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-connect-server-dialog.c:750
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-connect-server-dialog.c:1140
+#: /home/am/dev/marlin5/marlin/po/../src/marlin-connect-server-dialog.c:750
+#: /home/am/dev/marlin5/marlin/po/../src/marlin-connect-server-dialog.c:1140
 msgid "C_onnect"
 msgstr "K_onektatu"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-connect-server-dialog.c:875
+#: /home/am/dev/marlin5/marlin/po/../src/marlin-connect-server-dialog.c:875
 msgid "Connect to Server"
 msgstr "Konektatu zerbitzarira"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-connect-server-dialog.c:893
+#: /home/am/dev/marlin5/marlin/po/../src/marlin-connect-server-dialog.c:893
 msgid "Server Details"
 msgstr "Zerbitzariaren xehetasunak"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-connect-server-dialog.c:917
+#: /home/am/dev/marlin5/marlin/po/../src/marlin-connect-server-dialog.c:917
 msgid "_Server:"
 msgstr "_Zerbitzaria:"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-connect-server-dialog.c:937
+#: /home/am/dev/marlin5/marlin/po/../src/marlin-connect-server-dialog.c:937
 msgid "_Port:"
 msgstr "_Ataka:"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-connect-server-dialog.c:955
+#: /home/am/dev/marlin5/marlin/po/../src/marlin-connect-server-dialog.c:955
 msgid "_Type:"
 msgstr "_Mota:"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-connect-server-dialog.c:1024
+#: /home/am/dev/marlin5/marlin/po/../src/marlin-connect-server-dialog.c:1024
 msgid "Sh_are:"
 msgstr "_Partekatu:"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-connect-server-dialog.c:1039
+#: /home/am/dev/marlin5/marlin/po/../src/marlin-connect-server-dialog.c:1039
 msgid "_Folder:"
 msgstr "_Karpeta:"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-connect-server-dialog.c:1057
+#: /home/am/dev/marlin5/marlin/po/../src/marlin-connect-server-dialog.c:1057
 msgid "User Details"
 msgstr "Erabiltzailearen xehetasunak"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-connect-server-dialog.c:1080
+#: /home/am/dev/marlin5/marlin/po/../src/marlin-connect-server-dialog.c:1080
 msgid "_Domain name:"
 msgstr "_Domeinu-izena:"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-connect-server-dialog.c:1095
+#: /home/am/dev/marlin5/marlin/po/../src/marlin-connect-server-dialog.c:1095
 msgid "_User name:"
 msgstr "_Erabiltzaile-izena:"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-connect-server-dialog.c:1110
+#: /home/am/dev/marlin5/marlin/po/../src/marlin-connect-server-dialog.c:1110
 msgid "Pass_word:"
 msgstr "Pasa_hitza:"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-connect-server-dialog.c:1126
+#: /home/am/dev/marlin5/marlin/po/../src/marlin-connect-server-dialog.c:1126
 msgid "_Remember this password"
 msgstr "_Gogoratu pasahitz hau"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-connect-server-dialog.c:1229
+#: /home/am/dev/marlin5/marlin/po/../src/marlin-connect-server-dialog.c:1229
 msgid "Operation cancelled"
 msgstr "Eragiketa bertan behera utzi da"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/fm-compact-view.c:86
+#: /home/am/dev/marlin5/marlin/po/../src/fm-compact-view.c:86
 msgid "Compact directory listing"
 msgstr "Direktorio zerrenda trinkoa"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/fm-compact-view.c:87
+#: /home/am/dev/marlin5/marlin/po/../src/fm-compact-view.c:87
 msgid "Compact view"
 msgstr "Ikuspegi trinkoa"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/fm-columns-view.c:82
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/fm-abstract-icon-view.c:572
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/fm-list-view.c:616
+#: /home/am/dev/marlin5/marlin/po/../src/fm-columns-view.c:82
+#: /home/am/dev/marlin5/marlin/po/../src/fm-abstract-icon-view.c:572
+#: /home/am/dev/marlin5/marlin/po/../src/fm-list-view.c:616
 msgid "This folder is empty."
 msgstr "Karpeta hau hutsik dago."
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/fm-columns-view.c:186
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/fm-abstract-icon-view.c:139
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/fm-list-view.c:199
+#: /home/am/dev/marlin5/marlin/po/../src/fm-columns-view.c:186
+#: /home/am/dev/marlin5/marlin/po/../src/fm-abstract-icon-view.c:139
+#: /home/am/dev/marlin5/marlin/po/../src/fm-list-view.c:199
 #, c-format
 msgid "Failed to rename %s to %s"
 msgstr "Huts egin du %s berrizendatzean %s bezala"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-dnd.c:779
+#: /home/am/dev/marlin5/marlin/po/../src/marlin-dnd.c:103
 msgid "_Move Here"
 msgstr "_Mugitu hona"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-dnd.c:784
+#: /home/am/dev/marlin5/marlin/po/../src/marlin-dnd.c:108
 msgid "_Copy Here"
 msgstr "_Kopiatu hemen"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-dnd.c:789
+#: /home/am/dev/marlin5/marlin/po/../src/marlin-dnd.c:113
 msgid "_Link Here"
 msgstr "_Estekatu hemen"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-dnd.c:794
+#: /home/am/dev/marlin5/marlin/po/../src/marlin-dnd.c:118
 msgid "Set as _Background"
 msgstr "Ezarri _atzeko plano gisa"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-dnd.c:801
+#: /home/am/dev/marlin5/marlin/po/../src/marlin-dnd.c:125
 msgid "Cancel"
 msgstr "Utzi"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-dnd.c:893
+#: /home/am/dev/marlin5/marlin/po/../src/marlin-dnd.c:217
 #, c-format
 msgid "Failed to execute file \"%s\""
 msgstr "Huts \"%s\" fitxategia exekutatzean"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/fm-icon-view.c:86
+#: /home/am/dev/marlin5/marlin/po/../src/fm-icon-view.c:86
 msgid "Icon directory listing"
 msgstr ""
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/fm-icon-view.c:87
+#: /home/am/dev/marlin5/marlin/po/../src/fm-icon-view.c:87
 msgid "Icon view"
 msgstr "Ikono-ikuspegia"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-toolbar-editor.c:445
+#: /home/am/dev/marlin5/marlin/po/../src/marlin-toolbar-editor.c:445
 msgid "Customize Toolbar"
 msgstr "Pertsonalizatu tresna-barra"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-toolbar-editor.c:461
+#: /home/am/dev/marlin5/marlin/po/../src/marlin-toolbar-editor.c:460
 msgid ""
 "Select items to be displayed on the toolbar. Items can be reordered by drag "
 "and drop."
@@ -451,263 +427,255 @@ msgstr ""
 "Hautatu tresna-barran erakutsiko diren elementuak. Elementuak arrastatu eta "
 "jareginez berrantola daitezke."
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-toolbar-editor.c:477
+#: /home/am/dev/marlin5/marlin/po/../src/marlin-toolbar-editor.c:474
 msgid "Available Items"
 msgstr "Elementu erabilgarriak"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-toolbar-editor.c:498
+#: /home/am/dev/marlin5/marlin/po/../src/marlin-toolbar-editor.c:493
 msgid "Displayed Items"
 msgstr "Bistaratutako elementuak"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-places-sidebar.c:310
+#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:310
 msgid "Personal"
 msgstr "Pertsonala"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-places-sidebar.c:315
+#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:315
 msgid "Your common places and bookmarks"
 msgstr "Zure ohiko lekuak eta laster-markak"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-places-sidebar.c:329
+#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:329
 msgid "Open your personal folder"
 msgstr "Ireki karpeta pertsonala"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-places-sidebar.c:372
+#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:372
 msgid "Open the trash"
 msgstr "Ireki zakarrontzia"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-places-sidebar.c:382
+#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:382
 msgid "Devices"
 msgstr "Gailuak"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-places-sidebar.c:387
+#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:387
 msgid "Your local partitions and devices"
 msgstr "Zure partizio lokalak eta gailuak"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-places-sidebar.c:396
+#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:396
 msgid "Open the contents of the File System"
 msgstr "Ireki fitxategi-sistemako edukia"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-places-sidebar.c:455
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-places-sidebar.c:480
+#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:455
+#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:480
 #, c-format
 msgid "Mount and open %s"
 msgstr "Muntatu eta ireki %s"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-places-sidebar.c:593
+#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:593
 msgid "Your network places"
 msgstr "Zure sareko lekuak"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-places-sidebar.c:624
+#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:624
 msgid "Entire network"
 msgstr "Sare osoa"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-places-sidebar.c:626
+#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:626
 msgid "Browse the contents of the network"
 msgstr "Arakatu sareko edukia"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-places-sidebar.c:1610
+#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:1610
 msgid "_Start"
 msgstr "_Abiarazi"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-places-sidebar.c:1611
+#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:1611
 msgid "_Stop"
 msgstr "_Gelditu"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-places-sidebar.c:1616
+#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:1616
 msgid "_Power On"
 msgstr "_Piztu"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-places-sidebar.c:1617
+#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:1617
 msgid "_Safely Remove Drive"
 msgstr "_Kendu unitatea modu seguruan"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-places-sidebar.c:1620
+#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:1620
 msgid "_Connect Drive"
 msgstr "_Konektatu unitatea"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-places-sidebar.c:1621
+#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:1621
 msgid "_Disconnect Drive"
 msgstr "_Deskonektatu unitatea"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-places-sidebar.c:1624
+#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:1624
 msgid "_Start Multi-disk Device"
 msgstr "_Abiatu disko anitzeko gailua"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-places-sidebar.c:1625
+#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:1625
 msgid "_Stop Multi-disk Device"
 msgstr "_Gelditu disko anitzeko gailua"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-places-sidebar.c:1629
+#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:1629
 msgid "_Unlock Drive"
 msgstr "_Desblokeatu unitatea"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-places-sidebar.c:1630
+#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:1630
 msgid "_Lock Drive"
 msgstr "_Blokeatu unitatea"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-places-sidebar.c:1704
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-places-sidebar.c:2251
+#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:1704
+#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:2251
 #, c-format
 msgid "Unable to start %s"
 msgstr "Ezin da %s abiarazi"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-places-sidebar.c:1994
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-places-sidebar.c:2023
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-places-sidebar.c:2052
+#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:1994
+#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:2023
+#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:2052
 #, c-format
 msgid "Unable to eject %s"
 msgstr "Ezin da %s egotzi"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-places-sidebar.c:2197
+#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:2197
 #, c-format
 msgid "Unable to poll %s for media changes"
 msgstr "Ezin da euskarri aldakorren %s berreskuratu"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-places-sidebar.c:2307
+#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:2307
 #, c-format
 msgid "Unable to stop %s"
 msgstr "Ezin da %s gelditu"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-places-sidebar.c:2399
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/fm-directory-view.c:1919
+#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:2399
+#: /home/am/dev/marlin5/marlin/po/../src/fm-directory-view.c:1943
 msgid "_Open"
 msgstr "_Ireki"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-places-sidebar.c:2407
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/fm-directory-view.c:1939
+#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:2407
+#: /home/am/dev/marlin5/marlin/po/../src/fm-directory-view.c:1963
 msgid "Open in New _Tab"
 msgstr "Ireki _fitxa berrian"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-places-sidebar.c:2414
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/fm-directory-view.c:1948
+#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:2414
+#: /home/am/dev/marlin5/marlin/po/../src/fm-directory-view.c:1972
 msgid "Open in New _Window"
 msgstr "Ireki leiho _berrian"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-places-sidebar.c:2423
+#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:2423
 msgid "Remove"
 msgstr "Kendu"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-places-sidebar.c:2432
+#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:2432
 msgid "Rename..."
 msgstr "Berrizendatu..."
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-places-sidebar.c:2444
+#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:2444
 msgid "_Mount"
 msgstr "_Muntatu"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-places-sidebar.c:2451
+#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:2451
 msgid "_Unmount"
 msgstr "_Desmuntatu"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-places-sidebar.c:2458
+#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:2458
 msgid "_Eject"
 msgstr "_Egotzi"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-places-sidebar.c:2466
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:1418
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:2306
+#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:2466
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:1422
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:2310
 msgid "Empty _Trash"
 msgstr "Hustu _zakarrontzia"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-places-sidebar.c:3123
-msgid "Icon Size"
-msgstr "Ikonoen tamaina"
-
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-places-sidebar.c:3124
-msgid "Icon size"
-msgstr "Ikonoen tamaina"
-
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/fm-directory-view.c:1123
+#: /home/am/dev/marlin5/marlin/po/../src/fm-directory-view.c:1147
 msgid "Invalid filename provided by XDS drag site"
 msgstr "XDS arrastatze lekuak emandako fitxategi-izena baliogabea da"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/fm-directory-view.c:1281
+#: /home/am/dev/marlin5/marlin/po/../src/fm-directory-view.c:1305
 #, c-format
 msgid "Failed to create a link for the URL \"%s\""
 msgstr "Huts  \"%s\" URL-rako lotura bat sortzerakoan"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/fm-directory-view.c:1766
+#: /home/am/dev/marlin5/marlin/po/../src/fm-directory-view.c:1790
 #, c-format
 msgid "Use \"%s\" to open the selected item"
 msgid_plural "Use \"%s\" to open the selected items"
 msgstr[0] "Erabili \"%s\" hautatutako elementua irekitzeko"
 msgstr[1] "Erabili \"%s\" hautatutako elementuak irekitzeko"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/fm-directory-view.c:1913
+#: /home/am/dev/marlin5/marlin/po/../src/fm-directory-view.c:1937
 #, c-format
 msgid "_Open With %s"
 msgstr "_Ireki honekin: %s"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/fm-directory-view.c:1935
+#: /home/am/dev/marlin5/marlin/po/../src/fm-directory-view.c:1959
 #, c-format
 msgid "Open in %'d New _Tabs"
 msgstr "Ireki %'d _fitxa berritan"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/fm-directory-view.c:1944
+#: /home/am/dev/marlin5/marlin/po/../src/fm-directory-view.c:1968
 #, c-format
 msgid "Open in %'d New _Windows"
 msgstr "Ireki %'d _leiho berritan"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/fm-directory-view.c:3379
+#: /home/am/dev/marlin5/marlin/po/../src/fm-directory-view.c:3378
 msgid "Set as default"
 msgstr "Ezarri lehenetsi gisa"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/fm-directory-view.c:3602
+#: /home/am/dev/marlin5/marlin/po/../src/fm-directory-view.c:3601
 msgid "Set Color:"
 msgstr "Ezarri kolorea:"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-clipboard-manager.c:369
+#: /home/am/dev/marlin5/marlin/po/../src/marlin-clipboard-manager.c:369
 msgid "There is nothing on the clipboard to paste"
 msgstr "Ez dago itsasteko ezer arbelean"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-progress-ui-handler.c:113
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-progress-ui-handler.c:163
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-progress-ui-handler.c:470
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-progress-ui-handler.c:526
+#: /home/am/dev/marlin5/marlin/po/../src/marlin-progress-ui-handler.c:114
+#: /home/am/dev/marlin5/marlin/po/../src/marlin-progress-ui-handler.c:164
+#: /home/am/dev/marlin5/marlin/po/../src/marlin-progress-ui-handler.c:425
+#: /home/am/dev/marlin5/marlin/po/../src/marlin-progress-ui-handler.c:481
 msgid "File Operations"
 msgstr "Fitxategiaren eragiketak"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-progress-ui-handler.c:122
+#: /home/am/dev/marlin5/marlin/po/../src/marlin-progress-ui-handler.c:123
 msgid "Show Details"
 msgstr "Erakutsi xehetasunak"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-progress-ui-handler.c:157
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-progress-ui-handler.c:179
+#: /home/am/dev/marlin5/marlin/po/../src/marlin-progress-ui-handler.c:158
+#: /home/am/dev/marlin5/marlin/po/../src/marlin-progress-ui-handler.c:180
 #, c-format
 msgid "%'d file operation active"
 msgid_plural "%'d file operations active"
 msgstr[0] "Fitxategien eragiketa %'d aktibo"
 msgstr[1] "Fitxategien %'d eragiketa aktibo"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-progress-ui-handler.c:279
-msgid "Show copy dialog"
-msgstr "Erakutsi kopiaketaren elkarrizketa-koadroa"
+#: /home/am/dev/marlin5/marlin/po/../src/marlin-progress-ui-handler.c:285
+msgid "Show Copy Dialog"
+msgstr ""
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-progress-ui-handler.c:290
-msgid "Cancel all in-progress actions"
-msgstr "Ezeztatu burutzen ari diren ekintza guztiak"
+#: /home/am/dev/marlin5/marlin/po/../src/marlin-progress-ui-handler.c:297
+msgid "Cancel All In-progress Actions"
+msgstr ""
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-progress-ui-handler.c:527
+#: /home/am/dev/marlin5/marlin/po/../src/marlin-progress-ui-handler.c:482
 msgid "All file operations have been successfully completed"
 msgstr "Fitxategien eragiketa guztiak ondo burutu dira"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/eel-editable-label.c:3188
+#: /home/am/dev/marlin5/marlin/po/../src/eel-editable-label.c:3190
 msgid "Select All"
 msgstr "Hautatu dena"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/eel-editable-label.c:3199
+#: /home/am/dev/marlin5/marlin/po/../src/eel-editable-label.c:3201
 msgid "Input Methods"
 msgstr "Sarrera metodoak"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/exo-icon-view.c:887
+#: /home/am/dev/marlin5/marlin/po/../src/exo-icon-view.c:887
 msgid "Layout mode"
 msgstr ""
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/exo-icon-view.c:888
+#: /home/am/dev/marlin5/marlin/po/../src/exo-icon-view.c:888
 msgid "The layout mode"
 msgstr ""
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-application.c:432
+#: /home/am/dev/marlin5/marlin/po/../src/marlin-application.c:436
 msgid ""
 "\n"
 "\n"
@@ -717,129 +685,129 @@ msgstr ""
 "\n"
 "Arakatu fitxategi-sistema fitxategi-kudeatzailearekin"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../src/marlin-application.c:452
+#: /home/am/dev/marlin5/marlin/po/../src/marlin-application.c:456
 msgid "--quit cannot be used with URIs."
 msgstr "--quit ezin da URIekin erabili."
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-progress-info.c:192
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-progress-info.c:210
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-progress-info.c:192
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-progress-info.c:210
 msgid "Preparing"
 msgstr "Prestatzen"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/eel-vfs-extensions.c:72
+#: /home/am/dev/marlin5/marlin/po/../libcore/eel-vfs-extensions.c:72
 msgid " (invalid Unicode)"
 msgstr " (Unicode baliogabea)"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:201
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-conflict-dialog.c:737
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:200
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:737
 msgid "_Skip"
 msgstr "_Saltatu"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:202
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:201
 msgid "S_kip All"
 msgstr "Saltatu _guztiak"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:203
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:202
 msgid "_Retry"
 msgstr "_Saiatu berriro"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:204
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:203
 msgid "Delete _All"
 msgstr "Ezabatu _guztiak"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:205
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:204
 msgid "_Replace"
 msgstr "_Ordeztu"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:206
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:205
 msgid "Replace _All"
 msgstr "Ordeztu _guztiak"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:207
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:206
 msgid "_Merge"
 msgstr "_Batu"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:208
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:207
 msgid "Merge _All"
 msgstr "Batu _guztiak"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:209
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:208
 msgid "Copy _Anyway"
 msgstr "Kopiatu _dena den"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:295
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:294
 #, c-format
 msgid "%'d second"
 msgid_plural "%'d seconds"
 msgstr[0] "Segundo %'d"
 msgstr[1] "%'d segundo"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:300
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:311
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:299
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:310
 #, c-format
 msgid "%'d minute"
 msgid_plural "%'d minutes"
 msgstr[0] "Minutu %'d"
 msgstr[1] "%'d minutu"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:310
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:309
 #, c-format
 msgid "%'d hour"
 msgid_plural "%'d hours"
 msgstr[0] "Ordu %'d"
 msgstr[1] "%'d ordu"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:318
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:317
 #, c-format
 msgid "approximately %'d hour"
 msgid_plural "approximately %'d hours"
 msgstr[0] "gutxi gorabehera ordu %'d"
 msgstr[1] "gutxi gorabehera %'d ordu"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:394
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:393
 #, c-format
 msgid "Link to %s"
 msgstr "Estekatu hona: %s"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:398
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:397
 #, c-format
 msgid "Another link to %s"
 msgstr "Beste esteka hona: %s"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:414
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:413
 #, c-format
 msgid "%'dst link to %s"
 msgstr "%'d. esteka %s(e)rako"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:418
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:417
 #, c-format
 msgid "%'dnd link to %s"
 msgstr "%'d. esteka %s(e)rako"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:422
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:421
 #, c-format
 msgid "%'drd link to %s"
 msgstr "%'d. esteka %s(e)rako"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:426
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:425
 #, c-format
 msgid "%'dth link to %s"
 msgstr "%'d. esteka %s(e)rako"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:618
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:617
 msgid " ("
 msgstr " ("
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:626
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:625
 #, c-format
 msgid " (%'d"
 msgstr " (%'d"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:1377
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:1381
 msgid "Are you sure you want to permanently delete \"%B\" from the trash?"
 msgstr "Ziur zaude \"%B\" zakarrontzitik behin betiko ezabatu nahi duzula?"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:1380
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:1384
 #, c-format
 msgid ""
 "Are you sure you want to permanently delete the %'d selected item from the "
@@ -854,24 +822,24 @@ msgstr[1] ""
 "Ziur zaude hautatutako %'d elementuak zakarrontzitik betiko ezabatu nahi "
 "dituzula?"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:1390
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:1458
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:1394
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:1462
 msgid "If you delete an item, it will be permanently lost."
 msgstr "Elementu bat ezabatzen baduzu, betirako galduko duzu."
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:1411
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:1415
 msgid "Empty all items from Trash?"
 msgstr "Zakarrontziko elementu guztiak ezabatu?"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:1415
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:1419
 msgid "All items in the Trash will be permanently deleted."
 msgstr "Zakarrontziko elementu guztiak betirako ezabatuko dira."
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:1446
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:1450
 msgid "Are you sure you want to permanently delete \"%B\"?"
 msgstr "Ziur zaude \"%B\" behin betiko ezabatu nahi duzula?"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:1449
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:1453
 #, c-format
 msgid "Are you sure you want to permanently delete the %'d selected item?"
 msgid_plural ""
@@ -880,33 +848,33 @@ msgstr[0] "Ziur zaude hautatutako elementu %'d betiko ezabatu nahi duzula?"
 msgstr[1] ""
 "Ziur zaude hautatutako %'d elementuak betiko ezabatu nahi dituzula?"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:1474
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:1506
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:1478
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:1510
 msgid "Deleting files"
 msgstr "Fitxategiak ezabatzen"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:1500
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:1504
 #, c-format
 msgid "%'d file left to delete"
 msgid_plural "%'d files left to delete"
 msgstr[0] "fitxategi %'d ezabatzeko"
 msgstr[1] "%'d fitxategi ezabatzeko"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:1520
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:1524
 msgid "%T left"
 msgid_plural "%T left"
 msgstr[0] "%T falta da"
 msgstr[1] "%T falta dira"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:1588
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:1622
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:1661
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:1738
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:2569
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:1592
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:1626
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:1665
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:1742
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:2573
 msgid "Error while deleting."
 msgstr "Huts ezabatzean."
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:1592
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:1596
 msgid ""
 "Files in the folder \"%B\" cannot be deleted because you do not have "
 "permissions to see them."
@@ -914,80 +882,80 @@ msgstr ""
 "Ezin dira \"%B\" karpetako fitxategiak ezabatu, hauek ikusteko baimenik ez "
 "duzulako."
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:1595
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:2628
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:3624
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:1599
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:2632
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:3628
 msgid ""
 "There was an error getting information about the files in the folder \"%B\"."
 msgstr ""
 "Errorea gertatu da \"%B\" karpetako fitxategien informazioa eskuratzean."
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:1604
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:3633
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:1608
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:3637
 msgid "_Skip files"
 msgstr "_Saltatu fitxategiak"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:1625
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:1629
 msgid ""
 "The folder \"%B\" cannot be deleted because you do not have permissions to "
 "read it."
 msgstr "Ezin da \"%B\" karpeta ezabatu, irakurtzeko baimenik ez duzulako."
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:1628
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:2667
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:3669
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:1632
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:2671
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:3673
 msgid "There was an error reading the folder \"%B\"."
 msgstr "Huts \"%B\" karpeta irakurtzean."
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:1662
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:1666
 msgid "Could not remove the folder %B."
 msgstr "Ezin izan da %B karpeta ezabatu."
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:1739
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:1743
 msgid "There was an error deleting %B."
 msgstr "Huts %B ezabatzean."
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:1815
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:1827
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:1819
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:1831
 msgid "Moving files to trash"
 msgstr "Fitxategiak zakarrontzira botatzen"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:1829
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:1833
 #, c-format
 msgid "%'d file left to trash"
 msgid_plural "%'d files left to trash"
 msgstr[0] "Fitxategi %'d zakarrontzira botatzeko"
 msgstr[1] "%'d fitxategi zakarrontzira botatzeko"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:1884
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:1888
 msgid "Cannot move file to trash, do you want to delete immediately?"
 msgstr "Ezin da fitxategia zakarrontzira bota, berehala ezabatu nahi duzu?"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:1885
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:1889
 msgid "The file \"%B\" cannot be moved to the trash."
 msgstr "Ezin da \"%B\" fitxategia zakarrontzira bota."
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:2065
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:2069
 msgid "Trashing Files"
 msgstr "Fitxategiak zakarrontzira botatzen"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:2067
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:2071
 msgid "Deleting Files"
 msgstr "Fitxategiak Ezabatzen"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:2139
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:2143
 msgid "Unable to eject %V"
 msgstr "Ezin da %V egotzi"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:2141
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:2145
 msgid "Unable to unmount %V"
 msgstr "Ezin da %V desmuntatu"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:2296
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:2300
 msgid "Do you want to empty the trash before you unmount?"
 msgstr "Nahi duzu zakarrontzia hustutzea desmuntatu aurretik?"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:2298
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:2302
 msgid ""
 "In order to regain the free space on this volume the trash must be emptied. "
 "All trashed items on the volume will be permanently lost."
@@ -995,65 +963,65 @@ msgstr ""
 "Gailuko leku erabilgarria handitzeko asmoz zakarrontzia hustu behar da. "
 "Bolumeneko zakarrontziko elementu guztiak betirako galduko dira."
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:2304
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:2308
 msgid "Do _not Empty Trash"
 msgstr "_Ez hustu zakarrontzia"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:2359
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:2363
 msgid "Emptying the trash"
 msgstr "Zakarrontzia husten"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:2426
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:2430
 #, c-format
 msgid "Unable to mount %s"
 msgstr "Ezin da %s muntatu"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:2504
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:2508
 #, c-format
 msgid "Preparing to copy %'d file (%S)"
 msgid_plural "Preparing to copy %'d files (%S)"
 msgstr[0] "Fitxategi %'d kopiatzeko prestatzen (%S)"
 msgstr[1] "%'d fitxategi kopiatzeko prestatzen (%S)"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:2510
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:2514
 #, c-format
 msgid "Preparing to move %'d file (%S)"
 msgid_plural "Preparing to move %'d files (%S)"
 msgstr[0] "Fitxategi %'d lekuz aldatzeko prestatzen (%S)"
 msgstr[1] "%'d fitxategi lekuz aldatzeko prestatzen (%S)"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:2516
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:2520
 #, c-format
 msgid "Preparing to delete %'d file (%S)"
 msgid_plural "Preparing to delete %'d files (%S)"
 msgstr[0] "Fitxategi %'d ezabatzeko prestatzen (%S)"
 msgstr[1] "%'d fitxategi ezabatzeko prestatzen (%S)"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:2522
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:2526
 #, c-format
 msgid "Preparing to trash %'d file"
 msgid_plural "Preparing to trash %'d files"
 msgstr[0] "Fitxategi %'d zakarrontzira botatzeko prestatzen"
 msgstr[1] "%'d fitxategi zakarrontzira botatzeko prestatzen"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:2565
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:3485
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:3616
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:3661
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:2569
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:3489
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:3620
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:3665
 msgid "Error while copying."
 msgstr "Huts kopiatzean."
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:2567
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:3614
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:3659
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:2571
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:3618
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:3663
 msgid "Error while moving."
 msgstr "Huts lekuz aldatzean."
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:2571
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:2575
 msgid "Error while moving files to trash."
 msgstr "Huts fitxategiak zakarrontzira botatzean."
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:2625
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:2629
 msgid ""
 "Files in the folder \"%B\" cannot be handled because you do not have "
 "permissions to see them."
@@ -1061,42 +1029,42 @@ msgstr ""
 "Ezin dira \"%B\" karpetako fitxategiak kudeatu, hauek ikusteko baimenik ez "
 "duzulako."
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:2664
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:2668
 msgid ""
 "The folder \"%B\" cannot be handled because you do not have permissions to "
 "read it."
 msgstr "Ezin da \"%B\" karpeta kudeatu, irakurtzeko baimenik ez duzulako."
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:2741
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:2745
 msgid ""
 "The file \"%B\" cannot be handled because you do not have permissions to "
 "read it."
 msgstr "Ezin da \"%B\" fitxategia kudeatu, irakurtzeko baimenik ez duzulako."
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:2744
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:2748
 msgid "There was an error getting information about \"%B\"."
 msgstr "Errorea gertatu da \"%B\"(r)en informazioa lortzean."
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:2844
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:2886
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:2919
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:2949
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:2848
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:2890
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:2923
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:2953
 msgid "Error while copying to \"%B\"."
 msgstr "Errorea \"%B\"(e)n kopiatzean."
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:2848
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:2852
 msgid "You do not have permissions to access the destination folder."
 msgstr "Ez duzu helburuko karpeta atzitzeko baimenik."
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:2850
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:2854
 msgid "There was an error getting information about the destination."
 msgstr "Errorea gertatu da helburuaren informazioa lortzean."
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:2887
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:2891
 msgid "The destination is not a folder."
 msgstr "Helburua ez da karpeta bat."
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:2920
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:2924
 msgid ""
 "There is not enough space on the destination. Try to remove files to make "
 "space."
@@ -1104,76 +1072,76 @@ msgstr ""
 "Ez dago nahikoa leku erabilgarri helburuan. Saiatu fitxategiak ezabatzea "
 "lekua egiteko."
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:2922
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:2926
 #, c-format
 msgid "There is %S available, but %S is required."
 msgstr "%S erabilgarri dago, baina %S behar da."
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:2950
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:2954
 msgid "The destination is read-only."
 msgstr "Helburua irakurtzeko soilik da."
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:3011
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:3015
 msgid "Moving \"%B\" to \"%B\""
 msgstr "\"%B\" hona eramaten: \"%B\""
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:3012
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:3016
 msgid "Copying \"%B\" to \"%B\""
 msgstr "\"%B\" hemen kopiatzen: \"%B\""
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:3016
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:3020
 msgid "Duplicating \"%B\""
 msgstr "\"%B\" bikoizten"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:3020
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:3024
 msgid "Moving %'d file (in \"%B\") to \"%B\""
 msgid_plural "Moving %'d files (in \"%B\") to \"%B\""
 msgstr[0] "Fitxategi %'d (\"%B\"(e)koa) \"%B\"(e)ra eramaten"
 msgstr[1] "%'d fitxategi (\"%B\"(e)koak) \"%B\"(e)ra eramaten"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:3023
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:3027
 msgid "Copying %'d file (in \"%B\") to \"%B\""
 msgid_plural "Copying %'d files (in \"%B\") to \"%B\""
 msgstr[0] "Fitxategi %'d (\"%B\"(e)koa) \"%B\"(e)ra kopiatzen"
 msgstr[1] "%'d fitxategi (\"%B\"(e)koak) \"%B\"(e)ra kopiatzen"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:3030
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:3034
 msgid "Duplicating %'d file (in \"%B\")"
 msgid_plural "Duplicating %'d files (in \"%B\")"
 msgstr[0] "Fitxategi %'d (\"%B\"(e)koa) bikoizten"
 msgstr[1] "%'d fitxategi (\"%B\"(e)koak) bikoizten"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:3039
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:3043
 msgid "Moving %'d file to \"%B\""
 msgid_plural "Moving %'d files to \"%B\""
 msgstr[0] "Fitxategi %'d \"%B\"(e)ra eramaten"
 msgstr[1] "%'d fitxategi \"%B\"(e)ra eramaten"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:3043
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:3047
 msgid "Copying %'d file to \"%B\""
 msgid_plural "Copying %'d files to \"%B\""
 msgstr[0] "Fitxategi %'d \"%B\"(e)n kopiatzen"
 msgstr[1] "%'d fitxategi \"%B\"(e)n kopiatzen"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:3048
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:3052
 #, c-format
 msgid "Duplicating %'d file"
 msgid_plural "Duplicating %'d files"
 msgstr[0] "Fitxategi %'d bikoizten"
 msgstr[1] "%'d fitxategi bikoizten"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:3099
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:3103
 #, c-format
 msgid "%S of %S"
 msgstr "%S / %S"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:3110
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:3114
 msgid "%S of %S — %T left (%S/sec)"
 msgid_plural "%S of %S — %T left (%S/sec)"
 msgstr[0] "%S / %S — %T falta (%S/seg)"
 msgstr[1] "%S / %S — %T falta (%S/seg)"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:3489
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:3493
 msgid ""
 "The folder \"%B\" cannot be copied because you do not have permissions to "
 "create it in the destination."
@@ -1181,11 +1149,11 @@ msgstr ""
 "Ezin da \"%B\" karpeta kopiatu, helburuan karpeta hau sortzeko baimenik ez "
 "duzulako."
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:3492
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:3496
 msgid "There was an error creating the folder \"%B\"."
 msgstr "Errorea gertatu da \"%B\" karpeta sortzean."
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:3621
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:3625
 msgid ""
 "Files in the folder \"%B\" cannot be copied because you do not have "
 "permissions to see them."
@@ -1193,176 +1161,176 @@ msgstr ""
 "Ezin dira \"%B\" karpetako fitxategiak kopiatu, hauek ikusteko baimenik ez "
 "duzulako."
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:3666
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:3670
 msgid ""
 "The folder \"%B\" cannot be copied because you do not have permissions to "
 "read it."
 msgstr "Ezin da \"%B\" karpeta kopiatu, irakurtzeko baimenik ez duzulako."
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:3711
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:4412
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:5000
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:3715
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:4416
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:5004
 msgid "Error while moving \"%B\"."
 msgstr "Errorea \"%B\" mugitzean."
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:3712
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:3716
 msgid "Could not remove the source folder."
 msgstr "Ezin izan da iturburuko karpeta ezabatu."
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:3797
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:3838
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:4414
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:4485
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:3801
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:3842
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:4418
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:4489
 msgid "Error while copying \"%B\"."
 msgstr "Errorea \"%B\" kopiatzean."
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:3798
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:3802
 #, c-format
 msgid "Could not remove files from the already existing folder %F."
 msgstr "Ezin izan dira fitxategiak ezabatu existitzen den %F karpetatik."
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:3839
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:3843
 #, c-format
 msgid "Could not remove the already existing file %F."
 msgstr "Ezin izan da existitzen den %F fitxategia kendu."
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:4168
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:4840
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:4172
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:4844
 msgid "You cannot move a folder into itself."
 msgstr "Karpeta bat ezin da karpeta beraren barrura eraman."
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:4169
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:4841
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:4173
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:4845
 msgid "You cannot copy a folder into itself."
 msgstr "Karpeta bat ezin da karpeta beraren barruan kopiatu."
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:4170
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:4842
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:4174
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:4846
 msgid "The destination folder is inside the source folder."
 msgstr "Helburuko karpeta iturburuaren barruan kokatuta dago."
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:4201
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:4205
 msgid "You cannot move a file over itself."
 msgstr "Fitxategi bat ezin da bere burura eraman."
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:4202
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:4206
 msgid "You cannot copy a file over itself."
 msgstr "Fitxategi bat ezin da bere gainean kopiatu."
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:4203
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:4207
 msgid "The source file would be overwritten by the destination."
 msgstr "Iturburuko fitxategia helburukoarekin gainidatziko da."
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:4416
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:4420
 #, c-format
 msgid "Could not remove the already existing file with the same name in %F."
 msgstr ""
 "Ezin izan da existitzen den fitxategia ezabatu (%F(e)n izen berdina duena)."
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:4486
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:4490
 #, c-format
 msgid "There was an error copying the file into %F."
 msgstr "Errorea gertatu da fitxategia %F(e)n kopiatzean."
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:4714
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:4718
 msgid "Copying Files"
 msgstr "Fitxategiak Kopiatzen"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:4740
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:4744
 msgid "Preparing to move to \"%B\""
 msgstr "\"%B\"(e)ra mugitzeko prestatzen"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:4752
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:4756
 #, c-format
 msgid "Preparing to move %'d file"
 msgid_plural "Preparing to move %'d files"
 msgstr[0] "Fitxategi %'d lekuz aldatzeko prestatzen"
 msgstr[1] "%'d fitxategi lekuz aldatzeko prestatzen"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:5001
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:5005
 #, c-format
 msgid "There was an error moving the file into %F."
 msgstr "Errorea gertatu da fitxategia %F(e)ra eramatean."
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:5264
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:5268
 msgid "Moving Files"
 msgstr "Fitxategiak Mugitzen"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:5294
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:5298
 msgid "Creating links in \"%B\""
 msgstr "\"%B\"(e)n estekak sortzen"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:5305
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:5309
 #, c-format
 msgid "Making link to %'d file"
 msgid_plural "Making links to %'d files"
 msgstr[0] "Fitxategi %'derako esteka sortzen"
 msgstr[1] "%'d fitxategietarako estekak sortzen"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:5440
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:5444
 msgid "Error while creating link to %B."
 msgstr "Errorea %B(e)rako esteka sortzean."
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:5442
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:5446
 msgid "Symbolic links only supported for local files"
 msgstr "Lokaleko fitxategien esteka sinbolikoak soilik onartzen dira"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:5445
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:5449
 msgid "The target doesn't support symbolic links."
 msgstr "Helburuak ez du esteka sinbolikorik onartzen."
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:5448
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:5452
 #, c-format
 msgid "There was an error creating the symlink in %F."
 msgstr "Errorea gertatu da esteka sinbolikoa sortzean %F(e)n."
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:5776
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:5779
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:5780
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:5783
 msgid "Setting permissions"
 msgstr "Baimenak ezartzen"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:6030
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:6034
 msgid "untitled folder"
 msgstr "izenik gabeko karpeta"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:6038
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:6042
 msgid "new file"
 msgstr "fitxategi berria"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:6209
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:6213
 msgid "Error while creating directory %B."
 msgstr "Errorea %B direktorioa sortzean."
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:6211
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:6215
 msgid "Error while creating file %B."
 msgstr "Errorea %B fitxategia sortzean."
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:6213
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:6217
 #, c-format
 msgid "There was an error creating the directory in %F."
 msgstr "Errorea gertatu da direktorioa sortzean %F(e)n."
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-operations.c:6530
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:6534
 msgid "Emptying Trash"
 msgstr "Zakarrontzia Husten"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-utilities.c:266
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-utilities.c:119
 #, c-format
 msgid "Could not determine original location of \"%s\" "
 msgstr "Ezin izan da \"%s\"(r)en jatorrizko kokalekua zehaztu "
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-utilities.c:269
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-utilities.c:122
 msgid "The item cannot be restored from trash"
 msgstr "Ezin da elementua zakarrontzitik berreskuratu"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-conflict-dialog.c:146
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-conflict-dialog.c:361
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:146
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:361
 #, c-format
 msgid "Merge folder \"%s\"?"
 msgstr "Batu \"%s\" karpeta?"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-conflict-dialog.c:150
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-conflict-dialog.c:364
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:150
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:364
 msgid ""
 "Merging will ask for confirmation before replacing any files in the folder "
 "that conflict with the files being copied."
@@ -1370,537 +1338,565 @@ msgstr ""
 "Batzean baieztapena eskatuko zaizu kopiatzen ari diren fitxategiekin gatazka "
 "duten karpetako fitxategiak ordeztu aurretik."
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-conflict-dialog.c:155
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-conflict-dialog.c:369
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:155
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:369
 #, c-format
 msgid "An older folder with the same name already exists in \"%s\"."
 msgstr "Badago izen bereko karpeta zaharrago bat \"%s\"(e)n."
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-conflict-dialog.c:159
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-conflict-dialog.c:373
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:159
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:373
 #, c-format
 msgid "A newer folder with the same name already exists in \"%s\"."
 msgstr "Badago izen bereko karpeta berriago bat \"%s\"(e)n."
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-conflict-dialog.c:163
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-conflict-dialog.c:377
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:163
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:377
 #, c-format
 msgid "Another folder with the same name already exists in \"%s\"."
 msgstr "Badago izen bereko beste karpeta bat \"%s\"(e)n."
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-conflict-dialog.c:168
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-conflict-dialog.c:382
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:168
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:382
 msgid "Replacing it will remove all files in the folder."
 msgstr "Hau ordeztean karpetako fitxategi guztiak kenduko dira."
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-conflict-dialog.c:170
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-conflict-dialog.c:384
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:170
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:384
 #, c-format
 msgid "Replace folder \"%s\"?"
 msgstr "Ordeztu \"%s\" karpeta?"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-conflict-dialog.c:172
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-conflict-dialog.c:386
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:172
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:386
 #, c-format
 msgid "A folder with the same name already exists in \"%s\"."
 msgstr "Badago izen bereko karpeta bat \"%s\"(e)n."
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-conflict-dialog.c:177
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-conflict-dialog.c:391
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:177
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:391
 #, c-format
 msgid "Replace file \"%s\"?"
 msgstr "Ordeztu \"%s\" fitxategia?"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-conflict-dialog.c:179
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-conflict-dialog.c:393
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:179
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:393
 msgid "Replacing it will overwrite its content."
 msgstr "Hau ordeztean bere edukia gainidatziko da."
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-conflict-dialog.c:183
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-conflict-dialog.c:397
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:183
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:397
 #, c-format
 msgid "An older file with the same name already exists in \"%s\"."
 msgstr "Badago izen bereko fitxategi zaharrago bat \"%s\"(e)n."
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-conflict-dialog.c:187
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-conflict-dialog.c:401
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:187
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:401
 #, c-format
 msgid "A newer file with the same name already exists in \"%s\"."
 msgstr "Badago izen bereko fitxategi berriago bat \"%s\"(e)n."
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-conflict-dialog.c:191
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-conflict-dialog.c:405
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:191
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:405
 #, c-format
 msgid "Another file with the same name already exists in \"%s\"."
 msgstr "Badago izen bereko beste fitxategi bat \"%s\"(e)n."
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-conflict-dialog.c:253
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-conflict-dialog.c:460
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:253
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:460
 msgid "Original file"
 msgstr "Jatorrizko fitxategia"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-conflict-dialog.c:254
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-conflict-dialog.c:285
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-conflict-dialog.c:461
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-conflict-dialog.c:482
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:254
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:285
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:461
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:482
 msgid "Size:"
 msgstr "Tamaina:"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-conflict-dialog.c:257
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-conflict-dialog.c:288
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-conflict-dialog.c:464
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-conflict-dialog.c:485
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:257
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:288
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:464
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:485
 msgid "Type:"
 msgstr "Mota:"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-conflict-dialog.c:260
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-conflict-dialog.c:291
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-conflict-dialog.c:467
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-conflict-dialog.c:488
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:260
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:291
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:467
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:488
 msgid "Last modified:"
 msgstr "Azken aldaketa:"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-conflict-dialog.c:284
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-conflict-dialog.c:481
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:284
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:481
 msgid "Replace with"
 msgstr "Ordeztu honekin"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-conflict-dialog.c:313
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-conflict-dialog.c:506
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:313
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:506
 msgid "Merge"
 msgstr "Batu"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-conflict-dialog.c:700
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:700
 msgid "_Select a new name for the destination"
 msgstr "_Hautatu helburuaren izen berria"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-conflict-dialog.c:714
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:714
 msgid "Reset"
 msgstr "Berrezarri"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-conflict-dialog.c:726
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:726
 msgid "Apply this action to all files"
 msgstr "Aplikatu ekintza hau fitxategi guztiei"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-conflict-dialog.c:742
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:742
 msgid "Re_name"
 msgstr "Al_datu izena"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-conflict-dialog.c:748
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:748
 msgid "Replace"
 msgstr "Ordeztu"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-file-conflict-dialog.c:821
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:821
 msgid "File conflict"
 msgstr "Fitxategien gatazka"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/eel-stock-dialogs.c:35
+#: /home/am/dev/marlin5/marlin/po/../libcore/eel-stock-dialogs.c:35
 msgid "Show more _details"
 msgstr "Erakutsi _xehetasun gehiago"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1202
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1202
 #, c-format
 msgid "Delete %d copied items"
 msgstr ""
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1205
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1215
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1246
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1205
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1215
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1246
 #, c-format
 msgid "Delete '%s'"
 msgstr ""
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1212
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1212
 #, c-format
 msgid "Delete %d duplicated items"
 msgstr ""
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1223
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1223
 #, c-format
 msgid "Move %d items back to '%s'"
 msgstr ""
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1227
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1227
 #, c-format
 msgid "Move '%s' back to '%s'"
 msgstr ""
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1236
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1403
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1236
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1403
 #, c-format
 msgid "Rename '%s' as '%s'"
 msgstr ""
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1255
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1450
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1255
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1450
 #, c-format
 msgid "Restore %d items from trash"
 msgstr ""
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1263
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1263
 #, c-format
 msgid "Restore '%s' to '%s'"
 msgstr ""
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1274
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1274
 #, c-format
 msgid "Move %d items back to trash"
 msgstr ""
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1277
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1277
 #, c-format
 msgid "Move '%s' back to trash"
 msgstr ""
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1286
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1286
 #, c-format
 msgid "Delete links to %d items"
 msgstr ""
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1289
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1289
 #, c-format
 msgid "Delete link to '%s'"
 msgstr ""
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1299
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1299
 #, c-format
 msgid "Restore original permissions of items enclosed in '%s'"
 msgstr ""
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1307
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1307
 #, c-format
 msgid "Restore original permissions of '%s'"
 msgstr ""
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1316
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1316
 #, c-format
 msgid "Restore group of '%s' to '%s'"
 msgstr ""
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1326
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1326
 #, c-format
 msgid "Restore owner of '%s' to '%s'"
 msgstr ""
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1365
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1365
 #, c-format
 msgid "Copy %d items to '%s'"
 msgstr ""
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1369
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1369
 #, c-format
 msgid "Copy '%s' to '%s'"
 msgstr ""
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1377
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1377
 #, c-format
 msgid "Duplicate of %d items in '%s'"
 msgstr ""
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1382
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1382
 #, c-format
 msgid "Duplicate '%s' in '%s'"
 msgstr ""
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1390
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1390
 #, c-format
 msgid "Move %d items to '%s'"
 msgstr ""
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1394
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1394
 #, c-format
 msgid "Move '%s' to '%s'"
 msgstr ""
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1412
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1412
 #, c-format
 msgid "Create new file '%s' from template "
 msgstr ""
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1419
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1419
 #, c-format
 msgid "Create an empty file '%s'"
 msgstr ""
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1426
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1426
 #, c-format
 msgid "Create a new folder '%s'"
 msgstr ""
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1434
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1434
 #, c-format
 msgid "Move %d items to trash"
 msgstr ""
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1440
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1440
 #, c-format
 msgid "Move '%s' to trash"
 msgstr ""
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1453
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1453
 #, c-format
 msgid "Restore '%s' from trash"
 msgstr ""
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1462
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1462
 #, c-format
 msgid "Create links to %d items"
 msgstr ""
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1465
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1465
 #, c-format
 msgid "Create link to '%s'"
 msgstr ""
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1474
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1474
 #, c-format
 msgid "Set permissions of items enclosed in '%s'"
 msgstr ""
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1482
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1482
 #, c-format
 msgid "Set permissions of '%s'"
 msgstr ""
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1491
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1491
 #, c-format
 msgid "Set group of '%s' to '%s'"
 msgstr ""
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1501
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1501
 #, c-format
 msgid "Set owner of '%s' to '%s'"
 msgstr ""
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1533
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1533
 #, c-format
 msgid "_Undo copy of %d item"
 msgid_plural "_Undo copy of %d items"
 msgstr[0] ""
 msgstr[1] ""
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1538
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1538
 #, c-format
 msgid "_Undo duplicate of %d item"
 msgid_plural "_Undo duplicate of %d items"
 msgstr[0] ""
 msgstr[1] ""
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1543
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1543
 #, c-format
 msgid "_Undo move of %d item"
 msgid_plural "_Undo move of %d items"
 msgstr[0] ""
 msgstr[1] ""
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1548
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1548
 #, c-format
 msgid "_Undo rename of %d item"
 msgid_plural "_Undo rename of %d items"
 msgstr[0] ""
 msgstr[1] ""
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1552
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1552
 msgid "_Undo creation of an empty file"
 msgstr ""
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1555
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1555
 msgid "_Undo creation of a file from template"
 msgstr ""
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1559
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1559
 #, c-format
 msgid "_Undo creation of %d folder"
 msgid_plural "_Undo creation of %d folders"
 msgstr[0] ""
 msgstr[1] ""
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1564
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1564
 #, c-format
 msgid "_Undo move to trash of %d item"
 msgid_plural "_Undo move to trash of %d items"
 msgstr[0] ""
 msgstr[1] ""
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1569
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1569
 #, c-format
 msgid "_Undo restore from trash of %d item"
 msgid_plural "_Undo restore from trash of %d items"
 msgstr[0] ""
 msgstr[1] ""
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1574
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1574
 #, c-format
 msgid "_Undo create link to %d item"
 msgid_plural "_Undo create link to %d items"
 msgstr[0] ""
 msgstr[1] ""
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1579
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1579
 #, c-format
 msgid "_Undo delete of %d item"
 msgid_plural "_Undo delete of %d items"
 msgstr[0] ""
 msgstr[1] ""
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1584
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1584
 #, c-format
 msgid "Undo recursive change permissions of %d item"
 msgid_plural "Undo recursive change permissions of %d items"
 msgstr[0] ""
 msgstr[1] ""
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1590
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1590
 #, c-format
 msgid "Undo change permissions of %d item"
 msgid_plural "Undo change permissions of %d items"
 msgstr[0] ""
 msgstr[1] ""
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1595
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1595
 #, c-format
 msgid "Undo change group of %d item"
 msgid_plural "Undo change group of %d items"
 msgstr[0] ""
 msgstr[1] ""
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1600
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1600
 #, c-format
 msgid "Undo change owner of %d item"
 msgid_plural "Undo change owner of %d items"
 msgstr[0] ""
 msgstr[1] ""
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1628
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1628
 #, c-format
 msgid "_Redo copy of %d item"
 msgid_plural "_Redo copy of %d items"
 msgstr[0] ""
 msgstr[1] ""
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1633
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1633
 #, c-format
 msgid "_Redo duplicate of %d item"
 msgid_plural "_Redo duplicate of %d items"
 msgstr[0] ""
 msgstr[1] ""
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1638
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1638
 #, c-format
 msgid "_Redo move of %d item"
 msgid_plural "_Redo move of %d items"
 msgstr[0] ""
 msgstr[1] ""
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1643
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1643
 #, c-format
 msgid "_Redo rename of %d item"
 msgid_plural "_Redo rename of %d items"
 msgstr[0] ""
 msgstr[1] ""
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1647
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1647
 msgid "_Redo creation of an empty file"
 msgstr ""
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1650
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1650
 msgid "_Redo creation of a file from template"
 msgstr ""
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1654
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1654
 #, c-format
 msgid "_Redo creation of %d folder"
 msgid_plural "_Redo creation of %d folders"
 msgstr[0] ""
 msgstr[1] ""
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1659
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1659
 #, c-format
 msgid "_Redo move to trash of %d item"
 msgid_plural "_Redo move to trash of %d items"
 msgstr[0] ""
 msgstr[1] ""
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1664
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1664
 #, c-format
 msgid "_Redo restore from trash of %d item"
 msgid_plural "_Redo restore from trash of %d items"
 msgstr[0] ""
 msgstr[1] ""
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1669
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1669
 #, c-format
 msgid "_Redo create link to %d item"
 msgid_plural "_Redo create link to %d items"
 msgstr[0] ""
 msgstr[1] ""
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1674
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1674
 #, c-format
 msgid "_Redo delete of %d item"
 msgid_plural "_Redo delete of %d items"
 msgstr[0] ""
 msgstr[1] ""
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1679
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1679
 #, c-format
 msgid "Redo recursive change permissions of %d item"
 msgid_plural "Redo recursive change permissions of %d items"
 msgstr[0] ""
 msgstr[1] ""
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1685
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1685
 #, c-format
 msgid "Redo change permissions of %d item"
 msgid_plural "Redo change permissions of %d items"
 msgstr[0] ""
 msgstr[1] ""
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1690
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1690
 #, c-format
 msgid "Redo change group of %d item"
 msgid_plural "Redo change group of %d items"
 msgstr[0] ""
 msgstr[1] ""
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/marlin-undostack-manager.c:1695
+#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1695
 #, c-format
 msgid "Redo change owner of %d item"
 msgid_plural "Redo change owner of %d items"
 msgstr[0] ""
 msgstr[1] ""
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/gof-file.c:252
+#: /home/am/dev/marlin5/marlin/po/../libcore/eel-fcts.c:81
+msgid "Today at %-I:%M %p"
+msgstr ""
+
+#: /home/am/dev/marlin5/marlin/po/../libcore/eel-fcts.c:85
+msgid "Yesterday at %-I:%M %p"
+msgstr ""
+
+#: /home/am/dev/marlin5/marlin/po/../libcore/eel-fcts.c:89
+msgid "%a %-d %b %Y at %-I:%M %p"
+msgstr ""
+
+#: /home/am/dev/marlin5/marlin/po/../libcore/gof-file.c:252
 #, c-format
 msgid "link to %s"
 msgstr "%s-ra lotura"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/gof-file.c:1698
+#: /home/am/dev/marlin5/marlin/po/../libcore/gof-file.c:1702
 #, c-format
 msgid "Failed to parse the desktop file: %s"
 msgstr "Ezin izan da mahaigain fitxategia aztertu: %s"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/gof-file.c:1736
+#: /home/am/dev/marlin5/marlin/po/../libcore/gof-file.c:1740
 msgid "No Exec field specified"
 msgstr "Ez da Exec eremua zehaztu"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/gof-file.c:1756
+#: /home/am/dev/marlin5/marlin/po/../libcore/gof-file.c:1760
 msgid "No URL field specified"
 msgstr "Ez da URL eremua zehaztu"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/gof-file.c:1762
+#: /home/am/dev/marlin5/marlin/po/../libcore/gof-file.c:1766
 msgid "Invalid desktop file"
 msgstr "Mahaigain fitxategi baliogabea"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/gof-file.c:2052
+#: /home/am/dev/marlin5/marlin/po/../libcore/gof-file.c:2056
 msgid "Slashes are not allowed in filenames"
 msgstr "Barrak ez daude onartuta fitxategi-izenetan"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libcore/gof-file.c:2072
+#: /home/am/dev/marlin5/marlin/po/../libcore/gof-file.c:2076
 msgid "Toplevel files cannot be renamed"
 msgstr "Maila goreneko fitxategiak ezin dira izenez aldatu"
 
-#: /home/kitkat/dev/marlin/merge_pango/marlin-0.5/marlin/po/../libwidgets/LocationBar.vala:722
+#: /home/am/dev/marlin5/marlin/po/../libwidgets/LocationBar.vala:813
 #, c-format
 msgid "Go to %s"
 msgstr "%s-ra joan"
+
+#: /home/am/dev/marlin5/marlin/po/../src/View/Chrome/ViewSwicher.vala:78
+msgid "View as icons"
+msgstr ""
+
+#: /home/am/dev/marlin5/marlin/po/../src/View/Chrome/ViewSwicher.vala:81
+msgid "View as list"
+msgstr ""
+
+#: /home/am/dev/marlin5/marlin/po/../src/View/Chrome/ViewSwicher.vala:84
+msgid "View as compact list"
+msgstr ""
+
+#: /home/am/dev/marlin5/marlin/po/../src/View/Chrome/ViewSwicher.vala:87
+msgid "View as column"
+msgstr ""
