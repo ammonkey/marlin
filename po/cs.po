@@ -8,15 +8,15 @@ msgstr ""
 "Project-Id-Version: marlin\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2012-08-01 22:45+0200\n"
-"PO-Revision-Date: 2012-06-08 09:43+0000\n"
-"Last-Translator: Jakub Cabal <jakubcabal@gmail.com>\n"
+"PO-Revision-Date: 2012-08-04 16:15+0000\n"
+"Last-Translator: Jan Žárský <Unknown>\n"
 "Language-Team: Czech <cs@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Launchpad-Export-Date: 2012-08-02 05:01+0000\n"
-"X-Generator: Launchpad (build 15719)\n"
+"X-Launchpad-Export-Date: 2012-08-05 04:57+0000\n"
+"X-Generator: Launchpad (build 15742)\n"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:60
 msgid "Properties"
@@ -83,7 +83,7 @@ msgstr "Otevřít pomocí"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:463
 msgid "Device usage"
-msgstr ""
+msgstr "Využití zařízení"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:608
 msgid "Read"
@@ -169,27 +169,27 @@ msgstr "Provést znovu poslední úkon"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:672
 msgid "_File"
-msgstr ""
+msgstr "_Soubor"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:673
 msgid "_Edit"
-msgstr ""
+msgstr "_Upravit"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:674
 msgid "_View"
-msgstr ""
+msgstr "_Zobrazit"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:675
 msgid "_Go"
-msgstr ""
+msgstr "_Přejít"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:676
 msgid "_Help"
-msgstr ""
+msgstr "_Nápověda"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:678
 msgid "New _Window"
-msgstr ""
+msgstr "Nové _okno"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:679
 msgid "Open another Marlin window for the displayed location"
@@ -197,7 +197,7 @@ msgstr ""
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:682
 msgid "New _Tab"
-msgstr ""
+msgstr "Nová _karta"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:683
 msgid "Open another tab for the displayed location"
@@ -205,11 +205,11 @@ msgstr ""
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:686
 msgid "_Close"
-msgstr ""
+msgstr "_Zavřít"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:687
 msgid "Close this folder"
-msgstr ""
+msgstr "Zavřít tuto složku"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:690
 msgid "Customize _Toolbar..."
@@ -221,7 +221,7 @@ msgstr ""
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:694
 msgid "Preferences"
-msgstr ""
+msgstr "Předvolby"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:695
 msgid "Change Marlin's preferences"
@@ -229,11 +229,11 @@ msgstr ""
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:700
 msgid "_Undo"
-msgstr ""
+msgstr "_Zpět"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:703
 msgid "_Redo"
-msgstr ""
+msgstr "_Znovu"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:706
 msgid "Open _Parent"
@@ -245,31 +245,31 @@ msgstr ""
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:709
 msgid "_Back"
-msgstr ""
+msgstr "_Zpět"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:710
 msgid "Go to the previous visited location"
-msgstr ""
+msgstr "Jít na předchozí navštívené umístění"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:712
 msgid "_Forward"
-msgstr ""
+msgstr "_Vpřed"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:713
 msgid "Go to the next visited location"
-msgstr ""
+msgstr "Jít na další navštívené umístění"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:715
 msgid "_Reload"
-msgstr ""
+msgstr "_Obnovit"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:716
 msgid "Reload the current location"
-msgstr ""
+msgstr "Obnovit současné umístění"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:719
 msgid "_Home Folder"
-msgstr ""
+msgstr "_Domovská složka"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:720
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:329
@@ -278,7 +278,7 @@ msgstr "Otevřít osobní složku"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:723
 msgid "_Trash"
-msgstr ""
+msgstr "_Koš"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:724
 msgid "Open your personal trash folder"
@@ -286,7 +286,7 @@ msgstr ""
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:727
 msgid "_Network"
-msgstr ""
+msgstr "_Síť"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:728
 msgid "Browse bookmarked and local network locations"
@@ -294,123 +294,123 @@ msgstr ""
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:731
 msgid "Zoom _In"
-msgstr ""
+msgstr "Zvětš_it"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:732
 msgid "Increase the view size"
-msgstr ""
+msgstr "Zvětšit velikost zobrazení"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:743
 msgid "Zoom _Out"
-msgstr ""
+msgstr "_Oddálit"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:744
 msgid "Decrease the view size"
-msgstr ""
+msgstr "Zmenšit velikost zobrazení"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:751
 msgid "Normal Si_ze"
-msgstr ""
+msgstr "Normální _velikost"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:752
 msgid "Use the normal view size"
-msgstr ""
+msgstr "Použít normální velikost zobrazení"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:755
 msgid "Next Tab"
-msgstr ""
+msgstr "Další karta"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:759
 msgid "Previous Tab"
-msgstr ""
+msgstr "Předchozí karta"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:763
 msgid "Connect to _Server..."
-msgstr ""
+msgstr "Připojit k _serveru…"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:764
 msgid "Connect to a remote computer or shared disk"
-msgstr ""
+msgstr "Připojit se ke vzdálenému počítači nebo sdílenému disku"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:767
 msgid "_About"
-msgstr ""
+msgstr "_O aplikaci"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:768
 msgid "Display credits"
-msgstr ""
+msgstr "Ukázat zásluhy"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:771
 msgid "Report a Problem..."
-msgstr ""
+msgstr "Nahlásit problém..."
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:772
 msgid "File a bug on Launchpad"
-msgstr ""
+msgstr "Nahlásit chybu na Launchpad"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:775
 msgid "Get Help Online..."
-msgstr ""
+msgstr "Získat online nápovědu…"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:779
 msgid "Translate This Application..."
-msgstr ""
+msgstr "Přeložit tuto aplikaci..."
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:788
 msgid "Show _Hidden Files"
-msgstr ""
+msgstr "Zobrazit _skryté soubory"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:789
 msgid "Toggle the display of hidden files in the current window"
-msgstr ""
+msgstr "Přepnout zobrazování skrytých souborů v aktuálním okně"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:794
 msgid "Show _Desktop Files"
-msgstr ""
+msgstr "Zobrazit soubory na ploše"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:795
 msgid "Toggle the display of desktop files"
-msgstr ""
+msgstr "Přepnout zobrazení souborů na ploše"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:799
 msgid "_Context Pane"
-msgstr ""
+msgstr "_Kontextový panel"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:800
 msgid "Change the visibility of the context pane"
-msgstr ""
+msgstr "Změnit viditelnost kontextového panelu"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:804
 msgid "_Menubar"
-msgstr ""
+msgstr "_Nabídka"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:805
 msgid "Change the visibility of this window's menubar"
-msgstr ""
+msgstr "Změnit viditelnost nabídky tohoto okna"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:809
 msgid "_Places"
-msgstr ""
+msgstr "_Místa"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:810
 msgid "Change the visibility of this window's side pane"
-msgstr ""
+msgstr "Změnit viditelnost postranního panelu tohoto okna"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:818
 msgid "Icon"
-msgstr ""
+msgstr "Ikona"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:821
 msgid "List"
-msgstr ""
+msgstr "Seznam"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:824
 msgid "Compact"
-msgstr ""
+msgstr "Kompaktní"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:827
 msgid "Columns"
-msgstr ""
+msgstr "Sloupce"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/SettingsDialog.vala:31
 msgid "Marlin Preferences"
@@ -659,51 +659,51 @@ msgstr "Nepodařilo se spustit soubor \"%s\""
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-abstract-icon-view.c:283
 msgid "Arran_ge Items"
-msgstr ""
+msgstr "_Uspořádat položky"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-abstract-icon-view.c:288
 msgid "Re_versed Order"
-msgstr ""
+msgstr "_Opačné pořadí"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-abstract-icon-view.c:289
 msgid "Display icons in the opposite order"
-msgstr ""
+msgstr "Zobrazit ikony v opačném pořadí"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-abstract-icon-view.c:296
 msgid "By _Name"
-msgstr ""
+msgstr "Dle _názvu"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-abstract-icon-view.c:297
 msgid "Keep icons sorted by name in rows"
-msgstr ""
+msgstr "Udržovat ikony seřazené podle názvu v řádcích"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-abstract-icon-view.c:300
 msgid "By _Size"
-msgstr ""
+msgstr "Dle _velikosti"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-abstract-icon-view.c:301
 msgid "Keep icons sorted by size in rows"
-msgstr ""
+msgstr "Udržovat ikony seřazené podle velikosti v řádcích"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-abstract-icon-view.c:304
 msgid "By _Type"
-msgstr ""
+msgstr "Dle _typu"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-abstract-icon-view.c:305
 msgid "Keep icons sorted by type in rows"
-msgstr ""
+msgstr "Udržovat ikony seřazené podle typu v řádcích"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-abstract-icon-view.c:308
 msgid "By Modification _Date"
-msgstr ""
+msgstr "Dle _data změny"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-abstract-icon-view.c:309
 msgid "Keep icons sorted by modification date in rows"
-msgstr ""
+msgstr "Udržovat ikony seřazené podle data změny v řádcích"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-icon-view.c:86
 msgid "Icon directory listing"
-msgstr ""
+msgstr "Ikonové zobrazení složky"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-icon-view.c:87
 msgid "Icon view"
@@ -915,19 +915,21 @@ msgstr "Nastavit jako výchozí"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3427
 msgid "Prepare the selected files to be moved with a Paste command"
-msgstr ""
+msgstr "Připravit vybrané soubory k přesunutí příkazem Vložit"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3431
 msgid "Prepare the selected files to be copied with a Paste command"
-msgstr ""
+msgstr "Připravit vybrané soubory ke kopírování příkazem Vložit"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3435
 msgid "Move or copy files previously selected by a Cut or Copy command"
 msgstr ""
+"Přesunout nebo zkopírovat soubory dříve vybrané příkazem Vyjmout nebo "
+"Kopírovat"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3438
 msgid "Paste Into Folder"
-msgstr ""
+msgstr "Vložit do složky"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3439
 msgid ""
@@ -937,79 +939,79 @@ msgstr ""
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3442
 msgid "_Rename..."
-msgstr ""
+msgstr "_Přejmenovat…"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3443
 msgid "Rename selected item"
-msgstr ""
+msgstr "Přejmenovat vybranou položku"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3446
 msgid "New _Folder"
-msgstr ""
+msgstr "Nová _složka"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3447
 msgid "Create a new empty folder inside this folder"
-msgstr ""
+msgstr "Vytvořit novou prázdnou složku v této složce"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3449
 msgid "New _File"
-msgstr ""
+msgstr "Nový _soubor"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3451
 msgid "_Empty File"
-msgstr ""
+msgstr "_Prázdný soubor"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3452
 msgid "Create a new empty file inside this folder"
-msgstr ""
+msgstr "Vytvořit nový prázdný soubor v této složce"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3456
 msgid "Open the selected item"
-msgstr ""
+msgstr "Otevřít vybranou položku"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3463
 msgid "Open in new Window"
-msgstr ""
+msgstr "Otevřít v novém okně"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3464
 msgid "Open each selected item in a new window"
-msgstr ""
+msgstr "Otevřít každou vybranou položku v novém okně"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3468
 msgid "Open each selected item in a new tab"
-msgstr ""
+msgstr "Otevřít každou vybranou položku v nové kartě"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3470
 msgid "Open Wit_h"
-msgstr ""
+msgstr "Otevřít _s"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3471
 msgid "Choose a program with which to open the selected item"
-msgstr ""
+msgstr "Vyberte, kterým programem otevřít položku"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3473
 msgid "Other _Application..."
-msgstr ""
+msgstr "Jiná _aplikace…"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3474
 msgid "Choose another application with which to open the selected item"
-msgstr ""
+msgstr "Vyberte jinou aplikaci, kterou otevřít položku"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3477
 msgid "Mo_ve to Trash"
-msgstr ""
+msgstr "Pře_sunout do koše"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3478
 msgid "Move each selected item to the Trash"
-msgstr ""
+msgstr "Přesunout všechny vybrané položky do koše"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3481
 msgid "_Delete Permanently"
-msgstr ""
+msgstr "_Trvale smazet"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3482
 msgid "Delete each selected item, without moving to the Trash"
-msgstr ""
+msgstr "Smazet vybrané položky bez přesunutí do koše"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3485
 msgid "_Restore"
@@ -1022,11 +1024,11 @@ msgstr "Vybrat vše"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3493
 msgid "_Properties"
-msgstr ""
+msgstr "_Vlastnosti"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3494
 msgid "View or modify the properties of each selected item"
-msgstr ""
+msgstr "Zobrazit nebo upravit vlastnosti každé vybrané položky"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3601
 msgid "Set Color:"
@@ -1062,7 +1064,7 @@ msgstr ""
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-progress-ui-handler.c:297
 msgid "Cancel All In-progress Actions"
-msgstr ""
+msgstr "Zrušit všechny probíhající akce"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-progress-ui-handler.c:482
 msgid "All file operations have been successfully completed"
@@ -1082,7 +1084,7 @@ msgstr "Mód rozložení"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-application.c:261
 msgid "Show the version of the program."
-msgstr ""
+msgstr "Zobrazit verzi programu."
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-application.c:263
 msgid "Only create windows for explicitly specified URIs."
@@ -1090,15 +1092,15 @@ msgstr ""
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-application.c:267
 msgid "Quit Marlin."
-msgstr ""
+msgstr "Zavřít Marlin"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-application.c:269
 msgid "Enable debug logging"
-msgstr ""
+msgstr "Vypisovat ladicí zprávy"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-application.c:270
 msgid "[URI...]"
-msgstr ""
+msgstr "[URI…]"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-application.c:279
 msgid ""
@@ -1116,7 +1118,7 @@ msgstr "--quit nelze použít spolu s adresami URI."
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-list-view.c:59
 msgid "Filename"
-msgstr ""
+msgstr "Název souboru"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-progress-info.c:192
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-progress-info.c:210
@@ -1229,40 +1231,40 @@ msgstr "%'d. odkaz na %s"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:463
 msgid " (copy)"
-msgstr ""
+msgstr " (kopie)"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:465
 msgid " (another copy)"
-msgstr ""
+msgstr " (další kopie)"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:468
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:470
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:472
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:482
 msgid "th copy)"
-msgstr ""
+msgstr ". kopie)"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:475
 msgid "st copy)"
-msgstr ""
+msgstr ". kopie)"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:477
 msgid "nd copy)"
-msgstr ""
+msgstr ". kopie)"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:479
 msgid "rd copy)"
-msgstr ""
+msgstr ". kopie)"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:496
 #, c-format
 msgid "%s (copy)%s"
-msgstr ""
+msgstr "%s (kopie)%s"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:498
 #, c-format
 msgid "%s (another copy)%s"
-msgstr ""
+msgstr "%s (další kopie)%s"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:501
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:503
@@ -1270,22 +1272,22 @@ msgstr ""
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:519
 #, c-format
 msgid "%s (%'dth copy)%s"
-msgstr ""
+msgstr "%s (%'d. kopie)%s"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:513
 #, c-format
 msgid "%s (%'dst copy)%s"
-msgstr ""
+msgstr "%s (%'d. kopie)%s"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:515
 #, c-format
 msgid "%s (%'dnd copy)%s"
-msgstr ""
+msgstr "%s (%'d. kopie)%s"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:517
 #, c-format
 msgid "%s (%'drd copy)%s"
-msgstr ""
+msgstr "%s (%'d. kopie)%s"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:617
 msgid " ("
@@ -1989,12 +1991,12 @@ msgstr "Smazat „%s“"
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1212
 #, c-format
 msgid "Delete %d duplicated items"
-msgstr ""
+msgstr "Smazat %d duplikátních položek"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1223
 #, c-format
 msgid "Move %d items back to '%s'"
-msgstr ""
+msgstr "Přesunout %d položek zpět do „%s“"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1227
 #, c-format
@@ -2011,7 +2013,7 @@ msgstr "Přejmenovat „%s“ na „%s“"
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1450
 #, c-format
 msgid "Restore %d items from trash"
-msgstr ""
+msgstr "Obnovit %d položek z koše"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1263
 #, c-format
@@ -2021,7 +2023,7 @@ msgstr "Obnovit „%s“ do „%s“"
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1274
 #, c-format
 msgid "Move %d items back to trash"
-msgstr ""
+msgstr "Přesunout %d položek zpět do koše"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1277
 #, c-format
@@ -2031,7 +2033,7 @@ msgstr "Přesunout „%s“ zpět do koše"
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1286
 #, c-format
 msgid "Delete links to %d items"
-msgstr ""
+msgstr "Smazat odkazy k %d položkám"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1289
 #, c-format
@@ -2061,7 +2063,7 @@ msgstr "Obnovit vlastníka „%s“ na „%s“"
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1365
 #, c-format
 msgid "Copy %d items to '%s'"
-msgstr ""
+msgstr "Kopírovat %d položek do „%s“"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1369
 #, c-format
@@ -2076,12 +2078,12 @@ msgstr ""
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1382
 #, c-format
 msgid "Duplicate '%s' in '%s'"
-msgstr ""
+msgstr "Zdvojit „%s“ v „%s“"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1390
 #, c-format
 msgid "Move %d items to '%s'"
-msgstr ""
+msgstr "Přesunout %d položek do „%s“"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1394
 #, c-format
@@ -2106,7 +2108,7 @@ msgstr "Vytvořit novou složku „%s“"
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1434
 #, c-format
 msgid "Move %d items to trash"
-msgstr ""
+msgstr "Přesunout %d položek do koše"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1440
 #, c-format
@@ -2121,7 +2123,7 @@ msgstr "Obnovit „%s“ z koše"
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1462
 #, c-format
 msgid "Create links to %d items"
-msgstr ""
+msgstr "Vytvořit odkazy k %d položkám"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1465
 #, c-format
@@ -2348,11 +2350,11 @@ msgstr[1] ""
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/eel-fcts.c:81
 msgid "Today at %-I:%M %p"
-msgstr ""
+msgstr "Dnes v %-I:%M"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/eel-fcts.c:85
 msgid "Yesterday at %-I:%M %p"
-msgstr ""
+msgstr "Včera v %-I:%M"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/eel-fcts.c:89
 msgid "%a %-d %b %Y at %-I:%M %p"
@@ -2390,16 +2392,16 @@ msgstr "Soubory v nejvyšší úrovni nelze přejmenovat"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libwidgets/LocationBar.vala:328
 msgid "Cut the selected text to the clipboard"
-msgstr ""
+msgstr "Vyjmout vybraný text do schránky"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libwidgets/LocationBar.vala:332
 msgid "Copy the selected text to the clipboard"
-msgstr ""
+msgstr "Kopírovat vybraný text do schránky"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libwidgets/LocationBar.vala:336
 #: /home/am/dev/marlin8/trunk/marlin/po/../libwidgets/LocationBar.vala:340
 msgid "Paste the text stored on the clipboard"
-msgstr ""
+msgstr "Vložit text uložený ve schránce"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libwidgets/LocationBar.vala:816
 #, c-format

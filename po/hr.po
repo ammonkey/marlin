@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: marlin\n"
 "Report-Msgid-Bugs-To: gogo <trebelnik2@gmail.com>\n"
 "POT-Creation-Date: 2012-08-01 22:45+0200\n"
-"PO-Revision-Date: 2012-07-15 13:36+0000\n"
+"PO-Revision-Date: 2012-08-04 12:50+0000\n"
 "Last-Translator: gogo <trebelnik2@gmail.com>\n"
 "Language-Team: Croatian <hr@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -16,8 +16,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Launchpad-Export-Date: 2012-08-02 05:02+0000\n"
-"X-Generator: Launchpad (build 15719)\n"
+"X-Launchpad-Export-Date: 2012-08-05 04:57+0000\n"
+"X-Generator: Launchpad (build 15742)\n"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:60
 msgid "Properties"
@@ -170,107 +170,107 @@ msgstr "Ponovi zadnju radnju"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:672
 msgid "_File"
-msgstr ""
+msgstr "_Datoteka"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:673
 msgid "_Edit"
-msgstr ""
+msgstr "_Uredi"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:674
 msgid "_View"
-msgstr ""
+msgstr "_Pogled"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:675
 msgid "_Go"
-msgstr ""
+msgstr "_Idi"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:676
 msgid "_Help"
-msgstr ""
+msgstr "_Pomoć"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:678
 msgid "New _Window"
-msgstr ""
+msgstr "Novi _prozor"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:679
 msgid "Open another Marlin window for the displayed location"
-msgstr ""
+msgstr "Otvori novi Marlin prozor za prikazanu lokaciju"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:682
 msgid "New _Tab"
-msgstr ""
+msgstr "Nova _kartica"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:683
 msgid "Open another tab for the displayed location"
-msgstr ""
+msgstr "Otvori novu karticu za prikazanu lokaciju."
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:686
 msgid "_Close"
-msgstr ""
+msgstr "_Zatvori"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:687
 msgid "Close this folder"
-msgstr ""
+msgstr "Zatvori ovu mapu"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:690
 msgid "Customize _Toolbar..."
-msgstr ""
+msgstr "Prilagodi alatnu _traku..."
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:691
 msgid "Easily edit the toolbar layout"
-msgstr ""
+msgstr "Jednostavno uređivanje izgleda alatne trake"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:694
 msgid "Preferences"
-msgstr ""
+msgstr "Osobitosti"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:695
 msgid "Change Marlin's preferences"
-msgstr ""
+msgstr "Promijeni Marlin osobitosti"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:700
 msgid "_Undo"
-msgstr ""
+msgstr "_Poništi"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:703
 msgid "_Redo"
-msgstr ""
+msgstr "_Ponovi"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:706
 msgid "Open _Parent"
-msgstr ""
+msgstr "Otvori _nadređenu"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:707
 msgid "Open the parent folder"
-msgstr ""
+msgstr "Otvori nadređenu mapu"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:709
 msgid "_Back"
-msgstr ""
+msgstr "_Natrag"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:710
 msgid "Go to the previous visited location"
-msgstr ""
+msgstr "Vrati se na prethodno posjećenu lokaciju"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:712
 msgid "_Forward"
-msgstr ""
+msgstr "_Naprijed"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:713
 msgid "Go to the next visited location"
-msgstr ""
+msgstr "Idi na sljedeću posjećenu lokaciju"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:715
 msgid "_Reload"
-msgstr ""
+msgstr "_Učitaj ponovo"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:716
 msgid "Reload the current location"
-msgstr ""
+msgstr "Učitaj ponovo trenutnu lokaciju"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:719
 msgid "_Home Folder"
-msgstr ""
+msgstr "_Osobna mapa"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:720
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:329
@@ -279,139 +279,139 @@ msgstr "Otvorite svoju osobnu mapu"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:723
 msgid "_Trash"
-msgstr ""
+msgstr "_Smeće"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:724
 msgid "Open your personal trash folder"
-msgstr ""
+msgstr "Otvorite svoju mapu smeća"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:727
 msgid "_Network"
-msgstr ""
+msgstr "_Mreža"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:728
 msgid "Browse bookmarked and local network locations"
-msgstr ""
+msgstr "Pregledaj zabilježene i lokalne mrežne lokacije"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:731
 msgid "Zoom _In"
-msgstr ""
+msgstr "_Približi"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:732
 msgid "Increase the view size"
-msgstr ""
+msgstr "Povećanje veličine pogleda"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:743
 msgid "Zoom _Out"
-msgstr ""
+msgstr "_Udalji"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:744
 msgid "Decrease the view size"
-msgstr ""
+msgstr "Smanjenje veličine pogleda"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:751
 msgid "Normal Si_ze"
-msgstr ""
+msgstr "Normalna veli_čina"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:752
 msgid "Use the normal view size"
-msgstr ""
+msgstr "Koristi zadani pogled"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:755
 msgid "Next Tab"
-msgstr ""
+msgstr "Sljedeća kartica"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:759
 msgid "Previous Tab"
-msgstr ""
+msgstr "Prethodna kartica"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:763
 msgid "Connect to _Server..."
-msgstr ""
+msgstr "Spoji se na _poslužitelj..."
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:764
 msgid "Connect to a remote computer or shared disk"
-msgstr ""
+msgstr "Povežite se na udaljeno računalo ili dijeljeni disk"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:767
 msgid "_About"
-msgstr ""
+msgstr "_O programu"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:768
 msgid "Display credits"
-msgstr ""
+msgstr "Prikaži zasluge"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:771
 msgid "Report a Problem..."
-msgstr ""
+msgstr "Prijavi problem..."
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:772
 msgid "File a bug on Launchpad"
-msgstr ""
+msgstr "Prijavite grešku na Launchpadu"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:775
 msgid "Get Help Online..."
-msgstr ""
+msgstr "Potražite pomoć na Internetu..."
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:779
 msgid "Translate This Application..."
-msgstr ""
+msgstr "Prevedite ovu aplikaciju..."
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:788
 msgid "Show _Hidden Files"
-msgstr ""
+msgstr "Prikaži _skrivene datoteke"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:789
 msgid "Toggle the display of hidden files in the current window"
-msgstr ""
+msgstr "Uključi/Iskljući prikaz skrivenih datoteka u trenutnom prozoru"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:794
 msgid "Show _Desktop Files"
-msgstr ""
+msgstr "Prikaži _datoteke na Radnoj površini"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:795
 msgid "Toggle the display of desktop files"
-msgstr ""
+msgstr "Uključi/Iskljući prikaz datoteka na Radnoj površini"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:799
 msgid "_Context Pane"
-msgstr ""
+msgstr "_Okvir sadržaja"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:800
 msgid "Change the visibility of the context pane"
-msgstr ""
+msgstr "Promijeni vidljivost okvira sadržaja"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:804
 msgid "_Menubar"
-msgstr ""
+msgstr "_Traka izbornika"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:805
 msgid "Change the visibility of this window's menubar"
-msgstr ""
+msgstr "Promijeni vidljivost trake izbornika ovog prozora"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:809
 msgid "_Places"
-msgstr ""
+msgstr "_Mjesta"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:810
 msgid "Change the visibility of this window's side pane"
-msgstr ""
+msgstr "Promijeni vidljivosti bočnog okvira ovog prozora"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:818
 msgid "Icon"
-msgstr ""
+msgstr "Ikone"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:821
 msgid "List"
-msgstr ""
+msgstr "Popis"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:824
 msgid "Compact"
-msgstr ""
+msgstr "Zbijeno"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:827
 msgid "Columns"
-msgstr ""
+msgstr "Stupci"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/SettingsDialog.vala:31
 msgid "Marlin Preferences"
@@ -660,47 +660,47 @@ msgstr "Neuspjelo pokretanje datoteke \"%s\""
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-abstract-icon-view.c:283
 msgid "Arran_ge Items"
-msgstr ""
+msgstr "Po_redaj stavke"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-abstract-icon-view.c:288
 msgid "Re_versed Order"
-msgstr ""
+msgstr "O_brnuti poredak"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-abstract-icon-view.c:289
 msgid "Display icons in the opposite order"
-msgstr ""
+msgstr "Prikaži ikone u obrnutom poretku"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-abstract-icon-view.c:296
 msgid "By _Name"
-msgstr ""
+msgstr "Po _imenu"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-abstract-icon-view.c:297
 msgid "Keep icons sorted by name in rows"
-msgstr ""
+msgstr "Drži ikone poredane po imenu u retcima"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-abstract-icon-view.c:300
 msgid "By _Size"
-msgstr ""
+msgstr "Po _veličini"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-abstract-icon-view.c:301
 msgid "Keep icons sorted by size in rows"
-msgstr ""
+msgstr "Drži ikone poredane po veličini u retcima"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-abstract-icon-view.c:304
 msgid "By _Type"
-msgstr ""
+msgstr "Po _vrsti"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-abstract-icon-view.c:305
 msgid "Keep icons sorted by type in rows"
-msgstr ""
+msgstr "Drži ikone poredane po vrsti u retcima"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-abstract-icon-view.c:308
 msgid "By Modification _Date"
-msgstr ""
+msgstr "Prema _datumu promjene"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-abstract-icon-view.c:309
 msgid "Keep icons sorted by modification date in rows"
-msgstr ""
+msgstr "Drži ikone poredane po datumu izmjene u retcima"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-icon-view.c:86
 msgid "Icon directory listing"
@@ -917,104 +917,110 @@ msgstr "Postavi kao zadano"
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3427
 msgid "Prepare the selected files to be moved with a Paste command"
 msgstr ""
+"Pripremi odabrane datoteke za premještanje naredbom \"Zaljepi - Ctrl+V\""
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3431
 msgid "Prepare the selected files to be copied with a Paste command"
 msgstr ""
+"Pripremi odabrane datoteke za kopiranje naredbom \"Zaljepi - Ctrl+V\""
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3435
 msgid "Move or copy files previously selected by a Cut or Copy command"
 msgstr ""
+"Premjesti ili kopiraj datoteke prethodno odabrane naredbom \"Izreži\" ili "
+"\"Kopiraj\""
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3438
 msgid "Paste Into Folder"
-msgstr ""
+msgstr "Zalijepi u mapu"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3439
 msgid ""
 "Move or copy files previously selected by a Cut or Copy command into "
 "selected folder"
 msgstr ""
+"Premjesti ili kopiraj datoteke prethodno odabrane naredbom \"Izreži\" ili "
+"\"Kopiraj\" u odabranu mapu"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3442
 msgid "_Rename..."
-msgstr ""
+msgstr "_Preimenuj..."
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3443
 msgid "Rename selected item"
-msgstr ""
+msgstr "Preimenuj odabranu stavku"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3446
 msgid "New _Folder"
-msgstr ""
+msgstr "Nova _mapa"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3447
 msgid "Create a new empty folder inside this folder"
-msgstr ""
+msgstr "Stvaranje prazne mape unutar trenutne mape"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3449
 msgid "New _File"
-msgstr ""
+msgstr "Nova _datoteka"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3451
 msgid "_Empty File"
-msgstr ""
+msgstr "_Prazna datoteka"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3452
 msgid "Create a new empty file inside this folder"
-msgstr ""
+msgstr "Stvaranje prazne datoteke unutar trenutne mape"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3456
 msgid "Open the selected item"
-msgstr ""
+msgstr "Otvori odabranu stavku"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3463
 msgid "Open in new Window"
-msgstr ""
+msgstr "Otvori u novom prozoru"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3464
 msgid "Open each selected item in a new window"
-msgstr ""
+msgstr "Otvori svaku odabranu stavku u novom prozoru"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3468
 msgid "Open each selected item in a new tab"
-msgstr ""
+msgstr "Otvori svaku odabranu stavku u novoj kartici"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3470
 msgid "Open Wit_h"
-msgstr ""
+msgstr "Otvori pomoć_u"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3471
 msgid "Choose a program with which to open the selected item"
-msgstr ""
+msgstr "Odaberite program za otvaranje odabrane stavke"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3473
 msgid "Other _Application..."
-msgstr ""
+msgstr "Druga _aplikacija..."
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3474
 msgid "Choose another application with which to open the selected item"
-msgstr ""
+msgstr "Izaberite aplikaciju za otvaranje odbrane stavke"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3477
 msgid "Mo_ve to Trash"
-msgstr ""
+msgstr "Pre_mjesti u smeće"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3478
 msgid "Move each selected item to the Trash"
-msgstr ""
+msgstr "Premjesti svaku odabranu stavku u smeće"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3481
 msgid "_Delete Permanently"
-msgstr ""
+msgstr "_Obriši trajno"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3482
 msgid "Delete each selected item, without moving to the Trash"
-msgstr ""
+msgstr "Obriši odabranu stavku bez premještanja u smeće"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3485
 msgid "_Restore"
-msgstr ""
+msgstr "_Vrati"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3489
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/eel-editable-label.c:3190
@@ -1023,11 +1029,11 @@ msgstr "Odaberi sve"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3493
 msgid "_Properties"
-msgstr ""
+msgstr "_Svojstva"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3494
 msgid "View or modify the properties of each selected item"
-msgstr ""
+msgstr "Pogledaj ili promijeni svojstva svake odabrane stavke"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3601
 msgid "Set Color:"
@@ -1083,11 +1089,11 @@ msgstr "Izlazni način"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-application.c:261
 msgid "Show the version of the program."
-msgstr ""
+msgstr "Prikaži inačicu programa."
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-application.c:263
 msgid "Only create windows for explicitly specified URIs."
-msgstr ""
+msgstr "Stvori prozore samo za izričito navedene URI-je."
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-application.c:267
 msgid "Quit Marlin."
