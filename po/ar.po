@@ -8,20 +8,20 @@ msgstr ""
 "Project-Id-Version: marlin\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2012-08-01 22:45+0200\n"
-"PO-Revision-Date: 2012-05-24 02:53+0000\n"
-"Last-Translator: Ibrahim Saed <ibraheem5000@gmail.com>\n"
+"PO-Revision-Date: 2012-08-08 22:49+0000\n"
+"Last-Translator: amine <active-be@live.fr>\n"
 "Language-Team: Arabic <ar@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n % 100 >= "
 "3 && n % 100 <= 10 ? 3 : n % 100 >= 11 && n % 100 <= 99 ? 4 : 5;\n"
-"X-Launchpad-Export-Date: 2012-08-02 05:01+0000\n"
-"X-Generator: Launchpad (build 15719)\n"
+"X-Launchpad-Export-Date: 2012-08-09 05:07+0000\n"
+"X-Generator: Launchpad (build 15761)\n"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:60
 msgid "Properties"
-msgstr "الخصائص"
+msgstr "خصائص"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:111
 msgid "Info"
@@ -37,7 +37,7 @@ msgstr "معاينة"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:349
 msgid "Created"
-msgstr "تم إنشاؤه"
+msgstr "تم الإنشاء"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:351
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/ContextView.vala:344
@@ -47,11 +47,11 @@ msgstr "مُعدّل"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:354
 msgid "Last Access"
-msgstr "آخِر تعامل"
+msgstr "آخر ولوج"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:360
 msgid "Deleted"
-msgstr "تم الحذف"
+msgstr "محذوف"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:365
 msgid "MimeType"
@@ -68,7 +68,7 @@ msgstr "الموضع"
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:379
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/ContextView.vala:340
 msgid "Target"
-msgstr "الهدف"
+msgstr "هدف"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:385
 msgid "Origin Location"
@@ -80,7 +80,7 @@ msgstr "تطبيق آخر..."
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:447
 msgid "Open with"
-msgstr "افتح باستخدام"
+msgstr "إفتح بـ"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:463
 msgid "Device usage"
@@ -88,26 +88,26 @@ msgstr ""
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:608
 msgid "Read"
-msgstr "قراءة"
+msgstr "اقرأ"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:613
 msgid "Write"
-msgstr "كتابة"
+msgstr "اكتب"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:618
 msgid "Execute"
-msgstr "تنفيذ"
+msgstr "نفّذ"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:836
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:849
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/ContextView.vala:345
 msgid "Owner"
-msgstr "المالك"
+msgstr "مالك"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:841
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:853
 msgid "Group"
-msgstr "المجموعة"
+msgstr "مجموعة"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:857
 msgid "Everyone"
@@ -119,12 +119,12 @@ msgstr ""
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/ContextView.vala:336
 msgid "Name"
-msgstr "الإسم"
+msgstr "اسم"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/ContextView.vala:337
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-list-view.c:59
 msgid "Type"
-msgstr "النّوع"
+msgstr "نوع"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/ContextView.vala:342
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-list-view.c:59
