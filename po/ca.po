@@ -8,15 +8,15 @@ msgstr ""
 "Project-Id-Version: marlin\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2012-08-01 22:45+0200\n"
-"PO-Revision-Date: 2012-07-13 17:09+0000\n"
+"PO-Revision-Date: 2012-08-09 09:22+0000\n"
 "Last-Translator: Ecron <Unknown>\n"
 "Language-Team: Catalan <ca@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2012-08-02 05:01+0000\n"
-"X-Generator: Launchpad (build 15719)\n"
+"X-Launchpad-Export-Date: 2012-08-10 05:07+0000\n"
+"X-Generator: Launchpad (build 15761)\n"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:60
 msgid "Properties"
@@ -169,107 +169,107 @@ msgstr "Refés la darrera acció"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:672
 msgid "_File"
-msgstr ""
+msgstr "_Fitxer"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:673
 msgid "_Edit"
-msgstr ""
+msgstr "_Edita"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:674
 msgid "_View"
-msgstr ""
+msgstr "_Visualització"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:675
 msgid "_Go"
-msgstr ""
+msgstr "_Vés"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:676
 msgid "_Help"
-msgstr ""
+msgstr "_Ajuda"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:678
 msgid "New _Window"
-msgstr ""
+msgstr "_Finestra nova"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:679
 msgid "Open another Marlin window for the displayed location"
-msgstr ""
+msgstr "Obre una altra finestra del Marlin per a la ubicació mostrada"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:682
 msgid "New _Tab"
-msgstr ""
+msgstr "Pes_tanya nova"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:683
 msgid "Open another tab for the displayed location"
-msgstr ""
+msgstr "Obre una altra pestanya per a la ubicació mostrada"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:686
 msgid "_Close"
-msgstr ""
+msgstr "_Tanca"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:687
 msgid "Close this folder"
-msgstr ""
+msgstr "Tanca aquesta carpeta"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:690
 msgid "Customize _Toolbar..."
-msgstr ""
+msgstr "Personalitza la _barra d'eines..."
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:691
 msgid "Easily edit the toolbar layout"
-msgstr ""
+msgstr "Edita fàcilment la distribució de la barra d'eines"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:694
 msgid "Preferences"
-msgstr ""
+msgstr "Preferències"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:695
 msgid "Change Marlin's preferences"
-msgstr ""
+msgstr "Canvia les preferències del Marlin"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:700
 msgid "_Undo"
-msgstr ""
+msgstr "_Desfés"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:703
 msgid "_Redo"
-msgstr ""
+msgstr "_Refés"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:706
 msgid "Open _Parent"
-msgstr ""
+msgstr "Obre el _pare"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:707
 msgid "Open the parent folder"
-msgstr ""
+msgstr "Obre la carpeta mare"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:709
 msgid "_Back"
-msgstr ""
+msgstr "_Enrere"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:710
 msgid "Go to the previous visited location"
-msgstr ""
+msgstr "Vés a la anterior ubicació visitada"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:712
 msgid "_Forward"
-msgstr ""
+msgstr "E_ndavant"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:713
 msgid "Go to the next visited location"
-msgstr ""
+msgstr "Vés a la següent ubicació visitada"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:715
 msgid "_Reload"
-msgstr ""
+msgstr "_Torna a carregar"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:716
 msgid "Reload the current location"
-msgstr ""
+msgstr "Actualitza la ubicació actual"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:719
 msgid "_Home Folder"
-msgstr ""
+msgstr "Carpeta de l'_usuari"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:720
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:329
@@ -278,139 +278,139 @@ msgstr "Obriu la vostra carpeta personal"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:723
 msgid "_Trash"
-msgstr ""
+msgstr "_Paperera"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:724
 msgid "Open your personal trash folder"
-msgstr ""
+msgstr "Obre la carpeta de la paperera"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:727
 msgid "_Network"
-msgstr ""
+msgstr "_Xarxa"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:728
 msgid "Browse bookmarked and local network locations"
-msgstr ""
+msgstr "Navega per les ubicacions de xarxa locals i d'interès"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:731
 msgid "Zoom _In"
-msgstr ""
+msgstr "_Apropa"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:732
 msgid "Increase the view size"
-msgstr ""
+msgstr "Augmenta la mida de la vista"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:743
 msgid "Zoom _Out"
-msgstr ""
+msgstr "Allun_ya"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:744
 msgid "Decrease the view size"
-msgstr ""
+msgstr "Redueix la mida de la vista"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:751
 msgid "Normal Si_ze"
-msgstr ""
+msgstr "_Mida normal"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:752
 msgid "Use the normal view size"
-msgstr ""
+msgstr "Utilitza la mida normal de la vista"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:755
 msgid "Next Tab"
-msgstr ""
+msgstr "Pestanya següent"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:759
 msgid "Previous Tab"
-msgstr ""
+msgstr "Pestanya anterior"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:763
 msgid "Connect to _Server..."
-msgstr ""
+msgstr "Connecta't a un _servidor..."
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:764
 msgid "Connect to a remote computer or shared disk"
-msgstr ""
+msgstr "Connecta't a un servidor remot o a un disc compartit"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:767
 msgid "_About"
-msgstr ""
+msgstr "_Quant a"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:768
 msgid "Display credits"
-msgstr ""
+msgstr "Mosta els crèdits"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:771
 msgid "Report a Problem..."
-msgstr ""
+msgstr "Informa d'un problema..."
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:772
 msgid "File a bug on Launchpad"
-msgstr ""
+msgstr "Reporta un error a Launchpad"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:775
 msgid "Get Help Online..."
-msgstr ""
+msgstr "Obteniu ajuda en línia..."
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:779
 msgid "Translate This Application..."
-msgstr ""
+msgstr "Traduïu aquesta aplicació..."
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:788
 msgid "Show _Hidden Files"
-msgstr ""
+msgstr "Mostra els fitxers _ocults"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:789
 msgid "Toggle the display of hidden files in the current window"
-msgstr ""
+msgstr "Activa la visualització de fitxers ocults en la finestra actual"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:794
 msgid "Show _Desktop Files"
-msgstr ""
+msgstr "Mostra els fitxers d'_escriptori"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:795
 msgid "Toggle the display of desktop files"
-msgstr ""
+msgstr "Activa la visualització dels fitxers d'escriptori"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:799
 msgid "_Context Pane"
-msgstr ""
+msgstr "_Subfinestra contextual"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:800
 msgid "Change the visibility of the context pane"
-msgstr ""
+msgstr "Canvia la visibilitat de la subfinestra contextual"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:804
 msgid "_Menubar"
-msgstr ""
+msgstr "Barra de _menú"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:805
 msgid "Change the visibility of this window's menubar"
-msgstr ""
+msgstr "Canvia la visibilitat de la barra de menú d'aquesta finestra"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:809
 msgid "_Places"
-msgstr ""
+msgstr "_Llocs"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:810
 msgid "Change the visibility of this window's side pane"
-msgstr ""
+msgstr "Canvia la visibilitat de la subfinestra lateral d'aquesta finestra"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:818
 msgid "Icon"
-msgstr ""
+msgstr "Icones"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:821
 msgid "List"
-msgstr ""
+msgstr "Llista"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:824
 msgid "Compact"
-msgstr ""
+msgstr "Compacta"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:827
 msgid "Columns"
-msgstr ""
+msgstr "Columnes"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/SettingsDialog.vala:31
 msgid "Marlin Preferences"
@@ -659,47 +659,47 @@ msgstr "No s’ha pogut executar el fitxer «%s»"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-abstract-icon-view.c:283
 msgid "Arran_ge Items"
-msgstr ""
+msgstr "Or_ganitza els elements"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-abstract-icon-view.c:288
 msgid "Re_versed Order"
-msgstr ""
+msgstr "Ordre in_vers"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-abstract-icon-view.c:289
 msgid "Display icons in the opposite order"
-msgstr ""
+msgstr "Mostra les icones en l'ordre invers"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-abstract-icon-view.c:296
 msgid "By _Name"
-msgstr ""
+msgstr "Per _nom"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-abstract-icon-view.c:297
 msgid "Keep icons sorted by name in rows"
-msgstr ""
+msgstr "Conserva les icones ordenades pel nom en files"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-abstract-icon-view.c:300
 msgid "By _Size"
-msgstr ""
+msgstr "Per _mida"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-abstract-icon-view.c:301
 msgid "Keep icons sorted by size in rows"
-msgstr ""
+msgstr "Conserva les icones ordenades per la mida en files"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-abstract-icon-view.c:304
 msgid "By _Type"
-msgstr ""
+msgstr "Per _tipus"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-abstract-icon-view.c:305
 msgid "Keep icons sorted by type in rows"
-msgstr ""
+msgstr "Conserva les icones ordenades pel tipus en files"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-abstract-icon-view.c:308
 msgid "By Modification _Date"
-msgstr ""
+msgstr "Per _data de modificació"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-abstract-icon-view.c:309
 msgid "Keep icons sorted by modification date in rows"
-msgstr ""
+msgstr "Conserva les icones ordenades per la data de modificació en files"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-icon-view.c:86
 msgid "Icon directory listing"
@@ -915,48 +915,54 @@ msgstr "Estableix com a predeterminada"
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3427
 msgid "Prepare the selected files to be moved with a Paste command"
 msgstr ""
+"Prepara els fitxers seleccionats per moure'ls amb una ordre «Enganxa»"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3431
 msgid "Prepare the selected files to be copied with a Paste command"
 msgstr ""
+"Prepara els fitxers seleccionats per copiar-los amb una ordre «Enganxa»"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3435
 msgid "Move or copy files previously selected by a Cut or Copy command"
 msgstr ""
+"Mou o copia els fitxers prèviament seleccionats mitjançant l'ordre de "
+"«Retalla» o «Copia»"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3438
 msgid "Paste Into Folder"
-msgstr ""
+msgstr "Enganxa dins la carpeta"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3439
 msgid ""
 "Move or copy files previously selected by a Cut or Copy command into "
 "selected folder"
 msgstr ""
+"Mou o copia fitxers prèviament seleccionats per una ordre «Retalla» o "
+"«Copia» a la carpeta seleccionada"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3442
 msgid "_Rename..."
-msgstr ""
+msgstr "_Canvia el nom..."
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3443
 msgid "Rename selected item"
-msgstr ""
+msgstr "Canvia el nom de l'element seleccionat"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3446
 msgid "New _Folder"
-msgstr ""
+msgstr "_Carpeta nova"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3447
 msgid "Create a new empty folder inside this folder"
-msgstr ""
+msgstr "Crea una carpeta buida nova dins d'aquesta carpeta"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3449
 msgid "New _File"
-msgstr ""
+msgstr "Fitxer _nou"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3451
 msgid "_Empty File"
-msgstr ""
+msgstr "Fitx_er buit"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3452
 msgid "Create a new empty file inside this folder"
@@ -964,55 +970,56 @@ msgstr ""
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3456
 msgid "Open the selected item"
-msgstr ""
+msgstr "Obre els elements seleccionats"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3463
 msgid "Open in new Window"
-msgstr ""
+msgstr "Obre en una finesta nova"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3464
 msgid "Open each selected item in a new window"
-msgstr ""
+msgstr "Obre cada element seleccionat en una finestra nova"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3468
 msgid "Open each selected item in a new tab"
-msgstr ""
+msgstr "Obre cada element seleccionat en una pestanya nova"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3470
 msgid "Open Wit_h"
-msgstr ""
+msgstr "Obre am_b"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3471
 msgid "Choose a program with which to open the selected item"
-msgstr ""
+msgstr "Trieu un programa amb què s'obrirà l'element seleccionat"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3473
 msgid "Other _Application..."
-msgstr ""
+msgstr "Una altra _aplicació..."
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3474
 msgid "Choose another application with which to open the selected item"
-msgstr ""
+msgstr "Trieu una altra aplicació amb què obrir l'element seleccionat"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3477
 msgid "Mo_ve to Trash"
-msgstr ""
+msgstr "Mo_u a la paperera"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3478
 msgid "Move each selected item to the Trash"
-msgstr ""
+msgstr "Mou tots els elements seleccionats a la paperera"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3481
 msgid "_Delete Permanently"
-msgstr ""
+msgstr "_Suprimeix permanentment"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3482
 msgid "Delete each selected item, without moving to the Trash"
 msgstr ""
+"Suprimeix tots els elements seleccionats sense moure'ls a la paperera"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3485
 msgid "_Restore"
-msgstr ""
+msgstr "_Restaura"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3489
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/eel-editable-label.c:3190
@@ -1021,11 +1028,11 @@ msgstr "Selecciona-ho tot"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3493
 msgid "_Properties"
-msgstr ""
+msgstr "_Propietats"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3494
 msgid "View or modify the properties of each selected item"
-msgstr ""
+msgstr "Visualitza o modifica les propietats de cada element seleccionat"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3601
 msgid "Set Color:"
@@ -1080,23 +1087,23 @@ msgstr "El mode de distribució"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-application.c:261
 msgid "Show the version of the program."
-msgstr ""
+msgstr "Mostra la versió del programa."
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-application.c:263
 msgid "Only create windows for explicitly specified URIs."
-msgstr ""
+msgstr "Crea finestres només per als URI indicats explícitament."
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-application.c:267
 msgid "Quit Marlin."
-msgstr ""
+msgstr "Surt del Marlin."
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-application.c:269
 msgid "Enable debug logging"
-msgstr ""
+msgstr "Activa el registre de depuració"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-application.c:270
 msgid "[URI...]"
-msgstr ""
+msgstr "[URI...]"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-application.c:279
 msgid ""
@@ -1114,7 +1121,7 @@ msgstr "--quit no es pot utilitzar amb els URI."
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-list-view.c:59
 msgid "Filename"
-msgstr ""
+msgstr "Nom del fitxer"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-progress-info.c:192
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-progress-info.c:210
@@ -1223,40 +1230,40 @@ msgstr "%'dè enllaç a %s"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:463
 msgid " (copy)"
-msgstr ""
+msgstr " (còpia)"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:465
 msgid " (another copy)"
-msgstr ""
+msgstr " (una altra còpia)"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:468
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:470
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:472
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:482
 msgid "th copy)"
-msgstr ""
+msgstr "a còpia)"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:475
 msgid "st copy)"
-msgstr ""
+msgstr "a còpia)"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:477
 msgid "nd copy)"
-msgstr ""
+msgstr "a còpia)"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:479
 msgid "rd copy)"
-msgstr ""
+msgstr "a còpia)"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:496
 #, c-format
 msgid "%s (copy)%s"
-msgstr ""
+msgstr "%s (còpia)%s"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:498
 #, c-format
 msgid "%s (another copy)%s"
-msgstr ""
+msgstr "%s (una altra còpia)%s"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:501
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:503
@@ -1264,22 +1271,22 @@ msgstr ""
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:519
 #, c-format
 msgid "%s (%'dth copy)%s"
-msgstr ""
+msgstr "%s (%'da còpia)%s"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:513
 #, c-format
 msgid "%s (%'dst copy)%s"
-msgstr ""
+msgstr "%s (%'da còpia)%s"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:515
 #, c-format
 msgid "%s (%'dnd copy)%s"
-msgstr ""
+msgstr "%s (%'da còpia)%s"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:517
 #, c-format
 msgid "%s (%'drd copy)%s"
-msgstr ""
+msgstr "%s (%'da còpia)%s"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:617
 msgid " ("
@@ -2374,16 +2381,16 @@ msgstr "No es pot canviar el nom dels fitxers de nivell superior"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libwidgets/LocationBar.vala:328
 msgid "Cut the selected text to the clipboard"
-msgstr ""
+msgstr "Retalla el text seleccionat al porta-retalls"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libwidgets/LocationBar.vala:332
 msgid "Copy the selected text to the clipboard"
-msgstr ""
+msgstr "Copia el text seleccionat al porta-retalls"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libwidgets/LocationBar.vala:336
 #: /home/am/dev/marlin8/trunk/marlin/po/../libwidgets/LocationBar.vala:340
 msgid "Paste the text stored on the clipboard"
-msgstr ""
+msgstr "Enganxa el text emmagatzemat al porta-retalls"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libwidgets/LocationBar.vala:816
 #, c-format
@@ -2408,4 +2415,4 @@ msgstr "Visualitza com a columnes"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Chrome/TopMenu.vala:47
 msgid "Menu"
-msgstr ""
+msgstr "Menú"
