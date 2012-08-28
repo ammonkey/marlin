@@ -8,15 +8,15 @@ msgstr ""
 "Project-Id-Version: marlin\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-08-01 22:45+0200\n"
-"PO-Revision-Date: 2012-07-30 18:34+0000\n"
-"Last-Translator: Y.Sun <Unknown>\n"
+"PO-Revision-Date: 2012-08-21 13:15+0000\n"
+"Last-Translator: Wang Dianjin <Unknown>\n"
 "Language-Team: Chinese (Simplified) <zh_CN@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Launchpad-Export-Date: 2012-08-02 05:03+0000\n"
-"X-Generator: Launchpad (build 15719)\n"
+"X-Launchpad-Export-Date: 2012-08-28 07:29+0000\n"
+"X-Generator: Launchpad (build 15864)\n"
 "Language: \n"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:60
@@ -170,27 +170,27 @@ msgstr "重做上次操作"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:672
 msgid "_File"
-msgstr ""
+msgstr "文件(_F)"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:673
 msgid "_Edit"
-msgstr ""
+msgstr "编辑(_E)"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:674
 msgid "_View"
-msgstr ""
+msgstr "查看(_V)"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:675
 msgid "_Go"
-msgstr ""
+msgstr "转到(_G)"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:676
 msgid "_Help"
-msgstr ""
+msgstr "帮助(_H)"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:678
 msgid "New _Window"
-msgstr ""
+msgstr "新窗口(_W)"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:679
 msgid "Open another Marlin window for the displayed location"
@@ -198,55 +198,55 @@ msgstr ""
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:682
 msgid "New _Tab"
-msgstr ""
+msgstr "新建标签(_T)"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:683
 msgid "Open another tab for the displayed location"
-msgstr ""
+msgstr "为显示的位置打开另外一个标签"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:686
 msgid "_Close"
-msgstr ""
+msgstr "关闭(_C)"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:687
 msgid "Close this folder"
-msgstr ""
+msgstr "关闭此文件夹"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:690
 msgid "Customize _Toolbar..."
-msgstr ""
+msgstr "定制工具栏(_T)..."
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:691
 msgid "Easily edit the toolbar layout"
-msgstr ""
+msgstr "轻松编辑工具栏布局"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:694
 msgid "Preferences"
-msgstr ""
+msgstr "首选项"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:695
 msgid "Change Marlin's preferences"
-msgstr ""
+msgstr "更改 Marlin 首选项"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:700
 msgid "_Undo"
-msgstr ""
+msgstr "撤销(_U)"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:703
 msgid "_Redo"
-msgstr ""
+msgstr "重做(_R)"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:706
 msgid "Open _Parent"
-msgstr ""
+msgstr "打开父文件夹(_P)"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:707
 msgid "Open the parent folder"
-msgstr ""
+msgstr "打开父文件夹"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:709
 msgid "_Back"
-msgstr ""
+msgstr "返回(_B)"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:710
 msgid "Go to the previous visited location"
