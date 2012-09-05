@@ -8,15 +8,15 @@ msgstr ""
 "Project-Id-Version: marlin\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-08-01 22:45+0200\n"
-"PO-Revision-Date: 2012-08-14 11:18+0000\n"
-"Last-Translator: Taliesin <taliesinlp@gmail.com>\n"
+"PO-Revision-Date: 2012-09-04 17:56+0000\n"
+"Last-Translator: Adolfo Jayme Barrientos <fitoschido@gmail.com>\n"
 "Language-Team: Spanish <es@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2012-08-15 04:51+0000\n"
-"X-Generator: Launchpad (build 15801)\n"
+"X-Launchpad-Export-Date: 2012-09-05 04:57+0000\n"
+"X-Generator: Launchpad (build 15901)\n"
 "Language: es\n"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:60
@@ -115,7 +115,7 @@ msgstr "Cualquiera"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:1141
 msgid "Select an aplication to open "
-msgstr "Selecciona una aplicación para abrir "
+msgstr "Seleccione una aplicación para abrir "
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/ContextView.vala:336
 msgid "Name"
@@ -190,7 +190,7 @@ msgstr "Ay_uda"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:678
 msgid "New _Window"
-msgstr "Nueva _ventana"
+msgstr "_Ventana nueva"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:679
 msgid "Open another Marlin window for the displayed location"
@@ -198,7 +198,7 @@ msgstr "Abrir otra ventana para el directorio en pantalla"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:682
 msgid "New _Tab"
-msgstr "Nueva _Pestaña"
+msgstr "Pes_taña nueva"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:683
 msgid "Open another tab for the displayed location"
@@ -214,7 +214,7 @@ msgstr "Cerrar esta carpeta"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:690
 msgid "Customize _Toolbar..."
-msgstr "Personalizar barra de _herramientas"
+msgstr "Personalizar barra de _herramientas…"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:691
 msgid "Easily edit the toolbar layout"
@@ -226,7 +226,7 @@ msgstr "Preferencias"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:695
 msgid "Change Marlin's preferences"
-msgstr "Cambia las preferencias para Marlin"
+msgstr "Cambiar las preferencias de Marlin"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:700
 msgid "_Undo"
@@ -238,11 +238,11 @@ msgstr "_Rehacer"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:706
 msgid "Open _Parent"
-msgstr "Abrir _Contenedora"
+msgstr "Abrir cont_enedora"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:707
 msgid "Open the parent folder"
-msgstr "Abre el directorio padre"
+msgstr "Abrir la carpeta contenedora"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:709
 msgid "_Back"
@@ -266,7 +266,7 @@ msgstr "_Actualizar"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:716
 msgid "Reload the current location"
-msgstr "Recargar el lugar actual"
+msgstr "Recargar la ubicación actual"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:719
 msgid "_Home Folder"
@@ -319,7 +319,7 @@ msgstr "Usar el tamaño de vista normal"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:755
 msgid "Next Tab"
-msgstr "Siguiente pestaña"
+msgstr "Pestaña siguiente"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:759
 msgid "Previous Tab"
@@ -327,7 +327,7 @@ msgstr "Pestaña anterior"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:763
 msgid "Connect to _Server..."
-msgstr "Conectar con el _servidor..."
+msgstr "Conectar con el _servidor…"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:764
 msgid "Connect to a remote computer or shared disk"
@@ -367,7 +367,7 @@ msgstr "Mostrar los archivos ocultos en la ventana actual"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:794
 msgid "Show _Desktop Files"
-msgstr "Mostrar archivos _escritorio"
+msgstr "Mostrar archivos del _escritorio"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:795
 msgid "Toggle the display of desktop files"
@@ -383,11 +383,11 @@ msgstr "Cambiar la visibilidad del panel contextual"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:804
 msgid "_Menubar"
-msgstr "Barra de _menú"
+msgstr "Barra de _menús"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:805
 msgid "Change the visibility of this window's menubar"
-msgstr "Mostar/ocultar la barra de menú de esta ventana"
+msgstr "Cambiar la visibilidad de la barra de menús de esta ventana"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:809
 msgid "_Places"
