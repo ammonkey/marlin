@@ -8,15 +8,15 @@ msgstr ""
 "Project-Id-Version: marlin\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2012-08-01 22:45+0200\n"
-"PO-Revision-Date: 2012-09-02 18:00+0000\n"
+"PO-Revision-Date: 2012-09-15 23:38+0000\n"
 "Last-Translator: Devid Antonio Filoni <Unknown>\n"
 "Language-Team: Italian <it@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2012-09-03 05:29+0000\n"
-"X-Generator: Launchpad (build 15890)\n"
+"X-Launchpad-Export-Date: 2012-09-16 04:48+0000\n"
+"X-Generator: Launchpad (build 15944)\n"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:60
 msgid "Properties"
@@ -364,7 +364,7 @@ msgstr "_Mostra file nascosti"
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:789
 msgid "Toggle the display of hidden files in the current window"
 msgstr ""
-"Attiva/Disattiva la visualizzazione dii file nascosti in questa finestra"
+"Attiva/Disattiva la visualizzazione di file nascosti in questa finestra"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:794
 msgid "Show _Desktop Files"
@@ -761,7 +761,7 @@ msgstr "Apre il contenuto del file system"
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:480
 #, c-format
 msgid "Mount and open %s"
-msgstr "Monta e apre %s"
+msgstr "Monta e apre «%s»"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:593
 msgid "Your network places"
@@ -819,14 +819,14 @@ msgstr "_Blocca unità"
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:2251
 #, c-format
 msgid "Unable to start %s"
-msgstr "Impossibile avviare %s"
+msgstr "Impossibile avviare «%s»"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:1994
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:2023
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:2052
 #, c-format
 msgid "Unable to eject %s"
-msgstr "Impossibile espellere %s"
+msgstr "Impossibile espellere «%s»"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:2197
 #, c-format
@@ -836,7 +836,7 @@ msgstr "Impossibile interrogare «%s» per cambiamenti ai supporti"
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:2307
 #, c-format
 msgid "Unable to stop %s"
-msgstr "Impossibile fermare %s"
+msgstr "Impossibile fermare «%s»"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:2399
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:1943
@@ -919,18 +919,18 @@ msgstr "Imposta come predefinito"
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3427
 msgid "Prepare the selected files to be moved with a Paste command"
 msgstr ""
-"Prepara i file selezionati per essere spostati con un comando «Incolla»"
+"Prepara i file selezionati per essere spostati con un comando \"Incolla\""
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3431
 msgid "Prepare the selected files to be copied with a Paste command"
 msgstr ""
-"Prepara i file selezionati per essere copiati con un comando «Incolla»"
+"Prepara i file selezionati per essere copiati con un comando \"Incolla\""
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3435
 msgid "Move or copy files previously selected by a Cut or Copy command"
 msgstr ""
-"Sposta o copia i file precedentemente selezionati con un comando «Taglia» o "
-"«Copia»"
+"Sposta o copia i file precedentemente selezionati con un comando \"Taglia\" "
+"o \"Copia\""
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3438
 msgid "Paste Into Folder"
@@ -941,8 +941,8 @@ msgid ""
 "Move or copy files previously selected by a Cut or Copy command into "
 "selected folder"
 msgstr ""
-"Sposta o copia i file precedentemente selezionati da un comando «Taglia» o "
-"«Copia» nella cartella selezionata"
+"Sposta o copia i file precedentemente selezionati da un comando \"Taglia\" o "
+"\"Copia\" nella cartella selezionata"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3442
 msgid "_Rename..."
@@ -1003,8 +1003,7 @@ msgstr "_Altra applicazione..."
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3474
 msgid "Choose another application with which to open the selected item"
 msgstr ""
-"Permette di scegliere un'altra applicazione con la quale aprire l'elemento "
-"selezionato"
+"Sceglie un'altra applicazione con la quale aprire l'elemento selezionato"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3477
 msgid "Mo_ve to Trash"
@@ -1041,7 +1040,7 @@ msgstr "Mostra o modifica le proprietà di ogni elemento selezionato"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3601
 msgid "Set Color:"
-msgstr "Seleziona il colore:"
+msgstr "Seleziona colore:"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-clipboard-manager.c:369
 msgid "There is nothing on the clipboard to paste"
@@ -1084,7 +1083,7 @@ msgstr "Metodi di inserimento"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/exo-icon-view.c:887
 msgid "Layout mode"
-msgstr "Modalità impaginazione"
+msgstr "Modalità di impaginazione"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/exo-icon-view.c:888
 msgid "The layout mode"
@@ -1472,7 +1471,7 @@ msgstr "Svuotamento del cestino"
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:2430
 #, c-format
 msgid "Unable to mount %s"
-msgstr "Impossibile montare %s"
+msgstr "Impossibile montare «%s»"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:2508
 #, c-format
@@ -1827,7 +1826,7 @@ msgstr "Non è possibile determinare la posizione originale di «%s». "
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-utilities.c:122
 msgid "The item cannot be restored from trash"
-msgstr "Impossibile ripristinare l'oggetto dal cestino"
+msgstr "Non è possibile ripristinare l'elemento dal cestino"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:146
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:361
