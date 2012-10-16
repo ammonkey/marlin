@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: marlin\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2012-08-01 22:45+0200\n"
-"PO-Revision-Date: 2012-10-08 19:31+0000\n"
-"Last-Translator: Askhat Bikmetov <lolborgini@gmail.com>\n"
+"PO-Revision-Date: 2012-10-15 12:42+0000\n"
+"Last-Translator: Eugene Marshal <Unknown>\n"
 "Language-Team: Russian <ru@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Launchpad-Export-Date: 2012-10-09 04:57+0000\n"
-"X-Generator: Launchpad (build 16112)\n"
+"X-Launchpad-Export-Date: 2012-10-16 04:52+0000\n"
+"X-Generator: Launchpad (build 16137)\n"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:60
 msgid "Properties"
@@ -202,7 +202,7 @@ msgstr "Новая _вкладка"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:683
 msgid "Open another tab for the displayed location"
-msgstr ""
+msgstr "Открыть ещё одну вкладку для текущего адреса"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:686
 msgid "_Close"
@@ -214,7 +214,7 @@ msgstr "Закрыть эту папку"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:690
 msgid "Customize _Toolbar..."
-msgstr ""
+msgstr "_Настроить панель инструментов..."
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:691
 msgid "Easily edit the toolbar layout"
@@ -242,7 +242,7 @@ msgstr "Открыть _родительскую папку"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:707
 msgid "Open the parent folder"
-msgstr ""
+msgstr "Открыть папку уровнем выше"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:709
 msgid "_Back"
@@ -250,7 +250,7 @@ msgstr "_Назад"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:710
 msgid "Go to the previous visited location"
-msgstr ""
+msgstr "Перейти к предыдущему посещённому адресу"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:712
 msgid "_Forward"
@@ -258,7 +258,7 @@ msgstr "_Вперёд"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:713
 msgid "Go to the next visited location"
-msgstr ""
+msgstr "Перейти к следующему посещённому адресу"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:715
 msgid "_Reload"
@@ -266,7 +266,7 @@ msgstr "_Обновить"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:716
 msgid "Reload the current location"
-msgstr ""
+msgstr "Перезагрузить текущий адрес"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:719
 msgid "_Home Folder"
@@ -291,7 +291,7 @@ msgstr "_Сеть"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:728
 msgid "Browse bookmarked and local network locations"
-msgstr ""
+msgstr "Просмотреть закладки и локальные сетевые ресурсы"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:731
 msgid "Zoom _In"
@@ -299,7 +299,7 @@ msgstr "У_величить"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:732
 msgid "Increase the view size"
-msgstr ""
+msgstr "Увеличить масштаб"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:743
 msgid "Zoom _Out"
@@ -307,7 +307,7 @@ msgstr "У_меньшить"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:744
 msgid "Decrease the view size"
-msgstr ""
+msgstr "Уменьшить масштаб"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:751
 msgid "Normal Si_ze"
@@ -315,79 +315,79 @@ msgstr "_Нормальный размер"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:752
 msgid "Use the normal view size"
-msgstr ""
+msgstr "Использовать нормальный размер"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:755
 msgid "Next Tab"
-msgstr ""
+msgstr "Следующая вкладка"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:759
 msgid "Previous Tab"
-msgstr ""
+msgstr "Предыдущая вкладка"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:763
 msgid "Connect to _Server..."
-msgstr ""
+msgstr "Подключиться к _серверу…"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:764
 msgid "Connect to a remote computer or shared disk"
-msgstr ""
+msgstr "Соединиться с удалённым компьютером или общедоступным диском"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:767
 msgid "_About"
-msgstr ""
+msgstr "_Сведения о программе"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:768
 msgid "Display credits"
-msgstr ""
+msgstr "Об авторах"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:771
 msgid "Report a Problem..."
-msgstr ""
+msgstr "Сообщить о неполадке..."
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:772
 msgid "File a bug on Launchpad"
-msgstr ""
+msgstr "Сообщить о неполадке в Launchpad"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:775
 msgid "Get Help Online..."
-msgstr ""
+msgstr "Справка в интернете..."
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:779
 msgid "Translate This Application..."
-msgstr ""
+msgstr "Перевести это приложение…"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:788
 msgid "Show _Hidden Files"
-msgstr ""
+msgstr "Показывать скрытые _файлы"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:789
 msgid "Toggle the display of hidden files in the current window"
-msgstr ""
+msgstr "Показывать ли скрытые файлы в текущем окне"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:794
 msgid "Show _Desktop Files"
-msgstr ""
+msgstr "Показать файлы на рабочем столе"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:795
 msgid "Toggle the display of desktop files"
-msgstr ""
+msgstr "Переключить отображение файлов на рабочем столе"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:799
 msgid "_Context Pane"
-msgstr ""
+msgstr "_Сводная панель"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:800
 msgid "Change the visibility of the context pane"
-msgstr ""
+msgstr "Изменить видимость боковой панели"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:804
 msgid "_Menubar"
-msgstr ""
+msgstr "Панель _меню"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:805
 msgid "Change the visibility of this window's menubar"
-msgstr ""
+msgstr "Изменить видимость меню окна"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:809
 msgid "_Places"
@@ -395,23 +395,23 @@ msgstr ""
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:810
 msgid "Change the visibility of this window's side pane"
-msgstr ""
+msgstr "Показывать ли боковую панель этого окна"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:818
 msgid "Icon"
-msgstr ""
+msgstr "Значок"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:821
 msgid "List"
-msgstr ""
+msgstr "Список"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:824
 msgid "Compact"
-msgstr ""
+msgstr "Компактный"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:827
 msgid "Columns"
-msgstr ""
+msgstr "Столбцы"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/SettingsDialog.vala:31
 msgid "Marlin Preferences"
@@ -660,47 +660,47 @@ msgstr "Не удалось запустить файл \"%s\""
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-abstract-icon-view.c:283
 msgid "Arran_ge Items"
-msgstr ""
+msgstr "Выстраивать _объекты"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-abstract-icon-view.c:288
 msgid "Re_versed Order"
-msgstr ""
+msgstr "В _обратном порядке"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-abstract-icon-view.c:289
 msgid "Display icons in the opposite order"
-msgstr ""
+msgstr "Показывать значки в обратном порядке"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-abstract-icon-view.c:296
 msgid "By _Name"
-msgstr ""
+msgstr "по _имени"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-abstract-icon-view.c:297
 msgid "Keep icons sorted by name in rows"
-msgstr ""
+msgstr "Упорядочивать значки по имени, выстраивая их в ряды"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-abstract-icon-view.c:300
 msgid "By _Size"
-msgstr ""
+msgstr "по _размеру"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-abstract-icon-view.c:301
 msgid "Keep icons sorted by size in rows"
-msgstr ""
+msgstr "Упорядочивать значки по размеру, выстраивая их в ряды"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-abstract-icon-view.c:304
 msgid "By _Type"
-msgstr ""
+msgstr "по _типу"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-abstract-icon-view.c:305
 msgid "Keep icons sorted by type in rows"
-msgstr ""
+msgstr "Упорядочивать значки по типу, выстраивая их в ряды"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-abstract-icon-view.c:308
 msgid "By Modification _Date"
-msgstr ""
+msgstr "по _дате изменения"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-abstract-icon-view.c:309
 msgid "Keep icons sorted by modification date in rows"
-msgstr ""
+msgstr "Упорядочивать значки по дате изменения, выстраивая их в ряды"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-icon-view.c:86
 msgid "Icon directory listing"
@@ -917,18 +917,22 @@ msgstr "Установить по умолчанию"
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3427
 msgid "Prepare the selected files to be moved with a Paste command"
 msgstr ""
+"Подготовить выделенные файлы к перемещению с помощью команды «Вставить»"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3431
 msgid "Prepare the selected files to be copied with a Paste command"
 msgstr ""
+"Подготовить выделенные файлы к копированию с помощью команды «Вставить»"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3435
 msgid "Move or copy files previously selected by a Cut or Copy command"
 msgstr ""
+"Переместить или скопировать файлы, выбранные ранее командой «Вырезать» или "
+"«Копировать»"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3438
 msgid "Paste Into Folder"
-msgstr ""
+msgstr "Вставить в папку"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3439
 msgid ""
@@ -938,83 +942,83 @@ msgstr ""
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3442
 msgid "_Rename..."
-msgstr ""
+msgstr "Переи_меновать…"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3443
 msgid "Rename selected item"
-msgstr ""
+msgstr "Переименовать выделенный объект"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3446
 msgid "New _Folder"
-msgstr ""
+msgstr "Создать _папку"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3447
 msgid "Create a new empty folder inside this folder"
-msgstr ""
+msgstr "Создать новую пустую папку внутри этой папки"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3449
 msgid "New _File"
-msgstr ""
+msgstr "Создать _файл"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3451
 msgid "_Empty File"
-msgstr ""
+msgstr "_Пустой файл"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3452
 msgid "Create a new empty file inside this folder"
-msgstr ""
+msgstr "Создать новый пустой файл внутри этой папки"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3456
 msgid "Open the selected item"
-msgstr ""
+msgstr "Открыть выбранный элемент"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3463
 msgid "Open in new Window"
-msgstr ""
+msgstr "Открыть в новом окне"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3464
 msgid "Open each selected item in a new window"
-msgstr ""
+msgstr "Открыть каждый выбранный элемент в новом окне"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3468
 msgid "Open each selected item in a new tab"
-msgstr ""
+msgstr "Открыть каждый выделенный объект в отдельной вкладке"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3470
 msgid "Open Wit_h"
-msgstr ""
+msgstr "Открыть в про_грамме"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3471
 msgid "Choose a program with which to open the selected item"
-msgstr ""
+msgstr "Выбрать программу для открытия выделенного объекта"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3473
 msgid "Other _Application..."
-msgstr ""
+msgstr "Другое _приложение..."
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3474
 msgid "Choose another application with which to open the selected item"
-msgstr ""
+msgstr "Выбрать другое приложение для открытия выделенного объекта"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3477
 msgid "Mo_ve to Trash"
-msgstr ""
+msgstr "П_ереместить в корзину"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3478
 msgid "Move each selected item to the Trash"
-msgstr ""
+msgstr "Переместить каждый выделенный объект в корзину"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3481
 msgid "_Delete Permanently"
-msgstr ""
+msgstr "_Удалить безвозвратно"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3482
 msgid "Delete each selected item, without moving to the Trash"
-msgstr ""
+msgstr "Удалить каждый выделенный объект безвозвратно"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3485
 msgid "_Restore"
-msgstr ""
+msgstr "_Восстановить"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3489
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/eel-editable-label.c:3190
@@ -1023,11 +1027,11 @@ msgstr "Выделить всё"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3493
 msgid "_Properties"
-msgstr ""
+msgstr "_Свойства"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3494
 msgid "View or modify the properties of each selected item"
-msgstr ""
+msgstr "Просмотреть или изменить свойства каждого выделенного элемента"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3601
 msgid "Set Color:"
@@ -1083,7 +1087,7 @@ msgstr "Режим отображения"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-application.c:261
 msgid "Show the version of the program."
-msgstr ""
+msgstr "Показать версию программы."
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-application.c:263
 msgid "Only create windows for explicitly specified URIs."
@@ -1091,15 +1095,15 @@ msgstr ""
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-application.c:267
 msgid "Quit Marlin."
-msgstr ""
+msgstr "Выйти из Marlin."
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-application.c:269
 msgid "Enable debug logging"
-msgstr ""
+msgstr "Включить журналирование в целях отладки"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-application.c:270
 msgid "[URI...]"
-msgstr ""
+msgstr "[URI...]"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-application.c:279
 msgid ""
@@ -1117,7 +1121,7 @@ msgstr "параметр --quit нельзя использовать с адр�
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-list-view.c:59
 msgid "Filename"
-msgstr ""
+msgstr "Имя файла"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-progress-info.c:192
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-progress-info.c:210
@@ -1230,40 +1234,40 @@ msgstr "%'d-я ссылка на %s"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:463
 msgid " (copy)"
-msgstr ""
+msgstr " (копия)"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:465
 msgid " (another copy)"
-msgstr ""
+msgstr " (другая копия)"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:468
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:470
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:472
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:482
 msgid "th copy)"
-msgstr ""
+msgstr "-я копия)"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:475
 msgid "st copy)"
-msgstr ""
+msgstr "-я копия)"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:477
 msgid "nd copy)"
-msgstr ""
+msgstr "-я копия)"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:479
 msgid "rd copy)"
-msgstr ""
+msgstr "-я копия)"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:496
 #, c-format
 msgid "%s (copy)%s"
-msgstr ""
+msgstr "%s (копия)%s"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:498
 #, c-format
 msgid "%s (another copy)%s"
-msgstr ""
+msgstr "%s (другая копия)%s"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:501
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:503
@@ -1271,17 +1275,17 @@ msgstr ""
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:519
 #, c-format
 msgid "%s (%'dth copy)%s"
-msgstr ""
+msgstr "%s (%'d-я копия)%s"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:513
 #, c-format
 msgid "%s (%'dst copy)%s"
-msgstr ""
+msgstr "%s (%'d-я копия)%s"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:515
 #, c-format
 msgid "%s (%'dnd copy)%s"
-msgstr ""
+msgstr "%s (%'d-я копия)%s"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:517
 #, c-format
@@ -2425,16 +2429,16 @@ msgstr "Файлы верхнего уровня нельзя переимено
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libwidgets/LocationBar.vala:328
 msgid "Cut the selected text to the clipboard"
-msgstr ""
+msgstr "Вырезать выделенный текст в буфер обмена"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libwidgets/LocationBar.vala:332
 msgid "Copy the selected text to the clipboard"
-msgstr ""
+msgstr "Копировать выделенный текст в буфер обмена"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libwidgets/LocationBar.vala:336
 #: /home/am/dev/marlin8/trunk/marlin/po/../libwidgets/LocationBar.vala:340
 msgid "Paste the text stored on the clipboard"
-msgstr ""
+msgstr "Вставить текст, сохранённый в буфере обмена"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libwidgets/LocationBar.vala:816
 #, c-format
@@ -2459,4 +2463,4 @@ msgstr "Показать одним столбцом"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Chrome/TopMenu.vala:47
 msgid "Menu"
-msgstr ""
+msgstr "Меню"
