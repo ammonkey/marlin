@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: marlin\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-08-01 22:45+0200\n"
-"PO-Revision-Date: 2012-09-20 07:12+0000\n"
+"PO-Revision-Date: 2012-10-17 14:16+0000\n"
 "Last-Translator: Сергій Гордієнко <phrippy2@gmail.com>\n"
 "Language-Team: Ukrainian <uk@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -16,8 +16,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Launchpad-Export-Date: 2012-09-21 04:51+0000\n"
-"X-Generator: Launchpad (build 15985)\n"
+"X-Launchpad-Export-Date: 2012-10-18 04:48+0000\n"
+"X-Generator: Launchpad (build 16160)\n"
 "Language: uk\n"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:60
@@ -219,7 +219,7 @@ msgstr "Налаштувати _панель інструментів..."
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:691
 msgid "Easily edit the toolbar layout"
-msgstr ""
+msgstr "Просте редарування панелі інструментів"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:694
 msgid "Preferences"
@@ -1094,7 +1094,7 @@ msgstr "Показати версію програми."
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-application.c:263
 msgid "Only create windows for explicitly specified URIs."
-msgstr ""
+msgstr "Створювати вікна лише для явно зазначених URI"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-application.c:267
 msgid "Quit Marlin."
@@ -2142,7 +2142,7 @@ msgstr "Створити посилання на '%s'"
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1474
 #, c-format
 msgid "Set permissions of items enclosed in '%s'"
-msgstr ""
+msgstr "Вказати права доступу на об’єкти, що розміщені в '%s'"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1482
 #, c-format
@@ -2227,7 +2227,7 @@ msgstr[2] "_Відмінити відновлення зі смітника %d �
 #, c-format
 msgid "_Undo create link to %d item"
 msgid_plural "_Undo create link to %d items"
-msgstr[0] "_Відмінити створення посилання на %d елемент"
+msgstr[0] ""
 msgstr[1] "_Відмінити створення посилання на %d елемента"
 msgstr[2] "_Відмінити створення посилання на %d елементів"
 
@@ -2393,7 +2393,7 @@ msgstr "Вчора о %-I:%M %p"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/eel-fcts.c:89
 msgid "%a %-d %b %Y at %-I:%M %p"
-msgstr ""
+msgstr "%a %-d %b %Y at %-I:%M %p"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/gof-file.c:252
 #, c-format
