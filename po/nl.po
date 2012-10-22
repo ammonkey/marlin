@@ -8,15 +8,15 @@ msgstr ""
 "Project-Id-Version: marlin\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2012-08-01 22:45+0200\n"
-"PO-Revision-Date: 2012-05-24 02:52+0000\n"
-"Last-Translator: ammonkey <am.monkeyd@gmail.com>\n"
+"PO-Revision-Date: 2012-10-21 14:32+0000\n"
+"Last-Translator: abraxu <Unknown>\n"
 "Language-Team: Dutch <nl@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2012-08-02 05:01+0000\n"
-"X-Generator: Launchpad (build 15719)\n"
+"X-Launchpad-Export-Date: 2012-10-22 04:47+0000\n"
+"X-Generator: Launchpad (build 16165)\n"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:60
 msgid "Properties"
@@ -28,11 +28,11 @@ msgstr "Informatie"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:119
 msgid "Permissions"
-msgstr "Rechten"
+msgstr "Bevoegdheden"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:131
 msgid "Preview"
-msgstr "Voorbeeld"
+msgstr "Voorbeeldweergave"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:349
 msgid "Created"
