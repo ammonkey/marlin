@@ -8,15 +8,15 @@ msgstr ""
 "Project-Id-Version: marlin\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2012-08-01 22:45+0200\n"
-"PO-Revision-Date: 2012-10-21 14:32+0000\n"
-"Last-Translator: abraxu <Unknown>\n"
+"PO-Revision-Date: 2012-11-04 20:33+0000\n"
+"Last-Translator: rob <linuxned@gmail.com>\n"
 "Language-Team: Dutch <nl@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2012-10-22 04:47+0000\n"
-"X-Generator: Launchpad (build 16165)\n"
+"X-Launchpad-Export-Date: 2012-11-05 04:47+0000\n"
+"X-Generator: Launchpad (build 16232)\n"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:60
 msgid "Properties"
@@ -83,15 +83,15 @@ msgstr "Openen met"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:463
 msgid "Device usage"
-msgstr ""
+msgstr "Apparaatgebruik"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:608
 msgid "Read"
-msgstr "Lees"
+msgstr "Lezen"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:613
 msgid "Write"
-msgstr "Schrijf"
+msgstr "Schrijven"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:618
 msgid "Execute"
@@ -114,7 +114,7 @@ msgstr "Iedereen"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:1141
 msgid "Select an aplication to open "
-msgstr "Selecteer een applicatie om te openen "
+msgstr "Selecteer een toepassing om te openen "
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/ContextView.vala:336
 msgid "Name"
@@ -123,7 +123,7 @@ msgstr "Naam"
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/ContextView.vala:337
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-list-view.c:59
 msgid "Type"
-msgstr "Soort"
+msgstr "Type"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/ContextView.vala:342
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-list-view.c:59
@@ -151,190 +151,190 @@ msgstr "De map %s aanmaken"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:459
 msgid "Undo"
-msgstr ""
+msgstr "Ongedaan maken"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:460
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:701
 msgid "Undo the last action"
-msgstr ""
+msgstr "Laatste handeling ongedaan maken"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:469
 msgid "Redo"
-msgstr ""
+msgstr "Opnieuw uitvoeren"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:470
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:704
 msgid "Redo the last action"
-msgstr ""
+msgstr "Laatste handeling opnieuw uitvoeren"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:672
 msgid "_File"
-msgstr ""
+msgstr "_Bestand"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:673
 msgid "_Edit"
-msgstr ""
+msgstr "Be_werken"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:674
 msgid "_View"
-msgstr ""
+msgstr "Beel_d"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:675
 msgid "_Go"
-msgstr ""
+msgstr "_Gaan"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:676
 msgid "_Help"
-msgstr ""
+msgstr "_Hulp"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:678
 msgid "New _Window"
-msgstr ""
+msgstr "Nieuw _venster"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:679
 msgid "Open another Marlin window for the displayed location"
-msgstr ""
+msgstr "Open een nieuw Marlin-venster voor de weergegeven locatie"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:682
 msgid "New _Tab"
-msgstr ""
+msgstr "Nieuw _tabblad"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:683
 msgid "Open another tab for the displayed location"
-msgstr ""
+msgstr "Nog een tabblad openen voor de weergegeven locatie"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:686
 msgid "_Close"
-msgstr ""
+msgstr "Sl_uiten"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:687
 msgid "Close this folder"
-msgstr ""
+msgstr "Deze map sluiten"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:690
 msgid "Customize _Toolbar..."
-msgstr ""
+msgstr "_Werkbalk aanpassen…"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:691
 msgid "Easily edit the toolbar layout"
-msgstr ""
+msgstr "Werkbalkindeling eenvoudig aanpassen"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:694
 msgid "Preferences"
-msgstr ""
+msgstr "Voorkeuren"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:695
 msgid "Change Marlin's preferences"
-msgstr ""
+msgstr "Marlin-voorkeuren wijzigen"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:700
 msgid "_Undo"
-msgstr ""
+msgstr "O_ngedaan maken"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:703
 msgid "_Redo"
-msgstr ""
+msgstr "Op_nieuw uitvoeren"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:706
 msgid "Open _Parent"
-msgstr ""
+msgstr "_Bovenliggende map openen"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:707
 msgid "Open the parent folder"
-msgstr ""
+msgstr "De bovenliggende map openen"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:709
 msgid "_Back"
-msgstr ""
+msgstr "V_orige"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:710
 msgid "Go to the previous visited location"
-msgstr ""
+msgstr "Naar de vorige bezochte locatie gaan"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:712
 msgid "_Forward"
-msgstr ""
+msgstr "_Volgende"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:713
 msgid "Go to the next visited location"
-msgstr ""
+msgstr "Naar de volgende bezochte locatie gaan"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:715
 msgid "_Reload"
-msgstr ""
+msgstr "He_rladen"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:716
 msgid "Reload the current location"
-msgstr ""
+msgstr "De huidige locatie herladen"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:719
 msgid "_Home Folder"
-msgstr ""
+msgstr "_Persoonlijke map"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:720
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:329
 msgid "Open your personal folder"
-msgstr "Open uw persoonlijke map"
+msgstr "Persoonlijke  map openen"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:723
 msgid "_Trash"
-msgstr ""
+msgstr "_Prullenbak"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:724
 msgid "Open your personal trash folder"
-msgstr ""
+msgstr "Uw persoonlijke prullenpak openen"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:727
 msgid "_Network"
-msgstr ""
+msgstr "_Netwerk"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:728
 msgid "Browse bookmarked and local network locations"
-msgstr ""
+msgstr "Opgeslagen en lokale netwerklocaties doorbladeren"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:731
 msgid "Zoom _In"
-msgstr ""
+msgstr "In_zoomen"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:732
 msgid "Increase the view size"
-msgstr ""
+msgstr "Het beeld vergroten"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:743
 msgid "Zoom _Out"
-msgstr ""
+msgstr "_Uitzoomen"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:744
 msgid "Decrease the view size"
-msgstr ""
+msgstr "Het beeld verkleinen"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:751
 msgid "Normal Si_ze"
-msgstr ""
+msgstr "Normale _grootte"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:752
 msgid "Use the normal view size"
-msgstr ""
+msgstr "De normale beeldgrootte gebruiken"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:755
 msgid "Next Tab"
-msgstr ""
+msgstr "Volgend tabblad"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:759
 msgid "Previous Tab"
-msgstr ""
+msgstr "Vorig tabblad"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:763
 msgid "Connect to _Server..."
-msgstr ""
+msgstr "Verbinding maken met _server…"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:764
 msgid "Connect to a remote computer or shared disk"
-msgstr ""
+msgstr "Verbinding maken met een andere computer of een gedeelde schijf"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:767
 msgid "_About"
-msgstr ""
+msgstr "I_nfo"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:768
 msgid "Display credits"
@@ -342,7 +342,7 @@ msgstr ""
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:771
 msgid "Report a Problem..."
-msgstr ""
+msgstr "Een probleem melden…"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:772
 msgid "File a bug on Launchpad"
@@ -354,79 +354,79 @@ msgstr ""
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:779
 msgid "Translate This Application..."
-msgstr ""
+msgstr "Deze toepassing vertalen…"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:788
 msgid "Show _Hidden Files"
-msgstr ""
+msgstr "Ver_borgen bestanden tonen"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:789
 msgid "Toggle the display of hidden files in the current window"
-msgstr ""
+msgstr "De verborgen bestanden in het huidige venster tonen/verbergen"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:794
 msgid "Show _Desktop Files"
-msgstr ""
+msgstr "_Bureaubladbestanden tonen"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:795
 msgid "Toggle the display of desktop files"
-msgstr ""
+msgstr "Bureaubladbestanden tonen/verbergen"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:799
 msgid "_Context Pane"
-msgstr ""
+msgstr "_Contextpaneel"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:800
 msgid "Change the visibility of the context pane"
-msgstr ""
+msgstr "Het contextpaneel tonen/verbergen"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:804
 msgid "_Menubar"
-msgstr ""
+msgstr "_Menubalk"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:805
 msgid "Change the visibility of this window's menubar"
-msgstr ""
+msgstr "De menubalk van dit venster tonen/verbergen"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:809
 msgid "_Places"
-msgstr ""
+msgstr "_Locaties"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:810
 msgid "Change the visibility of this window's side pane"
-msgstr ""
+msgstr "Zichtbaarheid van het zijpaneel van dit venster veranderen"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:818
 msgid "Icon"
-msgstr ""
+msgstr "Pictogram"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:821
 msgid "List"
-msgstr ""
+msgstr "Lijst"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:824
 msgid "Compact"
-msgstr ""
+msgstr "Compact"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:827
 msgid "Columns"
-msgstr ""
+msgstr "Kolommen"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/SettingsDialog.vala:31
 msgid "Marlin Preferences"
-msgstr "Marlin Instellingen"
+msgstr "Marlin-voorkeuren"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/SettingsDialog.vala:46
 msgid "Single click to open:"
-msgstr "Enkel klikken om te openen:"
+msgstr "Eénmalig klikken om te openen:"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/SettingsDialog.vala:56
 msgid "Mouse auto-selection speed:"
-msgstr "Autoselectiesnelheid van de muis:"
+msgstr "Auto-selectiesnelheid van de muis:"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/SettingsDialog.vala:72
 msgid "Default File Manager:"
-msgstr "Standaard bestandsverkenner"
+msgstr "Standaardbestandsbeheer:"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/SettingsDialog.vala:81
 msgid "Behavior"
@@ -446,7 +446,7 @@ msgstr "informeel"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/SettingsDialog.vala:96
 msgid "Date format:"
-msgstr "Datumformaat:"
+msgstr "Datumnotatie:"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/SettingsDialog.vala:104
 msgid "Display"
@@ -469,7 +469,7 @@ msgstr "Netwerk"
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/ViewContainer.vala:139
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:324
 msgid "Home"
-msgstr "Home"
+msgstr "Persoonlijke map"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/ViewContainer.vala:141
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:394
@@ -502,15 +502,15 @@ msgstr "SSH"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-connect-server-dialog.c:127
 msgid "Public FTP"
-msgstr "Publieke FTP"
+msgstr "Openbare FTP"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-connect-server-dialog.c:129
 msgid "FTP (with login)"
-msgstr "FTP (met aanmelding)"
+msgstr "FTP (met aanmelden)"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-connect-server-dialog.c:132
 msgid "Windows share"
-msgstr "Windows-netwerk"
+msgstr "Windows-gedeelde map"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-connect-server-dialog.c:134
 msgid "WebDAV (HTTP)"
@@ -522,25 +522,25 @@ msgstr "Beveiligde WebDAV (HTTPS)"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-connect-server-dialog.c:183
 msgid "Connecting..."
-msgstr "Verbinden…"
+msgstr "Verbinding maken…"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-connect-server-dialog.c:207
 msgid ""
 "Can't load the supported server method list.\n"
 "Please check your gvfs installation."
 msgstr ""
-"Kon de lijst met ondersteunde servermethoden niet laden.\n"
+"Kon de lijst met ondersteunde server-methoden niet laden.\n"
 "Controleer de installatie van gvfs."
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-connect-server-dialog.c:285
 #, c-format
 msgid "The folder \"%s\" cannot be opened on \"%s\"."
-msgstr "De map \"%s\" kan niet worden geopend op \"%s\"."
+msgstr "De map \"%s\" op \"%s\" kon niet geopend worden."
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-connect-server-dialog.c:295
 #, c-format
 msgid "The server at \"%s\" cannot be found."
-msgstr "De server ‘%s’ kan niet gevonden worden."
+msgstr "De server op \"%s\" kon niet gevonden worden."
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-connect-server-dialog.c:330
 msgid "Try Again"
@@ -548,11 +548,11 @@ msgstr "Opnieuw proberen"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-connect-server-dialog.c:395
 msgid "Please verify your user details."
-msgstr "Controleer de gebruikersgegevens."
+msgstr "Controleer uw gebruikersgegevens."
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-connect-server-dialog.c:425
 msgid "Continue"
-msgstr "Ga verder"
+msgstr "Doorgaan"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-connect-server-dialog.c:750
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-connect-server-dialog.c:1140
@@ -565,7 +565,7 @@ msgstr "Verbinden met server"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-connect-server-dialog.c:893
 msgid "Server Details"
-msgstr "Serverdetails"
+msgstr "Server-details"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-connect-server-dialog.c:917
 msgid "_Server:"
@@ -581,7 +581,7 @@ msgstr "_Type:"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-connect-server-dialog.c:1024
 msgid "Sh_are:"
-msgstr "Gedeelde m_ap:"
+msgstr "Ge_deelde map:"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-connect-server-dialog.c:1039
 msgid "_Folder:"
@@ -597,7 +597,7 @@ msgstr "_Domeinnaam:"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-connect-server-dialog.c:1095
 msgid "_User name:"
-msgstr ""
+msgstr "_Gebruikersnaam:"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-connect-server-dialog.c:1110
 msgid "Pass_word:"
@@ -605,7 +605,7 @@ msgstr "Wacht_woord:"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-connect-server-dialog.c:1126
 msgid "_Remember this password"
-msgstr "Dit wachtwoo_rd onthouden"
+msgstr "Dit wachtwoord _onthouden"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-connect-server-dialog.c:1229
 msgid "Operation cancelled"
@@ -634,19 +634,19 @@ msgstr "Hernoemen van %s naar %s is mislukt"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-dnd.c:103
 msgid "_Move Here"
-msgstr "Hierheen _Verplaatsen"
+msgstr "Hierheen _verplaatsen"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-dnd.c:108
 msgid "_Copy Here"
-msgstr "Hierheen _Kopiëren"
+msgstr "Hierheen _kopiëren"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-dnd.c:113
 msgid "_Link Here"
-msgstr "Hierheen Ver_wijzen"
+msgstr "Hierheen ver_wijzen"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-dnd.c:118
 msgid "Set as _Background"
-msgstr "Als _Achtergrond Instellen"
+msgstr "Instellen als _achtergrond"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-dnd.c:125
 msgid "Cancel"
@@ -659,51 +659,51 @@ msgstr "Kon bestand \"%s\" niet uitvoeren"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-abstract-icon-view.c:283
 msgid "Arran_ge Items"
-msgstr ""
+msgstr "Items _ordenen"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-abstract-icon-view.c:288
 msgid "Re_versed Order"
-msgstr ""
+msgstr "Omgekeerde _volgorde"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-abstract-icon-view.c:289
 msgid "Display icons in the opposite order"
-msgstr ""
+msgstr "Pictogrammen in omgekeerde volgorde tonen"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-abstract-icon-view.c:296
 msgid "By _Name"
-msgstr ""
+msgstr "Op _naam"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-abstract-icon-view.c:297
 msgid "Keep icons sorted by name in rows"
-msgstr ""
+msgstr "Pictogrammen gesorteerd op naam in rijen"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-abstract-icon-view.c:300
 msgid "By _Size"
-msgstr ""
+msgstr "Op _grootte"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-abstract-icon-view.c:301
 msgid "Keep icons sorted by size in rows"
-msgstr ""
+msgstr "Pictogrammen gesorteerd op grootte in rijen"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-abstract-icon-view.c:304
 msgid "By _Type"
-msgstr ""
+msgstr "Op _type"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-abstract-icon-view.c:305
 msgid "Keep icons sorted by type in rows"
-msgstr ""
+msgstr "Pictogrammen gesorteerd op type in rijen"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-abstract-icon-view.c:308
 msgid "By Modification _Date"
-msgstr ""
+msgstr "Op wijzigings_datum"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-abstract-icon-view.c:309
 msgid "Keep icons sorted by modification date in rows"
-msgstr ""
+msgstr "Pictogrammen gesorteerd op wijzigingsdatum in rijen"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-icon-view.c:86
 msgid "Icon directory listing"
-msgstr "Iconiseer mappenlijst"
+msgstr "Pictogrammaplijst"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-icon-view.c:87
 msgid "Icon view"
@@ -711,15 +711,15 @@ msgstr "Pictogramweergave"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-toolbar-editor.c:445
 msgid "Customize Toolbar"
-msgstr "Werkbalk Aanpassen"
+msgstr "Werkbalk aanpassen"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-toolbar-editor.c:460
 msgid ""
 "Select items to be displayed on the toolbar. Items can be reordered by drag "
 "and drop."
 msgstr ""
-"Selecteer de te vertonen onderdelen voor de werkbalk. Onderdelen kunnen "
-"opnieuw geordend worden door ze te verslepen."
+"Selecteer items die op de werkbalk dienen te worden weergegeven. Items "
+"kunnen verplaatst worden door ze te verslepen."
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-toolbar-editor.c:474
 msgid "Available Items"
@@ -727,7 +727,7 @@ msgstr "Beschikbare Items"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-toolbar-editor.c:493
 msgid "Displayed Items"
-msgstr "Getoonde Items"
+msgstr "Weergegeven items"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:310
 msgid "Personal"
@@ -735,11 +735,11 @@ msgstr "Persoonlijk"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:315
 msgid "Your common places and bookmarks"
-msgstr "Uw gebruikelijke plaatsen en bladwijzers"
+msgstr "Uw gebruikelijke locaties en bladwijzers"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:372
 msgid "Open the trash"
-msgstr "Open de prullenbak."
+msgstr "De prullenbak openen"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:382
 msgid "Devices"
@@ -761,7 +761,7 @@ msgstr "%s aankoppelen en openen"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:593
 msgid "Your network places"
-msgstr "Uw netwerkplaatsen"
+msgstr "Uw netwerklocaties"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:624
 msgid "Entire network"
@@ -769,7 +769,7 @@ msgstr "Volledige netwerk"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:626
 msgid "Browse the contents of the network"
-msgstr "Door de inhoud van het netwerk bladeren"
+msgstr "Het netwerk doorbladeren"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:1610
 msgid "_Start"
@@ -793,36 +793,36 @@ msgstr "Station _verbinden"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:1621
 msgid "_Disconnect Drive"
-msgstr "Stationverbinding ver_breken"
+msgstr "Verbinding station ver_breken"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:1624
 msgid "_Start Multi-disk Device"
-msgstr "Multischijf-apparaat _starten"
+msgstr "Multischijfapparaat _starten"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:1625
 msgid "_Stop Multi-disk Device"
-msgstr "Multischijf-apparaat _stoppen"
+msgstr "Multischijfapparaat _stoppen"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:1629
 msgid "_Unlock Drive"
-msgstr "Station vrij_geven"
+msgstr "Station _ontgrendelen"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:1630
 msgid "_Lock Drive"
-msgstr "Station ver_grendelen"
+msgstr "Station vergrende_len"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:1704
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:2251
 #, c-format
 msgid "Unable to start %s"
-msgstr "Niet in staat %s te starten"
+msgstr "Kon %s niet starten"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:1994
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:2023
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:2052
 #, c-format
 msgid "Unable to eject %s"
-msgstr "Kan %s niet uitwerpen"
+msgstr "Kon %s niet uitwerpen"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:2197
 #, c-format
@@ -832,36 +832,36 @@ msgstr "Niet in staat %s te bevragen voor veranderingen in media"
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:2307
 #, c-format
 msgid "Unable to stop %s"
-msgstr "Niet in staat %s te stoppen"
+msgstr "Kon %s niet stoppen"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:2399
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:1943
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3455
 msgid "_Open"
-msgstr "_Open"
+msgstr "_Openen"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:2407
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:1963
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3467
 msgid "Open in New _Tab"
-msgstr "Open in Nieuwe _Tab"
+msgstr "Openen in nieuw _tabblad"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:2414
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:1972
 msgid "Open in New _Window"
-msgstr "Open in Nieuw _Venster"
+msgstr "Openen in _nieuw venster"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:2423
 msgid "Remove"
-msgstr "Verwijder"
+msgstr "Verwijderen"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:2432
 msgid "Rename..."
-msgstr "Hernoem..."
+msgstr "Hernoemen…"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:2444
 msgid "_Mount"
-msgstr "_Koppelen"
+msgstr "_Aankoppelen"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:2451
 msgid "_Unmount"
@@ -869,13 +869,13 @@ msgstr "_Ontkoppelen"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:2458
 msgid "_Eject"
-msgstr "Uitw_erpen"
+msgstr "_Uitwerpen"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:2466
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:1422
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:2310
 msgid "Empty _Trash"
-msgstr "Leeg _Prullenbak"
+msgstr "_Prullenbak legen"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:1147
 msgid "Invalid filename provided by XDS drag site"
@@ -884,14 +884,14 @@ msgstr "Ongeldige bestandsnaam voorzien door XDS drag site"
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:1305
 #, c-format
 msgid "Failed to create a link for the URL \"%s\""
-msgstr "Link voor de URL \"%s\" maken mislukt"
+msgstr "Kon link voor URL \"%s\" niet maken"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:1790
 #, c-format
 msgid "Use \"%s\" to open the selected item"
 msgid_plural "Use \"%s\" to open the selected items"
-msgstr[0] "Gebruik \"%s\" om het selecteerde item te openen"
-msgstr[1] "Gebruik \"%s\" om de geselecteerde items te openen"
+msgstr[0] "\"%s\" gebruiken om het geselecteerde item te openen"
+msgstr[1] "\"%s\" gebruiken om de geselecteerde items te openen"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:1937
 #, c-format
@@ -901,12 +901,12 @@ msgstr "_Openen met %s"
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:1959
 #, c-format
 msgid "Open in %'d New _Tabs"
-msgstr "Open in %'d Nieuwe_Tabbladen"
+msgstr "In %'d nieuwe _tabbladen openen"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:1968
 #, c-format
 msgid "Open in %'d New _Windows"
-msgstr "Open in %'d Nieuwe_Vensters"
+msgstr "In %'d nieuwe _vensters openen"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3378
 msgid "Set as default"
@@ -915,100 +915,110 @@ msgstr "Als standaard instellen"
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3427
 msgid "Prepare the selected files to be moved with a Paste command"
 msgstr ""
+"Geselecteerde bestanden klaarmaken om verplaatst te worden met de Plakken-"
+"opdracht"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3431
 msgid "Prepare the selected files to be copied with a Paste command"
 msgstr ""
+"Geselecteerde bestanden klaarmaken om gekopieerd te worden met de Plakken-"
+"opdracht"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3435
 msgid "Move or copy files previously selected by a Cut or Copy command"
 msgstr ""
+"Bestanden verplaatsen of kopiëren die eerder bij een Knippen- of Kopiëren-"
+"opdracht zijn geselecteerd"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3438
 msgid "Paste Into Folder"
-msgstr ""
+msgstr "In map plakken"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3439
 msgid ""
 "Move or copy files previously selected by a Cut or Copy command into "
 "selected folder"
 msgstr ""
+"Bestanden die eerder door een Knippen- of Kopiëren-opdracht waren "
+"geselecteerd, verplaatsen of kopiëren naar de geselecteerde map"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3442
 msgid "_Rename..."
-msgstr ""
+msgstr "He_rnoemen…"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3443
 msgid "Rename selected item"
-msgstr ""
+msgstr "Geselecteerde item hernoemen"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3446
 msgid "New _Folder"
-msgstr ""
+msgstr "Nieuwe _map"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3447
 msgid "Create a new empty folder inside this folder"
-msgstr ""
+msgstr "Nieuwe lege map aanmaken in deze map"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3449
 msgid "New _File"
-msgstr ""
+msgstr "Nieuw _bestand"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3451
 msgid "_Empty File"
-msgstr ""
+msgstr "_Leeg bestand"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3452
 msgid "Create a new empty file inside this folder"
-msgstr ""
+msgstr "Nieuw leeg bestand aanmaken in deze map"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3456
 msgid "Open the selected item"
-msgstr ""
+msgstr "Geselecteerd item openen"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3463
 msgid "Open in new Window"
-msgstr ""
+msgstr "Nieuw venster openen"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3464
 msgid "Open each selected item in a new window"
-msgstr ""
+msgstr "Elk geselecteerd item in een nieuw venster openen"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3468
 msgid "Open each selected item in a new tab"
-msgstr ""
+msgstr "Elk geselecteerd item in een nieuw tabblad openen"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3470
 msgid "Open Wit_h"
-msgstr ""
+msgstr "Openen _met"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3471
 msgid "Choose a program with which to open the selected item"
-msgstr ""
+msgstr "Kies een toepassing om het geselecteerde item mee te openen"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3473
 msgid "Other _Application..."
-msgstr ""
+msgstr "Andere _toepassing…"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3474
 msgid "Choose another application with which to open the selected item"
-msgstr ""
+msgstr "Andere toepassing kiezen om het geselecteerde item mee te openen"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3477
 msgid "Mo_ve to Trash"
-msgstr ""
+msgstr "Naar prullenbak _verplaatsen"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3478
 msgid "Move each selected item to the Trash"
-msgstr ""
+msgstr "Elk geselecteerde item naar de prullenbak verplaatsen"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3481
 msgid "_Delete Permanently"
-msgstr ""
+msgstr "Permanent ver_wijderen"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3482
 msgid "Delete each selected item, without moving to the Trash"
 msgstr ""
+"Elk geselecteerd item verwijderen, zonder het naar de prullenbak te "
+"verplaatsen."
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3485
 msgid "_Restore"
@@ -1017,23 +1027,23 @@ msgstr ""
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3489
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/eel-editable-label.c:3190
 msgid "Select All"
-msgstr "Alles Selecteren"
+msgstr "Alles selecteren"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3493
 msgid "_Properties"
-msgstr ""
+msgstr "_Eigenschappen"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3494
 msgid "View or modify the properties of each selected item"
-msgstr ""
+msgstr "De eigenschappen van elk geselecteerd item bekijken of wijzigen"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3601
 msgid "Set Color:"
-msgstr "Kies Kleur:"
+msgstr "Kleur kiezen:"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-clipboard-manager.c:369
 msgid "There is nothing on the clipboard to paste"
-msgstr "Er is niets op het klmebord om te plakken"
+msgstr "Er staat niets op het klembord om te plakken"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-progress-ui-handler.c:114
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-progress-ui-handler.c:164
@@ -1056,15 +1066,15 @@ msgstr[1] "%'d bestandsbewerkingen actief"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-progress-ui-handler.c:285
 msgid "Show Copy Dialog"
-msgstr ""
+msgstr "Kopieerdialoogvenster tonen"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-progress-ui-handler.c:297
 msgid "Cancel All In-progress Actions"
-msgstr ""
+msgstr "Alle acties die actief zijn annuleren"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-progress-ui-handler.c:482
 msgid "All file operations have been successfully completed"
-msgstr "Alle bestandsoperaties zijn succesvol voltooid"
+msgstr "Alle bestandsbewerkingen zijn succesvol voltooid"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/eel-editable-label.c:3201
 msgid "Input Methods"
@@ -1072,31 +1082,31 @@ msgstr "Invoermethodes"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/exo-icon-view.c:887
 msgid "Layout mode"
-msgstr "Layout-modus"
+msgstr "Weergave-modus"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/exo-icon-view.c:888
 msgid "The layout mode"
-msgstr "De layout-modus"
+msgstr "De weergave-modus"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-application.c:261
 msgid "Show the version of the program."
-msgstr ""
+msgstr "Toepassingsversie tonen."
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-application.c:263
 msgid "Only create windows for explicitly specified URIs."
-msgstr ""
+msgstr "Alleen vensters openen voor expliciet opgegeven URI's."
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-application.c:267
 msgid "Quit Marlin."
-msgstr ""
+msgstr "Marlin afsluiten"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-application.c:269
 msgid "Enable debug logging"
-msgstr ""
+msgstr "Foutopsporingslog inschakelen"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-application.c:270
 msgid "[URI...]"
-msgstr ""
+msgstr "[URI…]"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-application.c:279
 msgid ""
@@ -1114,53 +1124,53 @@ msgstr "--quit kan niet gebruikt worden met URI's."
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-list-view.c:59
 msgid "Filename"
-msgstr ""
+msgstr "Bestandsnaam"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-progress-info.c:192
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-progress-info.c:210
 msgid "Preparing"
-msgstr "Bezig met voorbereiden"
+msgstr "Voorbereiden"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/eel-vfs-extensions.c:72
 msgid " (invalid Unicode)"
-msgstr " (ongeldige Unicode)"
+msgstr " (ongeldige tekenset)"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:200
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:737
 msgid "_Skip"
-msgstr "_Overslaan"
+msgstr "Over_slaan"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:201
 msgid "S_kip All"
-msgstr "_Alles Overslaan"
+msgstr "Alles _overslaan"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:202
 msgid "_Retry"
-msgstr "Opnieuw P_roberen"
+msgstr "_Opnieuw proberen"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:203
 msgid "Delete _All"
-msgstr "Alles Ver_wijderen"
+msgstr "Alles _verwijderen"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:204
 msgid "_Replace"
-msgstr "Ve_rvangen"
+msgstr "_Vervangen"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:205
 msgid "Replace _All"
-msgstr "_AllesVervangen"
+msgstr "_Alles vervangen"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:206
 msgid "_Merge"
-msgstr "Sa_menvoegen"
+msgstr "_Samenvoegen"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:207
 msgid "Merge _All"
-msgstr "_Alles Samenvoegen"
+msgstr "_Alles samenvoegen"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:208
 msgid "Copy _Anyway"
-msgstr "_Toch Kopiëren"
+msgstr "_Toch kopiëren"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:294
 #, c-format
@@ -1204,7 +1214,7 @@ msgstr "Nog een verwijzing naar %s"
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:413
 #, c-format
 msgid "%'dst link to %s"
-msgstr "%'de verwijzing naar %s"
+msgstr "%'dste verwijzing naar %s"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:417
 #, c-format
@@ -1223,40 +1233,40 @@ msgstr "%'de verwijzing naar %s"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:463
 msgid " (copy)"
-msgstr ""
+msgstr " (kopie)"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:465
 msgid " (another copy)"
-msgstr ""
+msgstr " (nog een kopie)"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:468
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:470
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:472
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:482
 msgid "th copy)"
-msgstr ""
+msgstr "de kopie)"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:475
 msgid "st copy)"
-msgstr ""
+msgstr "ste kopie)"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:477
 msgid "nd copy)"
-msgstr ""
+msgstr "de kopie)"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:479
 msgid "rd copy)"
-msgstr ""
+msgstr "de kopie)"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:496
 #, c-format
 msgid "%s (copy)%s"
-msgstr ""
+msgstr "%s (kopie)%s"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:498
 #, c-format
 msgid "%s (another copy)%s"
-msgstr ""
+msgstr "%s (nog een kopie)%s"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:501
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:503
@@ -1264,22 +1274,22 @@ msgstr ""
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:519
 #, c-format
 msgid "%s (%'dth copy)%s"
-msgstr ""
+msgstr "%s (%'de kopie)%s"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:513
 #, c-format
 msgid "%s (%'dst copy)%s"
-msgstr ""
+msgstr "%s (%'dste kopie)%s"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:515
 #, c-format
 msgid "%s (%'dnd copy)%s"
-msgstr ""
+msgstr "%s (%'de kopie)%s"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:517
 #, c-format
 msgid "%s (%'drd copy)%s"
-msgstr ""
+msgstr "%s (%'de kopie)%s"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:617
 msgid " ("
@@ -1293,7 +1303,7 @@ msgstr " (%'d"
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:1381
 msgid "Are you sure you want to permanently delete \"%B\" from the trash?"
 msgstr ""
-"Bent u zeker dat u \"%B\" definitief uit de prullenbak wilt verwijderen?"
+"Weet u zeker dat u \"%B\" permanent wilt verwijderen uit de prullenbak?"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:1384
 #, c-format
@@ -1304,28 +1314,28 @@ msgid_plural ""
 "Are you sure you want to permanently delete the %'d selected items from the "
 "trash?"
 msgstr[0] ""
-"Weet u zeker dat u het geselecteerde item blijvend wilt verwijderen uit de "
+"Weet u zeker dat u het geselecteerde item permanent wilt verwijderen uit de "
 "prullenbak?"
 msgstr[1] ""
-"Weet u zeker dat u de %'d geselecteerde items blijvend wilt verwijderen uit "
+"Weet u zeker dat u de %'d geselecteerde items permanent wilt verwijderen uit "
 "de prullenbak?"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:1394
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:1462
 msgid "If you delete an item, it will be permanently lost."
-msgstr "Als u een bestand verwijdert, zal het definitief verloren gaan."
+msgstr "Als u een item verwijdert, zal het voorgoed verloren gaan."
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:1415
 msgid "Empty all items from Trash?"
-msgstr "Verwijder alle bestanden van de Prullenbak?"
+msgstr "Alle items uit de prullenbak verwijderen?"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:1419
 msgid "All items in the Trash will be permanently deleted."
-msgstr "Alle bestanden in de Prullenbak zullen definitief verwijderd worden."
+msgstr "Alle items uit de prullenbak zullen permanent verwijderd worden."
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:1450
 msgid "Are you sure you want to permanently delete \"%B\"?"
-msgstr "Bent u zeker dat u het bestand \"%B\" definitief wilt verwijderen?"
+msgstr "Weet u zeker dat u \"%B\" permanent wilt verwijderen?"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:1453
 #, c-format
@@ -1333,7 +1343,7 @@ msgid "Are you sure you want to permanently delete the %'d selected item?"
 msgid_plural ""
 "Are you sure you want to permanently delete the %'d selected items?"
 msgstr[0] ""
-"Weet u zeker dat u het geselecteerde item blijvend wilt verwijderen?"
+"Weet u zeker dat u het geselecteerd item permanent wilt verwijderen?"
 msgstr[1] ""
 "Weet u zeker dat u de %'d geselecteerde items permanent wilt verwijderen?"
 
@@ -1346,8 +1356,8 @@ msgstr "Bestanden verwijderen"
 #, c-format
 msgid "%'d file left to delete"
 msgid_plural "%'d files left to delete"
-msgstr[0] "%'d te verwijderen bestand over"
-msgstr[1] "%'d te verwijderen bestanden over"
+msgstr[0] "%'d resterend bestand om te verwijderen"
+msgstr[1] "%'d resterende bestanden om te verwijderen"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:1524
 msgid "%T left"
@@ -1368,8 +1378,8 @@ msgid ""
 "Files in the folder \"%B\" cannot be deleted because you do not have "
 "permissions to see them."
 msgstr ""
-"Bestanden in de map ‘%B’ kunnen niet worden gewist omdat u geen rechten "
-"heeft om ze te zien."
+"Bestanden in de map \"%B\" kunnen niet verwijderd worden, omdat u geen "
+"leesrechten heeft voor deze map."
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:1599
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:2632
@@ -1377,21 +1387,21 @@ msgstr ""
 msgid ""
 "There was an error getting information about the files in the folder \"%B\"."
 msgstr ""
-"Er is een fout opgetreden bij het ophalen van de informatie van de bestanden "
-"in de map \"%B\"."
+"Er is een fout opgetreden bij het ophalen van informatie over bestanden in "
+"de map \"%B\"."
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:1608
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:3637
 msgid "_Skip files"
-msgstr "Bestanden _overslaan"
+msgstr "Bestanden over_slaan"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:1629
 msgid ""
 "The folder \"%B\" cannot be deleted because you do not have permissions to "
 "read it."
 msgstr ""
-"De map \"%B\" can niet verwijderd worden omdat u geen permissies om te lezen "
-"heeft."
+"De map \"%B\" kon niet verwijderd worden, omdat u geen leesrechten heeft "
+"voor deze map."
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:1632
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:2671
@@ -1410,14 +1420,14 @@ msgstr "Er is een fout opgetreden bij het verwijderen van %B."
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:1819
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:1831
 msgid "Moving files to trash"
-msgstr "Bestanden in de prullenbak gooien"
+msgstr "Bestanden naar de prullenbak verplaatsen"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:1833
 #, c-format
 msgid "%'d file left to trash"
 msgid_plural "%'d files left to trash"
-msgstr[0] "%'d bestand over om in de prullenbak te gooien"
-msgstr[1] "%'d bestanden over om in de prullenbak te gooien"
+msgstr[0] "%'d resterend bestand om naar de prullenbak te verplaatsen"
+msgstr[1] "%'d resterende bestanden om naar de prullenbak te verplaatsen"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:1888
 msgid "Cannot move file to trash, do you want to delete immediately?"
@@ -1427,36 +1437,36 @@ msgstr ""
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:1889
 msgid "The file \"%B\" cannot be moved to the trash."
-msgstr "Het bestand ‘%B’ kan niet in de prullenbak worden gegooid."
+msgstr "Het bestand \"%B\" kan niet naar de prullenbak worden verplaatst."
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:2069
 msgid "Trashing Files"
-msgstr "Bestanden in prullenbak gooien"
+msgstr "Bestanden naar de prullenbak verplaatsen"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:2071
 msgid "Deleting Files"
-msgstr "Bestanden wissen"
+msgstr "Bestanden verwijderen"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:2143
 msgid "Unable to eject %V"
-msgstr "Kan %V niet uitwerpen"
+msgstr "Kon %V niet uitwerpen"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:2145
 msgid "Unable to unmount %V"
-msgstr "Kan %V niet ontkoppelen"
+msgstr "Kon %V niet ontkoppelen"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:2300
 msgid "Do you want to empty the trash before you unmount?"
-msgstr "Wilt u de prullenbak legen vóór het ontkoppelen?"
+msgstr "Wilt u de prullenbak legen voordat u gaat ontkoppelen?"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:2302
 msgid ""
 "In order to regain the free space on this volume the trash must be emptied. "
 "All trashed items on the volume will be permanently lost."
 msgstr ""
-"Om vrije ruimte op het volume te verkrijgen, moet de prullenbak geleegd "
-"worden. Alle verwijderde bestanden op dit volume zullen definitief verloren "
-"gaan."
+"Om vrije ruimte op dit medium terug te winnen, dient de prullenbak geleegd "
+"te worden. Alle items in de prullenbak op het medium zullen permanent "
+"verloren gaan."
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:2308
 msgid "Do _not Empty Trash"
@@ -1464,7 +1474,7 @@ msgstr "Prullenbak _niet legen"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:2363
 msgid "Emptying the trash"
-msgstr "Prullenbak wordt geleegd"
+msgstr "Prullenbak legen"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:2430
 #, c-format
@@ -1496,8 +1506,8 @@ msgstr[1] "Verwijderen van %'d bestanden voorbereiden (%S)"
 #, c-format
 msgid "Preparing to trash %'d file"
 msgid_plural "Preparing to trash %'d files"
-msgstr[0] "In prullenbak gooien van %'d bestand voorbereiden"
-msgstr[1] "In prullenbak gooien van %'d bestanden voorbereiden"
+msgstr[0] "Naar prullenbak verplaatsen van %'d bestand voorbereiden"
+msgstr[1] "Naar prullenbak verplaatsen van %'d bestanden voorbereiden"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:2569
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:3489
@@ -1521,28 +1531,29 @@ msgid ""
 "Files in the folder \"%B\" cannot be handled because you do not have "
 "permissions to see them."
 msgstr ""
-"Bestanden in de map ‘%B’ kunnen niet worden afgehandeld omdat u geen rechten "
-"heeft om ze te zien."
+"Bestanden in de map \"%B\" kunnen niet worden afgehandeld omdat u geen "
+"rechten heeft om ze te zien."
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:2668
 msgid ""
 "The folder \"%B\" cannot be handled because you do not have permissions to "
 "read it."
 msgstr ""
-"De map ‘%B’ kan niet worden afgehandeld omdat u er geen leesrechten voor "
-"heeft"
+"De map \"%B\" kan niet worden afgehandeld omdat u er geen leesrechten voor "
+"heeft."
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:2745
 msgid ""
 "The file \"%B\" cannot be handled because you do not have permissions to "
 "read it."
 msgstr ""
-"Het bestand ‘%B’ kan niet worden afgehandeld omdat u er geen leesrechten "
+"Het bestand \"%B\" kan niet worden afgehandeld omdat u er geen leesrechten "
 "voor heeft."
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:2748
 msgid "There was an error getting information about \"%B\"."
-msgstr "Er is een fout opgetreden bij het ophalen van informatie over ‘%B’."
+msgstr ""
+"Er is een fout opgetreden bij het ophalen van informatie over \"%B\"’."
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:2848
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:2890
@@ -1553,25 +1564,24 @@ msgstr "Fout bij het kopiëren naar \"%B\"."
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:2852
 msgid "You do not have permissions to access the destination folder."
-msgstr "U heeft geen permissies om de doelmap te benaderen."
+msgstr "U beschikt niet over de rechten om de doelmap te benaderen."
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:2854
 msgid "There was an error getting information about the destination."
 msgstr ""
-"Er is een fout opgetreden bij het ophalen van de informatie over de "
-"bestemming."
+"Er is een fout opgetreden bij het ophalen van informatie over het doel."
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:2891
 msgid "The destination is not a folder."
-msgstr "De bestemming is geen map."
+msgstr "Het doel is geen map."
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:2924
 msgid ""
 "There is not enough space on the destination. Try to remove files to make "
 "space."
 msgstr ""
-"Er is niet genoeg ruimte op de bestemming. Probeer bestanden te verwijderen "
-"om ruimte vrij te maken."
+"Er is niet genoeg ruimte op het doel. Probeer bestanden te verwijderen om "
+"ruimte vrij te maken."
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:2926
 #, c-format
@@ -1580,49 +1590,49 @@ msgstr "Er is %S beschikbaar, maar %S is vereist."
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:2954
 msgid "The destination is read-only."
-msgstr "De bestemming is alleen-lezen."
+msgstr "Het doel is alleen-lezen."
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:3015
 msgid "Moving \"%B\" to \"%B\""
-msgstr "Verplaatsen van ‘%B’ naar ‘%B’"
+msgstr "\"%B\" verplaatsen naar \"%B\""
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:3016
 msgid "Copying \"%B\" to \"%B\""
-msgstr "Kopiëren van ‘%B’ naar ‘%B’"
+msgstr "\"%B\" kopiëren naar \"%B\""
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:3020
 msgid "Duplicating \"%B\""
-msgstr "Dupliceren van ‘%B’"
+msgstr "\"%B\" dupliceren"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:3024
 msgid "Moving %'d file (in \"%B\") to \"%B\""
 msgid_plural "Moving %'d files (in \"%B\") to \"%B\""
-msgstr[0] "Verplaatsen van %'d bestand (in ‘%B’) naar ‘%B’"
-msgstr[1] "Verplaatsen van %'d bestanden (in ‘%B’) naar ‘%B’"
+msgstr[0] "Verplaatsen van %'d bestand (in \"%B\") naar \"%B\""
+msgstr[1] "Verplaatsen van %'d bestanden (in \"%B\") naar \"%B\""
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:3027
 msgid "Copying %'d file (in \"%B\") to \"%B\""
 msgid_plural "Copying %'d files (in \"%B\") to \"%B\""
-msgstr[0] "Kopiëren van %'d bestand (in ‘%B’) naar ‘%B’"
-msgstr[1] "Kopiëren van %'d bestanden (in ‘%B’) naar ‘%B’"
+msgstr[0] "Kopiëren van %'d bestand (in \"%B\") naar \"%B\""
+msgstr[1] "Kopiëren van %'d bestanden (in \"%B\") naar \"%B\""
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:3034
 msgid "Duplicating %'d file (in \"%B\")"
 msgid_plural "Duplicating %'d files (in \"%B\")"
-msgstr[0] "Dupliceren van %'d bestand (in ‘%B’)"
-msgstr[1] "Dupliceren van %'d bestanden (in ‘%B’)"
+msgstr[0] "Dupliceren van %'d bestand (in \"%B\")"
+msgstr[1] "Dupliceren van %'d bestanden (in \"%B\")"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:3043
 msgid "Moving %'d file to \"%B\""
 msgid_plural "Moving %'d files to \"%B\""
-msgstr[0] "Verplaatsen van %'d bestand naar ‘%B’"
-msgstr[1] "Verplaatsen van %'d bestanden naar ‘%B’"
+msgstr[0] "Verplaatsen van %'d bestand naar \"%B\""
+msgstr[1] "Verplaatsen van %'d bestanden naar \"%B\""
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:3047
 msgid "Copying %'d file to \"%B\""
 msgid_plural "Copying %'d files to \"%B\""
-msgstr[0] "Kopiëren van %'d bestand naar ‘%B’"
-msgstr[1] "Kopiëren van %'d bestanden naar ‘%B’"
+msgstr[0] "Kopiëren van %'d bestand naar \"%B\""
+msgstr[1] "Kopiëren van %'d bestanden naar \"%B\""
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:3052
 #, c-format
@@ -1647,32 +1657,34 @@ msgid ""
 "The folder \"%B\" cannot be copied because you do not have permissions to "
 "create it in the destination."
 msgstr ""
-"Kan de map ‘%B’ niet kopiëren omdat u geen rechten heeft om deze aan te "
-"maken in het doel."
+"De map \"%B\" kon niet gekopieerd worden, omdat u geen rechten heeft om een "
+"map te kopiëren naar het doel."
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:3496
 msgid "There was an error creating the folder \"%B\"."
-msgstr "Er is een fout opgetreden bij het aanmaken van de map ‘%B’."
+msgstr "Er is een fout opgetreden bij het aanmaken van de map \"%B\"."
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:3625
 msgid ""
 "Files in the folder \"%B\" cannot be copied because you do not have "
 "permissions to see them."
 msgstr ""
-"Kan bestanden in de map ‘%B’ niet kopiëren omdat u geen rechten heeft om ze "
-"te zien."
+"Kan bestanden in de map \"%B\" niet kopiëren omdat u geen rechten heeft om "
+"ze te zien."
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:3670
 msgid ""
 "The folder \"%B\" cannot be copied because you do not have permissions to "
 "read it."
-msgstr "Kan de map ‘%B’ niet kopiëren omdat u er geen leesrechten voor heeft"
+msgstr ""
+"De map \"%B\" kan niet gekopieerd worden omdat u hier geen leesrechten voor "
+"heeft."
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:3715
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:4416
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:5004
 msgid "Error while moving \"%B\"."
-msgstr "Fout bij het verplaatsen van '%B'."
+msgstr "Fout bij het verplaatsen van \"%B\"."
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:3716
 msgid "Could not remove the source folder."
@@ -1683,7 +1695,7 @@ msgstr "Kon de bronmap niet verwijderen."
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:4418
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:4489
 msgid "Error while copying \"%B\"."
-msgstr "Fout bij het kopiëren van ‘%B’."
+msgstr "Fout bij het kopiëren van \"%B\"."
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:3802
 #, c-format
@@ -1708,7 +1720,7 @@ msgstr "Een map kan niet naar zichzelf gekopieerd worden."
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:4174
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:4846
 msgid "The destination folder is inside the source folder."
-msgstr "De doelmap bevindt zich binnenin de bronmap."
+msgstr "De doelmap bevindt zich in de bronmap."
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:4205
 msgid "You cannot move a file over itself."
@@ -1756,18 +1768,18 @@ msgstr ""
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:5268
 msgid "Moving Files"
-msgstr "Verplaatsen van bestanden"
+msgstr "Bestanden verplaatsen"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:5298
 msgid "Creating links in \"%B\""
-msgstr "Aanmaken van verwijzingen in ‘%B’."
+msgstr "Verwijzingen aanmaken in \"%B\"."
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:5309
 #, c-format
 msgid "Making link to %'d file"
 msgid_plural "Making links to %'d files"
-msgstr[0] "Aanmaken van verwijzing naar %'d bestand"
-msgstr[1] "Aanmaken van verwijzingen naar %'d bestanden"
+msgstr[0] "Verwijzing naar %'d bestand aanmaken"
+msgstr[1] "Verwijzing naar %'d bestanden aanmaken"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:5444
 msgid "Error while creating link to %B."
@@ -1775,7 +1787,8 @@ msgstr "Fout bij het aanmaken van een verwijzing naar %B."
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:5446
 msgid "Symbolic links only supported for local files"
-msgstr "Symbolische verwijzingen alleen ondersteund voor lokale bestanden"
+msgstr ""
+"Symbolische verwijzingen worden alleen ondersteund voor lokale bestanden"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:5449
 msgid "The target doesn't support symbolic links."
@@ -1791,7 +1804,7 @@ msgstr ""
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:5780
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:5783
 msgid "Setting permissions"
-msgstr "Toegangsrechten instellen"
+msgstr "Rechten instellen"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:6034
 msgid "untitled folder"
@@ -1807,31 +1820,31 @@ msgstr "Er is een fout opgetreden bij het aanmaken van de map %B"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:6215
 msgid "Error while creating file %B."
-msgstr "Fout bij het maken van het bestand %B."
+msgstr "Fout bij het aanmaken van het bestand %B."
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:6217
 #, c-format
 msgid "There was an error creating the directory in %F."
-msgstr "Er is een fout opgetreden bij het aanmaken van de map %F."
+msgstr "Er is een fout opgetreden bij het aanmaken van de map in %F."
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:6534
 msgid "Emptying Trash"
-msgstr "Bezig met prullenbak legen"
+msgstr "Prullenbak legen"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-utilities.c:119
 #, c-format
 msgid "Could not determine original location of \"%s\" "
-msgstr "Kan de oorspronkelijke locatie van ‘%s’ niet bepalen "
+msgstr "Kon de oorspronkelijke locatie van \"%s\" niet bepalen "
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-utilities.c:122
 msgid "The item cannot be restored from trash"
-msgstr "Het bestand kan niet uit de prullenbak teruggehaald worden"
+msgstr "Het item kan niet uit de prullenbak teruggezet worden."
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:146
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:361
 #, c-format
 msgid "Merge folder \"%s\"?"
-msgstr "Map ‘%s’ samenvoegen?"
+msgstr "Map \"%s\" samenvoegen?"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:150
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:364
@@ -1839,8 +1852,9 @@ msgid ""
 "Merging will ask for confirmation before replacing any files in the folder "
 "that conflict with the files being copied."
 msgstr ""
-"Bij samenvoegen zal eerst om bevestiging gevraagd worden voordat bestanden "
-"in de map die conflicteren met de verplaatste bestanden, vervangen worden."
+"Bij samenvoegen zal eerst om bevestiging gevraagd worden voordat er "
+"bestanden in de map vervangen worden, die conflicteren met de gekopieerde "
+"bestanden."
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:155
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:369
@@ -1870,7 +1884,7 @@ msgstr ""
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:384
 #, c-format
 msgid "Replace folder \"%s\"?"
-msgstr "Vervang map \"%s\"?"
+msgstr "Map \"%s\" vervangen?"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:172
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:386
@@ -1882,12 +1896,12 @@ msgstr "Er bestaat al een map met dezelfde naam in \"%s\"."
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:391
 #, c-format
 msgid "Replace file \"%s\"?"
-msgstr "Vervang bestand \"%s\"?"
+msgstr "Bestand \"%s\" vervangen?"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:179
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:393
 msgid "Replacing it will overwrite its content."
-msgstr "Vervangen zal de inhoud overschrijven."
+msgstr "Bij vervangen zal de inhoud worden overschreven."
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:183
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:397
@@ -1910,7 +1924,7 @@ msgstr "Er bestaat al een ander bestand met dezelfde naam in \"%s\"."
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:253
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:460
 msgid "Original file"
-msgstr "Origineel bestand"
+msgstr "Oorspronkelijk bestand"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:254
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:285
@@ -1931,12 +1945,12 @@ msgstr "Type:"
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:467
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:488
 msgid "Last modified:"
-msgstr "Laatst bewerkt:"
+msgstr "Laatst gewijzigd:"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:284
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:481
 msgid "Replace with"
-msgstr "Vervang met"
+msgstr "Vervangen door"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:313
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:506
@@ -1945,15 +1959,15 @@ msgstr "Samenvoegen"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:700
 msgid "_Select a new name for the destination"
-msgstr "_Selecteer een nieuwe naam voor de bestemming"
+msgstr "_Selecteer een nieuwe naam voor het doel"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:714
 msgid "Reset"
-msgstr "Herstel"
+msgstr "Terugzetten op standaardwaarden"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:726
 msgid "Apply this action to all files"
-msgstr "Pas deze actie toe op alle bestanden"
+msgstr "Deze actie toepassen op alle bestanden"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:742
 msgid "Re_name"
@@ -1961,7 +1975,7 @@ msgstr "Her_noemen"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:748
 msgid "Replace"
-msgstr "Vervang"
+msgstr "Vervangen"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:821
 msgid "File conflict"
@@ -1969,81 +1983,81 @@ msgstr "Bestandsconflict"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/eel-stock-dialogs.c:35
 msgid "Show more _details"
-msgstr "Toon meer _details"
+msgstr "Meer _details weergeven"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1202
 #, c-format
 msgid "Delete %d copied items"
-msgstr ""
+msgstr "%d gekopieerde items verwijderen"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1205
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1215
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1246
 #, c-format
 msgid "Delete '%s'"
-msgstr ""
+msgstr "‘%s’ _verwijderen"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1212
 #, c-format
 msgid "Delete %d duplicated items"
-msgstr ""
+msgstr "%d gedupliceerde items verwijderen"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1223
 #, c-format
 msgid "Move %d items back to '%s'"
-msgstr ""
+msgstr "%d items terugplaatsen naar ‘%s’"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1227
 #, c-format
 msgid "Move '%s' back to '%s'"
-msgstr ""
+msgstr "‘%s’ terugplaatsen naar ‘%s’"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1236
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1403
 #, c-format
 msgid "Rename '%s' as '%s'"
-msgstr ""
+msgstr "'%s' hernoemen naar '%s'"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1255
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1450
 #, c-format
 msgid "Restore %d items from trash"
-msgstr ""
+msgstr "%d items terugzetten uit prullenbak"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1263
 #, c-format
 msgid "Restore '%s' to '%s'"
-msgstr ""
+msgstr "%s' terugzetten naar '%s'"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1274
 #, c-format
 msgid "Move %d items back to trash"
-msgstr ""
+msgstr "%d items terugplaatsen naar prullenbak"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1277
 #, c-format
 msgid "Move '%s' back to trash"
-msgstr ""
+msgstr "‘%s’ terugplaatsen naar prullenbak"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1286
 #, c-format
 msgid "Delete links to %d items"
-msgstr ""
+msgstr "Verwijzing naar %d items verwijderen"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1289
 #, c-format
 msgid "Delete link to '%s'"
-msgstr ""
+msgstr "Verwijzing naar ‘%s’ verwijderen"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1299
 #, c-format
 msgid "Restore original permissions of items enclosed in '%s'"
-msgstr ""
+msgstr "Oorspronkelijke rechten van items in ‘%s’ herstellen"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1307
 #, c-format
 msgid "Restore original permissions of '%s'"
-msgstr ""
+msgstr "Oorspronkelijke rechten van ‘%s’ herstellen"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1316
 #, c-format
@@ -2058,142 +2072,142 @@ msgstr ""
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1365
 #, c-format
 msgid "Copy %d items to '%s'"
-msgstr ""
+msgstr "%d items kopiëren naar ‘%s’"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1369
 #, c-format
 msgid "Copy '%s' to '%s'"
-msgstr ""
+msgstr "‘%s’ kopiëren naar ‘%s’"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1377
 #, c-format
 msgid "Duplicate of %d items in '%s'"
-msgstr ""
+msgstr "%d items dupliceren in ‘%s’"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1382
 #, c-format
 msgid "Duplicate '%s' in '%s'"
-msgstr ""
+msgstr "'%s' dupliceren in '%s'"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1390
 #, c-format
 msgid "Move %d items to '%s'"
-msgstr ""
+msgstr "%d items verplaatsen naar'%s'"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1394
 #, c-format
 msgid "Move '%s' to '%s'"
-msgstr ""
+msgstr "‘%s’ verplaatsen naar ‘%s’"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1412
 #, c-format
 msgid "Create new file '%s' from template "
-msgstr ""
+msgstr "Nieuw bestand ‘%s’ aanmaken vanaf sjabloon "
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1419
 #, c-format
 msgid "Create an empty file '%s'"
-msgstr ""
+msgstr "Een leeg bestand ‘%s’ aanmaken"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1426
 #, c-format
 msgid "Create a new folder '%s'"
-msgstr ""
+msgstr "Nieuwe map ‘%s’ aanmaken"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1434
 #, c-format
 msgid "Move %d items to trash"
-msgstr ""
+msgstr "%d items verplaatsen naar de prullenbak"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1440
 #, c-format
 msgid "Move '%s' to trash"
-msgstr ""
+msgstr "‘%s’ naar prullenbak verplaatsen"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1453
 #, c-format
 msgid "Restore '%s' from trash"
-msgstr ""
+msgstr "‘%s’ terugzetten uit prullenbak"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1462
 #, c-format
 msgid "Create links to %d items"
-msgstr ""
+msgstr "Verwijzingen aanmaken naar %d items"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1465
 #, c-format
 msgid "Create link to '%s'"
-msgstr ""
+msgstr "Verwijzing aanmaken naar ‘%s’"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1474
 #, c-format
 msgid "Set permissions of items enclosed in '%s'"
-msgstr ""
+msgstr "De rechten van items in ‘%s’ instellen"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1482
 #, c-format
 msgid "Set permissions of '%s'"
-msgstr ""
+msgstr "Rechten van ‘%s’ instellen"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1491
 #, c-format
 msgid "Set group of '%s' to '%s'"
-msgstr ""
+msgstr "Groep van ‘%s’ naar ‘%s’ instellen"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1501
 #, c-format
 msgid "Set owner of '%s' to '%s'"
-msgstr ""
+msgstr "Eigenaar van ‘%s’ naar ‘%s’ instellen"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1533
 #, c-format
 msgid "_Undo copy of %d item"
 msgid_plural "_Undo copy of %d items"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Kopiëren van %d item _ongedaan maken"
+msgstr[1] "Kopiëren van %d items _ongedaan maken"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1538
 #, c-format
 msgid "_Undo duplicate of %d item"
 msgid_plural "_Undo duplicate of %d items"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Dupliceren van d% item _ongedaan maken"
+msgstr[1] "Dupliceren van d% items _ongedaan maken"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1543
 #, c-format
 msgid "_Undo move of %d item"
 msgid_plural "_Undo move of %d items"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Verplaatsen van d% item _ongedaan maken"
+msgstr[1] "Verplaatsen van d% items _ongedaan maken"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1548
 #, c-format
 msgid "_Undo rename of %d item"
 msgid_plural "_Undo rename of %d items"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Hernoemen van d% item _ongedaan maken"
+msgstr[1] "Hernoemen van d% items _ongedaan maken"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1552
 msgid "_Undo creation of an empty file"
-msgstr ""
+msgstr "Aanmaken van leeg bestand _ongedaan maken"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1555
 msgid "_Undo creation of a file from template"
-msgstr ""
+msgstr "Aanmaken bestand vanaf sjabloon _ongedaan maken"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1559
 #, c-format
 msgid "_Undo creation of %d folder"
 msgid_plural "_Undo creation of %d folders"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Aanmaken van %d map _ongedaan maken"
+msgstr[1] "Aanmaken van %d mappen _ongedaan maken"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1564
 #, c-format
 msgid "_Undo move to trash of %d item"
 msgid_plural "_Undo move to trash of %d items"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Verplaaten van %d item naar prullenbak _ongedaan maken"
+msgstr[1] "Verplaaten van %d items naar prullenbak _ongedaan maken"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1569
 #, c-format
