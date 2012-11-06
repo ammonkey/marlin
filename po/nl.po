@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: marlin\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2012-08-01 22:45+0200\n"
-"PO-Revision-Date: 2012-11-04 20:33+0000\n"
+"PO-Revision-Date: 2012-11-05 20:55+0000\n"
 "Last-Translator: rob <linuxned@gmail.com>\n"
 "Language-Team: Dutch <nl@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2012-11-05 04:47+0000\n"
+"X-Launchpad-Export-Date: 2012-11-06 05:13+0000\n"
 "X-Generator: Launchpad (build 16232)\n"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:60
@@ -54,11 +54,11 @@ msgstr "Verwijderd"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:365
 msgid "MimeType"
-msgstr "Mimetype"
+msgstr "Mime-type"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:373
 msgid "MimeTypes"
-msgstr "Bestandstypen"
+msgstr "Mime-types"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:377
 msgid "Location"
@@ -83,7 +83,7 @@ msgstr "Openen met"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:463
 msgid "Device usage"
-msgstr "Apparaatgebruik"
+msgstr "Schijfgebruik"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:608
 msgid "Read"
@@ -229,7 +229,7 @@ msgstr "Marlin-voorkeuren wijzigen"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:700
 msgid "_Undo"
-msgstr "O_ngedaan maken"
+msgstr "_Ongedaan maken"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:703
 msgid "_Redo"
@@ -338,7 +338,7 @@ msgstr "I_nfo"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:768
 msgid "Display credits"
-msgstr ""
+msgstr "Dankbetuiging weergeven"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:771
 msgid "Report a Problem..."
@@ -350,7 +350,7 @@ msgstr ""
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:775
 msgid "Get Help Online..."
-msgstr ""
+msgstr "Online hulp krijgen…"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:779
 msgid "Translate This Application..."
@@ -486,7 +486,7 @@ msgstr "Of de items geactiveerd kunnen worden met een enkele keer klikken"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/exo-tree-view.c:184
 msgid "Single Click Timeout"
-msgstr "Enkele Klik Timeout"
+msgstr "Time-out enkele klik"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/exo-tree-view.c:185
 msgid ""
@@ -2213,149 +2213,149 @@ msgstr[1] "Verplaaten van %d items naar prullenbak _ongedaan maken"
 #, c-format
 msgid "_Undo restore from trash of %d item"
 msgid_plural "_Undo restore from trash of %d items"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Uit prullenbak terugzetten van %d item _ongedaan maken"
+msgstr[1] "Uit prullenbak terugzetten van %d items _ongedaan maken"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1574
 #, c-format
 msgid "_Undo create link to %d item"
 msgid_plural "_Undo create link to %d items"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Aanmaken van verwijzing naar %d item _ongedaan maken"
+msgstr[1] "Aanmaken van verwijzing naar %d items _ongedaan maken"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1579
 #, c-format
 msgid "_Undo delete of %d item"
 msgid_plural "_Undo delete of %d items"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Verwijderen van %d item _ongedaan maken"
+msgstr[1] "Verwijderen van %d items _ongedaan maken"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1584
 #, c-format
 msgid "Undo recursive change permissions of %d item"
 msgid_plural "Undo recursive change permissions of %d items"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Recursief wijzigen rechten van %d item _ongedaan maken"
+msgstr[1] "Recursief wijzigen rechten van %d items _ongedaan maken"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1590
 #, c-format
 msgid "Undo change permissions of %d item"
 msgid_plural "Undo change permissions of %d items"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Wijzigen rechten van %d item _ongedaan maken"
+msgstr[1] "Wijzigen rechten van %d items _ongedaan maken"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1595
 #, c-format
 msgid "Undo change group of %d item"
 msgid_plural "Undo change group of %d items"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Wijzigen groep van %d item _ongedaan maken"
+msgstr[1] "Wijzigen groep van %d items _ongedaan maken"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1600
 #, c-format
 msgid "Undo change owner of %d item"
 msgid_plural "Undo change owner of %d items"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Wijzigen eigenaar van %d item _ongedaan maken"
+msgstr[1] "Wijzigen eigenaar van %d items _ongedaan maken"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1628
 #, c-format
 msgid "_Redo copy of %d item"
 msgid_plural "_Redo copy of %d items"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Kopiëren van %d item op_nieuw uitvoeren"
+msgstr[1] "Kopiëren van %d items op_nieuw uitvoeren"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1633
 #, c-format
 msgid "_Redo duplicate of %d item"
 msgid_plural "_Redo duplicate of %d items"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Dupliceren van %d item op_nieuw uitvoeren"
+msgstr[1] "Dupliceren van %d items op_nieuw uitvoeren"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1638
 #, c-format
 msgid "_Redo move of %d item"
 msgid_plural "_Redo move of %d items"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Verplaatsen van %d item op_nieuw uitvoeren"
+msgstr[1] "Verplaatsen van %d items op_nieuw uitvoeren"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1643
 #, c-format
 msgid "_Redo rename of %d item"
 msgid_plural "_Redo rename of %d items"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Hernoemen van %d item op_nieuw uitvoeren"
+msgstr[1] "Hernoemen van %d items op_nieuw uitvoeren"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1647
 msgid "_Redo creation of an empty file"
-msgstr ""
+msgstr "Aanmaken leeg bestand op_nieuw uitvoeren"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1650
 msgid "_Redo creation of a file from template"
-msgstr ""
+msgstr "Aanmaken bestand vanaf sjabloon op_nieuw uitvoeren"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1654
 #, c-format
 msgid "_Redo creation of %d folder"
 msgid_plural "_Redo creation of %d folders"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Aanmaken van %d map op_nieuw uitvoeren"
+msgstr[1] "Aanmaken van %d mappen op_nieuw uitvoeren"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1659
 #, c-format
 msgid "_Redo move to trash of %d item"
 msgid_plural "_Redo move to trash of %d items"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Verplaatsen van %d item naar prullenbak op_nieuw uitvoeren"
+msgstr[1] "Verplaatsen van %d items naar prullenbak op_nieuw uitvoeren"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1664
 #, c-format
 msgid "_Redo restore from trash of %d item"
 msgid_plural "_Redo restore from trash of %d items"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Terugzetten van % item uit de prullenbak op_nieuw uitvoeren"
+msgstr[1] "Terugzetten van % items uit de prullenbak op_nieuw uitvoeren"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1669
 #, c-format
 msgid "_Redo create link to %d item"
 msgid_plural "_Redo create link to %d items"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Aanmaken verwijzing naar % item op_nieuw uitvoeren"
+msgstr[1] "Aanmaken verwijzing naar % items op_nieuw uitvoeren"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1674
 #, c-format
 msgid "_Redo delete of %d item"
 msgid_plural "_Redo delete of %d items"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Verwijderen van % item op_nieuw uitvoeren"
+msgstr[1] "Verwijderen van % items op_nieuw uitvoeren"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1679
 #, c-format
 msgid "Redo recursive change permissions of %d item"
 msgid_plural "Redo recursive change permissions of %d items"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Recursief wijzigen rechten van %d item op_nieuw uitvoeren"
+msgstr[1] "Recursief wijzigen rechten van %d items op_nieuw uitvoeren"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1685
 #, c-format
 msgid "Redo change permissions of %d item"
 msgid_plural "Redo change permissions of %d items"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Wijzigen rechten van %d item op_nieuw uitvoeren"
+msgstr[1] "Wijzigen rechten van %d items op_nieuw uitvoeren"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1690
 #, c-format
 msgid "Redo change group of %d item"
 msgid_plural "Redo change group of %d items"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Wijzigen groep van %d item op_nieuw uitvoeren"
+msgstr[1] "Wijzigen groep van %d items op_nieuw uitvoeren"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1695
 #, c-format
 msgid "Redo change owner of %d item"
 msgid_plural "Redo change owner of %d items"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Wijzigen eigenaar van %d item op_nieuw uitvoeren"
+msgstr[1] "Wijzigen eigenaar van %d items op_nieuw uitvoeren"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/eel-fcts.c:81
 msgid "Today at %-I:%M %p"
@@ -2372,7 +2372,7 @@ msgstr ""
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/gof-file.c:252
 #, c-format
 msgid "link to %s"
-msgstr "link naar %s"
+msgstr "verwijzing naar %s"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/gof-file.c:1702
 #, c-format
@@ -2401,16 +2401,16 @@ msgstr "Toplevel bestanden kunnen niet hernoemd worden"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libwidgets/LocationBar.vala:328
 msgid "Cut the selected text to the clipboard"
-msgstr ""
+msgstr "De geselecteerde tekst naar het klembord knippen"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libwidgets/LocationBar.vala:332
 msgid "Copy the selected text to the clipboard"
-msgstr ""
+msgstr "De geselecteerde tekst naar het klembord kopiëren"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libwidgets/LocationBar.vala:336
 #: /home/am/dev/marlin8/trunk/marlin/po/../libwidgets/LocationBar.vala:340
 msgid "Paste the text stored on the clipboard"
-msgstr ""
+msgstr "De opgeslagen tekst vanaf het klembord plakken"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libwidgets/LocationBar.vala:816
 #, c-format
@@ -2419,20 +2419,20 @@ msgstr "Ga naar %s"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Chrome/ViewSwicher.vala:78
 msgid "View as icons"
-msgstr ""
+msgstr "Als pictogrammen weergeven"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Chrome/ViewSwicher.vala:81
 msgid "View as list"
-msgstr ""
+msgstr "Als lijst weergeven"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Chrome/ViewSwicher.vala:84
 msgid "View as compact list"
-msgstr ""
+msgstr "Als compacte lijst weergeven"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Chrome/ViewSwicher.vala:87
 msgid "View as column"
-msgstr ""
+msgstr "Als kolom weergeven"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Chrome/TopMenu.vala:47
 msgid "Menu"
-msgstr ""
+msgstr "Menu"
