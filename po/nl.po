@@ -8,15 +8,15 @@ msgstr ""
 "Project-Id-Version: marlin\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2012-08-01 22:45+0200\n"
-"PO-Revision-Date: 2012-11-11 09:54+0000\n"
+"PO-Revision-Date: 2012-11-14 15:15+0000\n"
 "Last-Translator: rob <linuxned@gmail.com>\n"
 "Language-Team: Dutch <nl@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2012-11-12 04:44+0000\n"
-"X-Generator: Launchpad (build 16251)\n"
+"X-Launchpad-Export-Date: 2012-11-15 05:09+0000\n"
+"X-Generator: Launchpad (build 16265)\n"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:60
 msgid "Properties"
@@ -346,7 +346,7 @@ msgstr "Een probleem melden…"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:772
 msgid "File a bug on Launchpad"
-msgstr ""
+msgstr "Een fout rapporteren op Launchpad"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:775
 msgid "Get Help Online..."
@@ -2359,15 +2359,15 @@ msgstr[1] "Wijzigen eigenaar van %d items op_nieuw uitvoeren"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/eel-fcts.c:81
 msgid "Today at %-I:%M %p"
-msgstr ""
+msgstr "Vandaag om %-H:%M"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/eel-fcts.c:85
 msgid "Yesterday at %-I:%M %p"
-msgstr ""
+msgstr "Gisteren om %-H:%M"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/eel-fcts.c:89
 msgid "%a %-d %b %Y at %-I:%M %p"
-msgstr ""
+msgstr "%a %-d %b %Y om %-H:%M"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/gof-file.c:252
 #, c-format
@@ -2377,11 +2377,11 @@ msgstr "verwijzing naar %s"
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/gof-file.c:1702
 #, c-format
 msgid "Failed to parse the desktop file: %s"
-msgstr "Bureaubladbestand verwerken is mislukt: %s"
+msgstr "Bureaubladbestand verwerken mislukt: %s"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/gof-file.c:1740
 msgid "No Exec field specified"
-msgstr "Geen Exec veld gespecificeerd"
+msgstr "Geen Exec-veld opgegeven"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/gof-file.c:1760
 msgid "No URL field specified"
@@ -2393,11 +2393,11 @@ msgstr "Ongeldig bureaubladbestand"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/gof-file.c:2056
 msgid "Slashes are not allowed in filenames"
-msgstr "Slashes zijn niet toegestaan in bestandsnamen"
+msgstr "Schuine strepen zijn niet toegestaan in bestandsnamen"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/gof-file.c:2076
 msgid "Toplevel files cannot be renamed"
-msgstr "Toplevel bestanden kunnen niet hernoemd worden"
+msgstr "Topniveau-bestanden kunnen niet hernoemd worden"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libwidgets/LocationBar.vala:328
 msgid "Cut the selected text to the clipboard"
