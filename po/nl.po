@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: marlin\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2012-08-01 22:45+0200\n"
-"PO-Revision-Date: 2012-11-16 21:35+0000\n"
+"PO-Revision-Date: 2012-11-17 11:28+0000\n"
 "Last-Translator: rob <linuxned@gmail.com>\n"
 "Language-Team: Dutch <nl@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2012-11-17 04:58+0000\n"
+"X-Launchpad-Export-Date: 2012-11-18 04:48+0000\n"
 "X-Generator: Launchpad (build 16278)\n"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:60
@@ -71,7 +71,7 @@ msgstr "Doel"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:385
 msgid "Origin Location"
-msgstr "Oorspronkelijke lokatie"
+msgstr "Oorspronkelijke locatie"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:423
 msgid "Other application..."
@@ -346,7 +346,7 @@ msgstr "Een probleem melden…"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:772
 msgid "File a bug on Launchpad"
-msgstr "Een fout rapporteren op Launchpad"
+msgstr "Een programmafout melden op Launchpad"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:775
 msgid "Get Help Online..."
@@ -2420,19 +2420,19 @@ msgstr "Ga naar %s"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Chrome/ViewSwicher.vala:78
 msgid "View as icons"
-msgstr "Als pictogrammen weergeven"
+msgstr "Pictogram-weergave"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Chrome/ViewSwicher.vala:81
 msgid "View as list"
-msgstr "Als lijst weergeven"
+msgstr "Lijst-weergave"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Chrome/ViewSwicher.vala:84
 msgid "View as compact list"
-msgstr "Als compacte lijst weergeven"
+msgstr "Compacte lijst-weergave"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Chrome/ViewSwicher.vala:87
 msgid "View as column"
-msgstr "Als kolom weergeven"
+msgstr "Kolom-weergave"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Chrome/TopMenu.vala:47
 msgid "Menu"
