@@ -9,15 +9,15 @@ msgstr ""
 "Project-Id-Version: marlin\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2012-08-01 22:45+0200\n"
-"PO-Revision-Date: 2012-07-16 22:01+0000\n"
-"Last-Translator: Mauro Tiago Correia Soares <Unknown>\n"
+"PO-Revision-Date: 2012-12-02 01:34+0000\n"
+"Last-Translator: Sérgio Marques <Unknown>\n"
 "Language-Team: Português <>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2012-08-02 05:02+0000\n"
-"X-Generator: Launchpad (build 15719)\n"
+"X-Launchpad-Export-Date: 2012-12-02 04:45+0000\n"
+"X-Generator: Launchpad (build 16319)\n"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:60
 msgid "Properties"
@@ -43,7 +43,7 @@ msgstr "Criado"
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/ContextView.vala:344
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-list-view.c:59
 msgid "Modified"
-msgstr "Alterado"
+msgstr "Modificado"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:354
 msgid "Last Access"
@@ -72,7 +72,7 @@ msgstr "Destino"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:385
 msgid "Origin Location"
-msgstr "Localização Original"
+msgstr "Localização original"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:423
 msgid "Other application..."
@@ -88,15 +88,15 @@ msgstr "Utilização do dispositivo"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:608
 msgid "Read"
-msgstr "Ler"
+msgstr "Leitura"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:613
 msgid "Write"
-msgstr "Escrever"
+msgstr "Escrita"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:618
 msgid "Execute"
-msgstr "Executar"
+msgstr "Execução"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:836
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:849
