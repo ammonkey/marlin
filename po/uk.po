@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: marlin\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-08-01 22:45+0200\n"
-"PO-Revision-Date: 2012-10-17 14:16+0000\n"
-"Last-Translator: Сергій Гордієнко <phrippy2@gmail.com>\n"
+"PO-Revision-Date: 2013-02-09 21:04+0000\n"
+"Last-Translator: zubr139 <zubr139@ukr.net>\n"
 "Language-Team: Ukrainian <uk@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Launchpad-Export-Date: 2012-10-18 04:48+0000\n"
-"X-Generator: Launchpad (build 16160)\n"
+"X-Launchpad-Export-Date: 2013-02-10 05:03+0000\n"
+"X-Generator: Launchpad (build 16482)\n"
 "Language: uk\n"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:60
@@ -2227,9 +2227,9 @@ msgstr[2] "_Відмінити відновлення зі смітника %d �
 #, c-format
 msgid "_Undo create link to %d item"
 msgid_plural "_Undo create link to %d items"
-msgstr[0] ""
-msgstr[1] "_Відмінити створення посилання на %d елемента"
-msgstr[2] "_Відмінити створення посилання на %d елементів"
+msgstr[0] "_Скасувати створення посилання на %d елемент"
+msgstr[1] "_Скасувати створення посилання на %d елементів"
+msgstr[2] "_Скасувати створення посилання на %d елементів"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1579
 #, c-format
