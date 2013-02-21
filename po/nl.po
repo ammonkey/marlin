@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: marlin\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2012-08-01 22:45+0200\n"
-"PO-Revision-Date: 2013-02-17 11:11+0000\n"
+"PO-Revision-Date: 2013-02-20 21:02+0000\n"
 "Last-Translator: rob <linuxned@gmail.com>\n"
 "Language-Team: Dutch <nl@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2013-02-18 05:02+0000\n"
+"X-Launchpad-Export-Date: 2013-02-21 05:28+0000\n"
 "X-Generator: Launchpad (build 16491)\n"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:60
@@ -1010,7 +1010,7 @@ msgstr "Naar prullenbak _verplaatsen"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3478
 msgid "Move each selected item to the Trash"
-msgstr "Elk geselecteerde object naar de prullenbak verplaatsen"
+msgstr "Elk geselecteerd object naar de prullenbak verplaatsen"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3481
 msgid "_Delete Permanently"
@@ -2209,15 +2209,15 @@ msgstr[1] "Aanmaken van %d mappen _ongedaan maken"
 #, c-format
 msgid "_Undo move to trash of %d item"
 msgid_plural "_Undo move to trash of %d items"
-msgstr[0] "Verplaaten van %d item naar prullenbak _ongedaan maken"
-msgstr[1] "Verplaaten van %d items naar prullenbak _ongedaan maken"
+msgstr[0] "Verplaaten van %d object naar prullenbak _ongedaan maken"
+msgstr[1] "Verplaaten van %d objecten naar prullenbak _ongedaan maken"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1569
 #, c-format
 msgid "_Undo restore from trash of %d item"
 msgid_plural "_Undo restore from trash of %d items"
-msgstr[0] "Uit prullenbak terugzetten van %d item _ongedaan maken"
-msgstr[1] "Uit prullenbak terugzetten van %d items _ongedaan maken"
+msgstr[0] "Uit prullenbak terugzetten van %d object _ongedaan maken"
+msgstr[1] "Uit prullenbak terugzetten van %d objecten _ongedaan maken"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1574
 #, c-format
