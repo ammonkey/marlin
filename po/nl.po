@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: marlin\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2012-08-01 22:45+0200\n"
-"PO-Revision-Date: 2013-03-02 16:56+0000\n"
+"PO-Revision-Date: 2013-03-03 11:24+0000\n"
 "Last-Translator: rob <linuxned@gmail.com>\n"
 "Language-Team: Dutch <nl@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2013-03-03 05:06+0000\n"
+"X-Launchpad-Export-Date: 2013-03-04 05:32+0000\n"
 "X-Generator: Launchpad (build 16514)\n"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:60
@@ -2173,22 +2173,22 @@ msgstr[1] "Kopiëren van %d objecten _ongedaan maken"
 #, c-format
 msgid "_Undo duplicate of %d item"
 msgid_plural "_Undo duplicate of %d items"
-msgstr[0] "Dupliceren van d% item _ongedaan maken"
-msgstr[1] "Dupliceren van d% items _ongedaan maken"
+msgstr[0] "Dupliceren van %d object _ongedaan maken"
+msgstr[1] "Dupliceren van %d objecten _ongedaan maken"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1543
 #, c-format
 msgid "_Undo move of %d item"
 msgid_plural "_Undo move of %d items"
-msgstr[0] "Verplaatsen van d% item _ongedaan maken"
-msgstr[1] "Verplaatsen van d% items _ongedaan maken"
+msgstr[0] "Verplaatsen van %d object _ongedaan maken"
+msgstr[1] "Verplaatsen van %d objecten _ongedaan maken"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1548
 #, c-format
 msgid "_Undo rename of %d item"
 msgid_plural "_Undo rename of %d items"
-msgstr[0] "Hernoemen van d% item _ongedaan maken"
-msgstr[1] "Hernoemen van d% items _ongedaan maken"
+msgstr[0] "Hernoemen van %d object _ongedaan maken"
+msgstr[1] "Hernoemen van %d objecten _ongedaan maken"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1552
 msgid "_Undo creation of an empty file"
@@ -2315,22 +2315,22 @@ msgstr[1] "Verplaatsen van %d objecten naar prullenbak op_nieuw uitvoeren"
 #, c-format
 msgid "_Redo restore from trash of %d item"
 msgid_plural "_Redo restore from trash of %d items"
-msgstr[0] "Terugzetten van % item uit de prullenbak op_nieuw uitvoeren"
-msgstr[1] "Terugzetten van % items uit de prullenbak op_nieuw uitvoeren"
+msgstr[0] "Terugzetten van %d object uit de prullenbak op_nieuw uitvoeren"
+msgstr[1] "Terugzetten van %d objecten uit de prullenbak op_nieuw uitvoeren"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1669
 #, c-format
 msgid "_Redo create link to %d item"
 msgid_plural "_Redo create link to %d items"
-msgstr[0] "Aanmaken verwijzing naar % item op_nieuw uitvoeren"
-msgstr[1] "Aanmaken verwijzing naar % items op_nieuw uitvoeren"
+msgstr[0] "Aanmaken verwijzing naar %d object op_nieuw uitvoeren"
+msgstr[1] "Aanmaken verwijzing naar %d objecten op_nieuw uitvoeren"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1674
 #, c-format
 msgid "_Redo delete of %d item"
 msgid_plural "_Redo delete of %d items"
-msgstr[0] "Verwijderen van % item op_nieuw uitvoeren"
-msgstr[1] "Verwijderen van % items op_nieuw uitvoeren"
+msgstr[0] "Verwijderen van %d object op_nieuw uitvoeren"
+msgstr[1] "Verwijderen van %d objecten op_nieuw uitvoeren"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1679
 #, c-format
@@ -2358,7 +2358,7 @@ msgstr[1] "Wijzigen groep van %d objecten op_nieuw uitvoeren"
 msgid "Redo change owner of %d item"
 msgid_plural "Redo change owner of %d items"
 msgstr[0] "Wijzigen eigenaar van %d object op_nieuw uitvoeren"
-msgstr[1] "Wijzigen eigenaar van %d objectem op_nieuw uitvoeren"
+msgstr[1] "Wijzigen eigenaar van %d objecten op_nieuw uitvoeren"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/eel-fcts.c:81
 msgid "Today at %-I:%M %p"
