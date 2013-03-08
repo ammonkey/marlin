@@ -8,15 +8,15 @@ msgstr ""
 "Project-Id-Version: marlin\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-08-01 22:45+0200\n"
-"PO-Revision-Date: 2012-09-17 02:27+0000\n"
-"Last-Translator: funicorn <Unknown>\n"
+"PO-Revision-Date: 2013-03-07 08:25+0000\n"
+"Last-Translator: Wylmer Wang <Unknown>\n"
 "Language-Team: Chinese (Simplified) <zh_CN@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Launchpad-Export-Date: 2012-09-18 05:10+0000\n"
-"X-Generator: Launchpad (build 15966)\n"
+"X-Launchpad-Export-Date: 2013-03-08 04:57+0000\n"
+"X-Generator: Launchpad (build 16523)\n"
 "Language: \n"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:60
@@ -1274,7 +1274,7 @@ msgstr "%s (第%'d个副本)%s"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:617
 msgid " ("
-msgstr " 发送一个空格字符。在翻译的位置键入一个空格。"
+msgstr " ("
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:625
 #, c-format
@@ -1298,7 +1298,7 @@ msgstr[0] "您确实想从回收站中永久删除所选的 %'d 项吗？"
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:1394
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:1462
 msgid "If you delete an item, it will be permanently lost."
-msgstr "如果您选择删除，这个图片将无法恢复。"
+msgstr "如果您删除一项，它会永远消失。"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:1415
 msgid "Empty all items from Trash?"
