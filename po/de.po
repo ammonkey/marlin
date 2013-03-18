@@ -8,28 +8,28 @@ msgstr ""
 "Project-Id-Version: marlin\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-08-01 22:45+0200\n"
-"PO-Revision-Date: 2012-08-30 20:19+0000\n"
-"Last-Translator: Lennart Weller <lhw@ring0.de>\n"
+"PO-Revision-Date: 2013-03-17 18:21+0000\n"
+"Last-Translator: Jan Schürmann <Unknown>\n"
 "Language-Team: German <de@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2012-08-31 05:04+0000\n"
-"X-Generator: Launchpad (build 15887)\n"
+"X-Launchpad-Export-Date: 2013-03-18 04:54+0000\n"
+"X-Generator: Launchpad (build 16532)\n"
 "Language: de\n"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:60
 msgid "Properties"
-msgstr "Einstellungen"
+msgstr "Eigenschaften"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:111
 msgid "Info"
-msgstr "Info"
+msgstr "Details"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:119
 msgid "Permissions"
-msgstr "Berechtigungen"
+msgstr "Zugriffsrechte"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:131
 msgid "Preview"
@@ -115,7 +115,7 @@ msgstr "Jeder"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:1141
 msgid "Select an aplication to open "
-msgstr "Wählen Sie eine Anwendung zum Öffnen "
+msgstr "Anwendung zum Öffnen wählen "
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/ContextView.vala:336
 msgid "Name"
