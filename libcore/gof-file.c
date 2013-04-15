@@ -1495,7 +1495,8 @@ gof_file_accepts_drop (GOFFile          *file,
     _g_free0 (uri);
 
     /* check if we have a writable directory here or an executable file */
-    if (gof_file_is_folder (file) && gof_file_is_writable (file))
+    if (gof_file_is_folder (file) && 
+        (gof_file_is_writable (file) || gof_file_is_trashed (file)))
     {
         /* determine the possible actions */
         actions = gdk_drag_context_get_actions (context) & (GDK_ACTION_COPY | GDK_ACTION_MOVE | GDK_ACTION_LINK | GDK_ACTION_ASK);
