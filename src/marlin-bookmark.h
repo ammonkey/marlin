@@ -14,9 +14,7 @@
  * Library General Public License for more details.
  *
  * You should have received a copy of the GNU Library General Public
- * License along with the Gnome Library; see the file COPYING.LIB.  If not,
- * write to the Free Software Foundation, Inc., 59 Temple Place - Suite 330,
- * Boston, MA 02111-1307, USA.
+ * License along with this library. If not, see <http://www.gnu.org/licenses/>.
  *
  * Authors: John Sullivan <sullivan@eazel.com>
  */
@@ -43,8 +41,8 @@ typedef struct MarlinBookmark MarlinBookmark;
     (G_TYPE_INSTANCE_GET_CLASS ((obj), MARLIN_TYPE_BOOKMARK, MarlinBookmarkClass))
 
 struct MarlinBookmark {
-    GObject object;
-    const char  *name;
+    GObject     object;
+    char        *name;
     char        *label;
     GOFFile     *file;
 };
@@ -69,13 +67,13 @@ typedef struct MarlinBookmarkClass MarlinBookmarkClass;
 
 GType               marlin_bookmark_get_type               (void);
 
-MarlinBookmark *    marlin_bookmark_new (GOFFile *file, char *label);
+MarlinBookmark *    marlin_bookmark_new (GOFFile *file, const char *label);
 MarlinBookmark *    marlin_bookmark_copy                   (MarlinBookmark      *bookmark);
 char *              marlin_bookmark_get_name               (MarlinBookmark      *bookmark);
 GFile *             marlin_bookmark_get_location           (MarlinBookmark      *bookmark);
 char *              marlin_bookmark_get_uri                (MarlinBookmark      *bookmark);
 GIcon *             marlin_bookmark_get_icon               (MarlinBookmark      *bookmark);
-gboolean	    marlin_bookmark_get_has_custom_name    (MarlinBookmark      *bookmark);		
+gboolean	        marlin_bookmark_get_has_custom_name    (MarlinBookmark      *bookmark);		
 gboolean            marlin_bookmark_set_name               (MarlinBookmark      *bookmark,
                                                             char                *new_name);		
 gboolean            marlin_bookmark_uri_known_not_to_exist (MarlinBookmark      *bookmark);
@@ -90,8 +88,6 @@ char *              marlin_bookmark_get_scroll_pos         (MarlinBookmark      
 */
 
 /* Helper functions for displaying bookmarks */
-/*GdkPixbuf *         marlin_bookmark_get_pixbuf             (MarlinBookmark      *bookmark,
-                                                            GtkIconSize            icon_size);*/
-GtkWidget *         marlin_bookmark_menu_item_new          (MarlinBookmark      *bookmark);
+//GtkWidget *         marlin_bookmark_menu_item_new          (MarlinBookmark      *bookmark);
 
 #endif /* MARLIN_BOOKMARK_H */

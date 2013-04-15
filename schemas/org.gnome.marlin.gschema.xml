@@ -28,7 +28,7 @@
 
   <schema path="/org/gnome/marlin/preferences/" id="org.gnome.marlin.preferences">
     <key type="b" name="auto-theme">
-      <default>false</default>
+      <default>true</default>
       <summary>Auto-theme</summary>
       <description>Automaticly theme Marlin's specific widgets</description>
     </key>
@@ -99,10 +99,12 @@
         The default viewmode to be used when opening a new tab or window
       </description>
     </key>
-    <key type="b" name="toolbar-primary-css-style">
-      <default>true</default>
-      <summary>toolbar css style</summary>
-      <description>Set the toolbar css style to primary-toolbar.</description>
+    <key type="as" name="toolbar-standard-theme-list">
+      <default>['Adwaita']</default>
+      <summary>standard toolbar style theme list</summary>
+      <description>
+        List of themes where the toolbar load a standard style, Marlin by default use a primary-toolbar style.
+      </description>
     </key>
     <key type="as" name="toolbar-items">
       <default>[ 'Back', 'Forward', 'LocationEntry', 'ViewSwitcher']</default>

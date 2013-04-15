@@ -15,9 +15,7 @@
  * Library General Public License for more details.
  *
  * You should have received a copy of the GNU Library General Public
- * License along with the Gnome Library; see the file COPYING.LIB.  If not,
- * write to the Free Software Foundation, Inc., 59 Temple Place - Suite 330,
- * Boston, MA 02111-1307, USA.
+ * License along with this library. If not, see <http://www.gnu.org/licenses/>.
  *
  * Authors: Anders Carlsson <andersca@gnu.org>, 
  *          Soeren Sandmann (sandmann@daimi.au.dk), 
@@ -65,41 +63,53 @@ typedef struct FMListModel {
 typedef struct {
     GObjectClass parent_class;
 
-    void (* subdirectory_unloaded)(FMListModel *model, GOFDirectoryAsync *subdirectory);
+    void (* subdirectory_unloaded)(FMListModel *model,
+                                   GOFDirectoryAsync *subdirectory);
 } FMListModelClass;
 
 GType    fm_list_model_get_type                          (void);
-
-gboolean fm_list_model_add_file                          (FMListModel *model, GOFFile *file, GOFDirectoryAsync *directory);
-void     fm_list_model_file_changed                      (FMListModel *model, GOFFile *file, GOFDirectoryAsync *directory);
-gboolean fm_list_model_is_empty                          (FMListModel *model);
-guint    fm_list_model_get_length                        (FMListModel *model);
+gboolean fm_list_model_add_file                          (FMListModel       *model,
+                                                          GOFFile           *file,
+                                                          GOFDirectoryAsync *directory);
+void     fm_list_model_file_changed                      (FMListModel       *model,
+                                                          GOFFile           *file,
+                                                          GOFDirectoryAsync *directory);
+gboolean fm_list_model_is_empty                          (FMListModel       *model);
+guint    fm_list_model_get_length                        (FMListModel       *model);
 void     fm_list_model_remove_file                       (FMListModel       *model,
                                                           GOFFile           *file,
                                                           GOFDirectoryAsync *directory);
-void     fm_list_model_clear                             (FMListModel *model);
-gboolean fm_list_model_get_tree_iter_from_file           (FMListModel        *model,
-                                                          GOFFile            *file,
-                                                          GOFDirectoryAsync  *directory,
-                                                          GtkTreeIter        *iter);
-GList *  fm_list_model_get_all_iters_for_file            (FMListModel *model, GOFFile *file);
-gboolean fm_list_model_get_first_iter_for_file           (FMListModel *model, GOFFile *file, GtkTreeIter *iter);
-void     fm_list_model_set_should_sort_directories_first (FMListModel *model, gboolean sort_directories_first);
+void     fm_list_model_clear                             (FMListModel       *model);
+gboolean fm_list_model_get_tree_iter_from_file           (FMListModel       *model,
+                                                          GOFFile           *file,
+                                                          GOFDirectoryAsync *directory,
+                                                          GtkTreeIter       *iter);
+GList *  fm_list_model_get_all_iters_for_file            (FMListModel       *model,
+                                                          GOFFile           *file);
+gboolean fm_list_model_get_first_iter_for_file           (FMListModel       *model,
+                                                          GOFFile           *file,
+                                                          GtkTreeIter       *iter);
+void     fm_list_model_set_should_sort_directories_first (FMListModel       *model,
+                                                          gboolean          sort_directories_first);
 
-GOFFile *       fm_list_model_file_for_path (FMListModel *model, GtkTreePath *path);
-GOFFile *       fm_list_model_file_for_iter (FMListModel *model, GtkTreeIter *iter);
-void            fm_list_model_get_directory_file (FMListModel *model, GtkTreePath *path, 
-                                                  GOFDirectoryAsync **directory, GOFFile **file);
-gboolean        fm_list_model_load_subdirectory (FMListModel *model, GtkTreePath *path, GOFDirectoryAsync **directory);
-void            fm_list_model_unload_subdirectory (FMListModel *model, GtkTreeIter *iter);
+
+GOFFile *fm_list_model_file_for_path (FMListModel *model, GtkTreePath *path);
+GOFFile *fm_list_model_file_for_iter (FMListModel *model, GtkTreeIter *iter);
+void     fm_list_model_get_directory_file (FMListModel *model, GtkTreePath *path, GOFDirectoryAsync **directory, GOFFile **file);
+
+gboolean fm_list_model_load_subdirectory (FMListModel *model, GtkTreePath *path, GOFDirectoryAsync **directory);
+void     fm_list_model_unload_subdirectory (FMListModel *model, GtkTreeIter *iter);
+
+int      fm_list_model_compare_func (FMListModel *model, GOFFile *file1, GOFFile *file2);
+
 
 /*int               fm_list_model_add_column (FMListModel *model,
-  NautilusColumn *column);*/
-/*int               fm_list_model_get_column_number (FMListModel *model,
+  NautilusColumn *column);
+  int               fm_list_model_get_column_number (FMListModel *model,
   const char *column_name);*/
 
-/*void              fm_list_model_subdirectory_done_loading (FMListModel       *model,
-  NautilusDirectory *directory);*/
+/*void              fm_list_model_set_highlight_for_files (FMListModel *model,
+  GList *files);*/
 
 const gchar     *fm_list_model_get_string_from_column_id (gint id);
 gint            fm_list_model_get_column_id_from_string (const gchar *colstr);

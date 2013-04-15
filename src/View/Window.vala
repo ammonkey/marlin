@@ -645,7 +645,6 @@ namespace Marlin.View {
                 "website", Marlin.LAUNCHPAD_URL,
                 "website-label",  Marlin.LAUNCHPAD_LABEL,
                 "authors", Marlin.AUTHORS,
-                "artists", Marlin.ARTISTS,
                 "logo-icon-name", "marlin",
                 "translator-credits",  Marlin.TRANSLATORS,
                 "help", Marlin.HELP_URL,

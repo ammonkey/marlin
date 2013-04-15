@@ -14,9 +14,7 @@
  * Library General Public License for more details.
  *
  * You should have received a copy of the GNU Library General Public
- * License along with the Gnome Library; see the file COPYING.LIB.  If not,
- * write to the Free Software Foundation, Inc., 59 Temple Place - Suite 330,
- * Boston, MA 02111-1307, USA.
+ * License along with this library. If not, see <http://www.gnu.org/licenses/>.
  *
  * Authors: John Sullivan <sullivan@eazel.com>
  */
@@ -48,12 +46,12 @@ marlin_bookmark_finalize (GObject *object)
     MarlinBookmark *bookmark;
 
     g_assert (MARLIN_IS_BOOKMARK (object));
-
     bookmark = MARLIN_BOOKMARK (object);
+
+    //g_warning ("%s %s", G_STRFUNC, bookmark->name);
     //marlin_bookmark_disconnect_file (bookmark);	
     g_free (bookmark->label);
-    //SPOTTED!
-    g_warning ("%s", G_STRFUNC);
+    g_free (bookmark->name);
     g_object_unref (bookmark->file);
 
     G_OBJECT_CLASS (marlin_bookmark_parent_class)->finalize (object);
@@ -178,36 +176,6 @@ marlin_bookmark_get_has_custom_name (MarlinBookmark *bookmark)
     return (bookmark->label != NULL);
 }
 
-#if 0
-GdkPixbuf *	    
-marlin_bookmark_get_pixbuf (MarlinBookmark *bookmark,
-                              GtkIconSize stock_size)
-{
-    GdkPixbuf *result;
-    GIcon *icon;
-    NautilusIconInfo *info;
-    int pixel_size;
-
-
-    g_return_val_if_fail (MARLIN_IS_BOOKMARK (bookmark), NULL);
-
-    icon = marlin_bookmark_get_icon (bookmark);
-    if (icon == NULL) {
-        return NULL;
-    }
-
-    pixel_size = nautilus_get_icon_size_for_stock_size (stock_size);
-    info = nautilus_icon_info_lookup (icon, pixel_size);
-    //result = marlin_icon_info_get_pixbuf_at_size (info, pixel_size);	
-    result = nautilus_icon_info_get_pixbuf_nodefault (info);
-    g_object_unref (info);
-
-    g_object_unref (icon);
-
-    return result;
-}
-#endif
-
 GIcon *
 marlin_bookmark_get_icon (MarlinBookmark *bookmark)
 {
@@ -273,7 +241,8 @@ marlin_bookmark_set_name (MarlinBookmark *bookmark, char *new_name)
 
     g_free (bookmark->label);
     bookmark->label = g_strdup (new_name);
-    bookmark->name = bookmark->label;
+    g_free (bookmark->name);
+    bookmark->name = g_strdup (bookmark->label);
 
     /* TODO check the two signals */
     g_signal_emit (bookmark, signals[APPEARANCE_CHANGED], 0);
@@ -512,20 +481,19 @@ marlin_bookmark_connect_file (MarlinBookmark *bookmark)
 #endif
 
 MarlinBookmark *
-marlin_bookmark_new (GOFFile *file, char *label)
+marlin_bookmark_new (GOFFile *file, const char *label)
 {
     MarlinBookmark *bookmark;
 
     bookmark = MARLIN_BOOKMARK (g_object_new (MARLIN_TYPE_BOOKMARK, NULL));
-    g_object_ref_sink (bookmark);
 
     bookmark->name = NULL;
     bookmark->label = g_strdup (label);
     bookmark->file = g_object_ref (file);
     if (label != NULL) 
-        bookmark->name = bookmark->label;
+        bookmark->name = g_strdup (bookmark->label);
     if (bookmark->name == NULL)
-        bookmark->name = gof_file_get_display_name (file);
+        bookmark->name = g_strdup (gof_file_get_display_name (file));
 
     //marlin_bookmark_connect_file (new_bookmark);
 

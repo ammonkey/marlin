@@ -1,7 +1,8 @@
 /* fm-directory-view.h
  *
- * Copyright (C) 1999, 2000  Free Software Foundaton
+ * Copyright (C) 1999, 2000  Free Software Foundation
  * Copyright (C) 2000, 2001  Eazel, Inc.
+ * Copyright (C) 2010-2012 ammonkey
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License as
@@ -13,16 +14,17 @@
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
  * General Public License for more details.
  *
- * You should have received a copy of the GNU General Public
- * License along with this program; if not, write to the
- * Free Software Foundation, Inc., 59 Temple Place - Suite 330,
- * Boston, MA 02111-1307, USA.
+ * You should have received a copy of the GNU General Public License 
+ * along with this program. If not, see <http://www.gnu.org/licenses/>.
  *
- * Authors: Ettore Perazzoli
- * 	    Darin Adler <darin@bentspoon.com>
- * 	    John Sullivan <sullivan@eazel.com>
- *          Pavel Cisler <pavel@eazel.com>
+ * Authors: Ettore Perazzoli,
+ *          John Sullivan <sullivan@eazel.com>,
+ *          Darin Adler <darin@bentspoon.com>,
+ *          Pavel Cisler <pavel@eazel.com>,
+ *          David Emory Watson <dwatson@cs.ucr.edu>
+ *          ammonkey <am.monkeyd@gmail.com>
  */
+
 
 #ifndef FM_DIRECTORY_VIEW_H
 #define FM_DIRECTORY_VIEW_H
@@ -42,17 +44,17 @@
 typedef struct FMDirectoryView FMDirectoryView;
 typedef struct FMDirectoryViewClass FMDirectoryViewClass;
 
-#define FM_TYPE_DIRECTORY_VIEW fm_directory_view_get_type()
+#define FM_DIRECTORY_TYPE_VIEW fm_directory_view_get_type()
 #define FM_DIRECTORY_VIEW(obj) \
-    (G_TYPE_CHECK_INSTANCE_CAST ((obj), FM_TYPE_DIRECTORY_VIEW, FMDirectoryView))
+    (G_TYPE_CHECK_INSTANCE_CAST ((obj), FM_DIRECTORY_TYPE_VIEW, FMDirectoryView))
 #define FM_DIRECTORY_VIEW_CLASS(klass) \
-    (G_TYPE_CHECK_CLASS_CAST ((klass), FM_TYPE_DIRECTORY_VIEW, FMDirectoryViewClass))
+    (G_TYPE_CHECK_CLASS_CAST ((klass), FM_DIRECTORY_TYPE_VIEW, FMDirectoryViewClass))
 #define FM_IS_DIRECTORY_VIEW(obj) \
-    (G_TYPE_CHECK_INSTANCE_TYPE ((obj), FM_TYPE_DIRECTORY_VIEW))
+    (G_TYPE_CHECK_INSTANCE_TYPE ((obj), FM_DIRECTORY_TYPE_VIEW))
 #define FM_IS_DIRECTORY_VIEW_CLASS(klass) \
-    (G_TYPE_CHECK_CLASS_TYPE ((klass), FM_TYPE_DIRECTORY_VIEW))
+    (G_TYPE_CHECK_CLASS_TYPE ((klass), FM_DIRECTORY_TYPE_VIEW))
 #define FM_DIRECTORY_VIEW_GET_CLASS(obj) \
-    (G_TYPE_INSTANCE_GET_CLASS ((obj), FM_TYPE_DIRECTORY_VIEW, FMDirectoryViewClass))
+    (G_TYPE_INSTANCE_GET_CLASS ((obj), FM_DIRECTORY_TYPE_VIEW, FMDirectoryViewClass))
 
 typedef struct FMDirectoryViewDetails FMDirectoryViewDetails;
 

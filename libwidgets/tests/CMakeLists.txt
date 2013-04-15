@@ -1,6 +1,4 @@
 include_directories(../../libcore/)
-find_package(Vala REQUIRED)
-include(ValaPrecompile)
 vala_precompile(VALA_C
     tests-pathbar.vala
 PACKAGES
@@ -9,18 +7,14 @@ PACKAGES
     posix
     marlinwidgets
 OPTIONS
-    --thread
     --vapidir=${CMAKE_BINARY_DIR}/libwidgets/
     --vapidir=${CMAKE_BINARY_DIR}/libcore/
 )
 
-find_package(PkgConfig)
-pkg_check_modules(DEPS REQUIRED gtk+-3.0 gee-1.0)
-
-add_definitions(${DEPS_CFLAGS} ${DEPS_CFLAGS_OTHER})
+add_definitions(${GTK_CFLAGS} ${GEE_CFLAGS})
+link_libraries(${GTK_LIBRARIES} ${GEE_CFLAGS})
 
 add_executable(widgets-test ${VALA_C})
 
-link_directories(${DEPS_LIBRARY_DIRS})
-target_link_libraries(widgets-test marlinwidgets ${DEPS_LIBRARIES})
+target_link_libraries(widgets-test marlinwidgets)
 add_test_executable(widgets-test)

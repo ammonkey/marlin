@@ -1,4 +1,4 @@
-/* fm-list-model.h - a GtkTreeModel for file lists. 
+/* fm-list-model.c - a GtkTreeModel for file lists. 
  *
  * Copyright (C) 2001, 2002 Anders Carlsson
  * Copyright (C) 2003, Soeren Sandmann
@@ -15,9 +15,7 @@
  * Library General Public License for more details.
  *
  * You should have received a copy of the GNU Library General Public
- * License along with the Gnome Library; see the file COPYING.LIB.  If not,
- * write to the Free Software Foundation, Inc., 59 Temple Place - Suite 330,
- * Boston, MA 02111-1307, USA.
+ * License along with this library. If not, see <http://www.gnu.org/licenses/>.
  *
  * Authors: Anders Carlsson <andersca@gnu.org>, 
  *          Soeren Sandmann (sandmann@daimi.au.dk), 
@@ -26,10 +24,11 @@
 
 #include <config.h>
 
-#include <string.h>
-#include <gtk/gtk.h>
-#include <glib.h>
 #include "fm-list-model.h"
+
+#include <string.h>
+#include <glib.h>
+#include <gtk/gtk.h>
 
 enum {
     SUBDIRECTORY_UNLOADED,
@@ -47,36 +46,29 @@ static GQuark attribute_name_q,
 
 static guint list_model_signals[LAST_SIGNAL] = { 0 };
 
-static void     fm_list_model_get_property (GObject    *object,
-                                            guint       prop_id,
-                                            GValue     *value,
-                                            GParamSpec *pspec);
-static void     fm_list_model_set_property (GObject      *object,
-                                            guint         prop_id,
-                                            const GValue *value,
-                                            GParamSpec   *pspec);
-static int      fm_list_model_file_entry_compare_func (gconstpointer a,
-                                                       gconstpointer b,
-                                                       gpointer      user_data);
-static void     fm_list_model_tree_model_init (GtkTreeModelIface *iface);
-static void     fm_list_model_drag_dest_init (GtkTreeDragDestIface *iface);
-static void     fm_list_model_sortable_init (GtkTreeSortableIface *iface);
+#define VALID_ITER(iter, model) ((iter)!= NULL && (iter)->user_data != NULL && ((FMListModel*)(model))->details->stamp == (iter)->stamp)
+
+static void fm_list_model_tree_model_init (GtkTreeModelIface *iface);
+static void fm_list_model_sortable_init (GtkTreeSortableIface *iface);
+static void fm_list_model_drag_dest_init (GtkTreeDragDestIface *iface);
+
 
 struct FMListModelDetails {
     GSequence *files;
     GHashTable *directory_reverse_map; /* map from directory to GSequenceIter's */
     GHashTable *top_reverse_map;	   /* map from files in top dir to GSequenceIter's */
 
-    int stamp;
-    gboolean        has_child;
+    gint stamp;
+    gboolean has_child;
 
-    //GQuark sort_attribute;
-    gint            sort_id;
-    GtkSortType     order;
+    gint sort_id;
+    GtkSortType order;
 
     gboolean sort_directories_first;
 
-    //GPtrArray *columns;
+    /*GPtrArray *columns;
+
+    GList *highlight_files;*/
 };
 
 typedef struct FileEntry FileEntry;
@@ -93,14 +85,14 @@ struct FileEntry {
 
 G_DEFINE_TYPE_WITH_CODE (FMListModel, fm_list_model, G_TYPE_OBJECT,
                          G_IMPLEMENT_INTERFACE (GTK_TYPE_TREE_MODEL, fm_list_model_tree_model_init)
-                         G_IMPLEMENT_INTERFACE (GTK_TYPE_TREE_DRAG_DEST, fm_list_model_drag_dest_init)
-                         G_IMPLEMENT_INTERFACE (GTK_TYPE_TREE_SORTABLE, fm_list_model_sortable_init))
+                         G_IMPLEMENT_INTERFACE (GTK_TYPE_TREE_SORTABLE, fm_list_model_sortable_init)
+                         G_IMPLEMENT_INTERFACE (GTK_TYPE_TREE_DRAG_DEST, fm_list_model_drag_dest_init));
 
 
 static void
 file_entry_free (FileEntry *file_entry)
 {
-    //gof_file_unref (file_entry->file);
+    gof_file_unref (file_entry->file);
     if (file_entry->reverse_map) {
         g_hash_table_destroy (file_entry->reverse_map);
         file_entry->reverse_map = NULL;
@@ -115,7 +107,6 @@ file_entry_free (FileEntry *file_entry)
     g_free (file_entry);
 }
 
-//amtest
 static GtkTreeModelFlags
 fm_list_model_get_flags (GtkTreeModel *tree_model)
 {
@@ -203,7 +194,7 @@ fm_list_model_get_path (GtkTreeModel *tree_model, GtkTreeIter *iter)
 
     model = (FMListModel *)tree_model;
 
-    g_return_val_if_fail (iter->stamp == model->details->stamp, NULL);
+    g_return_val_if_fail (VALID_ITER (iter, model), NULL);
 
     if (g_sequence_iter_is_end (iter->user_data)) {
         /* FIXME is this right? */
@@ -232,9 +223,13 @@ fm_list_model_get_value (GtkTreeModel *tree_model, GtkTreeIter *iter, int column
     FileEntry *file_entry;
     GOFFile *file;
 
+    g_return_if_fail (GTK_IS_TREE_MODEL (tree_model));
+    g_return_if_fail (iter != NULL);
+    g_return_if_fail (value != NULL);
+
     model = (FMListModel *)tree_model;
 
-    g_assert (model->details->stamp == iter->stamp);
+    g_assert (VALID_ITER (iter, model));
     g_return_if_fail (!g_sequence_iter_is_end (iter->user_data));
 
     file_entry = g_sequence_get (iter->user_data);
@@ -244,7 +239,7 @@ fm_list_model_get_value (GtkTreeModel *tree_model, GtkTreeIter *iter, int column
     case FM_LIST_MODEL_FILE_COLUMN:
         g_value_init (value, GOF_TYPE_FILE);
         if (file != NULL && GOF_IS_FILE(file))
-            g_value_set_object (value, file);
+            g_value_set_object (value, file);        
         break;
 
     case FM_LIST_MODEL_COLOR:
@@ -287,7 +282,7 @@ fm_list_model_iter_next (GtkTreeModel *tree_model, GtkTreeIter *iter)
 
     model = (FMListModel *)tree_model;
 
-    g_return_val_if_fail (model->details->stamp == iter->stamp, FALSE);
+    g_return_val_if_fail (VALID_ITER (iter, model), FALSE);
 
     iter->user_data = g_sequence_iter_next (iter->user_data);
 
@@ -323,17 +318,17 @@ fm_list_model_iter_children (GtkTreeModel *tree_model, GtkTreeIter *iter, GtkTre
 static gboolean
 fm_list_model_iter_has_child (GtkTreeModel *tree_model, GtkTreeIter *iter)
 {
-    FMListModel *model = (FMListModel *)tree_model;
-
-    if (!model->details->has_child)
-        return FALSE;
     FileEntry *file_entry;
+
+    if (!FM_LIST_MODEL (tree_model)->details->has_child)
+        return FALSE;
 
     if (iter == NULL) {
         return !fm_list_model_is_empty (FM_LIST_MODEL (tree_model));
     }
 
     file_entry = g_sequence_get (iter->user_data);
+
     return (file_entry->files != NULL && g_sequence_get_length (file_entry->files) > 0);
 }
 
@@ -406,7 +401,8 @@ fm_list_model_iter_parent (GtkTreeModel *tree_model, GtkTreeIter *iter, GtkTreeI
 }
 
 static GSequenceIter *
-lookup_file (FMListModel *model, GOFFile *file, GOFDirectoryAsync *directory)
+lookup_file (FMListModel *model, GOFFile *file,
+             GOFDirectoryAsync *directory)
 {
     FileEntry *file_entry;
     GSequenceIter *ptr, *parent_ptr;
@@ -418,8 +414,6 @@ lookup_file (FMListModel *model, GOFFile *file, GOFDirectoryAsync *directory)
     }
 
     if (parent_ptr) {
-        if (gof_file_is_folder (file))
-            return parent_ptr;
         file_entry = g_sequence_get (parent_ptr);
         ptr = g_hash_table_lookup (file_entry->reverse_map, file);
     } else {
@@ -432,6 +426,7 @@ lookup_file (FMListModel *model, GOFFile *file, GOFDirectoryAsync *directory)
 
     return ptr;
 }
+
 
 struct GetIters {
     FMListModel *model;
@@ -485,7 +480,7 @@ fm_list_model_get_all_iters_for_file (FMListModel *model, GOFFile *file)
 
 gboolean
 fm_list_model_get_first_iter_for_file (FMListModel          *model,
-                                       GOFFile              *file,
+                                       GOFFile         *file,
                                        GtkTreeIter          *iter)
 {
     GList *list;
@@ -656,7 +651,7 @@ fm_list_model_set_sort_column_id (GtkTreeSortable *sortable, gint sort_column_id
 
     model = (FMListModel *)sortable;
 
-    model->details->sort_id = sort_column_id; 
+    model->details->sort_id = sort_column_id;
 
     model->details->order = order;
 
@@ -678,8 +673,6 @@ add_dummy_row (FMListModel *model, FileEntry *parent_entry)
     GtkTreePath *path;
 
     dummy_file_entry = g_new0 (FileEntry, 1);
-    //amtest
-    //dummy_file_entry->file = parent_entry->file;
     dummy_file_entry->parent = parent_entry;
     dummy_file_entry->ptr = g_sequence_insert_sorted (parent_entry->files, dummy_file_entry,
                                                       fm_list_model_file_entry_compare_func, model);
@@ -692,7 +685,7 @@ add_dummy_row (FMListModel *model, FileEntry *parent_entry)
 }
 
 gboolean
-fm_list_model_add_file (FMListModel *model, GOFFile *file, 
+fm_list_model_add_file (FMListModel *model, GOFFile *file,
                         GOFDirectoryAsync *directory)
 {
     GtkTreeIter iter;
@@ -703,7 +696,6 @@ fm_list_model_add_file (FMListModel *model, GOFFile *file,
     gboolean replace_dummy;
     GHashTable *parent_hash;
 
-    g_return_val_if_fail (file != NULL, FALSE);
     parent_ptr = g_hash_table_lookup (model->details->directory_reverse_map,
                                       directory);
     if (parent_ptr) {
@@ -720,7 +712,7 @@ fm_list_model_add_file (FMListModel *model, GOFFile *file,
     }
 
     file_entry = g_new0 (FileEntry, 1);
-    file_entry->file = file;
+    file_entry->file = gof_file_ref (file);
     file_entry->parent = NULL;
     file_entry->subdirectory = NULL;
     file_entry->files = NULL;
@@ -728,12 +720,9 @@ fm_list_model_add_file (FMListModel *model, GOFFile *file,
     files = model->details->files;
     parent_hash = model->details->top_reverse_map;
 
-    //SPOTTED!
-    //#if 0
     replace_dummy = FALSE;
 
     if (parent_ptr != NULL) {
-        //log_printf (LOG_LEVEL_UNDEFINED, "parent_ptr != NULL %s\n", file->name);
         file_entry->parent = g_sequence_get (parent_ptr);
         /* At this point we set loaded. Either we saw
          * "done" and ignored it waiting for this, or we do this
@@ -754,13 +743,13 @@ fm_list_model_add_file (FMListModel *model, GOFFile *file,
             }
         }
     }
-    //#endif
+
+
     file_entry->ptr = g_sequence_insert_sorted (files, file_entry,
                                                 fm_list_model_file_entry_compare_func, model);
 
     g_hash_table_insert (parent_hash, file, file_entry->ptr);
 
-    //#if 0
     iter.stamp = model->details->stamp;
     iter.user_data = file_entry->ptr;
 
@@ -780,10 +769,6 @@ fm_list_model_add_file (FMListModel *model, GOFFile *file,
                                               path, &iter);
     }
     gtk_tree_path_free (path);
-
-    //file_entry_free (file_entry);
-    //g_object_unref(file);
-    //#endif
 
     return TRUE;
 }
@@ -875,11 +860,9 @@ fm_list_model_remove (FMListModel *model, GtkTreeIter *iter)
     GtkTreePath *path;
     GtkTreeIter parent_iter;
 
-    g_return_if_fail (FM_IS_LIST_MODEL (model));
-    g_return_if_fail (iter->stamp == model->details->stamp);
-
     ptr = iter->user_data;
     file_entry = g_sequence_get (ptr);
+
     if (file_entry->files != NULL) {
         while (g_sequence_get_length (file_entry->files) > 0) {
             child_ptr = g_sequence_get_begin_iter (file_entry->files);
@@ -920,11 +903,6 @@ fm_list_model_remove (FMListModel *model, GtkTreeIter *iter)
          */
         add_dummy_row (model, parent_file_entry);
     }
-    /* FIXME we don't need to unref file here - clean up this part */
-    /*if (file_entry->file != NULL) {
-    //log_printf (LOG_LEVEL_UNDEFINED, "remove file %s\n", file_entry->file->name);
-    g_object_unref (file_entry->file);
-    }*/
 
     if (file_entry->subdirectory != NULL) {
         g_signal_emit (model,
@@ -997,13 +975,14 @@ fm_list_model_file_for_path (FMListModel *model, GtkTreePath *path)
     GtkTreeIter iter;
 
     file = NULL;
-    if (gtk_tree_model_get_iter (GTK_TREE_MODEL (model), &iter, path)) {
+    if (gtk_tree_model_get_iter (GTK_TREE_MODEL (model), 
+                                 &iter, path)) {
         gtk_tree_model_get (GTK_TREE_MODEL (model), 
                             &iter, 
                             FM_LIST_MODEL_FILE_COLUMN, &file,
                             -1);
     }
-    return (file);
+    return file;
 }
 
 GOFFile *
@@ -1018,7 +997,8 @@ fm_list_model_file_for_iter (FMListModel *model, GtkTreeIter *iter)
     return (file);
 }
 
-void fm_list_model_get_directory_file (FMListModel *model, GtkTreePath *path, GOFDirectoryAsync **directory, GOFFile **file)
+void fm_list_model_get_directory_file (FMListModel *model, GtkTreePath *path, 
+                                       GOFDirectoryAsync **directory, GOFFile **file)
 {
     GtkTreeIter iter;
     FileEntry *file_entry;
@@ -1038,6 +1018,7 @@ fm_list_model_load_subdirectory (FMListModel *model, GtkTreePath *path, GOFDirec
 {
     GtkTreeIter iter;
     FileEntry *file_entry;
+    GOFDirectoryAsync *subdirectory;
 
     if (!gtk_tree_model_get_iter (GTK_TREE_MODEL (model), &iter, path)) {
         return FALSE;
@@ -1049,25 +1030,23 @@ fm_list_model_load_subdirectory (FMListModel *model, GtkTreePath *path, GOFDirec
         return FALSE;
     }
 
-    file_entry->subdirectory = gof_directory_async_from_file (file_entry->file);
+    subdirectory = gof_directory_async_from_file (file_entry->file);
 
-    /* FIXME not sure the hash lookup is really needed gof_driectory_async_get_for_file is a always a new object */
     if (g_hash_table_lookup (model->details->directory_reverse_map,
-                             file_entry->subdirectory) != NULL) {
-        g_object_unref (file_entry->subdirectory);
+                             subdirectory) != NULL) {
+        g_object_unref (subdirectory);
         g_warning ("Already in directory_reverse_map, failing\n");
         return FALSE;
     }
 
-    g_hash_table_insert (model->details->directory_reverse_map,
-                         file_entry->subdirectory, file_entry->ptr);
+    file_entry->subdirectory = subdirectory,
+        g_hash_table_insert (model->details->directory_reverse_map,
+                             subdirectory, file_entry->ptr);
     file_entry->reverse_map = g_hash_table_new (g_direct_hash, g_direct_equal);
 
     /* Return a ref too */
-    //gof_directory_ref (file_entry->subdirectory);
-    *directory = file_entry->subdirectory;
-
-    //load_dir_async (file_entry->subdirectory);
+    g_object_ref (subdirectory);
+    *directory = subdirectory;
 
     return TRUE;
 }
@@ -1085,14 +1064,10 @@ fm_list_model_unload_subdirectory (FMListModel *model, GtkTreeIter *iter)
         file_entry->subdirectory == NULL) {
         return;
     }
-
+    
     gof_directory_async_cancel (file_entry->subdirectory);
-    g_hash_table_remove (model->details->directory_reverse_map,
-                         file_entry->subdirectory);
     file_entry->loaded = 0;
 
-    g_message ("remove all children\n"); 	
-    //log_printf (LOG_LEVEL_UNDEFINED, "remove all children %d\n", g_sequence_get_length (file_entry->files));
     /* Remove all children */
     while (g_sequence_get_length (file_entry->files) > 0) {
         child_ptr = g_sequence_get_begin_iter (file_entry->files);
@@ -1111,12 +1086,18 @@ fm_list_model_unload_subdirectory (FMListModel *model, GtkTreeIter *iter)
                    list_model_signals[SUBDIRECTORY_UNLOADED], 0,
                    file_entry->subdirectory);
 
+    /* actually unload */
+    g_hash_table_remove (model->details->directory_reverse_map,
+                         file_entry->subdirectory);
     g_object_unref (file_entry->subdirectory);
     file_entry->subdirectory = NULL;
+
     g_assert (g_hash_table_size (file_entry->reverse_map) == 0);
     g_hash_table_destroy (file_entry->reverse_map);
     file_entry->reverse_map = NULL;
 }
+
+
 
 void
 fm_list_model_set_should_sort_directories_first (FMListModel *model, gboolean sort_directories_first)
@@ -1129,159 +1110,41 @@ fm_list_model_set_should_sort_directories_first (FMListModel *model, gboolean so
     fm_list_model_sort (model);
 }
 
-static gboolean
-fm_list_model_drag_data_received (GtkTreeDragDest  *dest,
-                                  GtkTreePath      *path,
-                                  GtkSelectionData *data)
+#if 0
+int               
+fm_list_model_add_column (FMListModel *model,
+                          NautilusColumn *column)
 {
-    return FALSE;
+    g_ptr_array_add (model->details->columns, column);
+    g_object_ref (column);
+
+    return FM_LIST_MODEL_NUM_COLUMNS + (model->details->columns->len - 1);
 }
 
-static gboolean
-fm_list_model_row_drop_possible (GtkTreeDragDest  *dest,
-                                 GtkTreePath      *path,
-                                 GtkSelectionData *data)
+int
+fm_list_model_get_column_number (FMListModel *model,
+                                 const char *column_name)
 {
-    return FALSE;
-}
+    int i;
 
+    for (i = 0; i < model->details->columns->len; i++) {
+        NautilusColumn *column;
+        char *name;
 
-static void
-fm_list_model_dispose (GObject *object)
-{
-    FMListModel *model;
-    //int i;
+        column = model->details->columns->pdata[i];
 
-    model = FM_LIST_MODEL (object);
+        g_object_get (G_OBJECT (column), "name", &name, NULL);
 
-    /*if (model->details->columns) {
-      for (i = 0; i < model->details->columns->len; i++) {
-      g_object_unref (model->details->columns->pdata[i]);
-      }
-      g_ptr_array_free (model->details->columns, TRUE);
-      model->details->columns = NULL;
-      }*/
-
-    if (model->details->files) {
-        g_sequence_free (model->details->files);
-        model->details->files = NULL;
+        if (!strcmp (name, column_name)) {
+            g_free (name);
+            return FM_LIST_MODEL_NUM_COLUMNS + i;
+        }
+        g_free (name);
     }
 
-    if (model->details->top_reverse_map) {
-        g_hash_table_destroy (model->details->top_reverse_map);
-        model->details->top_reverse_map = NULL;
-    }
-    if (model->details->directory_reverse_map) {
-        g_hash_table_destroy (model->details->directory_reverse_map);
-        model->details->directory_reverse_map = NULL;
-    }
-
-    G_OBJECT_CLASS (fm_list_model_parent_class)->dispose (object);
+    return -1;
 }
-
-static void
-fm_list_model_finalize (GObject *object)
-{
-    FMListModel *model = FM_LIST_MODEL (object);
-
-    g_debug ("%s\n", G_STRFUNC);
-    g_free (model->details);
-
-    G_OBJECT_CLASS (fm_list_model_parent_class)->finalize (object);
-}
-
-static void
-fm_list_model_init (FMListModel *model)
-{
-    model->details = g_new0 (FMListModelDetails, 1);
-    model->details->files = g_sequence_new ((GDestroyNotify)file_entry_free);
-    model->details->top_reverse_map = g_hash_table_new (g_direct_hash, g_direct_equal);
-    model->details->directory_reverse_map = g_hash_table_new (g_direct_hash, g_direct_equal);
-    model->details->stamp = g_random_int ();
-    model->details->sort_id = FM_LIST_MODEL_FILENAME;
-    model->details->order = GTK_SORT_ASCENDING;
-    //model->details->columns = g_ptr_array_new ();
-}
-
-static void
-fm_list_model_class_init (FMListModelClass *klass)
-{
-    GObjectClass *object_class;
-
-    attribute_name_q = g_quark_from_static_string ("name");
-    attribute_modification_date_q = g_quark_from_static_string ("modification_date");
-    attribute_date_modified_q = g_quark_from_static_string ("date_modified");
-
-    object_class = (GObjectClass *)klass;
-    object_class->finalize = fm_list_model_finalize;
-    object_class->dispose = fm_list_model_dispose;
-    object_class->get_property = fm_list_model_get_property;
-    object_class->set_property = fm_list_model_set_property;
-
-    g_object_class_install_property (object_class,
-                                     PROP_HAS_CHILD,
-                                     g_param_spec_boolean ("has-child",
-                                                           "has-child",
-                                                           "Whether the model list has child(s) and the treeview can expand subfolders",
-                                                           FALSE,
-                                                           G_PARAM_READWRITE));
-
-
-    list_model_signals[SUBDIRECTORY_UNLOADED] =
-        g_signal_new ("subdirectory_unloaded",
-                      FM_TYPE_LIST_MODEL,
-                      G_SIGNAL_RUN_FIRST,
-                      G_STRUCT_OFFSET (FMListModelClass, subdirectory_unloaded),
-                      NULL, NULL,
-                      g_cclosure_marshal_VOID__OBJECT,
-                      G_TYPE_NONE, 1,
-                      GOF_DIRECTORY_TYPE_ASYNC);
-}
-
-static void
-fm_list_model_tree_model_init (GtkTreeModelIface *iface)
-{
-    iface->get_flags = fm_list_model_get_flags;
-    iface->get_n_columns = fm_list_model_get_n_columns;
-    iface->get_column_type = fm_list_model_get_column_type;
-    iface->get_iter = fm_list_model_get_iter;
-    iface->get_path = fm_list_model_get_path;
-    iface->get_value = fm_list_model_get_value;
-    iface->iter_next = fm_list_model_iter_next;
-    iface->iter_children = fm_list_model_iter_children;
-    iface->iter_has_child = fm_list_model_iter_has_child;
-    iface->iter_n_children = fm_list_model_iter_n_children;
-    iface->iter_nth_child = fm_list_model_iter_nth_child;
-    iface->iter_parent = fm_list_model_iter_parent;
-}
-
-static void
-fm_list_model_drag_dest_init (GtkTreeDragDestIface *iface)
-{
-    iface->drag_data_received = fm_list_model_drag_data_received;
-    iface->row_drop_possible = fm_list_model_row_drop_possible;
-}
-
-static void
-fm_list_model_sortable_init (GtkTreeSortableIface *iface)
-{
-    iface->get_sort_column_id = fm_list_model_get_sort_column_id;
-    iface->set_sort_column_id = fm_list_model_set_sort_column_id;
-    iface->has_default_sort_func = fm_list_model_has_default_sort_func;
-}
-
-static void
-fm_list_model_set_has_child (FMListModel *model, gboolean has_child)
-{
-    g_return_if_fail (FM_IS_LIST_MODEL (model));
-
-    model->details->has_child = has_child;
-    /*if (model->details->has_child != has_child)
-      {
-      model->details->has_child = has_child;
-    //g_object_notify (G_OBJECT (tree_view), "single-click");
-    }*/
-}
+#endif
 
 static void
 fm_list_model_get_property (GObject    *object,
@@ -1314,7 +1177,7 @@ fm_list_model_set_property (GObject      *object,
     switch (prop_id)
     {
     case PROP_HAS_CHILD:
-        fm_list_model_set_has_child (model, g_value_get_boolean (value));
+        model->details->has_child = g_value_get_boolean (value);
         break;
 
     default:
@@ -1323,10 +1186,158 @@ fm_list_model_set_property (GObject      *object,
     }
 }
 
+static void
+fm_list_model_dispose (GObject *object)
+{
+    FMListModel *model;
+    //int i;
+
+    model = FM_LIST_MODEL (object);
+
+    /*if (model->details->columns) {
+        for (i = 0; i < model->details->columns->len; i++) {
+            g_object_unref (model->details->columns->pdata[i]);
+        }
+        g_ptr_array_free (model->details->columns, TRUE);
+        model->details->columns = NULL;
+    }*/
+
+    if (model->details->files) {
+        g_sequence_free (model->details->files);
+        model->details->files = NULL;
+    }
+
+    if (model->details->top_reverse_map) {
+        g_hash_table_destroy (model->details->top_reverse_map);
+        model->details->top_reverse_map = NULL;
+    }
+    if (model->details->directory_reverse_map) {
+        g_hash_table_destroy (model->details->directory_reverse_map);
+        model->details->directory_reverse_map = NULL;
+    }
+
+    G_OBJECT_CLASS (fm_list_model_parent_class)->dispose (object);
+}
+
+static void
+fm_list_model_finalize (GObject *object)
+{
+    FMListModel *model;
+
+    model = FM_LIST_MODEL (object);
+
+    /*if (model->details->highlight_files != NULL) {
+        nautilus_file_list_free (model->details->highlight_files);
+        model->details->highlight_files = NULL;
+    }*/
+
+    g_free (model->details);
+
+    G_OBJECT_CLASS (fm_list_model_parent_class)->finalize (object);
+}
+
+static void
+fm_list_model_init (FMListModel *model)
+{
+    model->details = g_new0 (FMListModelDetails, 1);
+    model->details->files = g_sequence_new ((GDestroyNotify)file_entry_free);
+    model->details->top_reverse_map = g_hash_table_new (g_direct_hash, g_direct_equal);
+    model->details->directory_reverse_map = g_hash_table_new (g_direct_hash, g_direct_equal);
+    model->details->sort_id = FM_LIST_MODEL_FILENAME;
+    model->details->order = GTK_SORT_ASCENDING;
+    //model->details->columns = g_ptr_array_new ();
+    
+    do {
+        model->details->stamp = g_random_int ();
+    } while (model->details->stamp == 0);
+}
+
+static void
+fm_list_model_class_init (FMListModelClass *klass)
+{
+    GObjectClass *object_class;
+
+    attribute_name_q = g_quark_from_static_string ("name");
+    attribute_modification_date_q = g_quark_from_static_string ("modification_date");
+    attribute_date_modified_q = g_quark_from_static_string ("date_modified");
+
+    object_class = (GObjectClass *)klass;
+    object_class->finalize = fm_list_model_finalize;
+    object_class->dispose = fm_list_model_dispose;
+    object_class->get_property = fm_list_model_get_property;
+    object_class->set_property = fm_list_model_set_property;
+
+    g_object_class_install_property (object_class,
+                                     PROP_HAS_CHILD,
+                                     g_param_spec_boolean ("has-child",
+                                                           "has-child",
+                                                           "Whether the model list has child(s) and the treeview can expand subfolders",
+                                                           FALSE,
+                                                           G_PARAM_READWRITE));
+
+    list_model_signals[SUBDIRECTORY_UNLOADED] =
+        g_signal_new ("subdirectory_unloaded",
+                      FM_TYPE_LIST_MODEL,
+                      G_SIGNAL_RUN_FIRST,
+                      G_STRUCT_OFFSET (FMListModelClass, subdirectory_unloaded),
+                      NULL, NULL,
+                      g_cclosure_marshal_VOID__OBJECT,
+                      G_TYPE_NONE, 1,
+                      GOF_DIRECTORY_TYPE_ASYNC);
+}
+
+static void
+fm_list_model_tree_model_init (GtkTreeModelIface *iface)
+{
+    iface->get_flags = fm_list_model_get_flags;
+    iface->get_n_columns = fm_list_model_get_n_columns;
+    iface->get_column_type = fm_list_model_get_column_type;
+    iface->get_iter = fm_list_model_get_iter;
+    iface->get_path = fm_list_model_get_path;
+    iface->get_value = fm_list_model_get_value;
+    iface->iter_next = fm_list_model_iter_next;
+    iface->iter_children = fm_list_model_iter_children;
+    iface->iter_has_child = fm_list_model_iter_has_child;
+    iface->iter_n_children = fm_list_model_iter_n_children;
+    iface->iter_nth_child = fm_list_model_iter_nth_child;
+    iface->iter_parent = fm_list_model_iter_parent;
+}
+
+static void
+fm_list_model_sortable_init (GtkTreeSortableIface *iface)
+{
+    iface->get_sort_column_id = fm_list_model_get_sort_column_id;
+    iface->set_sort_column_id = fm_list_model_set_sort_column_id;
+    iface->has_default_sort_func = fm_list_model_has_default_sort_func;
+}
+
+static gboolean
+fm_list_model_drag_data_received (GtkTreeDragDest  *dest,
+                                  GtkTreePath      *path,
+                                  GtkSelectionData *data)
+{
+    return FALSE;
+}
+
+static gboolean
+fm_list_model_row_drop_possible (GtkTreeDragDest  *dest,
+                                 GtkTreePath      *path,
+                                 GtkSelectionData *data)
+{
+    return FALSE;
+}
+
+static void
+fm_list_model_drag_dest_init (GtkTreeDragDestIface *iface)
+{
+    iface->drag_data_received = fm_list_model_drag_data_received;
+    iface->row_drop_possible = fm_list_model_row_drop_possible;
+}
+
 
 #if 0
 void
-fm_list_model_subdirectory_done_loading (FMListModel *model, NautilusDirectory *directory)
+fm_list_model_subdirectory_done_loading (FMListModel *model, GOFDirectoryAsync *directory)
 {
     GtkTreeIter iter;
     GtkTreePath *path;
@@ -1349,7 +1360,7 @@ fm_list_model_subdirectory_done_loading (FMListModel *model, NautilusDirectory *
     /* Only swap loading -> empty if we saw no files yet at "done",
      * otherwise, toggle loading at first added file to the model.
      */
-    if (!nautilus_directory_is_not_empty (directory) &&
+    if (!gof_directory_async_is_empty (directory) &&
         g_sequence_get_length (files) == 1) {
         dummy_ptr = g_sequence_get_iter_at_pos (file_entry->files, 0);
         dummy_entry = g_sequence_get (dummy_ptr);
@@ -1364,6 +1375,50 @@ fm_list_model_subdirectory_done_loading (FMListModel *model, NautilusDirectory *
             gtk_tree_model_row_changed (GTK_TREE_MODEL (model), path, &iter);
             gtk_tree_path_free (path);
         }
+    }
+}
+#endif
+
+#if 0
+static void
+refresh_row (gpointer data,
+             gpointer user_data)
+{
+    GOFFile *file;
+    FMListModel *model;
+    GList *iters, *l;
+    GtkTreePath *path;
+
+    model = user_data;
+    file = data;
+
+    iters = fm_list_model_get_all_iters_for_file (model, file);
+    for (l = iters; l != NULL; l = l->next) {
+        path = gtk_tree_model_get_path (GTK_TREE_MODEL (model), l->data);
+        gtk_tree_model_row_changed (GTK_TREE_MODEL (model), path, l->data);
+
+        gtk_tree_path_free (path);
+    }
+
+    g_list_free_full (iters, g_free);
+}
+
+void
+fm_list_model_set_highlight_for_files (FMListModel *model,
+                                       GList *files)
+{
+    if (model->details->highlight_files != NULL) {
+        g_list_foreach (model->details->highlight_files,
+                        refresh_row, model);
+        nautilus_file_list_free (model->details->highlight_files);
+        model->details->highlight_files = NULL;
+    }
+
+    if (files != NULL) {
+        model->details->highlight_files = nautilus_file_list_copy (files);
+        g_list_foreach (model->details->highlight_files,
+                        refresh_row, model);
+
     }
 }
 #endif

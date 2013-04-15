@@ -2298,6 +2298,8 @@ gof_file_get_display_name (GOFFile *file)
 gboolean 
 gof_file_is_folder (GOFFile *file)
 {
+    g_return_val_if_fail (GOF_IS_FILE (file), FALSE);
+
     /* TODO check */
     if (file->is_directory)
         return TRUE;

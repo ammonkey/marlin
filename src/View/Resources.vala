@@ -1,6 +1,6 @@
 namespace Marlin {
     public const string APP_TITLE = "Marlin";
-    public const string COPYRIGHT = "2010-2012 Marlin Developers";
+    public const string COPYRIGHT = "2010-2013 Marlin Developers";
     public const string LAUNCHPAD_LABEL = "Website";
     public const string LAUNCHPAD_URL = "http://launchpad.net/marlin";
     public const string HELP_URL = "https://answers.launchpad.net/marlin";
@@ -14,15 +14,9 @@ namespace Marlin {
         "Mathijs Henquet <mathijs.henquet@gmail.com>",
         "Robert Roth",
         "Vadim Rutkovsky",
-        "Rico Tzschichholz",
         null
     };
     
-    public const string[] ARTISTS = { 
-        "Daniel Foré <daniel.p.fore@gmail.com>",
-        null
-    };
-
     public const string TRANSLATORS = "Launchpad Translators";
 
     public const string ICON_ABOUT_LOGO = "system-file-manager";

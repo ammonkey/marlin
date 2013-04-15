@@ -1,6 +1,4 @@
-/* -*- Mode: C; indent-tabs-mode: t; c-basic-offset: 8; tab-width: 8 -*-
- *
- * eel-string.h: String routines to augment <string.h>.
+/* eel-string.h: String routines to augment <string.h>.
  *
  * Copyright (C) 2000 Eazel, Inc.
  *
@@ -15,9 +13,7 @@
  * Library General Public License for more details.
  *
  * You should have received a copy of the GNU Library General Public
- * License along with the Gnome Library; see the file COPYING.LIB.  If not,
- * write to the Free Software Foundation, Inc., 59 Temple Place - Suite 330,
- * Boston, MA 02111-1307, USA.
+ * License along with this library. If not, see <http://www.gnu.org/licenses/>.
  *
  * Authors: Darin Adler <darin@eazel.com>
  */

@@ -2695,6 +2695,8 @@ bookmarks_edited (GtkCellRenderer       *cell,
     int index;
 
     g_object_set (cell, "editable", FALSE, NULL);
+    if (!new_text || !strlen (new_text))
+        return;
 
     path = gtk_tree_path_new_from_string (path_string);
     gtk_tree_model_get_iter (GTK_TREE_MODEL (MARLIN_ABSTRACT_SIDEBAR(sidebar)->store), &iter, path);
@@ -3221,13 +3223,11 @@ marlin_places_sidebar_set_parent_window (MarlinPlacesSidebar *sidebar,
     sidebar->window = window;
 
     sidebar->bookmarks = marlin_bookmark_list_new (); 
-    g_signal_connect_object (sidebar->bookmarks, "contents_changed",
-                             G_CALLBACK (update_places),
-                             sidebar, G_CONNECT_SWAPPED);
+    g_signal_connect_object (sidebar->bookmarks, "changed",
+                             G_CALLBACK (update_places), sidebar, G_CONNECT_SWAPPED);
 
     g_signal_connect_object (window, "loading_uri",
-                             G_CALLBACK (loading_uri_callback),
-                             sidebar, 0);
+                             G_CALLBACK (loading_uri_callback), sidebar, 0);
 
     g_signal_connect_object (sidebar->volume_monitor, "volume_added",
                              G_CALLBACK (volume_added_callback), sidebar, 0);

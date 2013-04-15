@@ -11,7 +11,7 @@
  * GNU Lesser General Public License version 3.0 for more details.
  *
  * You should have received a copy of the GNU Lesser General Public
- * License along with this library. If not, see
+ * License along with this program. If not, see
  * <http://www.gnu.org/licenses/>.
  *
  * Author: ammonkey <am.monkeyd@gmail.com>
@@ -58,7 +58,7 @@ struct FMListViewDetails {
 
 static gchar *col_title[4] = { N_("Filename"), N_("Size"), N_("Type"), N_("Modified") };
 
-G_DEFINE_TYPE (FMListView, fm_list_view, FM_TYPE_DIRECTORY_VIEW);
+G_DEFINE_TYPE (FMListView, fm_list_view, FM_DIRECTORY_TYPE_VIEW);
 
 #define parent_class fm_list_view_parent_class
 

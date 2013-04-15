@@ -1,5 +1,3 @@
-# Check http://elementaryos.org/docs/developer-guide/cmake for documentation
-
 cmake_minimum_required (VERSION 2.6)
 cmake_policy(VERSION 2.6)
 project(Marlin)
@@ -9,15 +7,40 @@ set(GETTEXT_PACKAGE "marlin")
 set(PIXMAP_DIR "${CMAKE_INSTALL_PREFIX}/share/pixmaps/marlin/")
 set(GNOMELOCALEDIR "${CMAKE_INSTALL_PREFIX}/share/locale/")
 set(UI_DIR "${CMAKE_INSTALL_PREFIX}/share/marlin/ui/")
-set(PACKAGE_VERSION 0.1)
-set(VERSION 0.1)
+set(VERSION 0.90)
 configure_file (${CMAKE_SOURCE_DIR}/config.h.cmake ${CMAKE_BINARY_DIR}/config.h)
+
+include(Tests)
+
+# Vala stuff
+find_package(Vala REQUIRED)
+include(ValaVersion)
+ensure_vala_version("0.16.0" MINIMUM)
+include(ValaPrecompile)
+
+#pkg config
+find_package(PkgConfig)
+pkg_check_modules(VARKA REQUIRED varka>=0.1)
+
+pkg_check_modules(GLIB REQUIRED glib-2.0>=2.35.4)
+pkg_check_modules(GTHREAD REQUIRED gthread-2.0)
+pkg_check_modules(GIO REQUIRED gio-2.0)
+pkg_check_modules(GIO_UNIX REQUIRED gio-unix-2.0)
+pkg_check_modules(PANGO REQUIRED pango>=1.1.2)
+pkg_check_modules(GTK REQUIRED gtk+-3.0>=3.0.3)
+pkg_check_modules(GAIL REQUIRED gail-3.0)
+pkg_check_modules(GNOME_DESKTOP REQUIRED gnome-desktop-3.0>=3.0.0)
+pkg_check_modules(GEE REQUIRED gee-1.0)
+pkg_check_modules(SQLITE REQUIRED sqlite3)
+pkg_check_modules(DBUS_GLIB REQUIRED dbus-glib-1)
+pkg_check_modules(NOTIFY REQUIRED libnotify>=0.7.2)
+
+add_subdirectory (libcore)
+add_subdirectory (libwidgets)
 add_subdirectory (src)
 add_subdirectory (data)
 add_subdirectory (marlin-daemon)
 add_subdirectory (icons)
-add_subdirectory (libcore)
-add_subdirectory (libwidgets)
 add_subdirectory (plugins)
 add_subdirectory (schemas)
 add_subdirectory (po)

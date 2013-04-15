@@ -1,6 +1,5 @@
-/* -*- Mode: C; indent-tabs-mode: t; c-basic-offset: 8; tab-width: 8 -*- */
 /*
- * Copyright (C) 2010 ammonkey
+ * Copyright (C) 2010 ammonkey <am.monkeyd@gmail.com>
  *
  * This library is free software; you can redistribute it and/or modify
  * it under the terms of the GNU Lesser General Public License
@@ -15,7 +14,6 @@
  * License along with this library. If not, see
  * <http://www.gnu.org/licenses/>.
  *
- * Author: ammonkey <am.monkeyd@gmail.com>
  */
 
 #ifndef MARLIN_VIEW_WINDOW_H

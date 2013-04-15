@@ -31,13 +31,14 @@ namespace Marlin.View.Chrome
         public Varka.Widgets.ToolButtonWithMenu app_menu;
         public LocationBar? location_bar;
         public Window win;
+        private Gtk.Settings gtksettings;
 
         public TopMenu (Window window)
         {
             win = window;
-            /*if (Preferences.settings.get_boolean("toolbar-primary-css-style"))
-	            get_style_context().add_class ("primary-toolbar");*/
-            get_style_context().add_class ("menubar");
+            gtksettings = Gtk.Settings.get_default ();
+            update_toolbar_style ();
+            gtksettings.notify["gtk-theme-name"].connect (update_toolbar_style);
             set_icon_size (Gtk.IconSize.MENU);
 
             compact_menu = (Gtk.Menu) win.ui.get_widget("/CompactMenu");
@@ -185,6 +186,17 @@ namespace Marlin.View.Chrome
             });
 
             return item;
+        }
+
+        private void update_toolbar_style () 
+        {
+            string[]? std_theme_list = Preferences.settings.get_strv("toolbar-standard-theme-list");
+            if (gtksettings.gtk_theme_name in std_theme_list) {
+	            if (get_style_context().has_class ("primary-toolbar"))
+    	            get_style_context().remove_class ("primary-toolbar");
+            } else {
+	            get_style_context().add_class ("primary-toolbar");
+            }
         }
     }
 }

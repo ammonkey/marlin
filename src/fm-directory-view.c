@@ -2,6 +2,7 @@
  *
  * Copyright (C) 1999, 2000  Free Software Foundation
  * Copyright (C) 2000, 2001  Eazel, Inc.
+ * Copyright (C) 2010-2012 ammonkey
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License as
@@ -13,16 +14,15 @@
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
  * General Public License for more details.
  *
- * You should have received a copy of the GNU General Public
- * License along with this program; if not, write to the
- * Free Software Foundation, Inc., 59 Temple Place - Suite 330,
- * Boston, MA 02111-1307, USA.
+ * You should have received a copy of the GNU General Public License 
+ * along with this program. If not, see <http://www.gnu.org/licenses/>.
  *
  * Authors: Ettore Perazzoli,
  *          John Sullivan <sullivan@eazel.com>,
  *          Darin Adler <darin@bentspoon.com>,
  *          Pavel Cisler <pavel@eazel.com>,
  *          David Emory Watson <dwatson@cs.ucr.edu>
+ *          ammonkey <am.monkeyd@gmail.com>
  */
 
 #include <config.h>
@@ -289,6 +289,8 @@ file_deleted_callback (GOFDirectoryAsync *directory, GOFFile *file, FMDirectoryV
 static void
 directory_done_loading_callback (GOFDirectoryAsync *directory, FMDirectoryView *view)
 {
+    g_return_if_fail (FM_IS_DIRECTORY_VIEW (view));
+
     /* disconnect the file_loaded signal once directory loaded */
     g_signal_handlers_disconnect_by_func (directory, file_loaded_callback, view);
 
@@ -299,7 +301,7 @@ directory_done_loading_callback (GOFDirectoryAsync *directory, FMDirectoryView *
     MarlinZoomLevel zoom;
     g_object_get (view, "zoom-level", &zoom, NULL);
     int size = marlin_zoom_level_to_icon_size (zoom);
-    gof_directory_async_threaded_load_thumbnails (view->details->slot->directory, size);
+    gof_directory_async_threaded_load_thumbnails (directory, size);
     //g_signal_emit (view, signals[DIRECTORY_LOADED], 0, directory);
 }
 
@@ -988,10 +990,10 @@ fm_directory_view_get_drop_file (FMDirectoryView    *view,
         //printf ("%s path %s\n", G_STRFUNC, gtk_tree_path_to_string (path));
         /* determine the file for the path */
         file = fm_list_model_file_for_path (view->model, path);
-        printf ("%s %s\n", G_STRFUNC, file->uri);
 
         /* we can only drop to directories and executable files */
-        if (!gof_file_is_folder (file) && !gof_file_is_executable (file))
+        if (file != NULL && 
+            !gof_file_is_folder (file) && !gof_file_is_executable (file))
         {
             /* drop to the folder instead */
             g_object_unref (G_OBJECT (file));
@@ -1032,7 +1034,6 @@ fm_directory_view_get_dest_actions (FMDirectoryView     *view,
 
     /* determine the file and path for the given coordinates */
     file = fm_directory_view_get_drop_file (view, x, y, &path);
-    printf ("%s %s\n", G_STRFUNC, file->uri);
 
     /* check if we can drop there */
     if (G_LIKELY (file != NULL))
@@ -2629,6 +2630,7 @@ trash_or_delete_files (FMDirectoryView *view,
     GList *locations;
     const GList *node;
 
+    g_return_if_fail (files);
     locations = NULL;
     for (node = files; node != NULL; node = node->next) {
         locations = g_list_prepend (locations,
@@ -2655,9 +2657,11 @@ trash_or_delete_selected_files (FMDirectoryView *view)
      */
     if (!view->details->selection_was_removed) {
         selection = fm_directory_view_get_selection_for_file_transfer (view);
-        trash_or_delete_files (view, selection, TRUE);
-        gof_file_list_free (selection);
-        view->details->selection_was_removed = TRUE;
+        if (selection) {
+            trash_or_delete_files (view, selection, TRUE);
+            gof_file_list_free (selection);
+            view->details->selection_was_removed = TRUE;
+        }
     }
 }
 

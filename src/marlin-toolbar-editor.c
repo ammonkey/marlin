@@ -1,6 +1,6 @@
 /*
  * Copyright (C) 2009 Enrico Tröger <enrico(dot)troeger(at)uvena(dot)de>
- * Copyright (C) 2010 ammonkey
+ * Copyright (C) 2010 ammonkey <am.monkeyd@gmail.com>
  *
  * Marlin is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License as
@@ -12,16 +12,10 @@
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
  * General Public License for more details.
  *
- * You should have received a copy of the GNU General Public
- * License along with this program; see the file COPYING.  If not,
- * write to the Free Software Foundation, Inc., 59 Temple Place - Suite 330,
- * Boston, MA 02111-1307, USA.
+ * You should have received a copy of the GNU General Public License 
+ * along with this library. If not, see <http://www.gnu.org/licenses/>.
  *
- * Code originaly coming from the toolbar editor of Midori adpated to rhythmbox
- * by ammonkey
- *
- * Authors: Enrico Tröger <enrico(dot)troeger(at)uvena(dot)de>
- *          ammonkey <am.monkeyd@gmail.com>
+ * Code originaly coming from the toolbar editor of Midori.
  *
  */
 

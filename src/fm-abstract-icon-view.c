@@ -60,7 +60,7 @@ struct FMAbstractIconViewDetails {
 
 //static gchar *col_title[4] = { _("Filename"), _("Size"), _("Type"), _("Modified") };
 
-G_DEFINE_TYPE (FMAbstractIconView, fm_abstract_icon_view, FM_TYPE_DIRECTORY_VIEW);
+G_DEFINE_TYPE (FMAbstractIconView, fm_abstract_icon_view, FM_DIRECTORY_TYPE_VIEW);
 
 #define parent_class fm_abstract_icon_view_parent_class
 

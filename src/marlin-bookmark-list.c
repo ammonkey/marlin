@@ -21,28 +21,24 @@
  *          ammonkey <am.monkeyd@gmail.com>
  */
 
-/* nautilus-bookmark-list.c - implementation of centralized list of bookmarks.
-*/
+/* implementation of centralized list of bookmarks. */
 
 #include <config.h>
 #include "marlin-bookmark-list.h"
 
 #include <gio/gio.h>
 #include <string.h>
-#include "gof-file.h"
-//#include "marlin-icons.h"
 
 #define MAX_BOOKMARK_LENGTH 80
 #define LOAD_JOB 1
 #define SAVE_JOB 2
 
 enum {
-    CONTENTS_CHANGED,
+    CHANGED,
     LAST_SIGNAL
 };
 
 static guint signals[LAST_SIGNAL];
-static char *window_geometry;
 static MarlinBookmarkList *singleton = NULL;
 
 /* forward declarations */
@@ -53,47 +49,34 @@ static void        marlin_bookmark_list_save_file     (MarlinBookmarkList *bookm
 G_DEFINE_TYPE(MarlinBookmarkList, marlin_bookmark_list, G_TYPE_OBJECT)
 
 static MarlinBookmark *
-new_bookmark_from_uri (const char *uri, char *label)
+new_bookmark_from_uri (const char *uri, const char *label)
 {
     MarlinBookmark *bookmark;
     GOFFile *file;
-    char *name;
-    GIcon *icon;
-    gboolean has_label;
-    GFile *location;
 
-    /*location = g_file_new_for_uri (uri);
-    has_label = FALSE;
+    g_return_val_if_fail (uri, NULL);
 
-    new_bookmark = NULL;
-    name = NULL;
-
-    if (label != NULL) { 
-        name = g_strdup (label);
-        has_label = TRUE;
-    }*/
-
-    /*if (!g_file_is_native (location))
-        icon = g_themed_icon_new (MARLIN_ICON_FOLDER_REMOTE);*/
-    //file = gof_file_get (location);
     file = gof_file_get_by_uri (uri);
-    /*if (file != NULL) {
-        if (name == NULL)
-            name = g_strdup (file->display_name);
-        if (icon == NULL)
-            icon = file->icon;
-    }
-    if (name == NULL)
-        name = g_file_get_parse_name (location);*/
-
-    //new_bookmark = marlin_bookmark_new (location, name, has_label, icon);
     bookmark = marlin_bookmark_new (file, label);
-
+    
     if (file != NULL)
         g_object_unref (file);
 
-    //g_free (name);
     return bookmark;
+}
+
+static GFile *
+marlin_bookmark_list_get_legacy_file (void)
+{
+    char *filename;
+    GFile *file;
+
+    filename = g_build_filename (g_get_home_dir (), ".gtk-bookmarks", NULL);
+    file = g_file_new_for_path (filename);
+
+    g_free (filename);
+
+    return file;
 }
 
 static GFile *
@@ -102,7 +85,7 @@ marlin_bookmark_list_get_file (void)
     char *filename;
     GFile *file;
 
-    filename = g_build_filename (g_get_home_dir (), ".gtk-bookmarks", NULL);
+    filename = g_build_filename (g_get_user_config_dir (), "gtk-3.0", "bookmarks", NULL);
     file = g_file_new_for_path (filename);
 
     g_free (filename);
@@ -119,8 +102,17 @@ bookmark_in_list_changed_callback (MarlinBookmark     *bookmark,
     g_assert (MARLIN_IS_BOOKMARK (bookmark));
     g_assert (MARLIN_IS_BOOKMARK_LIST (bookmarks));
 
-    /* Save changes so we'll have the good icon next time. */
+    /* save changes to the list */
     marlin_bookmark_list_save_file (bookmarks);
+}
+
+static void
+bookmark_in_list_notify (GObject *object,
+                         GParamSpec *pspec,
+                         MarlinBookmarkList *bookmarks)
+{
+    /* emit the changed signal without saving, as only appearance properties changed */
+    g_signal_emit (bookmarks, signals[CHANGED], 0);
 }
 
 static void
@@ -140,16 +132,13 @@ stop_monitoring_one (gpointer data, gpointer user_data)
 
     stop_monitoring_bookmark (MARLIN_BOOKMARK_LIST (user_data), 
                               MARLIN_BOOKMARK (data));
-    g_object_unref (MARLIN_BOOKMARK (data));
 }
 
 static void
 clear (MarlinBookmarkList *bookmarks)
 {
     g_list_foreach (bookmarks->list, stop_monitoring_one, bookmarks);
-    //TODO check this
-    //g_list_foreach (bookmarks->list, (GFunc) g_object_unref, NULL);
-    g_list_free (bookmarks->list);
+    g_list_free_full (bookmarks->list, g_object_unref);
     bookmarks->list = NULL;
 }
 
@@ -188,7 +177,6 @@ do_constructor (GType type,
     return retval;
 }
 
-
 static void
 marlin_bookmark_list_class_init (MarlinBookmarkListClass *class)
 {
@@ -197,15 +185,27 @@ marlin_bookmark_list_class_init (MarlinBookmarkListClass *class)
     object_class->finalize = do_finalize;
     object_class->constructor = do_constructor;
 
-    signals[CONTENTS_CHANGED] =
-        g_signal_new ("contents_changed",
+    signals[CHANGED] =
+        g_signal_new ("changed",
                       G_TYPE_FROM_CLASS (object_class),
                       G_SIGNAL_RUN_LAST,
                       G_STRUCT_OFFSET (MarlinBookmarkListClass, 
-                                       contents_changed),
+                                       changed),
                       NULL, NULL,
                       g_cclosure_marshal_VOID__VOID,
                       G_TYPE_NONE, 0);
+}
+
+static gboolean 
+marlin_bookmark_list_load_file_gsource_func (gpointer user_data)
+{
+    g_return_if_fail (MARLIN_IS_BOOKMARK_LIST (MARLIN_BOOKMARK_LIST (user_data)));
+
+    MarlinBookmarkList *bookmarks = MARLIN_BOOKMARK_LIST (user_data);
+    marlin_bookmark_list_load_file (bookmarks);
+    bookmarks->timeout_monitor = 0;
+
+    return FALSE;
 }
 
 static void
@@ -218,7 +218,9 @@ bookmark_monitor_changed_cb (GFileMonitor      *monitor,
     if (eflags == G_FILE_MONITOR_EVENT_CHANGED ||
         eflags == G_FILE_MONITOR_EVENT_CREATED) {
         g_return_if_fail (MARLIN_IS_BOOKMARK_LIST (MARLIN_BOOKMARK_LIST (user_data)));
-        marlin_bookmark_list_load_file (MARLIN_BOOKMARK_LIST (user_data));
+        MarlinBookmarkList *bookmarks = MARLIN_BOOKMARK_LIST (user_data);
+        if (bookmarks->timeout_monitor == 0)
+            bookmarks->timeout_monitor = g_timeout_add (90, marlin_bookmark_list_load_file_gsource_func, bookmarks);
     }
 }
 
@@ -248,8 +250,12 @@ insert_bookmark_internal (MarlinBookmarkList *bookmarks,
 {
     bookmarks->list = g_list_insert (bookmarks->list, bookmark, index);
 
-    g_signal_connect_object (bookmark, "contents_changed",
+    g_signal_connect_object (bookmark, "contents-changed",
                              G_CALLBACK (bookmark_in_list_changed_callback), bookmarks, 0);
+    g_signal_connect_object (bookmark, "notify::icon",
+                             G_CALLBACK (bookmark_in_list_notify), bookmarks, 0);
+    g_signal_connect_object (bookmark, "notify::name",
+                             G_CALLBACK (bookmark_in_list_notify), bookmarks, 0);
 }
 
 /**
@@ -316,10 +322,7 @@ marlin_bookmark_list_delete_item_at (MarlinBookmarkList *bookmarks,
 
     g_assert (MARLIN_IS_BOOKMARK (doomed->data));
     stop_monitoring_bookmark (bookmarks, MARLIN_BOOKMARK (doomed->data));
-    //SPOTTED!
     g_object_unref (doomed->data);
-    /*g_object_unref (doomed->data);
-    g_object_unref (doomed->data);*/
 
     g_list_free_1 (doomed);
 
@@ -456,106 +459,143 @@ marlin_bookmark_list_length (MarlinBookmarkList *bookmarks)
     return g_list_length (bookmarks->list);
 }
 
-static GList *
-marlin_bookmark_list_get_gof_files (MarlinBookmarkList *bookmarks)
-{
-    GList *files = NULL;
-    GList *p;
+static void
+process_next_op (MarlinBookmarkList *bookmarks);
 
-    for (p = bookmarks->list; p!= NULL; p=p->next) {
-        GOFFile *gof = MARLIN_BOOKMARK (p->data)->file;
-        //g_message ("%s %s", G_STRFUNC, gof->uri);
-        files = g_list_prepend (files, gof); 
+static void
+op_processed_cb (MarlinBookmarkList *self)
+{
+    g_queue_pop_tail (self->pending_ops);
+
+    if (!g_queue_is_empty (self->pending_ops)) {
+        process_next_op (self);
     }
-
-    return files;
-}
-
-static void bookmark_list_content_changed (GList *files, MarlinBookmarkList *bookmarks)
-{
-    g_signal_emit (bookmarks, signals[CONTENTS_CHANGED], 0);
 }
 
 static void
-load_file_finish (MarlinBookmarkList *bookmarks,
-                  GObject *source,
-                  GAsyncResult *res)
+load_callback (GObject *source,
+               GAsyncResult *res,
+               gpointer user_data)
 {
-    GError *error = NULL;
-    gchar *contents = NULL;
+    MarlinBookmarkList *self = MARLIN_BOOKMARK_LIST (source);
+    gchar *contents;
+    char **lines;
+    int i;
 
-    g_file_load_contents_finish (G_FILE (source),
-                                 res, &contents, NULL, NULL, &error);
+    contents = g_simple_async_result_get_op_res_gpointer (G_SIMPLE_ASYNC_RESULT (res));
 
-    if (error == NULL) {
-        char **lines;
-        int i;
+    if (contents == NULL) {
+        return;
+    }
 
-        lines = g_strsplit (contents, "\n", -1);
-        for (i = 0; lines[i]; i++) {
-            /* Ignore empty or invalid lines that cannot be parsed properly */
-            if (lines[i][0] != '\0' && lines[i][0] != ' ') {
-                /* gtk 2.7/2.8 might have labels appended to bookmarks which are separated by a space */
-                /* we must seperate the bookmark uri and the potential label */
-                char *space, *label;
+    lines = g_strsplit (contents, "\n", -1);
+    for (i = 0; lines[i]; i++) {
+        /* Ignore empty or invalid lines that cannot be parsed properly */
+        if (lines[i][0] != '\0' && lines[i][0] != ' ') {
+            /* gtk 2.7/2.8 might have labels appended to bookmarks which are separated by a space */
+            /* we must seperate the bookmark uri and the potential label */
+            char *space, *label;
 
-                label = NULL;
-                space = strchr (lines[i], ' ');
-                if (space) {
-                    *space = '\0';
-                    label = g_strdup (space + 1);
-                }
-                insert_bookmark_internal (bookmarks, 
-                                          new_bookmark_from_uri (lines[i], label), 
-                                          -1);
-
-                g_free (label);
+            label = NULL;
+            space = strchr (lines[i], ' ');
+            if (space) {
+                *space = '\0';
+                label = g_strdup (space + 1);
             }
+
+            insert_bookmark_internal (self, new_bookmark_from_uri (lines[i], label), -1);
+            g_free (label);
         }
-        g_free (contents);
-        g_strfreev (lines);
-
-        //SPOTTED!
-        /* emit contents_changed once all bookmark are ready */
-        GList *files = marlin_bookmark_list_get_gof_files (bookmarks);
-        gof_call_when_ready_new (files, bookmark_list_content_changed, bookmarks);
-        g_list_free (files);
-
-        g_signal_emit (bookmarks, signals[CONTENTS_CHANGED], 0);
-    } else if (!g_error_matches (error, G_IO_ERROR, G_IO_ERROR_NOT_FOUND)) {
-        g_warning ("Could not load bookmark file: %s\n", error->message);
-        g_error_free (error);
     }
+
+    g_signal_emit (self, signals[CHANGED], 0);
+    op_processed_cb (self);
+
+    g_strfreev (lines);
 }
 
 static void
-load_file_async (MarlinBookmarkList *self,
-                 GAsyncReadyCallback callback)
+load_io_thread (GSimpleAsyncResult *result,
+                GObject *object,
+                GCancellable *cancellable)
 {
     GFile *file;
+    gchar *contents;
+    GError *error = NULL;
 
     file = marlin_bookmark_list_get_file ();
+    if (!g_file_query_exists (file, NULL)) {
+        file = marlin_bookmark_list_get_legacy_file ();
+    }
+
+    g_file_load_contents (file, NULL, &contents, NULL, NULL, &error);
+
+    if (error != NULL) {
+        if (!g_error_matches (error, G_IO_ERROR, G_IO_ERROR_NOT_FOUND)) {
+            g_warning ("Could not load bookmark file: %s\n", error->message);
+        }
+        g_error_free (error);
+    } else {
+        g_simple_async_result_set_op_res_gpointer (result, contents, g_free);
+    }
+}
+
+static void
+load_file_async (MarlinBookmarkList *self)
+{
+    GSimpleAsyncResult *result;
 
     /* Wipe out old list. */
     clear (self);
 
-    /* keep the bookmark list alive */
-    g_object_ref (self);
-    g_file_load_contents_async (file, NULL, callback, self);
-
-    g_object_unref (file);
+    result = g_simple_async_result_new (G_OBJECT (self), 
+                                        load_callback, NULL, NULL);
+    g_simple_async_result_run_in_thread (result, load_io_thread,
+                                         G_PRIORITY_DEFAULT, NULL);
+    g_object_unref (result);
 }
 
 static void
-save_file_finish (MarlinBookmarkList *bookmarks,
-                  GObject *source,
-                  GAsyncResult *res)
+save_callback (GObject *source,
+               GAsyncResult *res,
+               gpointer user_data)
 {
-    GError *error = NULL;
+    MarlinBookmarkList *self = MARLIN_BOOKMARK_LIST (source);
     GFile *file;
 
-    g_file_replace_contents_finish (G_FILE (source),
-                                    res, NULL, &error);
+    /* re-enable bookmark file monitoring */
+    file = marlin_bookmark_list_get_file ();
+    self->monitor = g_file_monitor_file (file, 0, NULL, NULL);
+    g_object_unref (file);
+
+    g_file_monitor_set_rate_limit (self->monitor, 1000);
+    g_signal_connect (self->monitor, "changed",
+                      G_CALLBACK (bookmark_monitor_changed_cb), self);
+
+    op_processed_cb (self);
+}
+
+static void
+save_io_thread (GSimpleAsyncResult *result,
+                GObject *object,
+                GCancellable *cancellable)
+{
+    gchar *contents, *path;
+    GFile *parent, *file;
+    GError *error = NULL;
+
+    file = marlin_bookmark_list_get_file ();
+    parent = g_file_get_parent (file);
+    path = g_file_get_path (parent);
+    g_mkdir_with_parents (path, 0700);
+    g_free (path);
+    g_object_unref (parent);
+
+    contents = g_simple_async_result_get_op_res_gpointer (result);
+    g_file_replace_contents (file, 
+                             contents, strlen (contents),
+                             NULL, FALSE, 0, NULL,
+                             NULL, &error);
 
     if (error != NULL) {
         g_warning ("Unable to replace contents of the bookmarks file: %s",
@@ -563,48 +603,39 @@ save_file_finish (MarlinBookmarkList *bookmarks,
         g_error_free (error);
     }
 
-    file = marlin_bookmark_list_get_file ();
-
-    /* re-enable bookmark file monitoring */
-    bookmarks->monitor = g_file_monitor_file (file, 0, NULL, NULL);
-    g_file_monitor_set_rate_limit (bookmarks->monitor, 1000);
-    g_signal_connect (bookmarks->monitor, "changed",
-                      G_CALLBACK (bookmark_monitor_changed_cb), bookmarks);
-
     g_object_unref (file);
 }
 
 static void
-save_file_async (MarlinBookmarkList *bookmarks,
-                 GAsyncReadyCallback callback)
+save_file_async (MarlinBookmarkList *self)
 {
-    GFile *file;
-    GList *l;
+    GSimpleAsyncResult *result;
     GString *bookmark_string;
+    gchar *contents;
+    GList *l;
 
-    /* temporarily disable bookmark file monitoring when writing file */
-    if (bookmarks->monitor != NULL) {
-        g_file_monitor_cancel (bookmarks->monitor);
-        bookmarks->monitor = NULL;
-    }
-
-    file = marlin_bookmark_list_get_file ();
     bookmark_string = g_string_new (NULL);
 
-    for (l = bookmarks->list; l; l = l->next) {
+    /* temporarily disable bookmark file monitoring when writing file */
+    if (self->monitor != NULL) {
+        g_file_monitor_cancel (self->monitor);
+        self->monitor = NULL;
+    }
+
+    for (l = self->list; l; l = l->next) {
         MarlinBookmark *bookmark;
 
         bookmark = MARLIN_BOOKMARK (l->data);
 
         /* make sure we save label if it has one for compatibility with GTK 2.7 and 2.8 */
         if (marlin_bookmark_get_has_custom_name (bookmark)) {
-            char *label, *uri;
+            const char *label;
+            char *uri;
             label = marlin_bookmark_get_name (bookmark);
             uri = marlin_bookmark_get_uri (bookmark);
             g_string_append_printf (bookmark_string,
                                     "%s %s\n", uri, label);
             g_free (uri);
-            g_free (label);
         } else {
             char *uri;
             uri = marlin_bookmark_get_uri (bookmark);
@@ -613,41 +644,14 @@ save_file_async (MarlinBookmarkList *bookmarks,
         }
     }
 
-    /* keep the bookmark list alive */
-    g_object_ref (bookmarks);
-    g_file_replace_contents_async (file, bookmark_string->str,
-                                   bookmark_string->len, NULL,
-                                   FALSE, 0, NULL, callback,
-                                   bookmarks);
+    result = g_simple_async_result_new (G_OBJECT (self),
+                                        save_callback, NULL, NULL);
+    contents = g_string_free (bookmark_string, FALSE);
+    g_simple_async_result_set_op_res_gpointer (result, contents, g_free);
 
-    g_object_unref (file);
-}
-
-static void
-process_next_op (MarlinBookmarkList *bookmarks);
-
-static void
-op_processed_cb (GObject *source,
-                 GAsyncResult *res,
-                 gpointer user_data)
-{
-    MarlinBookmarkList *self = user_data;
-    int op;
-
-    op = GPOINTER_TO_INT (g_queue_pop_tail (self->pending_ops));
-
-    if (op == LOAD_JOB) {
-        load_file_finish (self, source, res);
-    } else {
-        save_file_finish (self, source, res);
-    }
-
-    if (!g_queue_is_empty (self->pending_ops)) {
-        process_next_op (self);
-    }
-
-    /* release the reference acquired during the _async method */
-    g_object_unref (self);
+    g_simple_async_result_run_in_thread (result, save_io_thread,
+                                         G_PRIORITY_DEFAULT, NULL);
+    g_object_unref (result);
 }
 
 static void
@@ -658,14 +662,14 @@ process_next_op (MarlinBookmarkList *bookmarks)
     op = GPOINTER_TO_INT (g_queue_peek_tail (bookmarks->pending_ops));
 
     if (op == LOAD_JOB) {
-        load_file_async (bookmarks, op_processed_cb);
+        load_file_async (bookmarks);
     } else {
-        save_file_async (bookmarks, op_processed_cb);
+        save_file_async (bookmarks);
     }
 }
 
 /**
- * marlin_bookmark_list_load_file:
+ * ;marlin_bookmark_list_load_file:
  * 
  * Reads bookmarks from file, clobbering contents in memory.
  * @bookmarks: the list of bookmarks to fill with file contents.
@@ -689,7 +693,7 @@ marlin_bookmark_list_load_file (MarlinBookmarkList *bookmarks)
 static void
 marlin_bookmark_list_save_file (MarlinBookmarkList *bookmarks)
 {
-    g_signal_emit (bookmarks, signals[CONTENTS_CHANGED], 0);
+    g_signal_emit (bookmarks, signals[CHANGED], 0);
 
     g_queue_push_head (bookmarks->pending_ops, GINT_TO_POINTER (SAVE_JOB));
 
@@ -697,7 +701,6 @@ marlin_bookmark_list_save_file (MarlinBookmarkList *bookmarks)
         process_next_op (bookmarks);
     }
 }
-
 
 /**
  * marlin_bookmark_list_new:
@@ -715,4 +718,3 @@ marlin_bookmark_list_new (void)
 
     return list;
 }
-

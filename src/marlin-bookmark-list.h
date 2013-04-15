@@ -20,8 +20,7 @@
  * Authors: John Sullivan <sullivan@eazel.com>
  */
 
-/* nautilus-bookmark-list.h - interface for centralized list of bookmarks.
-*/
+/* interface for centralized list of bookmarks. */
 
 #ifndef MARLIN_BOOKMARK_LIST_H
 #define MARLIN_BOOKMARK_LIST_H
@@ -49,33 +48,33 @@ struct MarlinBookmarkList {
 
     GList *list; 
     GFileMonitor *monitor;
+    guint timeout_monitor;
     GQueue *pending_ops;
 };
 
 struct MarlinBookmarkListClass {
     GObjectClass parent_class;
-    void (* contents_changed) (MarlinBookmarkList *bookmarks);
+    void (* changed) (MarlinBookmarkList *bookmarks);
 };
 
 GType                   marlin_bookmark_list_get_type            (void);
 MarlinBookmarkList *    marlin_bookmark_list_new                 (void);
 void                    marlin_bookmark_list_append              (MarlinBookmarkList   *bookmarks,
-                                                                  MarlinBookmark *bookmark);
+                                                                  MarlinBookmark       *bookmark);
 gboolean                marlin_bookmark_list_contains            (MarlinBookmarkList   *bookmarks,
-                                                                  MarlinBookmark *bookmark);
+                                                                  MarlinBookmark       *bookmark);
 void                    marlin_bookmark_list_delete_item_at      (MarlinBookmarkList   *bookmarks,
-                                                                  guint                   index);
+                                                                  guint                 index);
 void                    marlin_bookmark_list_delete_items_with_uri (MarlinBookmarkList *bookmarks,
                                                                     const char		   *uri);
 void                    marlin_bookmark_list_insert_item         (MarlinBookmarkList   *bookmarks,
-                                                                  MarlinBookmark *bookmark,
-                                                                  guint                   index);
+                                                                  MarlinBookmark       *bookmark,
+                                                                  guint                 index);
 guint                   marlin_bookmark_list_length              (MarlinBookmarkList   *bookmarks);
 MarlinBookmark *        marlin_bookmark_list_item_at             (MarlinBookmarkList   *bookmarks,
-                                                                  guint                   index);
-void                    marlin_bookmark_list_move_item           (MarlinBookmarkList *bookmarks,
+                                                                  guint                 index);
+void                    marlin_bookmark_list_move_item           (MarlinBookmarkList   *bookmarks,
                                                                   guint                 index,
                                                                   guint                 destination);
-
 
 #endif /* MARLIN_BOOKMARK_LIST_H */

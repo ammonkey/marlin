@@ -11,8 +11,7 @@
  * GNU Lesser General Public License version 3.0 for more details.
  *
  * You should have received a copy of the GNU Lesser General Public
- * License along with this library. If not, see
- * <http://www.gnu.org/licenses/>.
+ * License along with this library. If not, see <http://www.gnu.org/licenses/>.
  *
  * Author: ammonkey <am.monkeyd@gmail.com>
  */

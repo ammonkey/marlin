@@ -1,4 +1,3 @@
-include(Tests)
 set (PKGNAME marlincore)
 set (PKGNAME_ MARLINCORE)
 set (${PKGNAME_}_VERSION 0.1)
@@ -11,10 +10,7 @@ set (DOLLAR "$")
 
 include_directories(${CMAKE_BINARY_DIR})
 include_directories(${CMAKE_CURRENT_SOURCE_DIR})
-find_package(Vala REQUIRED)
-include(ValaVersion)
-ensure_vala_version("0.16.0" MINIMUM)
-include(ValaPrecompile)
+include_directories(${CMAKE_CURRENT_SOURCE_DIR}/../eel)
 vala_precompile(VALA_C
     gof-callwhenready.vala
     gof-directory-async.vala
@@ -71,32 +67,20 @@ install (FILES
     fm-list-model.h
     marlin-trash-monitor.h
     DESTINATION include/marlincore/)
-# Check for the deps
 
-find_package(PkgConfig)
-pkg_check_modules(DEPS REQUIRED
-	glib-2.0>=2.29.0
-	gthread-2.0
-	gio-2.0
-	pango>=1.1.2
-	gtk+-3.0>=3.4.0
-	gail-3.0
-    gee-1.0
-	sqlite3
-	libnotify>=0.7.2)
-# Link all
-
-set(CFLAGS ${DEPS_CFLAGS} ${DEPS_CFLAGS_OTHER})
-add_definitions(${CFLAGS} "-DUI_DIR=\"${CMAKE_INSTALL_PREFIX}/share/marlin/ui/\""
-    -Wall )
-set(LIBS
-	${DEP_LIBRARIES}
-)
-link_libraries(${LIBS})
-set(LIB_PATHS
-	${DEPS_LIBRARY_DIRS}
-)
-link_directories(${LIB_PATHS})
+add_definitions(
+    ${GLIB_CFLAGS} ${GTHREAD_CFLAGS} ${GIO_CFLAGS}
+    ${PANGO_CFLAGS} ${GTK_CFLAGS} ${GAIL_CFLAGS}
+    ${GEE_CFLAGS} ${SQLITE_CFLAGS} ${NOTIFY_CFLAGS}
+    "-DUI_DIR=\"${CMAKE_INSTALL_PREFIX}/share/marlin/ui/\""
+    -Wall 
+    -Wno-unused-but-set-variable -Wno-unused-function
+    )
+link_libraries(
+    ${GLIB_LIBRARIES} ${GTHREAD_LIBRARIES} ${GIO_LIBRARIES}
+    ${PANGO_LIBRARIES} ${GTK_LIBRARIES} ${GAIL_LIBRARIES}
+    ${GEE_LIBRARIES} ${SQLITE_LIBRARIES} ${NOTIFY_LIBRARIES}
+    )
 add_library (${PKGNAME} SHARED
     eel-fcts.c
     eel-i18n.c
@@ -160,13 +144,6 @@ add_library(${PKGNAME}-static STATIC
     marlin-trash-monitor.c
     ${VALA_C}
 )
-# The library target "foo" already has a default OUTPUT_NAME of "foo", so we
-
-# don't need to change it.
-
-# The library target "foo-static" has a default OUTPUT_NAME of "foo-static",
-
-#so change it.
 
 SET_TARGET_PROPERTIES(${PKGNAME}-static PROPERTIES OUTPUT_NAME ${PKGNAME})
 install (TARGETS ${PKGNAME}-static DESTINATION ${CMAKE_INSTALL_PREFIX}/lib/)
@@ -183,5 +160,5 @@ add_executable(marlincore_tests
     tests/marlincore-tests-icon-info.c
 )
 add_test(core marlincore_tests)
-target_link_libraries(marlincore_tests marlincore ${DEPS_LIBRARIES})
-#target_link_libraries(marlincore ${DEPS_LIBRARIES})
+target_link_libraries(marlincore_tests marlincore)
+#target_link_libraries(marlincore ${DEPS_LC_LIBRARIES})

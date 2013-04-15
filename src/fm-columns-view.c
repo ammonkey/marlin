@@ -52,7 +52,7 @@ struct FMColumnsViewDetails {
 /* Wait for the rename to end when activating a file being renamed */
 #define WAIT_FOR_RENAME_ON_ACTIVATE 200
 
-G_DEFINE_TYPE (FMColumnsView, fm_columns_view, FM_TYPE_DIRECTORY_VIEW);
+G_DEFINE_TYPE (FMColumnsView, fm_columns_view, FM_DIRECTORY_TYPE_VIEW);
 
 #define parent_class fm_columns_view_parent_class
 

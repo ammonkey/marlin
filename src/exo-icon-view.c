@@ -18,9 +18,8 @@
  * Library General Public License for more details.
  *
  * You should have received a copy of the GNU Library General Public
- * License along with this library; if not, write to the
- * Free Software Foundation, Inc., 59 Temple Place - Suite 330,
- * Boston, MA 02111-1307, USA.
+ * License along with this library. If not, see <http://www.gnu.org/licenses/>.
+ *
  */
 
 #include "config.h"
@@ -4639,6 +4638,7 @@ exo_icon_view_move_cursor_up_down (ExoIconView *icon_view,
             list = g_list_last (icon_view->priv->items);
 
         item = list ? list->data : NULL;
+        if (!item) return;
 
         /* Give focus to the first cell initially */
         exo_icon_view_set_cell_data (icon_view, item);
@@ -4795,8 +4795,9 @@ exo_icon_view_move_cursor_left_right (ExoIconView *icon_view,
         else
             list = g_list_last (icon_view->priv->items);
 
-        item = list ? list->data : NULL;
-
+        item = list ? list->data : NULL; 
+        if (!item) return;
+        
         /* Give focus to the first cell initially */
         exo_icon_view_set_cell_data (icon_view, item);
         gtk_cell_area_focus (icon_view->priv->cell_area, direction);
@@ -5118,6 +5119,8 @@ exo_icon_view_set_cell_data (ExoIconView     *icon_view,
 {
     gboolean iters_persist;
     GtkTreeIter iter;
+
+    g_return_if_fail (item);
 
     iters_persist = gtk_tree_model_get_flags (icon_view->priv->model) & GTK_TREE_MODEL_ITERS_PERSIST;
 

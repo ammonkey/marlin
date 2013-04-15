@@ -1,7 +1,7 @@
 To build marlin:
     mkdir build
     cd build
-    cmake ..
+    cmake .. -DCMAKE_INSTALL_PREFIX=/usr
     make
 
 To install it:
@@ -13,7 +13,6 @@ To install it:
 
 Options:
     Debug build:
-        cmake .. -DCMAKE_BUILD_TYPE=Debug
-
-    Different prefix:
-        cmake .. -DCMAKE_INSTALL_PREFIX=/opt
+        cmake .. -DCMAKE_BUILD_TYPE=Debug -DCMAKE_INSTALL_PREFIX=/usr
+    Other:
+        cmake .. -DCMAKE_INSTALL_PREFIX=/usr -DGSETTINGS_COMPILE=OFF -DICON_UPDATE=OFF -DWITH_UNITY=OFF

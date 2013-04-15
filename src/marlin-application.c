@@ -12,9 +12,8 @@
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
  * General Public License for more details.
  *
- * You should have received a copy of the GNU General Public License
- * along with this program; if not, write to the Free Software
- * Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+ * You should have received a copy of the GNU General Public License 
+ * along with this library. If not, see <http://www.gnu.org/licenses/>.
  *
  * Authors: Elliot Lee <sopwith@redhat.com>,
  *          Darin Adler <darin@bentspoon.com>
@@ -292,7 +291,7 @@ marlin_application_local_cmd (GApplication *app, gchar ***args, gint *exit_statu
     }
 
     if (version) {
-        g_print ("marlin " PACKAGE_VERSION "\n");
+        g_print ("marlin " VERSION "\n");
         goto out;
     }
 
@@ -477,7 +476,7 @@ marlin_application_startup (GApplication *app)
     varka_logger_set_DisplayLevel (VARKA_LOG_LEVEL_INFO);
 
     g_message ("Welcome to Marlin");
-    g_message ("Version: %s", PACKAGE_VERSION);
+    g_message ("Version: %s", VERSION);
     g_message ("Report any issues/bugs you might find to http://bugs.launchpad.net/marlin");
 
     if (self->priv->debug)

@@ -1,6 +1,7 @@
 /*unity-quicklist-handler.c: handle Unity quicklists
  *
  * Copyright (C) 2012 Canonical
+ * Copyright (C) 2012 ammonkey
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License as
@@ -12,10 +13,8 @@
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
  * General Public License for more details.
  *
- * You should have received a copy of the GNU General Public
- * License along with this program; if not, write to the
- * Free Software Foundation, Inc., 59 Temple Place - Suite 330,
- * Boston, MA 02111-1307, USA.
+ * You should have received a copy of the GNU General Public License 
+ * along with this library. If not, see <http://www.gnu.org/licenses/>.
  *
  * Authors: Didier Roche <didrocks@ubuntu.com>
  *          ammonkey <am.monkeyd@gmail.com>
@@ -204,7 +203,7 @@ unity_quicklist_handler_init (UnityQuicklistHandler *self)
     //unity_bookmarks_handler_refresh_bookmarks (self->priv->bookmarks, self);
 
     /* Recreate dynamic part of menu if bookmark list changes */
-    g_signal_connect (bookmarks, "contents-changed",
+    g_signal_connect (bookmarks, "changed",
                       G_CALLBACK (unity_bookmarks_handler_refresh_bookmarks), self);
 }
 
