@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: marlin\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2012-07-05 16:10+0200\n"
-"PO-Revision-Date: 2012-06-02 07:36+0000\n"
+"POT-Creation-Date: 2012-08-01 22:45+0200\n"
+"PO-Revision-Date: 2012-10-02 11:31+0000\n"
 "Last-Translator: Mantas Kriaučiūnas <mantas@akl.lt>\n"
 "Language-Team: Lithuanian <lt@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -16,230 +16,480 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "(n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Launchpad-Export-Date: 2012-07-06 05:08+0000\n"
-"X-Generator: Launchpad (build 15558)\n"
+"X-Launchpad-Export-Date: 2012-10-03 05:32+0000\n"
+"X-Generator: Launchpad (build 16061)\n"
 
-#: /home/am/dev/marlin5/marlin/po/../src/View/PropertiesWindow.vala:60
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:60
 msgid "Properties"
 msgstr "Savybės"
 
-#: /home/am/dev/marlin5/marlin/po/../src/View/PropertiesWindow.vala:111
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:111
 msgid "Info"
 msgstr "Informacija"
 
-#: /home/am/dev/marlin5/marlin/po/../src/View/PropertiesWindow.vala:119
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:119
 msgid "Permissions"
 msgstr "Leidimai"
 
-#: /home/am/dev/marlin5/marlin/po/../src/View/PropertiesWindow.vala:131
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:131
 msgid "Preview"
 msgstr "Peržiūra"
 
-#: /home/am/dev/marlin5/marlin/po/../src/View/PropertiesWindow.vala:350
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:349
 msgid "Created"
 msgstr "Sukurta"
 
-#: /home/am/dev/marlin5/marlin/po/../src/View/PropertiesWindow.vala:352
-#: /home/am/dev/marlin5/marlin/po/../src/View/ContextView.vala:344
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:351
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/ContextView.vala:344
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-list-view.c:59
 msgid "Modified"
 msgstr "Pakeista"
 
-#: /home/am/dev/marlin5/marlin/po/../src/View/PropertiesWindow.vala:355
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:354
 msgid "Last Access"
 msgstr "Paskutinė peržiūra"
 
-#: /home/am/dev/marlin5/marlin/po/../src/View/PropertiesWindow.vala:361
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:360
 msgid "Deleted"
 msgstr "Pašalinta"
 
-#: /home/am/dev/marlin5/marlin/po/../src/View/PropertiesWindow.vala:366
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:365
 msgid "MimeType"
 msgstr "MIME tipas"
 
-#: /home/am/dev/marlin5/marlin/po/../src/View/PropertiesWindow.vala:374
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:373
 msgid "MimeTypes"
 msgstr "MIME tipai"
 
-#: /home/am/dev/marlin5/marlin/po/../src/View/PropertiesWindow.vala:378
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:377
 msgid "Location"
 msgstr "Vieta"
 
-#: /home/am/dev/marlin5/marlin/po/../src/View/PropertiesWindow.vala:380
-#: /home/am/dev/marlin5/marlin/po/../src/View/ContextView.vala:340
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:379
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/ContextView.vala:340
 msgid "Target"
 msgstr "Tikslas"
 
-#: /home/am/dev/marlin5/marlin/po/../src/View/PropertiesWindow.vala:386
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:385
 msgid "Origin Location"
 msgstr "Kilmės vieta"
 
-#: /home/am/dev/marlin5/marlin/po/../src/View/PropertiesWindow.vala:424
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:423
 msgid "Other application..."
 msgstr "Kita programa..."
 
-#: /home/am/dev/marlin5/marlin/po/../src/View/PropertiesWindow.vala:448
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:447
 msgid "Open with"
 msgstr "Atverti su"
 
-#: /home/am/dev/marlin5/marlin/po/../src/View/PropertiesWindow.vala:464
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:463
 msgid "Device usage"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../src/View/PropertiesWindow.vala:609
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:608
 msgid "Read"
 msgstr "Skaityti"
 
-#: /home/am/dev/marlin5/marlin/po/../src/View/PropertiesWindow.vala:614
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:613
 msgid "Write"
 msgstr "Rašyti"
 
-#: /home/am/dev/marlin5/marlin/po/../src/View/PropertiesWindow.vala:619
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:618
 msgid "Execute"
 msgstr "Vykdyti"
 
-#: /home/am/dev/marlin5/marlin/po/../src/View/PropertiesWindow.vala:837
-#: /home/am/dev/marlin5/marlin/po/../src/View/PropertiesWindow.vala:850
-#: /home/am/dev/marlin5/marlin/po/../src/View/ContextView.vala:345
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:836
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:849
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/ContextView.vala:345
 msgid "Owner"
 msgstr "Savininkas"
 
-#: /home/am/dev/marlin5/marlin/po/../src/View/PropertiesWindow.vala:842
-#: /home/am/dev/marlin5/marlin/po/../src/View/PropertiesWindow.vala:854
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:841
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:853
 msgid "Group"
 msgstr "Grupė"
 
-#: /home/am/dev/marlin5/marlin/po/../src/View/PropertiesWindow.vala:858
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:857
 msgid "Everyone"
 msgstr "Visi"
 
-#: /home/am/dev/marlin5/marlin/po/../src/View/PropertiesWindow.vala:1138
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:1141
 msgid "Select an aplication to open "
 msgstr "Pasirinkite programą atvėrimui "
 
-#: /home/am/dev/marlin5/marlin/po/../src/View/ContextView.vala:336
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/ContextView.vala:336
 msgid "Name"
 msgstr "Pavadinimas"
 
-#: /home/am/dev/marlin5/marlin/po/../src/View/ContextView.vala:337
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/ContextView.vala:337
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-list-view.c:59
 msgid "Type"
 msgstr "Tipas"
 
-#: /home/am/dev/marlin5/marlin/po/../src/View/ContextView.vala:342
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/ContextView.vala:342
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-list-view.c:59
 msgid "Size"
 msgstr "Dydis"
 
-#: /home/am/dev/marlin5/marlin/po/../src/View/DirectoryNotFound.vala:72
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/DirectoryNotFound.vala:72
 #, c-format
 msgid "Folder does not exist"
 msgstr "Aplankas neegzistuoja"
 
-#: /home/am/dev/marlin5/marlin/po/../src/View/DirectoryNotFound.vala:75
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/DirectoryNotFound.vala:75
 #, c-format
 msgid "Marlin can't find the folder %s"
 msgstr "Marlin negali rasti %s aplanko"
 
-#: /home/am/dev/marlin5/marlin/po/../src/View/DirectoryNotFound.vala:80
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/DirectoryNotFound.vala:80
 msgid "Create"
 msgstr "Sukurti"
 
-#: /home/am/dev/marlin5/marlin/po/../src/View/DirectoryNotFound.vala:80
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/DirectoryNotFound.vala:80
 #, c-format
 msgid "Create the folder %s"
 msgstr "Sukurti aplanką %s"
 
-#: /home/am/dev/marlin5/marlin/po/../src/View/Window.vala:459
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:459
 msgid "Undo"
 msgstr "Atšaukti"
 
-#: /home/am/dev/marlin5/marlin/po/../src/View/Window.vala:460
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:460
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:701
 msgid "Undo the last action"
 msgstr "Atšaukti paskutinį veiksmą"
 
-#: /home/am/dev/marlin5/marlin/po/../src/View/Window.vala:469
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:469
 msgid "Redo"
 msgstr "Atstatyti"
 
-#: /home/am/dev/marlin5/marlin/po/../src/View/Window.vala:470
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:470
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:704
 msgid "Redo the last action"
 msgstr "Grąžinti paskutinį atšauktą veiksmą"
 
-#: /home/am/dev/marlin5/marlin/po/../src/View/SettingsDialog.vala:31
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:672
+msgid "_File"
+msgstr "_Failas"
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:673
+msgid "_Edit"
+msgstr "_Keisti"
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:674
+msgid "_View"
+msgstr "_Rodymas"
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:675
+msgid "_Go"
+msgstr "_Eiti"
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:676
+msgid "_Help"
+msgstr "_Pagalba"
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:678
+msgid "New _Window"
+msgstr "Naujas _langas"
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:679
+msgid "Open another Marlin window for the displayed location"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:682
+msgid "New _Tab"
+msgstr "Nauja _kortelė"
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:683
+msgid "Open another tab for the displayed location"
+msgstr "Atverti kitą kortelę dabar rodomai vietai"
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:686
+msgid "_Close"
+msgstr "_Užverti"
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:687
+msgid "Close this folder"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:690
+msgid "Customize _Toolbar..."
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:691
+msgid "Easily edit the toolbar layout"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:694
+msgid "Preferences"
+msgstr "Nustatymai"
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:695
+msgid "Change Marlin's preferences"
+msgstr "Keisti failų tvarkyklės Marlin nustatymus"
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:700
+msgid "_Undo"
+msgstr "_Atšaukti"
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:703
+msgid "_Redo"
+msgstr "_Grąžinti"
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:706
+msgid "Open _Parent"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:707
+msgid "Open the parent folder"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:709
+msgid "_Back"
+msgstr "_Atgal"
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:710
+msgid "Go to the previous visited location"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:712
+msgid "_Forward"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:713
+msgid "Go to the next visited location"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:715
+msgid "_Reload"
+msgstr "Į_kelti iš naujo"
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:716
+msgid "Reload the current location"
+msgstr "Įkelti dabartinę vietą iš naujo"
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:719
+msgid "_Home Folder"
+msgstr "_Namų aplankas"
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:720
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:329
+msgid "Open your personal folder"
+msgstr "Atverti asmeninį aplanką"
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:723
+msgid "_Trash"
+msgstr "Ši_ukšlinė"
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:724
+msgid "Open your personal trash folder"
+msgstr "Atverti asmeninį šiukšlių aplanką"
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:727
+msgid "_Network"
+msgstr "_Tinklas"
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:728
+msgid "Browse bookmarked and local network locations"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:731
+msgid "Zoom _In"
+msgstr "_Didinti"
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:732
+msgid "Increase the view size"
+msgstr "Padidinti rodomus elementus"
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:743
+msgid "Zoom _Out"
+msgstr "_Mažinti"
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:744
+msgid "Decrease the view size"
+msgstr "Sumažinti rodomus elementus"
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:751
+msgid "Normal Si_ze"
+msgstr "Į_prastas dydis"
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:752
+msgid "Use the normal view size"
+msgstr "Naudoti įprastą elementų dydį"
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:755
+msgid "Next Tab"
+msgstr "Kita kortelė"
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:759
+msgid "Previous Tab"
+msgstr "Ankstesnė kortelė"
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:763
+msgid "Connect to _Server..."
+msgstr "Prisijungti prie _serverio..."
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:764
+msgid "Connect to a remote computer or shared disk"
+msgstr "Jungtis prie nutolusio kompiuterio ar viešinamo aplanko"
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:767
+msgid "_About"
+msgstr "_Apie"
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:768
+msgid "Display credits"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:771
+msgid "Report a Problem..."
+msgstr "Pranešti apie problemą..."
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:772
+msgid "File a bug on Launchpad"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:775
+msgid "Get Help Online..."
+msgstr "Pagalba internete..."
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:779
+msgid "Translate This Application..."
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:788
+msgid "Show _Hidden Files"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:789
+msgid "Toggle the display of hidden files in the current window"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:794
+msgid "Show _Desktop Files"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:795
+msgid "Toggle the display of desktop files"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:799
+msgid "_Context Pane"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:800
+msgid "Change the visibility of the context pane"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:804
+msgid "_Menubar"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:805
+msgid "Change the visibility of this window's menubar"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:809
+msgid "_Places"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:810
+msgid "Change the visibility of this window's side pane"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:818
+msgid "Icon"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:821
+msgid "List"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:824
+msgid "Compact"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:827
+msgid "Columns"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/SettingsDialog.vala:31
 msgid "Marlin Preferences"
 msgstr "Marlin nustatymai"
 
-#: /home/am/dev/marlin5/marlin/po/../src/View/SettingsDialog.vala:46
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/SettingsDialog.vala:46
 msgid "Single click to open:"
 msgstr "Atverti vienu paspaudimu"
 
-#: /home/am/dev/marlin5/marlin/po/../src/View/SettingsDialog.vala:56
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/SettingsDialog.vala:56
 msgid "Mouse auto-selection speed:"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../src/View/SettingsDialog.vala:72
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/SettingsDialog.vala:72
 msgid "Default File Manager:"
 msgstr "Numatytoji failų tvarkyklė"
 
-#: /home/am/dev/marlin5/marlin/po/../src/View/SettingsDialog.vala:81
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/SettingsDialog.vala:81
 msgid "Behavior"
 msgstr "Elgsena"
 
-#: /home/am/dev/marlin5/marlin/po/../src/View/SettingsDialog.vala:87
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/SettingsDialog.vala:87
 msgid "iso"
 msgstr "ISO standarto"
 
-#: /home/am/dev/marlin5/marlin/po/../src/View/SettingsDialog.vala:88
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/SettingsDialog.vala:88
 msgid "locale"
 msgstr "pagal kalbą"
 
-#: /home/am/dev/marlin5/marlin/po/../src/View/SettingsDialog.vala:89
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/SettingsDialog.vala:89
 msgid "informal"
 msgstr "neformalus"
 
-#: /home/am/dev/marlin5/marlin/po/../src/View/SettingsDialog.vala:96
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/SettingsDialog.vala:96
 msgid "Date format:"
 msgstr "Datos formatas:"
 
-#: /home/am/dev/marlin5/marlin/po/../src/View/SettingsDialog.vala:104
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/SettingsDialog.vala:104
 msgid "Display"
 msgstr "Rodymas"
 
-#: /home/am/dev/marlin5/marlin/po/../src/View/SettingsDialog.vala:157
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/SettingsDialog.vala:157
 msgid "Extensions"
 msgstr "Papildiniai"
 
-#: /home/am/dev/marlin5/marlin/po/../src/View/LocationBar.vala:105
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:370
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/LocationBar.vala:105
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:370
 msgid "Trash"
 msgstr "Šiukšlinė"
 
-#: /home/am/dev/marlin5/marlin/po/../src/View/LocationBar.vala:106
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:588
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/LocationBar.vala:106
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:588
 msgid "Network"
 msgstr "Tinklas"
 
-#: /home/am/dev/marlin5/marlin/po/../src/View/ViewContainer.vala:139
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:324
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/ViewContainer.vala:139
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:324
 msgid "Home"
 msgstr "Namai"
 
-#: /home/am/dev/marlin5/marlin/po/../src/View/ViewContainer.vala:141
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:394
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/ViewContainer.vala:141
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:394
 msgid "File System"
 msgstr "Failų sistema"
 
-#: /home/am/dev/marlin5/marlin/po/../src/exo-tree-view.c:167
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/exo-tree-view.c:167
 msgid "Single Click"
 msgstr "Vienas spustelėjimas"
 
-#: /home/am/dev/marlin5/marlin/po/../src/exo-tree-view.c:168
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/exo-tree-view.c:168
 msgid "Whether the items in the view can be activated with single clicks"
 msgstr "Ar matomus elementus aktyvinti vienu pelės paspaudimu"
 
-#: /home/am/dev/marlin5/marlin/po/../src/exo-tree-view.c:184
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/exo-tree-view.c:184
 msgid "Single Click Timeout"
 msgstr "Spustelėjimo laikotarpis"
 
-#: /home/am/dev/marlin5/marlin/po/../src/exo-tree-view.c:185
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/exo-tree-view.c:185
 msgid ""
 "The amount of time after which the item under the mouse cursor will be "
 "selected automatically in single click mode"
@@ -247,35 +497,35 @@ msgstr ""
 "Laikotarpis, per kurį po pelės kursoriumi esantis elementas bus automatiškai "
 "pažymėtas (vieno spustelėjimo režime)"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-connect-server-dialog.c:124
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-connect-server-dialog.c:124
 msgid "SSH"
 msgstr "SSH"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-connect-server-dialog.c:127
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-connect-server-dialog.c:127
 msgid "Public FTP"
 msgstr "Viešas FTP"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-connect-server-dialog.c:129
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-connect-server-dialog.c:129
 msgid "FTP (with login)"
 msgstr "FTP (su slaptažodžiu)"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-connect-server-dialog.c:132
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-connect-server-dialog.c:132
 msgid "Windows share"
 msgstr "Paviešintas Windows aplankas"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-connect-server-dialog.c:134
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-connect-server-dialog.c:134
 msgid "WebDAV (HTTP)"
 msgstr "WebDAV (HTTP)"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-connect-server-dialog.c:136
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-connect-server-dialog.c:136
 msgid "Secure WebDAV (HTTPS)"
 msgstr "Saugus WebDAV (HTTPS)"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-connect-server-dialog.c:183
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-connect-server-dialog.c:183
 msgid "Connecting..."
 msgstr "Jungiamasi..."
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-connect-server-dialog.c:207
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-connect-server-dialog.c:207
 msgid ""
 "Can't load the supported server method list.\n"
 "Please check your gvfs installation."
@@ -283,144 +533,188 @@ msgstr ""
 "Nepavyko įkelti palaikomų prisijungimų būdų prie serverio sąrašo.\n"
 "Patikrinkite ar tinkamai įdiegta gvfs."
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-connect-server-dialog.c:285
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-connect-server-dialog.c:285
 #, c-format
 msgid "The folder \"%s\" cannot be opened on \"%s\"."
 msgstr "Aplankas „%s“ iš „%s“ negali būti atvertas."
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-connect-server-dialog.c:295
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-connect-server-dialog.c:295
 #, c-format
 msgid "The server at \"%s\" cannot be found."
 msgstr "Serveris „%s“ nerastas."
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-connect-server-dialog.c:330
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-connect-server-dialog.c:330
 msgid "Try Again"
 msgstr "Bandyti dar kartą"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-connect-server-dialog.c:395
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-connect-server-dialog.c:395
 msgid "Please verify your user details."
 msgstr "Patikrinkite prisijungimo informaciją."
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-connect-server-dialog.c:425
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-connect-server-dialog.c:425
 msgid "Continue"
 msgstr "Tęsti"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-connect-server-dialog.c:750
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-connect-server-dialog.c:1140
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-connect-server-dialog.c:750
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-connect-server-dialog.c:1140
 msgid "C_onnect"
 msgstr "Prisi_jungti"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-connect-server-dialog.c:875
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-connect-server-dialog.c:875
 msgid "Connect to Server"
 msgstr "Prisijungti prie serverio"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-connect-server-dialog.c:893
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-connect-server-dialog.c:893
 msgid "Server Details"
 msgstr "Serverio informacija"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-connect-server-dialog.c:917
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-connect-server-dialog.c:917
 msgid "_Server:"
 msgstr "_Serveris:"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-connect-server-dialog.c:937
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-connect-server-dialog.c:937
 msgid "_Port:"
 msgstr "_Prievadas:"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-connect-server-dialog.c:955
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-connect-server-dialog.c:955
 msgid "_Type:"
 msgstr "_Tipas:"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-connect-server-dialog.c:1024
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-connect-server-dialog.c:1024
 msgid "Sh_are:"
 msgstr "_Išteklio pavadinimas:"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-connect-server-dialog.c:1039
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-connect-server-dialog.c:1039
 msgid "_Folder:"
 msgstr "_Aplankas:"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-connect-server-dialog.c:1057
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-connect-server-dialog.c:1057
 msgid "User Details"
 msgstr "Naudotojo informacija"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-connect-server-dialog.c:1080
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-connect-server-dialog.c:1080
 msgid "_Domain name:"
 msgstr "_Srities (domain) pavadinimas:"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-connect-server-dialog.c:1095
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-connect-server-dialog.c:1095
 msgid "_User name:"
 msgstr "_Naudotojo vardas:"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-connect-server-dialog.c:1110
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-connect-server-dialog.c:1110
 msgid "Pass_word:"
 msgstr "_Slaptažodis:"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-connect-server-dialog.c:1126
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-connect-server-dialog.c:1126
 msgid "_Remember this password"
 msgstr "_Įsiminti slaptažodį"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-connect-server-dialog.c:1229
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-connect-server-dialog.c:1229
 msgid "Operation cancelled"
 msgstr "Veiksmas nutrauktas"
 
-#: /home/am/dev/marlin5/marlin/po/../src/fm-compact-view.c:86
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-compact-view.c:86
 msgid "Compact directory listing"
 msgstr "Glaustesnis aplankų sąrašas"
 
-#: /home/am/dev/marlin5/marlin/po/../src/fm-compact-view.c:87
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-compact-view.c:87
 msgid "Compact view"
 msgstr "Glaustesnis vaizdas"
 
-#: /home/am/dev/marlin5/marlin/po/../src/fm-columns-view.c:82
-#: /home/am/dev/marlin5/marlin/po/../src/fm-abstract-icon-view.c:572
-#: /home/am/dev/marlin5/marlin/po/../src/fm-list-view.c:616
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-columns-view.c:82
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-abstract-icon-view.c:572
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-list-view.c:616
 msgid "This folder is empty."
 msgstr "Šis aplankas yra tuščias."
 
-#: /home/am/dev/marlin5/marlin/po/../src/fm-columns-view.c:186
-#: /home/am/dev/marlin5/marlin/po/../src/fm-abstract-icon-view.c:139
-#: /home/am/dev/marlin5/marlin/po/../src/fm-list-view.c:199
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-columns-view.c:186
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-abstract-icon-view.c:139
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-list-view.c:199
 #, c-format
 msgid "Failed to rename %s to %s"
 msgstr "Nepavyko pervadinti %s į %s"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-dnd.c:103
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-dnd.c:103
 msgid "_Move Here"
 msgstr "_Perkelti čia"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-dnd.c:108
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-dnd.c:108
 msgid "_Copy Here"
 msgstr "_Kopijuoti čia"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-dnd.c:113
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-dnd.c:113
 msgid "_Link Here"
 msgstr "_Sukurti nuorodą čia"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-dnd.c:118
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-dnd.c:118
 msgid "Set as _Background"
 msgstr "Padaryti darbastalio _fonu"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-dnd.c:125
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-dnd.c:125
 msgid "Cancel"
 msgstr "Atsisakyti"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-dnd.c:217
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-dnd.c:217
 #, c-format
 msgid "Failed to execute file \"%s\""
 msgstr "Nepavyko įvykdyti \"%s\" failo"
 
-#: /home/am/dev/marlin5/marlin/po/../src/fm-icon-view.c:86
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-abstract-icon-view.c:283
+msgid "Arran_ge Items"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-abstract-icon-view.c:288
+msgid "Re_versed Order"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-abstract-icon-view.c:289
+msgid "Display icons in the opposite order"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-abstract-icon-view.c:296
+msgid "By _Name"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-abstract-icon-view.c:297
+msgid "Keep icons sorted by name in rows"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-abstract-icon-view.c:300
+msgid "By _Size"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-abstract-icon-view.c:301
+msgid "Keep icons sorted by size in rows"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-abstract-icon-view.c:304
+msgid "By _Type"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-abstract-icon-view.c:305
+msgid "Keep icons sorted by type in rows"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-abstract-icon-view.c:308
+msgid "By Modification _Date"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-abstract-icon-view.c:309
+msgid "Keep icons sorted by modification date in rows"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-icon-view.c:86
 msgid "Icon directory listing"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../src/fm-icon-view.c:87
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-icon-view.c:87
 msgid "Icon view"
 msgstr "Piktogramų vaizdas"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-toolbar-editor.c:445
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-toolbar-editor.c:445
 msgid "Customize Toolbar"
 msgstr "Įrankių juostos derinimas"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-toolbar-editor.c:460
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-toolbar-editor.c:460
 msgid ""
 "Select items to be displayed on the toolbar. Items can be reordered by drag "
 "and drop."
@@ -428,174 +722,172 @@ msgstr ""
 "Pasirinkite piktogramas, kurias norite turėti įrankių juostoje. Jų vietos "
 "gali būti keičiamos pertempiant."
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-toolbar-editor.c:474
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-toolbar-editor.c:474
 msgid "Available Items"
 msgstr "Prieinami elementai"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-toolbar-editor.c:493
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-toolbar-editor.c:493
 msgid "Displayed Items"
 msgstr "Rodomi elementai"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:310
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:310
 msgid "Personal"
 msgstr "Asmeninis"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:315
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:315
 msgid "Your common places and bookmarks"
 msgstr "Dažniausiai lankomos vietos ir žymelės"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:329
-msgid "Open your personal folder"
-msgstr "Atverti asmeninį aplanką"
-
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:372
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:372
 msgid "Open the trash"
 msgstr "Atverti šiukšlinę"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:382
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:382
 msgid "Devices"
 msgstr "Įrenginiai"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:387
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:387
 msgid "Your local partitions and devices"
 msgstr "Vidinės laikmenos bei įrenginiai"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:396
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:396
 msgid "Open the contents of the File System"
 msgstr "Atverti failų sistemos turinį"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:455
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:480
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:455
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:480
 #, c-format
 msgid "Mount and open %s"
 msgstr "Prijungti ir atverti %s"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:593
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:593
 msgid "Your network places"
 msgstr "Tinklo vietos"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:624
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:624
 msgid "Entire network"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:626
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:626
 msgid "Browse the contents of the network"
 msgstr "Naršyti vietinį tinklą"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:1610
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:1610
 msgid "_Start"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:1611
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:1611
 msgid "_Stop"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:1616
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:1616
 msgid "_Power On"
 msgstr "Įjun_gti"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:1617
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:1617
 msgid "_Safely Remove Drive"
 msgstr "_Saugiai išimti įrenginį"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:1620
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:1620
 msgid "_Connect Drive"
 msgstr "_Prijungti įrenginį"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:1621
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:1621
 msgid "_Disconnect Drive"
 msgstr "_Atjungti įrenginį"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:1624
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:1624
 msgid "_Start Multi-disk Device"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:1625
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:1625
 msgid "_Stop Multi-disk Device"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:1629
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:1629
 msgid "_Unlock Drive"
 msgstr "_Atrakinti įrenginį"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:1630
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:1630
 msgid "_Lock Drive"
 msgstr "_Užrakinti įrenginį"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:1704
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:2251
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:1704
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:2251
 #, c-format
 msgid "Unable to start %s"
 msgstr "Nepavyko paleisti %s"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:1994
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:2023
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:2052
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:1994
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:2023
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:2052
 #, c-format
 msgid "Unable to eject %s"
 msgstr "Nepavyko išimti %s"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:2197
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:2197
 #, c-format
 msgid "Unable to poll %s for media changes"
 msgstr "Nepavyko užklausti %s dėl laikmenų pokyčių"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:2307
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:2307
 #, c-format
 msgid "Unable to stop %s"
 msgstr "Nepavyko sustabdyti %s"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:2399
-#: /home/am/dev/marlin5/marlin/po/../src/fm-directory-view.c:1943
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:2399
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:1943
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3455
 msgid "_Open"
 msgstr "_Atverti"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:2407
-#: /home/am/dev/marlin5/marlin/po/../src/fm-directory-view.c:1963
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:2407
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:1963
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3467
 msgid "Open in New _Tab"
 msgstr "Atverti naujoje _kortelėje"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:2414
-#: /home/am/dev/marlin5/marlin/po/../src/fm-directory-view.c:1972
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:2414
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:1972
 msgid "Open in New _Window"
 msgstr "Atverti naujame _lange"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:2423
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:2423
 msgid "Remove"
 msgstr "Šalinti"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:2432
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:2432
 msgid "Rename..."
 msgstr "Pervadinti..."
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:2444
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:2444
 msgid "_Mount"
 msgstr "_Prijungti"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:2451
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:2451
 msgid "_Unmount"
 msgstr "_Atjungti"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:2458
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:2458
 msgid "_Eject"
 msgstr "_Išimti"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:2466
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:1422
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:2310
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:2466
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:1422
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:2310
 msgid "Empty _Trash"
 msgstr "Iš_valyti šiukšlinę"
 
-#: /home/am/dev/marlin5/marlin/po/../src/fm-directory-view.c:1147
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:1147
 msgid "Invalid filename provided by XDS drag site"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../src/fm-directory-view.c:1305
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:1305
 #, c-format
 msgid "Failed to create a link for the URL \"%s\""
 msgstr "Nepavyko sukurti nuorodos į URL „%s“"
 
-#: /home/am/dev/marlin5/marlin/po/../src/fm-directory-view.c:1790
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:1790
 #, c-format
 msgid "Use \"%s\" to open the selected item"
 msgid_plural "Use \"%s\" to open the selected items"
@@ -603,46 +895,161 @@ msgstr[0] "Naudoti „%s“ pasirinkto elemento atvėrimui"
 msgstr[1] "Naudoti „%s“ pasirinktų elementų atvėrimui"
 msgstr[2] "Naudoti „%s“ pasirinktų elementų atvėrimui"
 
-#: /home/am/dev/marlin5/marlin/po/../src/fm-directory-view.c:1937
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:1937
 #, c-format
 msgid "_Open With %s"
 msgstr "_Atverti naudojant %s"
 
-#: /home/am/dev/marlin5/marlin/po/../src/fm-directory-view.c:1959
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:1959
 #, c-format
 msgid "Open in %'d New _Tabs"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../src/fm-directory-view.c:1968
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:1968
 #, c-format
 msgid "Open in %'d New _Windows"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../src/fm-directory-view.c:3378
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3378
 msgid "Set as default"
 msgstr "Nustatyti numatytuoju"
 
-#: /home/am/dev/marlin5/marlin/po/../src/fm-directory-view.c:3601
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3427
+msgid "Prepare the selected files to be moved with a Paste command"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3431
+msgid "Prepare the selected files to be copied with a Paste command"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3435
+msgid "Move or copy files previously selected by a Cut or Copy command"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3438
+msgid "Paste Into Folder"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3439
+msgid ""
+"Move or copy files previously selected by a Cut or Copy command into "
+"selected folder"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3442
+msgid "_Rename..."
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3443
+msgid "Rename selected item"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3446
+msgid "New _Folder"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3447
+msgid "Create a new empty folder inside this folder"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3449
+msgid "New _File"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3451
+msgid "_Empty File"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3452
+msgid "Create a new empty file inside this folder"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3456
+msgid "Open the selected item"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3463
+msgid "Open in new Window"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3464
+msgid "Open each selected item in a new window"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3468
+msgid "Open each selected item in a new tab"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3470
+msgid "Open Wit_h"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3471
+msgid "Choose a program with which to open the selected item"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3473
+msgid "Other _Application..."
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3474
+msgid "Choose another application with which to open the selected item"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3477
+msgid "Mo_ve to Trash"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3478
+msgid "Move each selected item to the Trash"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3481
+msgid "_Delete Permanently"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3482
+msgid "Delete each selected item, without moving to the Trash"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3485
+msgid "_Restore"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3489
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/eel-editable-label.c:3190
+msgid "Select All"
+msgstr "Pasirinkti viską"
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3493
+msgid "_Properties"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3494
+msgid "View or modify the properties of each selected item"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3601
 msgid "Set Color:"
 msgstr "Nustatyti spalvą:"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-clipboard-manager.c:369
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-clipboard-manager.c:369
 msgid "There is nothing on the clipboard to paste"
 msgstr "Nieko nėra nukopijuota - nėra ką įdėti"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-progress-ui-handler.c:114
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-progress-ui-handler.c:164
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-progress-ui-handler.c:425
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-progress-ui-handler.c:481
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-progress-ui-handler.c:114
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-progress-ui-handler.c:164
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-progress-ui-handler.c:425
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-progress-ui-handler.c:481
 msgid "File Operations"
 msgstr "Veiksmai su failais"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-progress-ui-handler.c:123
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-progress-ui-handler.c:123
 msgid "Show Details"
 msgstr "Rodyti išsamiau"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-progress-ui-handler.c:158
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-progress-ui-handler.c:180
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-progress-ui-handler.c:158
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-progress-ui-handler.c:180
 #, c-format
 msgid "%'d file operation active"
 msgid_plural "%'d file operations active"
@@ -650,35 +1057,51 @@ msgstr[0] "Vyksta %'d veiksmas su failais"
 msgstr[1] "Vyksta %'d veiksmai su failais"
 msgstr[2] "Vyksta %'d veiksmų su failais"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-progress-ui-handler.c:285
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-progress-ui-handler.c:285
 msgid "Show Copy Dialog"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-progress-ui-handler.c:297
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-progress-ui-handler.c:297
 msgid "Cancel All In-progress Actions"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-progress-ui-handler.c:482
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-progress-ui-handler.c:482
 msgid "All file operations have been successfully completed"
 msgstr "Visi veiksmai su failais sėkmingai užbaigti"
 
-#: /home/am/dev/marlin5/marlin/po/../src/eel-editable-label.c:3190
-msgid "Select All"
-msgstr "Pasirinkti viską"
-
-#: /home/am/dev/marlin5/marlin/po/../src/eel-editable-label.c:3201
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/eel-editable-label.c:3201
 msgid "Input Methods"
 msgstr "Įvesties metodai"
 
-#: /home/am/dev/marlin5/marlin/po/../src/exo-icon-view.c:887
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/exo-icon-view.c:887
 msgid "Layout mode"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../src/exo-icon-view.c:888
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/exo-icon-view.c:888
 msgid "The layout mode"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-application.c:436
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-application.c:261
+msgid "Show the version of the program."
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-application.c:263
+msgid "Only create windows for explicitly specified URIs."
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-application.c:267
+msgid "Quit Marlin."
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-application.c:269
+msgid "Enable debug logging"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-application.c:270
+msgid "[URI...]"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-application.c:279
 msgid ""
 "\n"
 "\n"
@@ -688,57 +1111,61 @@ msgstr ""
 "\n"
 "Naršyti failų sistemą su failų tvarkykle"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-application.c:456
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-application.c:300
 msgid "--quit cannot be used with URIs."
 msgstr "--quit negali būti naudojamas su URI."
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-progress-info.c:192
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-progress-info.c:210
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-list-view.c:59
+msgid "Filename"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-progress-info.c:192
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-progress-info.c:210
 msgid "Preparing"
 msgstr "Ruošiamasi"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/eel-vfs-extensions.c:72
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/eel-vfs-extensions.c:72
 msgid " (invalid Unicode)"
 msgstr " (netinkamas Unikodas)"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:200
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:737
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:200
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:737
 msgid "_Skip"
 msgstr "_Praleisti"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:201
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:201
 msgid "S_kip All"
 msgstr "Praleisti _visus"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:202
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:202
 msgid "_Retry"
 msgstr "_Kartoti"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:203
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:203
 msgid "Delete _All"
 msgstr "Ištrinti _visus"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:204
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:204
 msgid "_Replace"
 msgstr "_Pakeisti"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:205
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:205
 msgid "Replace _All"
 msgstr "Pakeisti _visus"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:206
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:206
 msgid "_Merge"
 msgstr "_Sulieti"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:207
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:207
 msgid "Merge _All"
 msgstr "Sulieti _visus"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:208
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:208
 msgid "Copy _Anyway"
 msgstr "_Vis tiek kopijuoti"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:294
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:294
 #, c-format
 msgid "%'d second"
 msgid_plural "%'d seconds"
@@ -746,8 +1173,8 @@ msgstr[0] "%'d sekundė"
 msgstr[1] "%'d sekundės"
 msgstr[2] "%'d sekundžių"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:299
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:310
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:299
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:310
 #, c-format
 msgid "%'d minute"
 msgid_plural "%'d minutes"
@@ -755,7 +1182,7 @@ msgstr[0] "%'d minutė"
 msgstr[1] "%'d minutės"
 msgstr[2] "%'d minučių"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:309
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:309
 #, c-format
 msgid "%'d hour"
 msgid_plural "%'d hours"
@@ -763,7 +1190,7 @@ msgstr[0] "%'d valanda"
 msgstr[1] "%'d valandos"
 msgstr[2] "%'d valandų"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:317
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:317
 #, c-format
 msgid "approximately %'d hour"
 msgid_plural "approximately %'d hours"
@@ -771,50 +1198,110 @@ msgstr[0] "maždaug %'d valanda"
 msgstr[1] "maždaug %'d valandos"
 msgstr[2] "maždaug %'d valandų"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:393
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:393
 #, c-format
 msgid "Link to %s"
 msgstr "Nuoroda į %s"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:397
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:397
 #, c-format
 msgid "Another link to %s"
 msgstr "Kita nuoroda į %s"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:413
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:413
 #, c-format
 msgid "%'dst link to %s"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:417
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:417
 #, c-format
 msgid "%'dnd link to %s"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:421
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:421
 #, c-format
 msgid "%'drd link to %s"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:425
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:425
 #, c-format
 msgid "%'dth link to %s"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:617
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:463
+msgid " (copy)"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:465
+msgid " (another copy)"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:468
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:470
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:472
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:482
+msgid "th copy)"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:475
+msgid "st copy)"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:477
+msgid "nd copy)"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:479
+msgid "rd copy)"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:496
+#, c-format
+msgid "%s (copy)%s"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:498
+#, c-format
+msgid "%s (another copy)%s"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:501
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:503
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:505
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:519
+#, c-format
+msgid "%s (%'dth copy)%s"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:513
+#, c-format
+msgid "%s (%'dst copy)%s"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:515
+#, c-format
+msgid "%s (%'dnd copy)%s"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:517
+#, c-format
+msgid "%s (%'drd copy)%s"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:617
 msgid " ("
 msgstr " ("
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:625
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:625
 #, c-format
 msgid " (%'d"
 msgstr " (%'d"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:1381
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:1381
 msgid "Are you sure you want to permanently delete \"%B\" from the trash?"
 msgstr "Ar tikrai norite negrąžinamai ištrinti „%B“ iš šiukšlinės?"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:1384
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:1384
 #, c-format
 msgid ""
 "Are you sure you want to permanently delete the %'d selected item from the "
@@ -830,24 +1317,24 @@ msgstr[1] ""
 msgstr[2] ""
 "Ar tikrai norite negrąžinamai ištrinti %'d pasirinktų elementų iš šiukšlinės?"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:1394
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:1462
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:1394
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:1462
 msgid "If you delete an item, it will be permanently lost."
 msgstr "Jeigu ištrinsite failą, jis bus prarastas visam laikui."
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:1415
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:1415
 msgid "Empty all items from Trash?"
 msgstr "Pašalinti visus elementus iš šiukšlinės?"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:1419
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:1419
 msgid "All items in the Trash will be permanently deleted."
 msgstr "Visi elementai šiukšlinėje bus negrįžtamai ištrinti."
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:1450
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:1450
 msgid "Are you sure you want to permanently delete \"%B\"?"
 msgstr "Ar tikrai norite negrįžtamai ištrinti „%B“?"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:1453
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:1453
 #, c-format
 msgid "Are you sure you want to permanently delete the %'d selected item?"
 msgid_plural ""
@@ -856,12 +1343,12 @@ msgstr[0] "Ar tikrai norite negrįžtamai ištrinti %'d pasirinktą elementą?"
 msgstr[1] "Ar tikrai norite negrįžtamai ištrinti %'d pasirinktus elementus?"
 msgstr[2] "Ar tikrai norite negrįžtamai ištrinti %'d pasirinktų elementų?"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:1478
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:1510
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:1478
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:1510
 msgid "Deleting files"
 msgstr "Šalinami failai"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:1504
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:1504
 #, c-format
 msgid "%'d file left to delete"
 msgid_plural "%'d files left to delete"
@@ -869,22 +1356,22 @@ msgstr[0] "Liko ištrinti %'d failą"
 msgstr[1] "Liko ištrinti %'d failus"
 msgstr[2] "Liko ištrinti %'d failų"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:1524
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:1524
 msgid "%T left"
 msgid_plural "%T left"
 msgstr[0] "liko %T"
 msgstr[1] "liko %T"
 msgstr[2] "liko %T"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:1592
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:1626
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:1665
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:1742
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:2573
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:1592
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:1626
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:1665
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:1742
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:2573
 msgid "Error while deleting."
 msgstr "Klaida trinant."
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:1596
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:1596
 msgid ""
 "Files in the folder \"%B\" cannot be deleted because you do not have "
 "permissions to see them."
@@ -892,80 +1379,80 @@ msgstr ""
 "Aplanke „%B“ esančių failų negalima ištrinti, kadangi neturite teisų matyti "
 "aplanko failų."
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:1599
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:2632
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:3628
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:1599
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:2632
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:3628
 msgid ""
 "There was an error getting information about the files in the folder \"%B\"."
 msgstr "Klaida gaunant informaciją apie aplanke „%B“ esančius failus."
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:1608
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:3637
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:1608
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:3637
 msgid "_Skip files"
 msgstr "_Praleisti failus"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:1629
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:1629
 msgid ""
 "The folder \"%B\" cannot be deleted because you do not have permissions to "
 "read it."
 msgstr "Aplanko „%B“ negalima ištrinti, nes neturite teisų jį skaityti."
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:1632
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:2671
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:3673
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:1632
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:2671
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:3673
 msgid "There was an error reading the folder \"%B\"."
 msgstr "Klaida skaitant aplanką „%B“."
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:1666
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:1666
 msgid "Could not remove the folder %B."
 msgstr "Nepavyko pašalinti aplanko %B."
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:1743
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:1743
 msgid "There was an error deleting %B."
 msgstr "Klaida šalinant aplanką %B."
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:1819
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:1831
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:1819
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:1831
 msgid "Moving files to trash"
 msgstr "Failai perkeliami į šiukšlinę"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:1833
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:1833
 #, c-format
 msgid "%'d file left to trash"
 msgid_plural "%'d files left to trash"
 msgstr[0] ""
 msgstr[1] ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:1888
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:1888
 msgid "Cannot move file to trash, do you want to delete immediately?"
 msgstr ""
 "Failo nepavyko perkelti į šiukšlinę, ar norite jį negrįžtamai ištrinti?"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:1889
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:1889
 msgid "The file \"%B\" cannot be moved to the trash."
 msgstr "Failo „%B“ negalima perkelti į šiukšlinę."
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:2069
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:2069
 msgid "Trashing Files"
 msgstr "Failai perkeliami į šiukšlinę"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:2071
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:2071
 msgid "Deleting Files"
 msgstr "Šalinami failai"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:2143
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:2143
 msgid "Unable to eject %V"
 msgstr "Nepavyko išstumti %V"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:2145
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:2145
 msgid "Unable to unmount %V"
 msgstr "Nepavyko atjungti %V"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:2300
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:2300
 msgid "Do you want to empty the trash before you unmount?"
 msgstr "Ar norite išvalyti šiukšlinę prieš atjungdami skirsnį?"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:2302
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:2302
 msgid ""
 "In order to regain the free space on this volume the trash must be emptied. "
 "All trashed items on the volume will be permanently lost."
@@ -973,20 +1460,20 @@ msgstr ""
 "Norint šiame skirsnyje atlaisvinti vietą reikia išvalyti šiukšlinę. Visi "
 "šiukšlinėje esantys failai bus negrįžtamai prarasti."
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:2308
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:2308
 msgid "Do _not Empty Trash"
 msgstr "_Neišvalyti šiukšlinės"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:2363
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:2363
 msgid "Emptying the trash"
 msgstr "Valoma šiukšlinė"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:2430
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:2430
 #, c-format
 msgid "Unable to mount %s"
 msgstr "Nepavyko prijungti %s"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:2508
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:2508
 #, c-format
 msgid "Preparing to copy %'d file (%S)"
 msgid_plural "Preparing to copy %'d files (%S)"
@@ -994,7 +1481,7 @@ msgstr[0] "Ruošiamasi kopijuoti %'d failą (%S)"
 msgstr[1] "Ruošiamasi kopijuoti %'d failus (%S)"
 msgstr[2] "Ruošiamasi kopijuoti %'d failų (%S)"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:2514
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:2514
 #, c-format
 msgid "Preparing to move %'d file (%S)"
 msgid_plural "Preparing to move %'d files (%S)"
@@ -1002,7 +1489,7 @@ msgstr[0] "Ruošiamasi perkelti %'d failą (%S)"
 msgstr[1] "Ruošiamasi perkelti %'d failus (%S)"
 msgstr[2] "Ruošiamasi perkelti %'d failų (%S)"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:2520
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:2520
 #, c-format
 msgid "Preparing to delete %'d file (%S)"
 msgid_plural "Preparing to delete %'d files (%S)"
@@ -1010,7 +1497,7 @@ msgstr[0] "Ruošiamasi ištrinti %'d failą (%S)"
 msgstr[1] "Ruošiamasi ištrinti %'d failus (%S)"
 msgstr[2] "Ruošiamasi ištrinti %'d failų (%S)"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:2526
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:2526
 #, c-format
 msgid "Preparing to trash %'d file"
 msgid_plural "Preparing to trash %'d files"
@@ -1018,65 +1505,65 @@ msgstr[0] "Ruošiamasi perkelti į šiukšlinę %'d failą"
 msgstr[1] "Ruošiamasi perkelti į šiukšlinę %'d failus"
 msgstr[2] "Ruošiamasi perkelti į šiukšlinę %'d failų"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:2569
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:3489
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:3620
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:3665
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:2569
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:3489
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:3620
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:3665
 msgid "Error while copying."
 msgstr "Klaida kopijuojant."
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:2571
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:3618
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:3663
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:2571
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:3618
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:3663
 msgid "Error while moving."
 msgstr "Klaida perkeliant."
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:2575
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:2575
 msgid "Error while moving files to trash."
 msgstr "Klaida perkeliant failus į šiukšlinę."
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:2629
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:2629
 msgid ""
 "Files in the folder \"%B\" cannot be handled because you do not have "
 "permissions to see them."
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:2668
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:2668
 msgid ""
 "The folder \"%B\" cannot be handled because you do not have permissions to "
 "read it."
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:2745
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:2745
 msgid ""
 "The file \"%B\" cannot be handled because you do not have permissions to "
 "read it."
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:2748
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:2748
 msgid "There was an error getting information about \"%B\"."
 msgstr "Gaunant informaciją apie „%B“ įvyko klaida."
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:2848
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:2890
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:2923
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:2953
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:2848
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:2890
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:2923
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:2953
 msgid "Error while copying to \"%B\"."
 msgstr "Klaida kopijuojant į „%B“."
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:2852
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:2852
 msgid "You do not have permissions to access the destination folder."
 msgstr "Neturite teisės prieiti prie paskirties aplanko."
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:2854
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:2854
 msgid "There was an error getting information about the destination."
 msgstr "Klaida gaunant informaciją apie paskirties vietą."
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:2891
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:2891
 msgid "The destination is not a folder."
 msgstr "Paskirties vieta nėra aplankas."
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:2924
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:2924
 msgid ""
 "There is not enough space on the destination. Try to remove files to make "
 "space."
@@ -1084,60 +1571,60 @@ msgstr ""
 "Paskirties vietoje nepakanka laisvos vietos. Pabandykite iš ten pašalinti "
 "nereikalingus failus."
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:2926
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:2926
 #, c-format
 msgid "There is %S available, but %S is required."
 msgstr "Prieinama %S, tačiau reikia %S."
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:2954
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:2954
 msgid "The destination is read-only."
 msgstr "Paskirties vieta skirta tik skaitymui."
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:3015
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:3015
 msgid "Moving \"%B\" to \"%B\""
 msgstr "Perkeliama „%B“ į „%B“."
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:3016
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:3016
 msgid "Copying \"%B\" to \"%B\""
 msgstr "Kopijuojama „%B“ į „%B“."
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:3020
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:3020
 msgid "Duplicating \"%B\""
 msgstr "Kuriama „%B“ kopija"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:3024
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:3024
 msgid "Moving %'d file (in \"%B\") to \"%B\""
 msgid_plural "Moving %'d files (in \"%B\") to \"%B\""
 msgstr[0] ""
 msgstr[1] ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:3027
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:3027
 msgid "Copying %'d file (in \"%B\") to \"%B\""
 msgid_plural "Copying %'d files (in \"%B\") to \"%B\""
 msgstr[0] ""
 msgstr[1] ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:3034
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:3034
 msgid "Duplicating %'d file (in \"%B\")"
 msgid_plural "Duplicating %'d files (in \"%B\")"
 msgstr[0] ""
 msgstr[1] ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:3043
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:3043
 msgid "Moving %'d file to \"%B\""
 msgid_plural "Moving %'d files to \"%B\""
 msgstr[0] "%'d failas perkeliamas į „%B“"
 msgstr[1] "%'d failai perkeliami į „%B“"
 msgstr[2] "%'d failų perkeliama į „%B“"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:3047
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:3047
 msgid "Copying %'d file to \"%B\""
 msgid_plural "Copying %'d files to \"%B\""
 msgstr[0] "%'d failas kopijuojamas į „%B“"
 msgstr[1] "%'d failai kopijuojami į „%B“"
 msgstr[2] "%'d failų kopijuojama į „%B“"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:3052
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:3052
 #, c-format
 msgid "Duplicating %'d file"
 msgid_plural "Duplicating %'d files"
@@ -1145,19 +1632,19 @@ msgstr[0] "Kuriama %'d failo kopija"
 msgstr[1] "Kuriamos %'d failų kopijos"
 msgstr[2] "Kuriamos %'d failų kopijos"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:3103
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:3103
 #, c-format
 msgid "%S of %S"
 msgstr "%S iš %S"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:3114
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:3114
 msgid "%S of %S — %T left (%S/sec)"
 msgid_plural "%S of %S — %T left (%S/sec)"
 msgstr[0] "%S iš %S — liko %T (%S/sek)"
 msgstr[1] "%S iš %S — liko %T (%S/sek)"
 msgstr[2] "%S iš %S — liko %T (%S/sek)"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:3493
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:3493
 msgid ""
 "The folder \"%B\" cannot be copied because you do not have permissions to "
 "create it in the destination."
@@ -1165,96 +1652,96 @@ msgstr ""
 "Aplanko „%s“ negalima nukopijuoti, kadangi neturite teisų jo sukurti "
 "paskirties vietoje."
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:3496
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:3496
 msgid "There was an error creating the folder \"%B\"."
 msgstr "Klaida kuriant aplanką „%B“."
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:3625
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:3625
 msgid ""
 "Files in the folder \"%B\" cannot be copied because you do not have "
 "permissions to see them."
 msgstr ""
 "Aplanke „%B“ esančių failų neina nukopijuoti, nes neturite teisų jų skaityti."
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:3670
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:3670
 msgid ""
 "The folder \"%B\" cannot be copied because you do not have permissions to "
 "read it."
 msgstr "Aplanko „%B“ neina nukopijuoti, nes neturite teisų jo peržiūrėti."
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:3715
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:4416
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:5004
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:3715
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:4416
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:5004
 msgid "Error while moving \"%B\"."
 msgstr "Klaida perkeliant „%B“."
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:3716
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:3716
 msgid "Could not remove the source folder."
 msgstr "Nepavyko pašalinti šaltinio aplanko."
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:3801
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:3842
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:4418
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:4489
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:3801
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:3842
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:4418
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:4489
 msgid "Error while copying \"%B\"."
 msgstr "Klaida kopijuojant „%B“."
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:3802
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:3802
 #, c-format
 msgid "Could not remove files from the already existing folder %F."
 msgstr "Nepavyko pašalinti failų iš jau esančio aplanko %F."
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:3843
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:3843
 #, c-format
 msgid "Could not remove the already existing file %F."
 msgstr "Nepavyko pašalinti jau esančio failo %F."
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:4172
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:4844
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:4172
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:4844
 msgid "You cannot move a folder into itself."
 msgstr "Negalima perkelti aplanko į jį patį."
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:4173
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:4845
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:4173
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:4845
 msgid "You cannot copy a folder into itself."
 msgstr "Negalima kopijuoti aplanko į jį patį."
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:4174
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:4846
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:4174
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:4846
 msgid "The destination folder is inside the source folder."
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:4205
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:4205
 msgid "You cannot move a file over itself."
 msgstr "Negalima perkelti failo ant jo paties."
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:4206
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:4206
 msgid "You cannot copy a file over itself."
 msgstr "Negalima kopijuoti failo į jį patį."
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:4207
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:4207
 msgid "The source file would be overwritten by the destination."
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:4420
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:4420
 #, c-format
 msgid "Could not remove the already existing file with the same name in %F."
 msgstr "Nepavyko pašalinti to paties pavadinimo failo, esančio aplanke %F."
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:4490
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:4490
 #, c-format
 msgid "There was an error copying the file into %F."
 msgstr "Kopijuojant failą į %F įvyko klaida."
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:4718
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:4718
 msgid "Copying Files"
 msgstr "Kopijuojami failai"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:4744
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:4744
 msgid "Preparing to move to \"%B\""
 msgstr "Ruošiamasi perkelti į „%B“"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:4756
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:4756
 #, c-format
 msgid "Preparing to move %'d file"
 msgid_plural "Preparing to move %'d files"
@@ -1262,20 +1749,20 @@ msgstr[0] "Ruošiamasi perkelti %'d failą"
 msgstr[1] "Ruošiamasi perkelti %'d failus"
 msgstr[2] "Ruošiamasi perkelti %'d failų"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:5005
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:5005
 #, c-format
 msgid "There was an error moving the file into %F."
 msgstr "Perkeliant failą į %F įvyko klaida."
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:5268
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:5268
 msgid "Moving Files"
 msgstr "Perkeliami failai"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:5298
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:5298
 msgid "Creating links in \"%B\""
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:5309
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:5309
 #, c-format
 msgid "Making link to %'d file"
 msgid_plural "Making links to %'d files"
@@ -1283,634 +1770,651 @@ msgstr[0] "Kuriama nuoroda į %'d failą"
 msgstr[1] "Kuriamos nuorodos į %'d failus"
 msgstr[2] "Kuriamos nuorodos į %'d failų"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:5444
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:5444
 msgid "Error while creating link to %B."
 msgstr "Kuriant nuorodą į %B įvyko klaida."
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:5446
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:5446
 msgid "Symbolic links only supported for local files"
 msgstr "Simbolinės nuorodos palaikomos tik vietiniams failams"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:5449
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:5449
 msgid "The target doesn't support symbolic links."
 msgstr "Paskirties vieta (failų sistema) nepalaiko simbolinių nuorodų."
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:5452
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:5452
 #, c-format
 msgid "There was an error creating the symlink in %F."
 msgstr "Kuriant simbolinę nuorodą į %F įvyko klaida."
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:5780
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:5783
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:5780
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:5783
 msgid "Setting permissions"
 msgstr "Nustatomi leidimai"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:6034
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:6034
 msgid "untitled folder"
 msgstr "bevardis aplankas"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:6042
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:6042
 msgid "new file"
 msgstr "naujas failas"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:6213
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:6213
 msgid "Error while creating directory %B."
 msgstr "Klaida kuriant aplanką %B."
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:6215
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:6215
 msgid "Error while creating file %B."
 msgstr "Klaida kuriant failą %B."
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:6217
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:6217
 #, c-format
 msgid "There was an error creating the directory in %F."
 msgstr "Kuriant aplanką %F vietoje įvyko klaida."
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:6534
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:6534
 msgid "Emptying Trash"
 msgstr "Išvaloma šiukšlinė"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-utilities.c:119
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-utilities.c:119
 #, c-format
 msgid "Could not determine original location of \"%s\" "
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-utilities.c:122
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-utilities.c:122
 msgid "The item cannot be restored from trash"
 msgstr "Šio elemento negalima atstatyti iš šiukšlinės"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:146
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:361
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:146
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:361
 #, c-format
 msgid "Merge folder \"%s\"?"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:150
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:364
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:150
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:364
 msgid ""
 "Merging will ask for confirmation before replacing any files in the folder "
 "that conflict with the files being copied."
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:155
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:369
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:155
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:369
 #, c-format
 msgid "An older folder with the same name already exists in \"%s\"."
 msgstr "Senesnis aplankas tuo pačiu pavadinimu jau yra vietoje „%s“."
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:159
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:373
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:159
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:373
 #, c-format
 msgid "A newer folder with the same name already exists in \"%s\"."
 msgstr "Naujesnis aplankas tuo pačiu pavadinimu jau yra vietoje „%s“."
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:163
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:377
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:163
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:377
 #, c-format
 msgid "Another folder with the same name already exists in \"%s\"."
 msgstr "Kitas aplankas tuo pačiu pavadinimu jau yra vietoje „%s“."
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:168
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:382
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:168
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:382
 msgid "Replacing it will remove all files in the folder."
 msgstr "Pakeitus jį, bus pašalinti visi tame aplanke esantys failai."
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:170
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:384
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:170
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:384
 #, c-format
 msgid "Replace folder \"%s\"?"
 msgstr "Pakeisti aplanką „%s“?"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:172
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:386
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:172
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:386
 #, c-format
 msgid "A folder with the same name already exists in \"%s\"."
 msgstr "Aplankas tuo pačiu pavadinimu jau yra vietoje „%s“."
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:177
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:391
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:177
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:391
 #, c-format
 msgid "Replace file \"%s\"?"
 msgstr "Pakeisti failą „%s“?"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:179
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:393
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:179
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:393
 msgid "Replacing it will overwrite its content."
 msgstr "Pakeitus jį, bus perrašytas jo turinys."
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:183
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:397
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:183
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:397
 #, c-format
 msgid "An older file with the same name already exists in \"%s\"."
 msgstr "Senesnis failas tuo pačiu pavadinimu jau yra aplanke „%s“."
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:187
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:401
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:187
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:401
 #, c-format
 msgid "A newer file with the same name already exists in \"%s\"."
 msgstr "Naujesnis failas tuo pačiu pavadinimu jau yra aplanke „%s“."
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:191
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:405
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:191
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:405
 #, c-format
 msgid "Another file with the same name already exists in \"%s\"."
 msgstr "Kitas failas tuo pačiu pavadinimu jau yra aplanke „%s“."
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:253
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:460
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:253
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:460
 msgid "Original file"
 msgstr "Originalus failas"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:254
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:285
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:461
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:482
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:254
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:285
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:461
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:482
 msgid "Size:"
 msgstr "Dydis:"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:257
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:288
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:464
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:485
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:257
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:288
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:464
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:485
 msgid "Type:"
 msgstr "Tipas:"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:260
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:291
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:467
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:488
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:260
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:291
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:467
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:488
 msgid "Last modified:"
 msgstr "Keitimo data:"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:284
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:481
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:284
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:481
 msgid "Replace with"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:313
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:506
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:313
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:506
 msgid "Merge"
 msgstr "Sulieti"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:700
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:700
 msgid "_Select a new name for the destination"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:714
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:714
 msgid "Reset"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:726
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:726
 msgid "Apply this action to all files"
 msgstr "Pritaikyti šį veiksmą visiems failams"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:742
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:742
 msgid "Re_name"
 msgstr "Per_vadinti"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:748
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:748
 msgid "Replace"
 msgstr "Pakeisti"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:821
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:821
 msgid "File conflict"
 msgstr "Failų konfliktas"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/eel-stock-dialogs.c:35
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/eel-stock-dialogs.c:35
 msgid "Show more _details"
 msgstr "Rodyti _išsamiau"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1202
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1202
 #, c-format
 msgid "Delete %d copied items"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1205
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1215
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1246
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1205
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1215
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1246
 #, c-format
 msgid "Delete '%s'"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1212
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1212
 #, c-format
 msgid "Delete %d duplicated items"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1223
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1223
 #, c-format
 msgid "Move %d items back to '%s'"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1227
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1227
 #, c-format
 msgid "Move '%s' back to '%s'"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1236
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1403
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1236
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1403
 #, c-format
 msgid "Rename '%s' as '%s'"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1255
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1450
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1255
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1450
 #, c-format
 msgid "Restore %d items from trash"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1263
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1263
 #, c-format
 msgid "Restore '%s' to '%s'"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1274
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1274
 #, c-format
 msgid "Move %d items back to trash"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1277
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1277
 #, c-format
 msgid "Move '%s' back to trash"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1286
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1286
 #, c-format
 msgid "Delete links to %d items"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1289
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1289
 #, c-format
 msgid "Delete link to '%s'"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1299
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1299
 #, c-format
 msgid "Restore original permissions of items enclosed in '%s'"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1307
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1307
 #, c-format
 msgid "Restore original permissions of '%s'"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1316
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1316
 #, c-format
 msgid "Restore group of '%s' to '%s'"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1326
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1326
 #, c-format
 msgid "Restore owner of '%s' to '%s'"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1365
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1365
 #, c-format
 msgid "Copy %d items to '%s'"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1369
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1369
 #, c-format
 msgid "Copy '%s' to '%s'"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1377
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1377
 #, c-format
 msgid "Duplicate of %d items in '%s'"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1382
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1382
 #, c-format
 msgid "Duplicate '%s' in '%s'"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1390
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1390
 #, c-format
 msgid "Move %d items to '%s'"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1394
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1394
 #, c-format
 msgid "Move '%s' to '%s'"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1412
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1412
 #, c-format
 msgid "Create new file '%s' from template "
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1419
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1419
 #, c-format
 msgid "Create an empty file '%s'"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1426
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1426
 #, c-format
 msgid "Create a new folder '%s'"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1434
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1434
 #, c-format
 msgid "Move %d items to trash"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1440
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1440
 #, c-format
 msgid "Move '%s' to trash"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1453
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1453
 #, c-format
 msgid "Restore '%s' from trash"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1462
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1462
 #, c-format
 msgid "Create links to %d items"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1465
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1465
 #, c-format
 msgid "Create link to '%s'"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1474
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1474
 #, c-format
 msgid "Set permissions of items enclosed in '%s'"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1482
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1482
 #, c-format
 msgid "Set permissions of '%s'"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1491
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1491
 #, c-format
 msgid "Set group of '%s' to '%s'"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1501
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1501
 #, c-format
 msgid "Set owner of '%s' to '%s'"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1533
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1533
 #, c-format
 msgid "_Undo copy of %d item"
 msgid_plural "_Undo copy of %d items"
 msgstr[0] ""
 msgstr[1] ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1538
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1538
 #, c-format
 msgid "_Undo duplicate of %d item"
 msgid_plural "_Undo duplicate of %d items"
 msgstr[0] ""
 msgstr[1] ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1543
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1543
 #, c-format
 msgid "_Undo move of %d item"
 msgid_plural "_Undo move of %d items"
 msgstr[0] ""
 msgstr[1] ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1548
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1548
 #, c-format
 msgid "_Undo rename of %d item"
 msgid_plural "_Undo rename of %d items"
 msgstr[0] ""
 msgstr[1] ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1552
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1552
 msgid "_Undo creation of an empty file"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1555
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1555
 msgid "_Undo creation of a file from template"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1559
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1559
 #, c-format
 msgid "_Undo creation of %d folder"
 msgid_plural "_Undo creation of %d folders"
 msgstr[0] ""
 msgstr[1] ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1564
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1564
 #, c-format
 msgid "_Undo move to trash of %d item"
 msgid_plural "_Undo move to trash of %d items"
 msgstr[0] ""
 msgstr[1] ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1569
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1569
 #, c-format
 msgid "_Undo restore from trash of %d item"
 msgid_plural "_Undo restore from trash of %d items"
 msgstr[0] ""
 msgstr[1] ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1574
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1574
 #, c-format
 msgid "_Undo create link to %d item"
 msgid_plural "_Undo create link to %d items"
 msgstr[0] ""
 msgstr[1] ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1579
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1579
 #, c-format
 msgid "_Undo delete of %d item"
 msgid_plural "_Undo delete of %d items"
 msgstr[0] ""
 msgstr[1] ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1584
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1584
 #, c-format
 msgid "Undo recursive change permissions of %d item"
 msgid_plural "Undo recursive change permissions of %d items"
 msgstr[0] ""
 msgstr[1] ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1590
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1590
 #, c-format
 msgid "Undo change permissions of %d item"
 msgid_plural "Undo change permissions of %d items"
 msgstr[0] ""
 msgstr[1] ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1595
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1595
 #, c-format
 msgid "Undo change group of %d item"
 msgid_plural "Undo change group of %d items"
 msgstr[0] ""
 msgstr[1] ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1600
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1600
 #, c-format
 msgid "Undo change owner of %d item"
 msgid_plural "Undo change owner of %d items"
 msgstr[0] ""
 msgstr[1] ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1628
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1628
 #, c-format
 msgid "_Redo copy of %d item"
 msgid_plural "_Redo copy of %d items"
 msgstr[0] ""
 msgstr[1] ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1633
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1633
 #, c-format
 msgid "_Redo duplicate of %d item"
 msgid_plural "_Redo duplicate of %d items"
 msgstr[0] ""
 msgstr[1] ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1638
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1638
 #, c-format
 msgid "_Redo move of %d item"
 msgid_plural "_Redo move of %d items"
 msgstr[0] ""
 msgstr[1] ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1643
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1643
 #, c-format
 msgid "_Redo rename of %d item"
 msgid_plural "_Redo rename of %d items"
 msgstr[0] ""
 msgstr[1] ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1647
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1647
 msgid "_Redo creation of an empty file"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1650
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1650
 msgid "_Redo creation of a file from template"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1654
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1654
 #, c-format
 msgid "_Redo creation of %d folder"
 msgid_plural "_Redo creation of %d folders"
 msgstr[0] ""
 msgstr[1] ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1659
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1659
 #, c-format
 msgid "_Redo move to trash of %d item"
 msgid_plural "_Redo move to trash of %d items"
 msgstr[0] ""
 msgstr[1] ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1664
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1664
 #, c-format
 msgid "_Redo restore from trash of %d item"
 msgid_plural "_Redo restore from trash of %d items"
 msgstr[0] ""
 msgstr[1] ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1669
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1669
 #, c-format
 msgid "_Redo create link to %d item"
 msgid_plural "_Redo create link to %d items"
 msgstr[0] ""
 msgstr[1] ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1674
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1674
 #, c-format
 msgid "_Redo delete of %d item"
 msgid_plural "_Redo delete of %d items"
 msgstr[0] ""
 msgstr[1] ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1679
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1679
 #, c-format
 msgid "Redo recursive change permissions of %d item"
 msgid_plural "Redo recursive change permissions of %d items"
 msgstr[0] ""
 msgstr[1] ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1685
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1685
 #, c-format
 msgid "Redo change permissions of %d item"
 msgid_plural "Redo change permissions of %d items"
 msgstr[0] ""
 msgstr[1] ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1690
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1690
 #, c-format
 msgid "Redo change group of %d item"
 msgid_plural "Redo change group of %d items"
 msgstr[0] ""
 msgstr[1] ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1695
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1695
 #, c-format
 msgid "Redo change owner of %d item"
 msgid_plural "Redo change owner of %d items"
 msgstr[0] ""
 msgstr[1] ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/eel-fcts.c:81
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/eel-fcts.c:81
 msgid "Today at %-I:%M %p"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/eel-fcts.c:85
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/eel-fcts.c:85
 msgid "Yesterday at %-I:%M %p"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/eel-fcts.c:89
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/eel-fcts.c:89
 msgid "%a %-d %b %Y at %-I:%M %p"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/gof-file.c:252
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/gof-file.c:252
 #, c-format
 msgid "link to %s"
 msgstr "nuoroda į %s"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/gof-file.c:1702
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/gof-file.c:1702
 #, c-format
 msgid "Failed to parse the desktop file: %s"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/gof-file.c:1740
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/gof-file.c:1740
 msgid "No Exec field specified"
 msgstr "Exec laukelis nenurodytas"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/gof-file.c:1760
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/gof-file.c:1760
 msgid "No URL field specified"
 msgstr "URL laukelis nenurodytas"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/gof-file.c:1766
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/gof-file.c:1766
 msgid "Invalid desktop file"
 msgstr "Netinkamas leistuko (desktop) failas"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/gof-file.c:2056
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/gof-file.c:2056
 msgid "Slashes are not allowed in filenames"
 msgstr "Failų pavadinimuose dešininiai brūkšniai neleidžiami"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/gof-file.c:2076
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/gof-file.c:2076
 msgid "Toplevel files cannot be renamed"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../libwidgets/LocationBar.vala:813
+#: /home/am/dev/marlin8/trunk/marlin/po/../libwidgets/LocationBar.vala:328
+msgid "Cut the selected text to the clipboard"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../libwidgets/LocationBar.vala:332
+msgid "Copy the selected text to the clipboard"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../libwidgets/LocationBar.vala:336
+#: /home/am/dev/marlin8/trunk/marlin/po/../libwidgets/LocationBar.vala:340
+msgid "Paste the text stored on the clipboard"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../libwidgets/LocationBar.vala:816
 #, c-format
 msgid "Go to %s"
 msgstr "Eiti į %s"
 
-#: /home/am/dev/marlin5/marlin/po/../src/View/Chrome/ViewSwicher.vala:78
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Chrome/ViewSwicher.vala:78
 msgid "View as icons"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../src/View/Chrome/ViewSwicher.vala:81
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Chrome/ViewSwicher.vala:81
 msgid "View as list"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../src/View/Chrome/ViewSwicher.vala:84
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Chrome/ViewSwicher.vala:84
 msgid "View as compact list"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../src/View/Chrome/ViewSwicher.vala:87
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Chrome/ViewSwicher.vala:87
 msgid "View as column"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Chrome/TopMenu.vala:47
+msgid "Menu"
 msgstr ""

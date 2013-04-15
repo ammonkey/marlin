@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: marlin\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2012-07-05 16:10+0200\n"
+"POT-Creation-Date: 2012-08-01 22:45+0200\n"
 "PO-Revision-Date: 2012-05-24 02:53+0000\n"
 "Last-Translator: ammonkey <am.monkeyd@gmail.com>\n"
 "Language-Team: Bulgarian\n"
@@ -15,233 +15,483 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2012-07-06 05:08+0000\n"
-"X-Generator: Launchpad (build 15558)\n"
+"X-Launchpad-Export-Date: 2012-08-02 05:01+0000\n"
+"X-Generator: Launchpad (build 15719)\n"
 "X-Poedit-Country: bulgaria\n"
 "X-Poedit-Language: bg\n"
 "X-Poedit-SourceCharset: utf-8\n"
 
-#: /home/am/dev/marlin5/marlin/po/../src/View/PropertiesWindow.vala:60
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:60
 msgid "Properties"
 msgstr "Настройки"
 
-#: /home/am/dev/marlin5/marlin/po/../src/View/PropertiesWindow.vala:111
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:111
 msgid "Info"
 msgstr "Инфо"
 
-#: /home/am/dev/marlin5/marlin/po/../src/View/PropertiesWindow.vala:119
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:119
 msgid "Permissions"
 msgstr "Права"
 
-#: /home/am/dev/marlin5/marlin/po/../src/View/PropertiesWindow.vala:131
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:131
 msgid "Preview"
 msgstr "Преглед"
 
-#: /home/am/dev/marlin5/marlin/po/../src/View/PropertiesWindow.vala:350
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:349
 msgid "Created"
 msgstr "Създаден"
 
-#: /home/am/dev/marlin5/marlin/po/../src/View/PropertiesWindow.vala:352
-#: /home/am/dev/marlin5/marlin/po/../src/View/ContextView.vala:344
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:351
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/ContextView.vala:344
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-list-view.c:59
 msgid "Modified"
 msgstr "Промяна"
 
-#: /home/am/dev/marlin5/marlin/po/../src/View/PropertiesWindow.vala:355
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:354
 msgid "Last Access"
 msgstr "Достъп"
 
-#: /home/am/dev/marlin5/marlin/po/../src/View/PropertiesWindow.vala:361
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:360
 msgid "Deleted"
 msgstr "Изтрит"
 
-#: /home/am/dev/marlin5/marlin/po/../src/View/PropertiesWindow.vala:366
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:365
 msgid "MimeType"
 msgstr "MimeType"
 
-#: /home/am/dev/marlin5/marlin/po/../src/View/PropertiesWindow.vala:374
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:373
 msgid "MimeTypes"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../src/View/PropertiesWindow.vala:378
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:377
 msgid "Location"
 msgstr "Адрес"
 
-#: /home/am/dev/marlin5/marlin/po/../src/View/PropertiesWindow.vala:380
-#: /home/am/dev/marlin5/marlin/po/../src/View/ContextView.vala:340
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:379
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/ContextView.vala:340
 msgid "Target"
 msgstr "Цел"
 
-#: /home/am/dev/marlin5/marlin/po/../src/View/PropertiesWindow.vala:386
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:385
 msgid "Origin Location"
 msgstr "Адрес на произход"
 
-#: /home/am/dev/marlin5/marlin/po/../src/View/PropertiesWindow.vala:424
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:423
 msgid "Other application..."
 msgstr "Друго приложение…"
 
-#: /home/am/dev/marlin5/marlin/po/../src/View/PropertiesWindow.vala:448
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:447
 msgid "Open with"
 msgstr "Отваряне с"
 
-#: /home/am/dev/marlin5/marlin/po/../src/View/PropertiesWindow.vala:464
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:463
 msgid "Device usage"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../src/View/PropertiesWindow.vala:609
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:608
 msgid "Read"
 msgstr "Четене"
 
-#: /home/am/dev/marlin5/marlin/po/../src/View/PropertiesWindow.vala:614
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:613
 msgid "Write"
 msgstr "Запис"
 
-#: /home/am/dev/marlin5/marlin/po/../src/View/PropertiesWindow.vala:619
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:618
 msgid "Execute"
 msgstr "Изпълним"
 
-#: /home/am/dev/marlin5/marlin/po/../src/View/PropertiesWindow.vala:837
-#: /home/am/dev/marlin5/marlin/po/../src/View/PropertiesWindow.vala:850
-#: /home/am/dev/marlin5/marlin/po/../src/View/ContextView.vala:345
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:836
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:849
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/ContextView.vala:345
 msgid "Owner"
 msgstr "Собственик"
 
-#: /home/am/dev/marlin5/marlin/po/../src/View/PropertiesWindow.vala:842
-#: /home/am/dev/marlin5/marlin/po/../src/View/PropertiesWindow.vala:854
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:841
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:853
 msgid "Group"
 msgstr "Група"
 
-#: /home/am/dev/marlin5/marlin/po/../src/View/PropertiesWindow.vala:858
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:857
 msgid "Everyone"
 msgstr "Всеки"
 
-#: /home/am/dev/marlin5/marlin/po/../src/View/PropertiesWindow.vala:1138
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:1141
 msgid "Select an aplication to open "
 msgstr "Избор на приложение за отваряне "
 
-#: /home/am/dev/marlin5/marlin/po/../src/View/ContextView.vala:336
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/ContextView.vala:336
 msgid "Name"
 msgstr "Име"
 
-#: /home/am/dev/marlin5/marlin/po/../src/View/ContextView.vala:337
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/ContextView.vala:337
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-list-view.c:59
 msgid "Type"
 msgstr "Тип"
 
-#: /home/am/dev/marlin5/marlin/po/../src/View/ContextView.vala:342
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/ContextView.vala:342
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-list-view.c:59
 msgid "Size"
 msgstr "Размер"
 
-#: /home/am/dev/marlin5/marlin/po/../src/View/DirectoryNotFound.vala:72
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/DirectoryNotFound.vala:72
 #, c-format
 msgid "Folder does not exist"
 msgstr "Папката не съществува"
 
-#: /home/am/dev/marlin5/marlin/po/../src/View/DirectoryNotFound.vala:75
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/DirectoryNotFound.vala:75
 #, c-format
 msgid "Marlin can't find the folder %s"
 msgstr "Marlin не може да намери папката %s"
 
-#: /home/am/dev/marlin5/marlin/po/../src/View/DirectoryNotFound.vala:80
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/DirectoryNotFound.vala:80
 msgid "Create"
 msgstr "Създаване"
 
-#: /home/am/dev/marlin5/marlin/po/../src/View/DirectoryNotFound.vala:80
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/DirectoryNotFound.vala:80
 #, c-format
 msgid "Create the folder %s"
 msgstr "Създаване на папка %s"
 
-#: /home/am/dev/marlin5/marlin/po/../src/View/Window.vala:459
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:459
 msgid "Undo"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../src/View/Window.vala:460
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:460
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:701
 msgid "Undo the last action"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../src/View/Window.vala:469
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:469
 msgid "Redo"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../src/View/Window.vala:470
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:470
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:704
 msgid "Redo the last action"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../src/View/SettingsDialog.vala:31
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:672
+msgid "_File"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:673
+msgid "_Edit"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:674
+msgid "_View"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:675
+msgid "_Go"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:676
+msgid "_Help"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:678
+msgid "New _Window"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:679
+msgid "Open another Marlin window for the displayed location"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:682
+msgid "New _Tab"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:683
+msgid "Open another tab for the displayed location"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:686
+msgid "_Close"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:687
+msgid "Close this folder"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:690
+msgid "Customize _Toolbar..."
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:691
+msgid "Easily edit the toolbar layout"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:694
+msgid "Preferences"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:695
+msgid "Change Marlin's preferences"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:700
+msgid "_Undo"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:703
+msgid "_Redo"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:706
+msgid "Open _Parent"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:707
+msgid "Open the parent folder"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:709
+msgid "_Back"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:710
+msgid "Go to the previous visited location"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:712
+msgid "_Forward"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:713
+msgid "Go to the next visited location"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:715
+msgid "_Reload"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:716
+msgid "Reload the current location"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:719
+msgid "_Home Folder"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:720
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:329
+msgid "Open your personal folder"
+msgstr "Отворете личната си папка"
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:723
+msgid "_Trash"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:724
+msgid "Open your personal trash folder"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:727
+msgid "_Network"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:728
+msgid "Browse bookmarked and local network locations"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:731
+msgid "Zoom _In"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:732
+msgid "Increase the view size"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:743
+msgid "Zoom _Out"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:744
+msgid "Decrease the view size"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:751
+msgid "Normal Si_ze"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:752
+msgid "Use the normal view size"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:755
+msgid "Next Tab"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:759
+msgid "Previous Tab"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:763
+msgid "Connect to _Server..."
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:764
+msgid "Connect to a remote computer or shared disk"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:767
+msgid "_About"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:768
+msgid "Display credits"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:771
+msgid "Report a Problem..."
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:772
+msgid "File a bug on Launchpad"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:775
+msgid "Get Help Online..."
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:779
+msgid "Translate This Application..."
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:788
+msgid "Show _Hidden Files"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:789
+msgid "Toggle the display of hidden files in the current window"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:794
+msgid "Show _Desktop Files"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:795
+msgid "Toggle the display of desktop files"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:799
+msgid "_Context Pane"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:800
+msgid "Change the visibility of the context pane"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:804
+msgid "_Menubar"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:805
+msgid "Change the visibility of this window's menubar"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:809
+msgid "_Places"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:810
+msgid "Change the visibility of this window's side pane"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:818
+msgid "Icon"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:821
+msgid "List"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:824
+msgid "Compact"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:827
+msgid "Columns"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/SettingsDialog.vala:31
 msgid "Marlin Preferences"
 msgstr "Настройки на Marlin"
 
-#: /home/am/dev/marlin5/marlin/po/../src/View/SettingsDialog.vala:46
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/SettingsDialog.vala:46
 msgid "Single click to open:"
 msgstr "Отваряне с единичен клик:"
 
-#: /home/am/dev/marlin5/marlin/po/../src/View/SettingsDialog.vala:56
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/SettingsDialog.vala:56
 msgid "Mouse auto-selection speed:"
 msgstr "Скорост на автоматичното селектиране:"
 
-#: /home/am/dev/marlin5/marlin/po/../src/View/SettingsDialog.vala:72
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/SettingsDialog.vala:72
 msgid "Default File Manager:"
 msgstr "Файлов мениджър по подразбиране:"
 
-#: /home/am/dev/marlin5/marlin/po/../src/View/SettingsDialog.vala:81
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/SettingsDialog.vala:81
 msgid "Behavior"
 msgstr "Поведение"
 
-#: /home/am/dev/marlin5/marlin/po/../src/View/SettingsDialog.vala:87
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/SettingsDialog.vala:87
 msgid "iso"
 msgstr "iso"
 
-#: /home/am/dev/marlin5/marlin/po/../src/View/SettingsDialog.vala:88
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/SettingsDialog.vala:88
 msgid "locale"
 msgstr "локал"
 
-#: /home/am/dev/marlin5/marlin/po/../src/View/SettingsDialog.vala:89
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/SettingsDialog.vala:89
 msgid "informal"
 msgstr "неофициално"
 
-#: /home/am/dev/marlin5/marlin/po/../src/View/SettingsDialog.vala:96
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/SettingsDialog.vala:96
 msgid "Date format:"
 msgstr "Формат на датата:"
 
-#: /home/am/dev/marlin5/marlin/po/../src/View/SettingsDialog.vala:104
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/SettingsDialog.vala:104
 msgid "Display"
 msgstr "Екран"
 
-#: /home/am/dev/marlin5/marlin/po/../src/View/SettingsDialog.vala:157
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/SettingsDialog.vala:157
 msgid "Extensions"
 msgstr "Разшрения"
 
-#: /home/am/dev/marlin5/marlin/po/../src/View/LocationBar.vala:105
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:370
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/LocationBar.vala:105
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:370
 msgid "Trash"
 msgstr "Кошче"
 
-#: /home/am/dev/marlin5/marlin/po/../src/View/LocationBar.vala:106
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:588
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/LocationBar.vala:106
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:588
 msgid "Network"
 msgstr "Мрежа"
 
-#: /home/am/dev/marlin5/marlin/po/../src/View/ViewContainer.vala:139
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:324
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/ViewContainer.vala:139
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:324
 msgid "Home"
 msgstr "Домашна папка"
 
-#: /home/am/dev/marlin5/marlin/po/../src/View/ViewContainer.vala:141
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:394
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/ViewContainer.vala:141
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:394
 msgid "File System"
 msgstr "Файлова система"
 
-#: /home/am/dev/marlin5/marlin/po/../src/exo-tree-view.c:167
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/exo-tree-view.c:167
 msgid "Single Click"
 msgstr "Единичен клик"
 
-#: /home/am/dev/marlin5/marlin/po/../src/exo-tree-view.c:168
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/exo-tree-view.c:168
 msgid "Whether the items in the view can be activated with single clicks"
 msgstr "Задава дали обектите в изгледа да се активират с единичен клик."
 
-#: /home/am/dev/marlin5/marlin/po/../src/exo-tree-view.c:184
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/exo-tree-view.c:184
 msgid "Single Click Timeout"
 msgstr "Таймаут за единичен клик"
 
-#: /home/am/dev/marlin5/marlin/po/../src/exo-tree-view.c:185
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/exo-tree-view.c:185
 msgid ""
 "The amount of time after which the item under the mouse cursor will be "
 "selected automatically in single click mode"
@@ -249,35 +499,35 @@ msgstr ""
 "Времето след, което  обектът под показалеца на мишката ще бъде избран "
 "автоматично при режим единичен клик"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-connect-server-dialog.c:124
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-connect-server-dialog.c:124
 msgid "SSH"
 msgstr "SSH"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-connect-server-dialog.c:127
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-connect-server-dialog.c:127
 msgid "Public FTP"
 msgstr "Публично FTP"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-connect-server-dialog.c:129
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-connect-server-dialog.c:129
 msgid "FTP (with login)"
 msgstr "FTP (с вход)"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-connect-server-dialog.c:132
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-connect-server-dialog.c:132
 msgid "Windows share"
 msgstr "Споделен Windwos ресурс"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-connect-server-dialog.c:134
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-connect-server-dialog.c:134
 msgid "WebDAV (HTTP)"
 msgstr "WebDAV (HTTP)"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-connect-server-dialog.c:136
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-connect-server-dialog.c:136
 msgid "Secure WebDAV (HTTPS)"
 msgstr "Сигурен WebDAV (HTTPS)"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-connect-server-dialog.c:183
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-connect-server-dialog.c:183
 msgid "Connecting..."
 msgstr "Свързване"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-connect-server-dialog.c:207
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-connect-server-dialog.c:207
 msgid ""
 "Can't load the supported server method list.\n"
 "Please check your gvfs installation."
@@ -285,144 +535,188 @@ msgstr ""
 "Списъкът с поддържаните сървъри не може да бъде зареден.\n"
 "Проверете инсталацията на gvfs."
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-connect-server-dialog.c:285
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-connect-server-dialog.c:285
 #, c-format
 msgid "The folder \"%s\" cannot be opened on \"%s\"."
 msgstr "Папката „%s“ не може да бъде отворена на „%s“."
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-connect-server-dialog.c:295
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-connect-server-dialog.c:295
 #, c-format
 msgid "The server at \"%s\" cannot be found."
 msgstr "Сървърът на \"%s\" не може да се намери."
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-connect-server-dialog.c:330
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-connect-server-dialog.c:330
 msgid "Try Again"
 msgstr "Опитай отново"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-connect-server-dialog.c:395
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-connect-server-dialog.c:395
 msgid "Please verify your user details."
 msgstr "Моля, проверете Вашите потребителски детайли"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-connect-server-dialog.c:425
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-connect-server-dialog.c:425
 msgid "Continue"
 msgstr "Продължи"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-connect-server-dialog.c:750
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-connect-server-dialog.c:1140
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-connect-server-dialog.c:750
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-connect-server-dialog.c:1140
 msgid "C_onnect"
 msgstr "Свържи"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-connect-server-dialog.c:875
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-connect-server-dialog.c:875
 msgid "Connect to Server"
 msgstr "Свържи се със сървър"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-connect-server-dialog.c:893
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-connect-server-dialog.c:893
 msgid "Server Details"
 msgstr "Подробности за сървъра"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-connect-server-dialog.c:917
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-connect-server-dialog.c:917
 msgid "_Server:"
 msgstr "Сървър:"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-connect-server-dialog.c:937
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-connect-server-dialog.c:937
 msgid "_Port:"
 msgstr "Порт:"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-connect-server-dialog.c:955
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-connect-server-dialog.c:955
 msgid "_Type:"
 msgstr "Тип:"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-connect-server-dialog.c:1024
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-connect-server-dialog.c:1024
 msgid "Sh_are:"
 msgstr "Споделено:"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-connect-server-dialog.c:1039
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-connect-server-dialog.c:1039
 msgid "_Folder:"
 msgstr "Папка:"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-connect-server-dialog.c:1057
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-connect-server-dialog.c:1057
 msgid "User Details"
 msgstr "Подробности за потребителя"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-connect-server-dialog.c:1080
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-connect-server-dialog.c:1080
 msgid "_Domain name:"
 msgstr "Име на домейн:"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-connect-server-dialog.c:1095
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-connect-server-dialog.c:1095
 msgid "_User name:"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-connect-server-dialog.c:1110
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-connect-server-dialog.c:1110
 msgid "Pass_word:"
 msgstr "Парола:"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-connect-server-dialog.c:1126
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-connect-server-dialog.c:1126
 msgid "_Remember this password"
 msgstr "Запомни паролата"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-connect-server-dialog.c:1229
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-connect-server-dialog.c:1229
 msgid "Operation cancelled"
 msgstr "Действието е отменено"
 
-#: /home/am/dev/marlin5/marlin/po/../src/fm-compact-view.c:86
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-compact-view.c:86
 msgid "Compact directory listing"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../src/fm-compact-view.c:87
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-compact-view.c:87
 msgid "Compact view"
 msgstr "Компактен изглед"
 
-#: /home/am/dev/marlin5/marlin/po/../src/fm-columns-view.c:82
-#: /home/am/dev/marlin5/marlin/po/../src/fm-abstract-icon-view.c:572
-#: /home/am/dev/marlin5/marlin/po/../src/fm-list-view.c:616
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-columns-view.c:82
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-abstract-icon-view.c:572
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-list-view.c:616
 msgid "This folder is empty."
 msgstr "Папката е празна."
 
-#: /home/am/dev/marlin5/marlin/po/../src/fm-columns-view.c:186
-#: /home/am/dev/marlin5/marlin/po/../src/fm-abstract-icon-view.c:139
-#: /home/am/dev/marlin5/marlin/po/../src/fm-list-view.c:199
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-columns-view.c:186
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-abstract-icon-view.c:139
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-list-view.c:199
 #, c-format
 msgid "Failed to rename %s to %s"
 msgstr "Грешка при преименуването на %s на %s"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-dnd.c:103
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-dnd.c:103
 msgid "_Move Here"
 msgstr "Премести тук"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-dnd.c:108
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-dnd.c:108
 msgid "_Copy Here"
 msgstr "Копирай тук"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-dnd.c:113
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-dnd.c:113
 msgid "_Link Here"
 msgstr "Връзка тук"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-dnd.c:118
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-dnd.c:118
 msgid "Set as _Background"
 msgstr "Задай като тапет"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-dnd.c:125
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-dnd.c:125
 msgid "Cancel"
 msgstr "Отказ"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-dnd.c:217
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-dnd.c:217
 #, c-format
 msgid "Failed to execute file \"%s\""
 msgstr "Не може да се изпълни файл \"%s\""
 
-#: /home/am/dev/marlin5/marlin/po/../src/fm-icon-view.c:86
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-abstract-icon-view.c:283
+msgid "Arran_ge Items"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-abstract-icon-view.c:288
+msgid "Re_versed Order"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-abstract-icon-view.c:289
+msgid "Display icons in the opposite order"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-abstract-icon-view.c:296
+msgid "By _Name"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-abstract-icon-view.c:297
+msgid "Keep icons sorted by name in rows"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-abstract-icon-view.c:300
+msgid "By _Size"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-abstract-icon-view.c:301
+msgid "Keep icons sorted by size in rows"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-abstract-icon-view.c:304
+msgid "By _Type"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-abstract-icon-view.c:305
+msgid "Keep icons sorted by type in rows"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-abstract-icon-view.c:308
+msgid "By Modification _Date"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-abstract-icon-view.c:309
+msgid "Keep icons sorted by modification date in rows"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-icon-view.c:86
 msgid "Icon directory listing"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../src/fm-icon-view.c:87
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-icon-view.c:87
 msgid "Icon view"
 msgstr "Изглед с икони"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-toolbar-editor.c:445
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-toolbar-editor.c:445
 msgid "Customize Toolbar"
 msgstr "Настройки на лентата"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-toolbar-editor.c:460
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-toolbar-editor.c:460
 msgid ""
 "Select items to be displayed on the toolbar. Items can be reordered by drag "
 "and drop."
@@ -430,255 +724,384 @@ msgstr ""
 "Изберете обекти, които да се показват в лентата. Обектите могат да се "
 "подреждат чрез влачи и пусни."
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-toolbar-editor.c:474
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-toolbar-editor.c:474
 msgid "Available Items"
 msgstr "Налични обекти"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-toolbar-editor.c:493
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-toolbar-editor.c:493
 msgid "Displayed Items"
 msgstr "Показани обекти"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:310
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:310
 msgid "Personal"
 msgstr "Лични"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:315
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:315
 msgid "Your common places and bookmarks"
 msgstr "Вашите места и отметки"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:329
-msgid "Open your personal folder"
-msgstr "Отворете личната си папка"
-
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:372
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:372
 msgid "Open the trash"
 msgstr "Отвори Кошчето"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:382
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:382
 msgid "Devices"
 msgstr "Устройства"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:387
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:387
 msgid "Your local partitions and devices"
 msgstr "Локалните Ви дялове и устройства"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:396
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:396
 msgid "Open the contents of the File System"
 msgstr "Отваря съдържанието на файловата система"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:455
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:480
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:455
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:480
 #, c-format
 msgid "Mount and open %s"
 msgstr "Монтирай и отвори %s"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:593
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:593
 msgid "Your network places"
 msgstr "Вашите места в мрежата"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:624
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:624
 msgid "Entire network"
 msgstr "Цялата мрежа"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:626
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:626
 msgid "Browse the contents of the network"
 msgstr "Разгледай съдържаннието на мрежата"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:1610
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:1610
 msgid "_Start"
 msgstr "Старт"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:1611
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:1611
 msgid "_Stop"
 msgstr "Стоп"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:1616
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:1616
 msgid "_Power On"
 msgstr "Включване"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:1617
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:1617
 msgid "_Safely Remove Drive"
 msgstr "Безопасно премахване на диск"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:1620
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:1620
 msgid "_Connect Drive"
 msgstr "Свържи диск"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:1621
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:1621
 msgid "_Disconnect Drive"
 msgstr "Разкачи диск"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:1624
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:1624
 msgid "_Start Multi-disk Device"
 msgstr "_Стартиране на устройство с много дискове"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:1625
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:1625
 msgid "_Stop Multi-disk Device"
 msgstr "_Спиране на устройство с много дискове"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:1629
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:1629
 msgid "_Unlock Drive"
 msgstr "Отключи диск"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:1630
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:1630
 msgid "_Lock Drive"
 msgstr "Заключи диск"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:1704
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:2251
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:1704
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:2251
 #, c-format
 msgid "Unable to start %s"
 msgstr "Не може да се стартира %s"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:1994
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:2023
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:2052
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:1994
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:2023
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:2052
 #, c-format
 msgid "Unable to eject %s"
 msgstr "Не може да се извади %s"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:2197
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:2197
 #, c-format
 msgid "Unable to poll %s for media changes"
 msgstr "%s не може да се следи за смяна на носител"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:2307
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:2307
 #, c-format
 msgid "Unable to stop %s"
 msgstr "Не може да се спре %s"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:2399
-#: /home/am/dev/marlin5/marlin/po/../src/fm-directory-view.c:1943
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:2399
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:1943
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3455
 msgid "_Open"
 msgstr "Отвори"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:2407
-#: /home/am/dev/marlin5/marlin/po/../src/fm-directory-view.c:1963
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:2407
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:1963
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3467
 msgid "Open in New _Tab"
 msgstr "Отвори в нов подпрозорец"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:2414
-#: /home/am/dev/marlin5/marlin/po/../src/fm-directory-view.c:1972
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:2414
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:1972
 msgid "Open in New _Window"
 msgstr "Отвори в нов прозорец"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:2423
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:2423
 msgid "Remove"
 msgstr "Премахни"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:2432
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:2432
 msgid "Rename..."
 msgstr "Преименувай..."
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:2444
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:2444
 msgid "_Mount"
 msgstr "Монтирай"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:2451
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:2451
 msgid "_Unmount"
 msgstr "Демонтирай"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:2458
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:2458
 msgid "_Eject"
 msgstr "Извади"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-places-sidebar.c:2466
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:1422
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:2310
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:2466
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:1422
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:2310
 msgid "Empty _Trash"
 msgstr "Опразни Кошчето"
 
-#: /home/am/dev/marlin5/marlin/po/../src/fm-directory-view.c:1147
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:1147
 msgid "Invalid filename provided by XDS drag site"
 msgstr "Невалидно име на файла, доставено от XDS drag страница."
 
-#: /home/am/dev/marlin5/marlin/po/../src/fm-directory-view.c:1305
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:1305
 #, c-format
 msgid "Failed to create a link for the URL \"%s\""
 msgstr "Създаването на връзка към адреса \"%s\" е неуспешно"
 
-#: /home/am/dev/marlin5/marlin/po/../src/fm-directory-view.c:1790
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:1790
 #, c-format
 msgid "Use \"%s\" to open the selected item"
 msgid_plural "Use \"%s\" to open the selected items"
 msgstr[0] "Използвай \"%s\" за да отвориш избраният обект"
 msgstr[1] "Използвай \"%s\" за да отвориш избраните обекти"
 
-#: /home/am/dev/marlin5/marlin/po/../src/fm-directory-view.c:1937
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:1937
 #, c-format
 msgid "_Open With %s"
 msgstr "Отвори с %s"
 
-#: /home/am/dev/marlin5/marlin/po/../src/fm-directory-view.c:1959
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:1959
 #, c-format
 msgid "Open in %'d New _Tabs"
 msgstr "Отвори в %'d нов подпрозорец"
 
-#: /home/am/dev/marlin5/marlin/po/../src/fm-directory-view.c:1968
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:1968
 #, c-format
 msgid "Open in %'d New _Windows"
 msgstr "Отвори в %'d нов прозорец"
 
-#: /home/am/dev/marlin5/marlin/po/../src/fm-directory-view.c:3378
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3378
 msgid "Set as default"
 msgstr "Задай по подразбиране"
 
-#: /home/am/dev/marlin5/marlin/po/../src/fm-directory-view.c:3601
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3427
+msgid "Prepare the selected files to be moved with a Paste command"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3431
+msgid "Prepare the selected files to be copied with a Paste command"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3435
+msgid "Move or copy files previously selected by a Cut or Copy command"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3438
+msgid "Paste Into Folder"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3439
+msgid ""
+"Move or copy files previously selected by a Cut or Copy command into "
+"selected folder"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3442
+msgid "_Rename..."
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3443
+msgid "Rename selected item"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3446
+msgid "New _Folder"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3447
+msgid "Create a new empty folder inside this folder"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3449
+msgid "New _File"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3451
+msgid "_Empty File"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3452
+msgid "Create a new empty file inside this folder"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3456
+msgid "Open the selected item"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3463
+msgid "Open in new Window"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3464
+msgid "Open each selected item in a new window"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3468
+msgid "Open each selected item in a new tab"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3470
+msgid "Open Wit_h"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3471
+msgid "Choose a program with which to open the selected item"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3473
+msgid "Other _Application..."
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3474
+msgid "Choose another application with which to open the selected item"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3477
+msgid "Mo_ve to Trash"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3478
+msgid "Move each selected item to the Trash"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3481
+msgid "_Delete Permanently"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3482
+msgid "Delete each selected item, without moving to the Trash"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3485
+msgid "_Restore"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3489
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/eel-editable-label.c:3190
+msgid "Select All"
+msgstr "Избери всички"
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3493
+msgid "_Properties"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3494
+msgid "View or modify the properties of each selected item"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-directory-view.c:3601
 msgid "Set Color:"
 msgstr "Задай цвят:"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-clipboard-manager.c:369
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-clipboard-manager.c:369
 msgid "There is nothing on the clipboard to paste"
 msgstr "Няма нищо в клипборда за поставяне"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-progress-ui-handler.c:114
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-progress-ui-handler.c:164
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-progress-ui-handler.c:425
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-progress-ui-handler.c:481
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-progress-ui-handler.c:114
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-progress-ui-handler.c:164
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-progress-ui-handler.c:425
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-progress-ui-handler.c:481
 msgid "File Operations"
 msgstr "Файлови действия"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-progress-ui-handler.c:123
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-progress-ui-handler.c:123
 msgid "Show Details"
 msgstr "Покажи подробности"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-progress-ui-handler.c:158
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-progress-ui-handler.c:180
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-progress-ui-handler.c:158
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-progress-ui-handler.c:180
 #, c-format
 msgid "%'d file operation active"
 msgid_plural "%'d file operations active"
 msgstr[0] "%'d файлово действие е активно"
 msgstr[1] "%'d файлови действия са активни"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-progress-ui-handler.c:285
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-progress-ui-handler.c:285
 msgid "Show Copy Dialog"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-progress-ui-handler.c:297
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-progress-ui-handler.c:297
 msgid "Cancel All In-progress Actions"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-progress-ui-handler.c:482
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-progress-ui-handler.c:482
 msgid "All file operations have been successfully completed"
 msgstr "Всички файлови действия бяха успешно завършени."
 
-#: /home/am/dev/marlin5/marlin/po/../src/eel-editable-label.c:3190
-msgid "Select All"
-msgstr "Избери всички"
-
-#: /home/am/dev/marlin5/marlin/po/../src/eel-editable-label.c:3201
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/eel-editable-label.c:3201
 msgid "Input Methods"
 msgstr "Методи на въвеждане"
 
-#: /home/am/dev/marlin5/marlin/po/../src/exo-icon-view.c:887
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/exo-icon-view.c:887
 msgid "Layout mode"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../src/exo-icon-view.c:888
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/exo-icon-view.c:888
 msgid "The layout mode"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-application.c:436
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-application.c:261
+msgid "Show the version of the program."
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-application.c:263
+msgid "Only create windows for explicitly specified URIs."
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-application.c:267
+msgid "Quit Marlin."
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-application.c:269
+msgid "Enable debug logging"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-application.c:270
+msgid "[URI...]"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-application.c:279
 msgid ""
 "\n"
 "\n"
@@ -688,129 +1111,193 @@ msgstr ""
 "\n"
 "Разглеждане на файловата система с файловия мениджър"
 
-#: /home/am/dev/marlin5/marlin/po/../src/marlin-application.c:456
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-application.c:300
 msgid "--quit cannot be used with URIs."
 msgstr "„--quit“ не може да си използва с адреси."
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-progress-info.c:192
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-progress-info.c:210
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-list-view.c:59
+msgid "Filename"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-progress-info.c:192
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-progress-info.c:210
 msgid "Preparing"
 msgstr "Подготвяне"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/eel-vfs-extensions.c:72
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/eel-vfs-extensions.c:72
 msgid " (invalid Unicode)"
 msgstr " (неправилен Уникод)"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:200
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:737
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:200
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:737
 msgid "_Skip"
 msgstr "Пропусни"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:201
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:201
 msgid "S_kip All"
 msgstr "Пропусни всички"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:202
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:202
 msgid "_Retry"
 msgstr "Отново"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:203
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:203
 msgid "Delete _All"
 msgstr "Изтрий всички"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:204
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:204
 msgid "_Replace"
 msgstr "Замени"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:205
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:205
 msgid "Replace _All"
 msgstr "Замени всички"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:206
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:206
 msgid "_Merge"
 msgstr "Сливане"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:207
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:207
 msgid "Merge _All"
 msgstr "Сливане на всички"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:208
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:208
 msgid "Copy _Anyway"
 msgstr "Копирай въпреки това"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:294
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:294
 #, c-format
 msgid "%'d second"
 msgid_plural "%'d seconds"
 msgstr[0] "%'d секунда"
 msgstr[1] "%'d секунди"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:299
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:310
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:299
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:310
 #, c-format
 msgid "%'d minute"
 msgid_plural "%'d minutes"
 msgstr[0] "%'d минута"
 msgstr[1] "%'d минути"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:309
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:309
 #, c-format
 msgid "%'d hour"
 msgid_plural "%'d hours"
 msgstr[0] "%'d час"
 msgstr[1] "%'d часа"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:317
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:317
 #, c-format
 msgid "approximately %'d hour"
 msgid_plural "approximately %'d hours"
 msgstr[0] "приблизително %'d час"
 msgstr[1] "приблизително %'d часа"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:393
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:393
 #, c-format
 msgid "Link to %s"
 msgstr "Връзка към %s"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:397
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:397
 #, c-format
 msgid "Another link to %s"
 msgstr "Друга връзка към %s"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:413
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:413
 #, c-format
 msgid "%'dst link to %s"
 msgstr "%'d-ва връзка към %s"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:417
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:417
 #, c-format
 msgid "%'dnd link to %s"
 msgstr "%'d-ра връзка към %s"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:421
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:421
 #, c-format
 msgid "%'drd link to %s"
 msgstr "%'d-та връзка към %s"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:425
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:425
 #, c-format
 msgid "%'dth link to %s"
 msgstr "%'d-та връзка към %s"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:617
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:463
+msgid " (copy)"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:465
+msgid " (another copy)"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:468
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:470
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:472
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:482
+msgid "th copy)"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:475
+msgid "st copy)"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:477
+msgid "nd copy)"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:479
+msgid "rd copy)"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:496
+#, c-format
+msgid "%s (copy)%s"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:498
+#, c-format
+msgid "%s (another copy)%s"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:501
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:503
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:505
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:519
+#, c-format
+msgid "%s (%'dth copy)%s"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:513
+#, c-format
+msgid "%s (%'dst copy)%s"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:515
+#, c-format
+msgid "%s (%'dnd copy)%s"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:517
+#, c-format
+msgid "%s (%'drd copy)%s"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:617
 msgid " ("
 msgstr " ("
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:625
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:625
 #, c-format
 msgid " (%'d"
 msgstr " (%'d"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:1381
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:1381
 msgid "Are you sure you want to permanently delete \"%B\" from the trash?"
 msgstr "Наистина ли искате да изтриете завинаги \"%B\" от Кошчето?"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:1384
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:1384
 #, c-format
 msgid ""
 "Are you sure you want to permanently delete the %'d selected item from the "
@@ -823,24 +1310,24 @@ msgstr[0] ""
 msgstr[1] ""
 "Искате ли наистина да изтриете завинаги %'d избраните обекти от Кошчето?"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:1394
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:1462
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:1394
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:1462
 msgid "If you delete an item, it will be permanently lost."
 msgstr "Ако изтриете обекта, ще го загубите завинаги."
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:1415
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:1415
 msgid "Empty all items from Trash?"
 msgstr "Изхвърли всички боклуци от Кошчето?"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:1419
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:1419
 msgid "All items in the Trash will be permanently deleted."
 msgstr "Всчики боклучи в Кошчето ще бъдат изтрити завинаги."
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:1450
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:1450
 msgid "Are you sure you want to permanently delete \"%B\"?"
 msgstr "Сигурни ли сте, че искате окончателно да изтриете „%B“?"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:1453
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:1453
 #, c-format
 msgid "Are you sure you want to permanently delete the %'d selected item?"
 msgid_plural ""
@@ -848,33 +1335,33 @@ msgid_plural ""
 msgstr[0] "Искате ли наистина да изтриете завинаги %'d избраният обект?"
 msgstr[1] "Искате ли наистина да изтриете завинаги %'d избраните обекти?"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:1478
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:1510
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:1478
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:1510
 msgid "Deleting files"
 msgstr "Изтриване на файлове"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:1504
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:1504
 #, c-format
 msgid "%'d file left to delete"
 msgid_plural "%'d files left to delete"
 msgstr[0] "%'d файл остава за изтриване"
 msgstr[1] "%'d файла остават за изтриване"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:1524
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:1524
 msgid "%T left"
 msgid_plural "%T left"
 msgstr[0] "%T остава"
 msgstr[1] "%T остават"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:1592
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:1626
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:1665
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:1742
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:2573
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:1592
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:1626
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:1665
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:1742
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:2573
 msgid "Error while deleting."
 msgstr "Грешка при изтриване."
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:1596
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:1596
 msgid ""
 "Files in the folder \"%B\" cannot be deleted because you do not have "
 "permissions to see them."
@@ -882,81 +1369,81 @@ msgstr ""
 "Файловете в папката „%B“ не могат да бъдат изтрити, понеже нямате права да "
 "ги видите."
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:1599
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:2632
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:3628
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:1599
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:2632
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:3628
 msgid ""
 "There was an error getting information about the files in the folder \"%B\"."
 msgstr "Грешка при получаването на информация за файловете в папката „%B“."
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:1608
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:3637
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:1608
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:3637
 msgid "_Skip files"
 msgstr "Пропусни файловете"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:1629
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:1629
 msgid ""
 "The folder \"%B\" cannot be deleted because you do not have permissions to "
 "read it."
 msgstr ""
 "Папката „%B“ не може да бъде изтрита, понеже нямате права да я прочетете."
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:1632
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:2671
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:3673
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:1632
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:2671
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:3673
 msgid "There was an error reading the folder \"%B\"."
 msgstr "Грешка при прочитането на папката „%B“."
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:1666
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:1666
 msgid "Could not remove the folder %B."
 msgstr "Не може да се премахне папка %B."
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:1743
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:1743
 msgid "There was an error deleting %B."
 msgstr "Грешка при изтриване на %B."
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:1819
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:1831
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:1819
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:1831
 msgid "Moving files to trash"
 msgstr "Изхвърляне в Кошчето"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:1833
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:1833
 #, c-format
 msgid "%'d file left to trash"
 msgid_plural "%'d files left to trash"
 msgstr[0] "%'d файл остава в Кошчето"
 msgstr[1] "%'d файла остават в Кошчето"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:1888
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:1888
 msgid "Cannot move file to trash, do you want to delete immediately?"
 msgstr ""
 "Файлът не може да бъде преместен в кошчето, искате ли да го изтриете?"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:1889
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:1889
 msgid "The file \"%B\" cannot be moved to the trash."
 msgstr "Файлът „%B“ не може да бъде преместен в кошчето."
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:2069
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:2069
 msgid "Trashing Files"
 msgstr "Изхвърляне на файлове"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:2071
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:2071
 msgid "Deleting Files"
 msgstr "Изтриване на файлове"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:2143
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:2143
 msgid "Unable to eject %V"
 msgstr "Не може да се извади %V"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:2145
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:2145
 msgid "Unable to unmount %V"
 msgstr "Не може да се демонтира %V"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:2300
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:2300
 msgid "Do you want to empty the trash before you unmount?"
 msgstr "Искате ли да изчистите кошчето, преди да демонтирате?"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:2302
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:2302
 msgid ""
 "In order to regain the free space on this volume the trash must be emptied. "
 "All trashed items on the volume will be permanently lost."
@@ -964,65 +1451,65 @@ msgstr ""
 "За да освободите място на това устройство, трябва да изчистите кошчето. "
 "Всички обекти в кошчето ще бъдат загубени безвъзвратно."
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:2308
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:2308
 msgid "Do _not Empty Trash"
 msgstr "Не опразвай Кошчето"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:2363
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:2363
 msgid "Emptying the trash"
 msgstr "Опразване на Кошчето"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:2430
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:2430
 #, c-format
 msgid "Unable to mount %s"
 msgstr "Не може да се монтира %s"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:2508
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:2508
 #, c-format
 msgid "Preparing to copy %'d file (%S)"
 msgid_plural "Preparing to copy %'d files (%S)"
 msgstr[0] "Подготовка за копиране на %'d файл (%S)"
 msgstr[1] "Подготовка за копиране на %'d файла (%S)"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:2514
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:2514
 #, c-format
 msgid "Preparing to move %'d file (%S)"
 msgid_plural "Preparing to move %'d files (%S)"
 msgstr[0] "Подготовка за преместване на %'d файл (%S)"
 msgstr[1] "Подготовка за преместване на %'d файла (%S)"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:2520
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:2520
 #, c-format
 msgid "Preparing to delete %'d file (%S)"
 msgid_plural "Preparing to delete %'d files (%S)"
 msgstr[0] "Подготовка за изтриване на %'d файл (%S)"
 msgstr[1] "Подготовка за изтриване на %'d файла (%S)"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:2526
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:2526
 #, c-format
 msgid "Preparing to trash %'d file"
 msgid_plural "Preparing to trash %'d files"
 msgstr[0] "Подготовка за хвърляне в кошчето на %'d файл"
 msgstr[1] "Подготовка за хвърляне в кошчето на %'d файла"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:2569
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:3489
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:3620
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:3665
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:2569
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:3489
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:3620
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:3665
 msgid "Error while copying."
 msgstr "Грешка при копиране."
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:2571
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:3618
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:3663
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:2571
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:3618
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:3663
 msgid "Error while moving."
 msgstr "Грешка при преместване."
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:2575
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:2575
 msgid "Error while moving files to trash."
 msgstr "Грешка при изхвърляне файлове е Кошчето"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:2629
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:2629
 msgid ""
 "Files in the folder \"%B\" cannot be handled because you do not have "
 "permissions to see them."
@@ -1030,44 +1517,44 @@ msgstr ""
 "Файловете в папката „%s“ не могат да бъдат обработени, понеже нямате права "
 "да ги видите."
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:2668
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:2668
 msgid ""
 "The folder \"%B\" cannot be handled because you do not have permissions to "
 "read it."
 msgstr ""
 "Папката „%B“ не може да бъде обработена, понеже нямате права да я прочетете."
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:2745
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:2745
 msgid ""
 "The file \"%B\" cannot be handled because you do not have permissions to "
 "read it."
 msgstr ""
 "Файлът „%B“ не може да бъде обработен, понеже нямате права да го прочетете."
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:2748
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:2748
 msgid "There was an error getting information about \"%B\"."
 msgstr "Грешка при получаването на информацията за „%B“."
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:2848
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:2890
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:2923
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:2953
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:2848
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:2890
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:2923
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:2953
 msgid "Error while copying to \"%B\"."
 msgstr "Грешка при копиране към \"%B\"."
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:2852
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:2852
 msgid "You do not have permissions to access the destination folder."
 msgstr "Нямате права за достъп до целевата папка."
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:2854
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:2854
 msgid "There was an error getting information about the destination."
 msgstr "Грешка при получаването на информация за целевото местоположение."
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:2891
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:2891
 msgid "The destination is not a folder."
 msgstr "Целта не е папка."
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:2924
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:2924
 msgid ""
 "There is not enough space on the destination. Try to remove files to make "
 "space."
@@ -1075,76 +1562,76 @@ msgstr ""
 "Няма достатъчно място в целевото местоположение. Опитайте се да изтриете "
 "файлове, за да освободите място."
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:2926
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:2926
 #, c-format
 msgid "There is %S available, but %S is required."
 msgstr "Налично място — %S, необходимо място — %S."
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:2954
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:2954
 msgid "The destination is read-only."
 msgstr "Целта е само за четене."
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:3015
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:3015
 msgid "Moving \"%B\" to \"%B\""
 msgstr "Преместване \"%B\" към \"%B\""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:3016
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:3016
 msgid "Copying \"%B\" to \"%B\""
 msgstr "Копиране \"%B\" към \"%B\""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:3020
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:3020
 msgid "Duplicating \"%B\""
 msgstr "Дублиране \"%B\""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:3024
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:3024
 msgid "Moving %'d file (in \"%B\") to \"%B\""
 msgid_plural "Moving %'d files (in \"%B\") to \"%B\""
 msgstr[0] "Преместване %'d файл (от \"%B\") към\"%B\""
 msgstr[1] "Преместване %'d файла (от \"%B\") към\"%B\""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:3027
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:3027
 msgid "Copying %'d file (in \"%B\") to \"%B\""
 msgid_plural "Copying %'d files (in \"%B\") to \"%B\""
 msgstr[0] "Копиране на %'d файл (от „%B“) в „%B“"
 msgstr[1] "Копиране на %'d файла (от „%B“) в „%B“"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:3034
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:3034
 msgid "Duplicating %'d file (in \"%B\")"
 msgid_plural "Duplicating %'d files (in \"%B\")"
 msgstr[0] "Дублиране на %'d файл (в \"%B\")"
 msgstr[1] "Дублиране на %'d файла (в \"%B\")"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:3043
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:3043
 msgid "Moving %'d file to \"%B\""
 msgid_plural "Moving %'d files to \"%B\""
 msgstr[0] "Преместване на %'d файл в \"%B\""
 msgstr[1] "Преместване на %'d файла в \"%B\""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:3047
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:3047
 msgid "Copying %'d file to \"%B\""
 msgid_plural "Copying %'d files to \"%B\""
 msgstr[0] "Копиране на %'d файл в \"%B\""
 msgstr[1] "Копиране на %'d файла в \"%B\""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:3052
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:3052
 #, c-format
 msgid "Duplicating %'d file"
 msgid_plural "Duplicating %'d files"
 msgstr[0] "Дублиране на %'d файл"
 msgstr[1] "Дублиране на %'d файла"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:3103
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:3103
 #, c-format
 msgid "%S of %S"
 msgstr "%S от %S"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:3114
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:3114
 msgid "%S of %S — %T left (%S/sec)"
 msgid_plural "%S of %S — %T left (%S/sec)"
 msgstr[0] "%S от %S — %T остава (%S/сек)"
 msgstr[1] "%S от %S — %T остават (%S/сек)"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:3493
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:3493
 msgid ""
 "The folder \"%B\" cannot be copied because you do not have permissions to "
 "create it in the destination."
@@ -1152,11 +1639,11 @@ msgstr ""
 "Папката „%B“ не може да бъде копирана, понеже нямате права да я създадете в "
 "целевото местоположение."
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:3496
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:3496
 msgid "There was an error creating the folder \"%B\"."
 msgstr "Грешка при създаване на папката „%B“."
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:3625
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:3625
 msgid ""
 "Files in the folder \"%B\" cannot be copied because you do not have "
 "permissions to see them."
@@ -1164,176 +1651,176 @@ msgstr ""
 "Файловете в папката „%B“ не могат да бъдат копирани, понеже нямате права за "
 "четене."
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:3670
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:3670
 msgid ""
 "The folder \"%B\" cannot be copied because you do not have permissions to "
 "read it."
 msgstr ""
 "Папката „%B“ не може да бъде копирана, понеже нямате права за четене."
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:3715
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:4416
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:5004
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:3715
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:4416
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:5004
 msgid "Error while moving \"%B\"."
 msgstr "Грешка при преместване \"%B\"."
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:3716
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:3716
 msgid "Could not remove the source folder."
 msgstr "Не може да се премахне папката източник."
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:3801
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:3842
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:4418
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:4489
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:3801
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:3842
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:4418
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:4489
 msgid "Error while copying \"%B\"."
 msgstr "Грешка при копиране \"%B\"."
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:3802
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:3802
 #, c-format
 msgid "Could not remove files from the already existing folder %F."
 msgstr "Не може да се премахват файлове от вече съществуващата папка %F."
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:3843
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:3843
 #, c-format
 msgid "Could not remove the already existing file %F."
 msgstr "Не може да се премахне вече съществуващия файл %F."
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:4172
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:4844
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:4172
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:4844
 msgid "You cannot move a folder into itself."
 msgstr "Не може да премествате папка върху самата нея."
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:4173
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:4845
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:4173
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:4845
 msgid "You cannot copy a folder into itself."
 msgstr "Не може да копирате папка върху самата нея."
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:4174
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:4846
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:4174
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:4846
 msgid "The destination folder is inside the source folder."
 msgstr "Целевата папка е вътре в папката източник."
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:4205
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:4205
 msgid "You cannot move a file over itself."
 msgstr "Не може да премествате файл върху самия него."
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:4206
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:4206
 msgid "You cannot copy a file over itself."
 msgstr "Не може да копирате файл върху самия него."
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:4207
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:4207
 msgid "The source file would be overwritten by the destination."
 msgstr "Източникът ще бъде презаписан от целта."
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:4420
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:4420
 #, c-format
 msgid "Could not remove the already existing file with the same name in %F."
 msgstr "Не може да се премахне вече съществуващ файл със същото име в %F."
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:4490
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:4490
 #, c-format
 msgid "There was an error copying the file into %F."
 msgstr "Появи се грешка при копиране на файла в %F."
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:4718
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:4718
 msgid "Copying Files"
 msgstr "Копиране на файлове"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:4744
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:4744
 msgid "Preparing to move to \"%B\""
 msgstr "Подготовка за преместване към \"%B\""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:4756
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:4756
 #, c-format
 msgid "Preparing to move %'d file"
 msgid_plural "Preparing to move %'d files"
 msgstr[0] "Подготовка за прместване на %'d файл"
 msgstr[1] "Подготовка за прместване на %'d файла"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:5005
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:5005
 #, c-format
 msgid "There was an error moving the file into %F."
 msgstr "Появи се грешка про преместване на файл в %F."
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:5268
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:5268
 msgid "Moving Files"
 msgstr "Преместване на файлове"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:5298
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:5298
 msgid "Creating links in \"%B\""
 msgstr "Създаване на връзки в \"%B\""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:5309
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:5309
 #, c-format
 msgid "Making link to %'d file"
 msgid_plural "Making links to %'d files"
 msgstr[0] "Създаване на връзка към %'d файл"
 msgstr[1] "Създаване на връзки към %'d файла"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:5444
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:5444
 msgid "Error while creating link to %B."
 msgstr "Грешка при съдаване на връкза към %B."
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:5446
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:5446
 msgid "Symbolic links only supported for local files"
 msgstr "Символичните връзки се поддържат само за локални файлове"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:5449
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:5449
 msgid "The target doesn't support symbolic links."
 msgstr "Целта не поддържа символични връзки."
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:5452
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:5452
 #, c-format
 msgid "There was an error creating the symlink in %F."
 msgstr "Появи се грешка при създаване на символична връзка в %F."
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:5780
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:5783
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:5780
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:5783
 msgid "Setting permissions"
 msgstr "Задаване на права"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:6034
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:6034
 msgid "untitled folder"
 msgstr "папка без име"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:6042
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:6042
 msgid "new file"
 msgstr "нов файл"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:6213
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:6213
 msgid "Error while creating directory %B."
 msgstr "Грешка при създаван на папка %B."
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:6215
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:6215
 msgid "Error while creating file %B."
 msgstr "Грешка при създаван на файл %B."
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:6217
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:6217
 #, c-format
 msgid "There was an error creating the directory in %F."
 msgstr "Появи се грешка при създаване на папка в %F."
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-operations.c:6534
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-operations.c:6534
 msgid "Emptying Trash"
 msgstr "Опразване на Кошчето"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-utilities.c:119
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-utilities.c:119
 #, c-format
 msgid "Could not determine original location of \"%s\" "
 msgstr "Първоначалното местоположение на „%s“ не може да бъде определено. "
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-utilities.c:122
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-utilities.c:122
 msgid "The item cannot be restored from trash"
 msgstr "Обектът може да бъде изваден от кошчето."
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:146
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:361
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:146
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:361
 #, c-format
 msgid "Merge folder \"%s\"?"
 msgstr "Сливане на папка \"%s\"?"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:150
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:364
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:150
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:364
 msgid ""
 "Merging will ask for confirmation before replacing any files in the folder "
 "that conflict with the files being copied."
@@ -1341,565 +1828,582 @@ msgstr ""
 "Сливането ще ви пита за потвърждение преди заместване на файлове в папката, "
 "която е в конфликт с копираните файлове."
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:155
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:369
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:155
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:369
 #, c-format
 msgid "An older folder with the same name already exists in \"%s\"."
 msgstr "Вече съществува по-стара папка с това име  в „%s“."
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:159
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:373
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:159
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:373
 #, c-format
 msgid "A newer folder with the same name already exists in \"%s\"."
 msgstr "Вече съществува по-нова папка с това име  в „%s“."
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:163
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:377
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:163
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:377
 #, c-format
 msgid "Another folder with the same name already exists in \"%s\"."
 msgstr "Вече съществува друга папка с това име  в „%s“."
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:168
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:382
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:168
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:382
 msgid "Replacing it will remove all files in the folder."
 msgstr "Заместването ще премахне всички файлове в папката"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:170
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:384
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:170
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:384
 #, c-format
 msgid "Replace folder \"%s\"?"
 msgstr "Замени папка \"%s\"?"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:172
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:386
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:172
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:386
 #, c-format
 msgid "A folder with the same name already exists in \"%s\"."
 msgstr "Има вече папка със същото име в  \"%s\"."
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:177
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:391
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:177
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:391
 #, c-format
 msgid "Replace file \"%s\"?"
 msgstr "Замени файл \"%s\"?"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:179
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:393
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:179
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:393
 msgid "Replacing it will overwrite its content."
 msgstr "Замяната им ще презапише съдържанието им"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:183
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:397
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:183
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:397
 #, c-format
 msgid "An older file with the same name already exists in \"%s\"."
 msgstr "Вече съществува по-стар файл с това име  в „%s“."
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:187
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:401
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:187
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:401
 #, c-format
 msgid "A newer file with the same name already exists in \"%s\"."
 msgstr "Вече съществува по-нов файл с това име  в „%s“."
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:191
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:405
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:191
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:405
 #, c-format
 msgid "Another file with the same name already exists in \"%s\"."
 msgstr "Вече съществува друг файл с това име  в „%s“."
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:253
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:460
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:253
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:460
 msgid "Original file"
 msgstr "Оригинален файл"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:254
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:285
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:461
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:482
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:254
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:285
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:461
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:482
 msgid "Size:"
 msgstr "Размер:"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:257
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:288
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:464
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:485
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:257
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:288
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:464
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:485
 msgid "Type:"
 msgstr "Тип:"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:260
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:291
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:467
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:488
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:260
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:291
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:467
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:488
 msgid "Last modified:"
 msgstr "Промяна:"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:284
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:481
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:284
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:481
 msgid "Replace with"
 msgstr "Замени с"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:313
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:506
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:313
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:506
 msgid "Merge"
 msgstr "Сливане"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:700
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:700
 msgid "_Select a new name for the destination"
 msgstr "Задай ново име на целта."
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:714
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:714
 msgid "Reset"
 msgstr "Възстанови"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:726
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:726
 msgid "Apply this action to all files"
 msgstr "Приложи това действие за всички файлове"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:742
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:742
 msgid "Re_name"
 msgstr "Преименувай"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:748
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:748
 msgid "Replace"
 msgstr "Замени"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-file-conflict-dialog.c:821
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-file-conflict-dialog.c:821
 msgid "File conflict"
 msgstr "Конфликт с файл"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/eel-stock-dialogs.c:35
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/eel-stock-dialogs.c:35
 msgid "Show more _details"
 msgstr "Показване на повече _подробности"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1202
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1202
 #, c-format
 msgid "Delete %d copied items"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1205
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1215
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1246
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1205
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1215
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1246
 #, c-format
 msgid "Delete '%s'"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1212
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1212
 #, c-format
 msgid "Delete %d duplicated items"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1223
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1223
 #, c-format
 msgid "Move %d items back to '%s'"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1227
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1227
 #, c-format
 msgid "Move '%s' back to '%s'"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1236
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1403
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1236
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1403
 #, c-format
 msgid "Rename '%s' as '%s'"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1255
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1450
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1255
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1450
 #, c-format
 msgid "Restore %d items from trash"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1263
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1263
 #, c-format
 msgid "Restore '%s' to '%s'"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1274
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1274
 #, c-format
 msgid "Move %d items back to trash"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1277
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1277
 #, c-format
 msgid "Move '%s' back to trash"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1286
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1286
 #, c-format
 msgid "Delete links to %d items"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1289
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1289
 #, c-format
 msgid "Delete link to '%s'"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1299
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1299
 #, c-format
 msgid "Restore original permissions of items enclosed in '%s'"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1307
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1307
 #, c-format
 msgid "Restore original permissions of '%s'"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1316
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1316
 #, c-format
 msgid "Restore group of '%s' to '%s'"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1326
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1326
 #, c-format
 msgid "Restore owner of '%s' to '%s'"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1365
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1365
 #, c-format
 msgid "Copy %d items to '%s'"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1369
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1369
 #, c-format
 msgid "Copy '%s' to '%s'"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1377
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1377
 #, c-format
 msgid "Duplicate of %d items in '%s'"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1382
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1382
 #, c-format
 msgid "Duplicate '%s' in '%s'"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1390
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1390
 #, c-format
 msgid "Move %d items to '%s'"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1394
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1394
 #, c-format
 msgid "Move '%s' to '%s'"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1412
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1412
 #, c-format
 msgid "Create new file '%s' from template "
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1419
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1419
 #, c-format
 msgid "Create an empty file '%s'"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1426
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1426
 #, c-format
 msgid "Create a new folder '%s'"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1434
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1434
 #, c-format
 msgid "Move %d items to trash"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1440
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1440
 #, c-format
 msgid "Move '%s' to trash"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1453
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1453
 #, c-format
 msgid "Restore '%s' from trash"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1462
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1462
 #, c-format
 msgid "Create links to %d items"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1465
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1465
 #, c-format
 msgid "Create link to '%s'"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1474
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1474
 #, c-format
 msgid "Set permissions of items enclosed in '%s'"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1482
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1482
 #, c-format
 msgid "Set permissions of '%s'"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1491
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1491
 #, c-format
 msgid "Set group of '%s' to '%s'"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1501
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1501
 #, c-format
 msgid "Set owner of '%s' to '%s'"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1533
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1533
 #, c-format
 msgid "_Undo copy of %d item"
 msgid_plural "_Undo copy of %d items"
 msgstr[0] ""
 msgstr[1] ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1538
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1538
 #, c-format
 msgid "_Undo duplicate of %d item"
 msgid_plural "_Undo duplicate of %d items"
 msgstr[0] ""
 msgstr[1] ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1543
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1543
 #, c-format
 msgid "_Undo move of %d item"
 msgid_plural "_Undo move of %d items"
 msgstr[0] ""
 msgstr[1] ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1548
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1548
 #, c-format
 msgid "_Undo rename of %d item"
 msgid_plural "_Undo rename of %d items"
 msgstr[0] ""
 msgstr[1] ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1552
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1552
 msgid "_Undo creation of an empty file"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1555
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1555
 msgid "_Undo creation of a file from template"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1559
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1559
 #, c-format
 msgid "_Undo creation of %d folder"
 msgid_plural "_Undo creation of %d folders"
 msgstr[0] ""
 msgstr[1] ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1564
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1564
 #, c-format
 msgid "_Undo move to trash of %d item"
 msgid_plural "_Undo move to trash of %d items"
 msgstr[0] ""
 msgstr[1] ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1569
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1569
 #, c-format
 msgid "_Undo restore from trash of %d item"
 msgid_plural "_Undo restore from trash of %d items"
 msgstr[0] ""
 msgstr[1] ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1574
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1574
 #, c-format
 msgid "_Undo create link to %d item"
 msgid_plural "_Undo create link to %d items"
 msgstr[0] ""
 msgstr[1] ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1579
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1579
 #, c-format
 msgid "_Undo delete of %d item"
 msgid_plural "_Undo delete of %d items"
 msgstr[0] ""
 msgstr[1] ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1584
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1584
 #, c-format
 msgid "Undo recursive change permissions of %d item"
 msgid_plural "Undo recursive change permissions of %d items"
 msgstr[0] ""
 msgstr[1] ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1590
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1590
 #, c-format
 msgid "Undo change permissions of %d item"
 msgid_plural "Undo change permissions of %d items"
 msgstr[0] ""
 msgstr[1] ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1595
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1595
 #, c-format
 msgid "Undo change group of %d item"
 msgid_plural "Undo change group of %d items"
 msgstr[0] ""
 msgstr[1] ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1600
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1600
 #, c-format
 msgid "Undo change owner of %d item"
 msgid_plural "Undo change owner of %d items"
 msgstr[0] ""
 msgstr[1] ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1628
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1628
 #, c-format
 msgid "_Redo copy of %d item"
 msgid_plural "_Redo copy of %d items"
 msgstr[0] ""
 msgstr[1] ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1633
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1633
 #, c-format
 msgid "_Redo duplicate of %d item"
 msgid_plural "_Redo duplicate of %d items"
 msgstr[0] ""
 msgstr[1] ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1638
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1638
 #, c-format
 msgid "_Redo move of %d item"
 msgid_plural "_Redo move of %d items"
 msgstr[0] ""
 msgstr[1] ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1643
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1643
 #, c-format
 msgid "_Redo rename of %d item"
 msgid_plural "_Redo rename of %d items"
 msgstr[0] ""
 msgstr[1] ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1647
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1647
 msgid "_Redo creation of an empty file"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1650
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1650
 msgid "_Redo creation of a file from template"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1654
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1654
 #, c-format
 msgid "_Redo creation of %d folder"
 msgid_plural "_Redo creation of %d folders"
 msgstr[0] ""
 msgstr[1] ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1659
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1659
 #, c-format
 msgid "_Redo move to trash of %d item"
 msgid_plural "_Redo move to trash of %d items"
 msgstr[0] ""
 msgstr[1] ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1664
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1664
 #, c-format
 msgid "_Redo restore from trash of %d item"
 msgid_plural "_Redo restore from trash of %d items"
 msgstr[0] ""
 msgstr[1] ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1669
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1669
 #, c-format
 msgid "_Redo create link to %d item"
 msgid_plural "_Redo create link to %d items"
 msgstr[0] ""
 msgstr[1] ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1674
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1674
 #, c-format
 msgid "_Redo delete of %d item"
 msgid_plural "_Redo delete of %d items"
 msgstr[0] ""
 msgstr[1] ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1679
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1679
 #, c-format
 msgid "Redo recursive change permissions of %d item"
 msgid_plural "Redo recursive change permissions of %d items"
 msgstr[0] ""
 msgstr[1] ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1685
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1685
 #, c-format
 msgid "Redo change permissions of %d item"
 msgid_plural "Redo change permissions of %d items"
 msgstr[0] ""
 msgstr[1] ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1690
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1690
 #, c-format
 msgid "Redo change group of %d item"
 msgid_plural "Redo change group of %d items"
 msgstr[0] ""
 msgstr[1] ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/marlin-undostack-manager.c:1695
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/marlin-undostack-manager.c:1695
 #, c-format
 msgid "Redo change owner of %d item"
 msgid_plural "Redo change owner of %d items"
 msgstr[0] ""
 msgstr[1] ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/eel-fcts.c:81
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/eel-fcts.c:81
 msgid "Today at %-I:%M %p"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/eel-fcts.c:85
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/eel-fcts.c:85
 msgid "Yesterday at %-I:%M %p"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/eel-fcts.c:89
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/eel-fcts.c:89
 msgid "%a %-d %b %Y at %-I:%M %p"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/gof-file.c:252
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/gof-file.c:252
 #, c-format
 msgid "link to %s"
 msgstr "връзка към %s"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/gof-file.c:1702
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/gof-file.c:1702
 #, c-format
 msgid "Failed to parse the desktop file: %s"
 msgstr "Не може да се парсне десктоп файл: %s"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/gof-file.c:1740
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/gof-file.c:1740
 msgid "No Exec field specified"
 msgstr "Не е посочено Exec поле"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/gof-file.c:1760
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/gof-file.c:1760
 msgid "No URL field specified"
 msgstr "Не е посочено URL поле"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/gof-file.c:1766
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/gof-file.c:1766
 msgid "Invalid desktop file"
 msgstr "Невалиден файл за работната площ"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/gof-file.c:2056
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/gof-file.c:2056
 msgid "Slashes are not allowed in filenames"
 msgstr "Файловите имена не могат да съдържат знака „/“"
 
-#: /home/am/dev/marlin5/marlin/po/../libcore/gof-file.c:2076
+#: /home/am/dev/marlin8/trunk/marlin/po/../libcore/gof-file.c:2076
 msgid "Toplevel files cannot be renamed"
 msgstr "Файловете от най-високо ниво не могат да бъдат преименувани"
 
-#: /home/am/dev/marlin5/marlin/po/../libwidgets/LocationBar.vala:813
+#: /home/am/dev/marlin8/trunk/marlin/po/../libwidgets/LocationBar.vala:328
+msgid "Cut the selected text to the clipboard"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../libwidgets/LocationBar.vala:332
+msgid "Copy the selected text to the clipboard"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../libwidgets/LocationBar.vala:336
+#: /home/am/dev/marlin8/trunk/marlin/po/../libwidgets/LocationBar.vala:340
+msgid "Paste the text stored on the clipboard"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../libwidgets/LocationBar.vala:816
 #, c-format
 msgid "Go to %s"
 msgstr "Отиди в %s"
 
-#: /home/am/dev/marlin5/marlin/po/../src/View/Chrome/ViewSwicher.vala:78
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Chrome/ViewSwicher.vala:78
 msgid "View as icons"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../src/View/Chrome/ViewSwicher.vala:81
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Chrome/ViewSwicher.vala:81
 msgid "View as list"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../src/View/Chrome/ViewSwicher.vala:84
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Chrome/ViewSwicher.vala:84
 msgid "View as compact list"
 msgstr ""
 
-#: /home/am/dev/marlin5/marlin/po/../src/View/Chrome/ViewSwicher.vala:87
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Chrome/ViewSwicher.vala:87
 msgid "View as column"
+msgstr ""
+
+#: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Chrome/TopMenu.vala:47
+msgid "Menu"
 msgstr ""

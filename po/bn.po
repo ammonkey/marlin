@@ -1,61 +1,60 @@
-# Bosnian translation for marlin
-# Copyright (c) 2011 Rosetta Contributors and Canonical Ltd 2011
+# Bengali translation for marlin
+# Copyright (c) 2012 Rosetta Contributors and Canonical Ltd 2012
 # This file is distributed under the same license as the marlin package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2011.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: marlin\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2012-08-01 22:45+0200\n"
-"PO-Revision-Date: 2011-10-02 14:08+0000\n"
-"Last-Translator: Stefan Ivanović <Unknown>\n"
-"Language-Team: Bosnian <bs@li.org>\n"
+"PO-Revision-Date: 2012-12-29 19:26+0000\n"
+"Last-Translator: Habibur Rahman Shadhin <hrshadhin.i386@gmail.com>\n"
+"Language-Team: Bengali <bn@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Launchpad-Export-Date: 2012-08-02 05:01+0000\n"
-"X-Generator: Launchpad (build 15719)\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Launchpad-Export-Date: 2012-12-30 05:25+0000\n"
+"X-Generator: Launchpad (build 16378)\n"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:60
 msgid "Properties"
-msgstr ""
+msgstr "বৈশিষ্ট্যসমূহ"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:111
 msgid "Info"
-msgstr ""
+msgstr "পরিচিতি"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:119
 msgid "Permissions"
-msgstr ""
+msgstr "অনুমতি"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:131
 msgid "Preview"
-msgstr ""
+msgstr "প্রাকদর্শন"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:349
 msgid "Created"
-msgstr ""
+msgstr "তৈরি হয়েছিল"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:351
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/ContextView.vala:344
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-list-view.c:59
 msgid "Modified"
-msgstr "Promijenjeno"
+msgstr "পরিবর্তনের সময়"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:354
 msgid "Last Access"
-msgstr ""
+msgstr "সর্বশেষ প্রবেশ"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:360
 msgid "Deleted"
-msgstr ""
+msgstr "মুছে ফেলা"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:365
 msgid "MimeType"
-msgstr ""
+msgstr "মাইম টাইপ"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:373
 msgid "MimeTypes"
@@ -63,12 +62,12 @@ msgstr ""
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:377
 msgid "Location"
-msgstr ""
+msgstr "অবস্থান"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:379
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/ContextView.vala:340
 msgid "Target"
-msgstr "Cilj"
+msgstr "নিশানা"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:385
 msgid "Origin Location"
@@ -76,7 +75,7 @@ msgstr ""
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:423
 msgid "Other application..."
-msgstr ""
+msgstr "অন্যান্য অ্যাপ্লিকেশন..."
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:447
 msgid "Open with"
@@ -88,30 +87,30 @@ msgstr ""
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:608
 msgid "Read"
-msgstr ""
+msgstr "পড়া"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:613
 msgid "Write"
-msgstr ""
+msgstr "লেখা"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:618
 msgid "Execute"
-msgstr ""
+msgstr "চালানো হচ্ছে: %s"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:836
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:849
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/ContextView.vala:345
 msgid "Owner"
-msgstr "Vlasnik"
+msgstr "মালিক"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:841
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:853
 msgid "Group"
-msgstr ""
+msgstr "গ্রুপ"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:857
 msgid "Everyone"
-msgstr ""
+msgstr "সকলে"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/PropertiesWindow.vala:1141
 msgid "Select an aplication to open "
@@ -119,98 +118,98 @@ msgstr ""
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/ContextView.vala:336
 msgid "Name"
-msgstr "Ime"
+msgstr "নাম"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/ContextView.vala:337
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-list-view.c:59
 msgid "Type"
-msgstr "Vrsta"
+msgstr "ধরন"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/ContextView.vala:342
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/fm-list-view.c:59
 msgid "Size"
-msgstr "Veličina"
+msgstr "আকার"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/DirectoryNotFound.vala:72
 #, c-format
 msgid "Folder does not exist"
-msgstr "Fascikla ne postoji"
+msgstr "ফোল্ডার বর্তমানে উপস্থিত নেই"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/DirectoryNotFound.vala:75
 #, c-format
 msgid "Marlin can't find the folder %s"
-msgstr "Marlin ne može naći fasciklu %s"
+msgstr "মারলিন নির্দিষ্ট ফোল্ডারটি খুঁজে পাচ্ছে না %s"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/DirectoryNotFound.vala:80
 msgid "Create"
-msgstr "Napravi"
+msgstr "তৈরি করুন"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/DirectoryNotFound.vala:80
 #, c-format
 msgid "Create the folder %s"
-msgstr "Kreiraj direktorij %s"
+msgstr "ফোল্ডার তৈরি করুন %s"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:459
 msgid "Undo"
-msgstr ""
+msgstr "আগের অবস্থায় ফিরিয়ে আনুন"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:460
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:701
 msgid "Undo the last action"
-msgstr ""
+msgstr "সর্বশেষ পরিবর্তনটি বাতিল করুন"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:469
 msgid "Redo"
-msgstr ""
+msgstr "পুনরাবৃত্তি"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:470
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:704
 msgid "Redo the last action"
-msgstr ""
+msgstr "সর্বশেষ পরিবর্তনটি পুনরাবৃত্তি করুন"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:672
 msgid "_File"
-msgstr ""
+msgstr "ফাইল"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:673
 msgid "_Edit"
-msgstr ""
+msgstr "সম্পাদনা (_E)"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:674
 msgid "_View"
-msgstr ""
+msgstr "প্রদর্শন (_V)"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:675
 msgid "_Go"
-msgstr ""
+msgstr "যান (_G)"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:676
 msgid "_Help"
-msgstr ""
+msgstr "সহায়তা (_H)"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:678
 msgid "New _Window"
-msgstr ""
+msgstr "নতুন উইন্ডো (_W)"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:679
 msgid "Open another Marlin window for the displayed location"
-msgstr ""
+msgstr "প্রদর্শনকৃত অবস্থানে আরেকটি মারলিন উইন্ডো খুলুন"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:682
 msgid "New _Tab"
-msgstr ""
+msgstr "নতুন ট্যাব (_T)"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:683
 msgid "Open another tab for the displayed location"
-msgstr ""
+msgstr "প্রদর্শিত অবস্থানের জন্য পৃথক ট্যাব খোলা হবে"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:686
 msgid "_Close"
-msgstr ""
+msgstr "বন্ধ করুন(_C)"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:687
 msgid "Close this folder"
-msgstr ""
+msgstr "বর্তমান ফোল্ডার বন্ধ করুন"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:690
 msgid "Customize _Toolbar..."
@@ -222,7 +221,7 @@ msgstr ""
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:694
 msgid "Preferences"
-msgstr ""
+msgstr "পছন্দসমূহ"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:695
 msgid "Change Marlin's preferences"
@@ -230,120 +229,120 @@ msgstr ""
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:700
 msgid "_Undo"
-msgstr ""
+msgstr "পূর্বাবস্থা (_U)"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:703
 msgid "_Redo"
-msgstr ""
+msgstr "পুনরাবৃত্তি (_R)"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:706
 msgid "Open _Parent"
-msgstr ""
+msgstr "উর্ধ্বস্থ ফোল্ডার খুলুন (_P)"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:707
 msgid "Open the parent folder"
-msgstr ""
+msgstr "ঊর্ধ্বস্থ ফোল্ডার খুলুন"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:709
 msgid "_Back"
-msgstr ""
+msgstr "পূর্ববর্তী (_B)"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:710
 msgid "Go to the previous visited location"
-msgstr ""
+msgstr "পূর্ববর্তী প্রদর্শিত অবস্থানে চলুন"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:712
 msgid "_Forward"
-msgstr ""
+msgstr "পরবর্তী (_F)"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:713
 msgid "Go to the next visited location"
-msgstr ""
+msgstr "পরবর্তী পরিদর্শিত অবস্থানে চলুন"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:715
 msgid "_Reload"
-msgstr ""
+msgstr "পুনরায় লোড করুন (_R)"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:716
 msgid "Reload the current location"
-msgstr ""
+msgstr "বর্তমান অবস্থান পুনরায় লোড করুন"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:719
 msgid "_Home Folder"
-msgstr ""
+msgstr "ব্যক্তিগত ফোল্ডার (_H)"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:720
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:329
 msgid "Open your personal folder"
-msgstr ""
+msgstr "ব্যক্তিগত ফোল্ডার খুলুন"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:723
 msgid "_Trash"
-msgstr ""
+msgstr "আবর্জনার বাক্স (_T)"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:724
 msgid "Open your personal trash folder"
-msgstr ""
+msgstr "ব্যক্তিগত আবর্জনার বাক্স খুলুন"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:727
 msgid "_Network"
-msgstr ""
+msgstr "নেটওয়ার্ক(_N)"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:728
 msgid "Browse bookmarked and local network locations"
-msgstr ""
+msgstr "বুকমার্ক করা ও স্থানীয় নেটয়ার্কসমূহ ব্রাউজ করুন"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:731
 msgid "Zoom _In"
-msgstr ""
+msgstr "বড় আকারে প্রদর্শন (_I)"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:732
 msgid "Increase the view size"
-msgstr ""
+msgstr "প্রদর্শনে আকার বৃদ্ধি করুন"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:743
 msgid "Zoom _Out"
-msgstr ""
+msgstr "ছোট আকারে প্রদর্শন (_O)"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:744
 msgid "Decrease the view size"
-msgstr ""
+msgstr "প্রদর্শনের আকার হ্রাস করুন"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:751
 msgid "Normal Si_ze"
-msgstr ""
+msgstr "স্বাভাবিক আকার (_z)"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:752
 msgid "Use the normal view size"
-msgstr ""
+msgstr "স্বাভাবিক প্রদর্শনের আকার ব্যবহার করা হবে"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:755
 msgid "Next Tab"
-msgstr ""
+msgstr "পরবর্তী ট্যাব"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:759
 msgid "Previous Tab"
-msgstr ""
+msgstr "পূর্ববতী ট্যাব"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:763
 msgid "Connect to _Server..."
-msgstr ""
+msgstr "সার্ভারে সংযোগ (_S)..."
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:764
 msgid "Connect to a remote computer or shared disk"
-msgstr ""
+msgstr "দূরবর্তী কম্পিউটার অথবা শেয়ার করা ডিস্কের সাথে সংযোগ স্থাপন করা হবে"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:767
 msgid "_About"
-msgstr ""
+msgstr "পরিচিতি(_A)"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:768
 msgid "Display credits"
-msgstr ""
+msgstr "কৃতিত্ব প্রদর্শন"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:771
 msgid "Report a Problem..."
-msgstr ""
+msgstr "একটি সমস্যা রিপোর্ট করুন ..."
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:772
 msgid "File a bug on Launchpad"
@@ -351,23 +350,23 @@ msgstr ""
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:775
 msgid "Get Help Online..."
-msgstr ""
+msgstr "অনলাইনে সহায়তা নিন..."
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:779
 msgid "Translate This Application..."
-msgstr ""
+msgstr "এই অ্যাপ্লিকেশনটি অনুবাদ করুন..."
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:788
 msgid "Show _Hidden Files"
-msgstr ""
+msgstr "লুকানো ফাইল প্রদর্শন (_H)"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:789
 msgid "Toggle the display of hidden files in the current window"
-msgstr ""
+msgstr "বর্তমান উইন্ডোতে লুকানো ফাইল দেখানোর মোড পাল্টান"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:794
 msgid "Show _Desktop Files"
-msgstr ""
+msgstr "ডেক্সটপ এর ফাইল প্রদর্শন"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:795
 msgid "Toggle the display of desktop files"
@@ -375,139 +374,137 @@ msgstr ""
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:799
 msgid "_Context Pane"
-msgstr ""
+msgstr "প্যান কনটেক্সট (_C)"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:800
 msgid "Change the visibility of the context pane"
-msgstr ""
+msgstr "কনটেক্সট প্যেনের দৃশ্যমানতা পরিবর্তন করুন"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:804
 msgid "_Menubar"
-msgstr ""
+msgstr "মেন্যুবার"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:805
 msgid "Change the visibility of this window's menubar"
-msgstr ""
+msgstr "উইন্ডো মেন্যুবারের দৃশ্যমানতা পরিবর্তন করুন"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:809
 msgid "_Places"
-msgstr ""
+msgstr "অবস্থান (_P)"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:810
 msgid "Change the visibility of this window's side pane"
-msgstr ""
+msgstr "বর্তমান উইন্ডোর পার্শ্ববর্তী বার প্রদর্শন অথবা আড়াল করুন"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:818
 msgid "Icon"
-msgstr ""
+msgstr "আইকন"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:821
 msgid "List"
-msgstr ""
+msgstr "তালিকা"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:824
 msgid "Compact"
-msgstr ""
+msgstr "জমাট করো"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Window.vala:827
 msgid "Columns"
-msgstr ""
+msgstr "কলাম"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/SettingsDialog.vala:31
 msgid "Marlin Preferences"
-msgstr ""
+msgstr "মারলিনের পছন্দসমূহ"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/SettingsDialog.vala:46
 msgid "Single click to open:"
-msgstr "Jedan klik da otvorite:"
+msgstr ""
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/SettingsDialog.vala:56
 msgid "Mouse auto-selection speed:"
-msgstr "Brzina autoselekcije mišem:"
+msgstr ""
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/SettingsDialog.vala:72
 msgid "Default File Manager:"
-msgstr ""
+msgstr "ডিফল্ট ফাইল ম্যানেজার"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/SettingsDialog.vala:81
 msgid "Behavior"
-msgstr "Ponašanje"
+msgstr "আচরণ"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/SettingsDialog.vala:87
 msgid "iso"
-msgstr "iso"
+msgstr ""
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/SettingsDialog.vala:88
 msgid "locale"
-msgstr "lokalni"
+msgstr "স্থানীয়"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/SettingsDialog.vala:89
 msgid "informal"
-msgstr "informativni"
+msgstr "অনানুষ্ঠানিক"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/SettingsDialog.vala:96
 msgid "Date format:"
-msgstr "Oblik datuma:"
+msgstr "তারিখ ফর্ম্যাট:"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/SettingsDialog.vala:104
 msgid "Display"
-msgstr "Prikaz"
+msgstr "প্রদর্শন"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/SettingsDialog.vala:157
 msgid "Extensions"
-msgstr ""
+msgstr "এক্সটেনশন"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/LocationBar.vala:105
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:370
 msgid "Trash"
-msgstr ""
+msgstr "আবর্জনার বাক্স"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/LocationBar.vala:106
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:588
 msgid "Network"
-msgstr ""
+msgstr "নেটওয়ার্ক"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/ViewContainer.vala:139
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:324
 msgid "Home"
-msgstr "Početna"
+msgstr "ব্যক্তিগত ফোল্ডার (হোম)"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/ViewContainer.vala:141
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-places-sidebar.c:394
 msgid "File System"
-msgstr ""
+msgstr "ফাইল-সিস্টেম"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/exo-tree-view.c:167
 msgid "Single Click"
-msgstr "Jedan klik"
+msgstr "একক ক্লিক"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/exo-tree-view.c:168
 msgid "Whether the items in the view can be activated with single clicks"
-msgstr "Da li se stavke u pregledu mogu aktivirati jednim klikom"
+msgstr ""
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/exo-tree-view.c:184
 msgid "Single Click Timeout"
-msgstr "Rok za jednostruki klik"
+msgstr ""
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/exo-tree-view.c:185
 msgid ""
 "The amount of time after which the item under the mouse cursor will be "
 "selected automatically in single click mode"
 msgstr ""
-"Dužina vremena nakon koga će stavka pod kursorom miša biti sama izabrana u "
-"režimu jednostrukog klika"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-connect-server-dialog.c:124
 msgid "SSH"
-msgstr ""
+msgstr "এস.এস.এইচ."
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-connect-server-dialog.c:127
 msgid "Public FTP"
-msgstr ""
+msgstr "পাবলিক FTP"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-connect-server-dialog.c:129
 msgid "FTP (with login)"
-msgstr ""
+msgstr "FTP (লগ-ইন সহ)"
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-connect-server-dialog.c:132
 msgid "Windows share"
@@ -1037,20 +1034,19 @@ msgstr ""
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-progress-ui-handler.c:425
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-progress-ui-handler.c:481
 msgid "File Operations"
-msgstr "Operacije sa datotekama"
+msgstr ""
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-progress-ui-handler.c:123
 msgid "Show Details"
-msgstr "Prikaži Detalje"
+msgstr ""
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-progress-ui-handler.c:158
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-progress-ui-handler.c:180
 #, c-format
 msgid "%'d file operation active"
 msgid_plural "%'d file operations active"
-msgstr[0] "%'d datotečna operacija aktivna"
-msgstr[1] "%'d datotečne operacije aktivne"
-msgstr[2] "%'d datotečnih operacija aktivno"
+msgstr[0] ""
+msgstr[1] ""
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-progress-ui-handler.c:285
 msgid "Show Copy Dialog"
@@ -1062,7 +1058,7 @@ msgstr ""
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/marlin-progress-ui-handler.c:482
 msgid "All file operations have been successfully completed"
-msgstr "Sve radnje nad datotekama su uspješno završene"
+msgstr ""
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/eel-editable-label.c:3201
 msgid "Input Methods"
@@ -2357,7 +2353,7 @@ msgstr ""
 #: /home/am/dev/marlin8/trunk/marlin/po/../libwidgets/LocationBar.vala:816
 #, c-format
 msgid "Go to %s"
-msgstr "Idi u %s"
+msgstr ""
 
 #: /home/am/dev/marlin8/trunk/marlin/po/../src/View/Chrome/ViewSwicher.vala:78
 msgid "View as icons"
