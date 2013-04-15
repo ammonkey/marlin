@@ -7,7 +7,7 @@ set(GETTEXT_PACKAGE "marlin")
 set(PIXMAP_DIR "${CMAKE_INSTALL_PREFIX}/share/pixmaps/marlin/")
 set(GNOMELOCALEDIR "${CMAKE_INSTALL_PREFIX}/share/locale/")
 set(UI_DIR "${CMAKE_INSTALL_PREFIX}/share/marlin/ui/")
-set(VERSION 0.90)
+set(VERSION 0.1)
 configure_file (${CMAKE_SOURCE_DIR}/config.h.cmake ${CMAKE_BINARY_DIR}/config.h)
 
 include(Tests)
