@@ -9,7 +9,7 @@ include_directories(${CMAKE_CURRENT_BINARY_DIR}/../libwidgets/)
 
 add_definitions(
     ${VARKA_CFLAGS} ${GAIL_CFLAGS}
-    ${GNOME_DESKTOP_CFLAGS} ${GEE_CFLAGS} ${SQLITE_CFLAGS} 
+    ${GEE_CFLAGS} ${SQLITE_CFLAGS} 
     ${DBUS_GLIB_CFLAGS} ${NOTIFY_CFLAGS}
     "-DGETTEXT_PACKAGE=\"marlin\""
     "-DPIXMAP_DIR=\"${CMAKE_INSTALL_PREFIX}/share/pixmaps/marlin/\""
@@ -17,7 +17,7 @@ add_definitions(
     )
 link_libraries(
     ${VARKA_LIBRARIES} ${GAIL_CFLAGS}
-    ${GNOME_DESKTOP_LIBRARIES} ${GEE_CFLAGS} ${SQLITE_CFLAGS} 
+    ${GEE_CFLAGS} ${SQLITE_CFLAGS} 
     ${DBUS_GLIB_LIBRARIES} ${NOTIFY_CFLAGS}
     )
 vala_precompile(VALA_C
