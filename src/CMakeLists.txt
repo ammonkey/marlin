@@ -103,4 +103,6 @@ IF(WITH_UNITY AND UNITY_FOUND)
 ENDIF(WITH_UNITY AND UNITY_FOUND)
 
 install(TARGETS marlin RUNTIME DESTINATION bin)
+install(FILES marlin-ui.xml DESTINATION share/marlin/ui/)
+install(FILES fm-directory-view-ui.xml fm-icon-view-ui.xml DESTINATION share/marlin/ui/)
 include(Tests)
